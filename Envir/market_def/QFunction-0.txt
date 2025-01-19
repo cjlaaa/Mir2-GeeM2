@@ -1,0 +1,16 @@
+;点开始挂机触发
+[@StartAutoOnline]
+#IF
+;CHECKMAPNAME 0
+#ACT
+;SENDMSG 6 当前地图禁止挂机
+;#ELSEACT
+StartAutoPlayGame
+SENDMSG 6 开始挂机，使用快捷键“CTRL+ALT+X”停止挂机
+
+;点停止挂机触发
+[@StopAutoOnline]
+#IF
+#ACT
+StopAutoPlayGame
+SENDMSG 6 停止挂机，使用快捷键“CTRL+ALT+X”开始挂机
