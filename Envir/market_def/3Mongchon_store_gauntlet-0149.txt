@@ -1,0 +1,33 @@
+;Weapon
+%100
++26
+
+;dialogue, '*' : dialogue tag
+[@main]
+欢迎！这里有你想要的手套。\ \
+ <买/@buy> 手套\
+ <卖/@sell> 手套\
+ <修补/@repair> 手套\
+ <特殊修理/@s_repair>\
+ <取消/@exit> 
+<>
+
+[@buy]
+你想买点什么？\ \ \
+ <返回/@main>
+
+[@sell]
+把你要卖的东西给我看看，我会给你一个估价...\
+ <返回/@main>
+
+[@repair]
+这里你可以修补手套.\ \ \
+ <返回/@main>
+
+[~@repair]
+这个看上去已经补好了。\ \ \
+ <返回/@main>
+
+[goods]
+;items(can be Zen)  pieces      minute
+皮制手套              5         1

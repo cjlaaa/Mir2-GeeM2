@@ -1,0 +1,13 @@
+[@main]
+你想要离开吗？\
+<回比奇/@biqi>\
+<回盟重/@mengzhong>\
+<不离开/@exit>
+
+[@biqi]
+#act
+map 0
+
+[@mengzhong]
+#act
+map 3

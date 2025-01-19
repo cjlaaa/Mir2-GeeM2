@@ -1,0 +1,13 @@
+[@main]
+#IF
+check [410] 1
+#ACT
+break
+
+#IF
+check [409] 1
+#SAY
+I found EvilApeOil...\
+I wonder what it's for? \ \
+#ACT
+SET [410] 1

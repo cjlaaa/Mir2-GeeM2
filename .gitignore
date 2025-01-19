@@ -1,0 +1,12 @@
+GuildBase/
+\!abuse.txt
+\!runaddr.txt
+\!servertable.txt
+\!setuppatch.txt
+Notice/
+Share/
+ShareL/
+*.exe
+*.dll
+mir.dat
+mirhook.ini

@@ -1,0 +1,159 @@
+[@main]
+#IF
+#SAY
+你好！这里是平安房了 \
+平安房可以帮你用筹码来交换金疮药包和魔法药包  \
+请选择 \ \
+用筹码交换金疮药包 <交换./@buyP> \
+用筹码交换魔法药包 <交换./@buyB> \ 
+投骰子 <下一步./@pre2_cube>
+
+[@buyP]
+#IF
+checkitem 筹码 1
+#ACT
+take 筹码 1
+give 金疮药包 1
+#SAY
+把筹码已换成金疮药包. \ \
+<返回/@main>
+
+[@buyB]
+#IF
+checkitem 筹码 1
+#ACT
+take 筹码 1
+give 魔法药包 1
+#SAY
+把筹码已换成魔法药包. \ \
+<返回/@main>
+
+[@pre2_cube]
+#IF
+checkitem 筹码 1
+#ACT
+goto @pre_cube
+#ELSESAY
+<$USERNAME>没有筹码了. \
+你无法继续赌博. \ 
+想继续进行,那准备好筹码后再来\ \
+<退出/@Quit>
+
+[@Quit]
+#IF
+#ACT
+map B011
+
+[@pre_cube]
+#IF
+checkitem 筹码 1
+#ACT
+take 筹码 1
+SET [799] 0
+SET [798] 0
+movr d0 6
+inc d0 1
+playdice 1 @cube
+#ELSEACT
+goto @quit
+
+[@cube]
+#SAY
+骰子的点数 <$STR(D0)>  \
+你可以前进 <$STR(D0)>  \ \
+<移动/@next_cube>
+
+[@next_cube]
+#IF
+equal d0 1 
+#ACT
+goto @posi1
+break
+
+#IF
+equal d0 2 
+#ACT
+goto @posi2
+break
+
+#IF
+equal d0 3 
+#ACT
+goto @posi3
+break
+
+#IF
+equal d0 4 
+#ACT
+goto @posi4
+break
+
+#IF
+equal d0 5
+#ACT
+goto @posi5
+break
+
+#IF
+equal d0 6 
+#ACT
+goto @posi6
+break
+
+[@Posi1]
+#IF
+#ACT
+batchDelay 1
+addbatch B326
+batchmove
+
+[@Posi2]
+#IF
+#ACT
+batchDelay 1
+addbatch B326
+addbatch B327
+batchmove
+
+[@Posi3]
+#IF
+#ACT
+batchDelay 1
+addbatch B326
+addbatch B327
+addbatch B328
+batchmove
+
+[@Posi4]
+#IF
+#ACT
+batchDelay 1
+addbatch B326
+addbatch B327
+addbatch B328
+addbatch B329
+batchmove
+
+[@Posi5]
+#IF
+#ACT
+batchDelay 1
+addbatch B326
+addbatch B327
+addbatch B328
+addbatch B329
+addbatch B330
+batchmove
+
+[@Posi6]
+#IF
+#ACT
+batchDelay 1
+addbatch B326
+addbatch B327
+addbatch B328
+addbatch B329
+addbatch B330
+addbatch B331
+batchmove
+

@@ -1,0 +1,166 @@
+;物价
+
+[@main]
+你知道我是做什么的吗？ \ 
+我做的事情可以说如下： \ 
+想试一试吗？说说你的请求吧。 \ \
+
+用钱<交换/@changeGold>金条 \
+用金条<交换/@changeMoney>钱 \
+<捆成/@bind>超级 \ \ 
+
+<关闭/@exit>
+
+[@changeGold]
+#IF
+   checkgold 1000000
+#SAY
+你说你想用钱交换金条? \
+我可以为你把钱换成金条。 \
+但是你得给我点手续费啊。 \
+手续费是2000分，还想换吗？\ \
+
+<交换/@changeGold_1> \
+<不交换/@exit>
+
+#ELSESAY
+你连那点钱都没有， \
+还要我给你交换什么？\
+等你有钱再来吧。\ \
+
+<返回/@main>
+
+[@changeGold_1]
+#IF 
+   checkgold 1002000
+   checkbaggage
+#ACT
+   take 金币 1002000
+   give 金条 1
+#SAY
+钱已经换好。\ 
+还继续换吗？\ \
+
+<交换/@changeGold> \
+<关闭/@exit>
+
+#ELSESAY
+包里东西已满，或你没有足够的钱交手续费， \
+所以不能交换，你再确认一次吧。\ \
+
+<关闭/@exit>
+
+
+
+[@changeMoney]
+#IF
+   checkitem 金条 1
+#SAY 
+你说你想用金条交换钱? \
+我可以为你把金条换成钱。 \
+但是你得给我点手续费啊。 \
+手续费是2000金币，还想换吗？\ \
+
+<交换/@changeMoney_1> \
+<关闭/@exit>
+
+#ELSESAY
+你都没有金条还换什么钱? \
+想耍我？快走开！ \ \
+<关闭/@exit>
+
+[@changeMoney_1]
+#IF
+   checkitem 金条 1
+   checkgold 4002001
+#SAY
+我也很想给你换，\
+但是你的钱太多了，我没办法给你换。\ \
+<关闭/@exit>
+
+#ELSEACT
+   goto @changeMoney_2
+
+
+[@changeMoney_2]
+#IF 
+   checkitem 金条 1
+#ACT
+   take 金条 1
+   give 金币 998000
+#SAY
+已换好钱。\ 
+还继续交换吗？\ \
+
+<交换./@changeMoney> \
+<关闭/@exit>
+
+[@bind]
+目前我的技术不够，\
+只能只能捆药水（大）。\
+等我练好技术之后，再给你捆更多的东西。\
+想看我捆东西的技术吗？捆东西需要110分。\ \
+
+<捆./@ch_bind>强效金创药 \
+<捆./@ma_bind>强效魔法药
+
+[@ch_bind]
+#IF
+   checkitem 强效金创药 6
+#ACT
+   goto @ch_bind_11
+#ELSESAY
+你都没有要捆的药水，你让我怎么捆？\
+准备好药水之后，再来吧。\ \
+<关闭/@exit>
+
+[@ch_bind_11]
+#IF 
+   checkgold 110
+   checkitem 强效金创药 6
+#ACT
+   take 金币 110
+   take 强效金创药 6
+   give 超级金创药 1
+#SAY
+捆得好，我的技术不错吧？\
+以后还有东西要捆，就来找我吧。\ \
+
+<还要捆/@bind> \
+<关闭/@exit>
+
+#ELSESAY
+你都没有钱，还捆什么？\
+快走吧 。\ \
+<关闭/@exit>
+
+[@ma_bind]
+#IF
+   checkitem 强效魔法药 6
+#ACT
+   goto @ma_bind_11
+#ELSESAY
+你都没有药水，让我怎么捆？\
+准备好药水之后，再来找我吧。 \ \
+<关闭./@exit>
+
+[@ma_bind_11]
+#IF 
+   checkgold 110
+   checkitem 强效魔法药 6
+#ACT
+   take 金币 110
+   take 强效魔法药 6
+   give 超级魔法药 1
+#SAY
+捆得好，我的技术不错吧？ \
+以后还有东西要捆，就来找我吧。\ \
+
+<还要捆/@bind> \
+<关闭/@exit>
+
+#ELSESAY
+你都没有钱，让我捆什么？\
+快走吧 \ \
+<关闭/@exit>
+

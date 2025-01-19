@@ -1,0 +1,7 @@
+[@main]
+#IF
+checkitem Ë®¾§ 1 
+#ACT
+take Ë®¾§ 1
+#ELSESAY
+(Why can't i get in this room???)

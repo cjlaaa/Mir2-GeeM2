@@ -1,0 +1,491 @@
+;买卖勋章
+%100
++30
+
+[@main]
+你想做什么？\\
+<查询声望点数/@queryrepute>\
+<解除师徒关系/@left>\
+<领取荣誉勋章/@get>\
+<鉴定荣誉勋章/@wear>\
+<修理荣誉勋章/@s_repair>\
+<学习增加好友/@friend>\
+<打听苍月岛的秘密/@superamo>\
+<离开/@exit>\
+
+[@left]
+您想解除什么关系？\
+徒弟离开师父要交五万，\
+师傅离开徒弟需要十万。\
+请按照您的实际情况选择，\
+如果乱选也是会被扣钱的。\
+<离开师父/@leftmaster>\
+<离开徒弟/@leftprentice>\
+<返回/@main>
+
+[@leftmaster]
+#if
+checkgold 50000
+#act
+take 金币 50000
+#say
+金币已收，请稍候\
+<返回/@main>\
+<离开/@exit>\
+#elsesay
+你的钱不够，\
+不能脱离关系。\
+<返回/@main>\
+<离开/@exit>
+
+[@leftprentice]
+#if
+checkgold 100000
+#act
+take 金币 100000
+#say
+金币已收，请稍候\
+<返回/@main>\
+<离开/@exit>
+#elsesay
+你的钱不够，\
+不能脱离关系。\
+<返回/@main>\
+<离开/@exit>
+
+[@queryrepute]
+正在查询你的声望点数，\
+请留意公告提示。\\
+<离开/@exit>\
+
+[@friend]
+正在处理您学习增加好友的申请，\
+请留意公告提示。\\
+<离开/@exit>\
+
+[@wear]
+请准备好一万元鉴定费，\
+注意，您的包裹里只能放置一个徽章，\
+否则我可不知道你要鉴定哪一个。\\
+<准备好了/@ready>\
+<返回/@main>
+
+[@get]
+你想付出多少声望点数换取勋章？\
+付出越多得到好勋章的机会越大。\\
+<10点/@nomedal>\
+<20点/@nomedal>\
+<30点/@nomedal>\
+<40点/@nomedal>\
+<返回/@main>
+
+[@nomedal]
+想领荣誉勋章？怎么又来找我？\
+都说了一百遍了，我这里只管声望的。\
+勋章可是传说中圣域的圣宝,\
+你不妨去问问比奇的海边老兵吧！\\
+<确定/@exit>
+
+[@gima]
+#if
+random 5
+#act
+give 荣誉勋章11号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章12号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章13号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章14号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章15号
+break
+
+#elseact
+goto @gima1
+
+[@gima]
+#if
+random 5
+#act
+give 荣誉勋章21号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章22号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章23号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章24号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章25号
+break
+
+#elesact
+goto @gima2
+
+[@gima]
+#if
+random 5
+#act
+give 荣誉勋章31号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章32号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章33号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章34号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章35号
+break
+
+#elesact
+goto @gima3
+
+[@gima]
+#if
+random 5
+#act
+give 荣誉勋章41号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章42号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章43号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章44号
+break
+
+#if
+random 5
+#act
+give 荣誉勋章45号
+break
+
+#elesact
+goto @gima4
+
+[@ready]
+#IF
+checkgold 10000
+#act
+take 金币 10000
+goto @medalcheck
+#elseact
+goto @nomoney
+
+[@nomoney]
+你的金币不够，请准备好再来。\
+<返回/@main>
+
+
+[@medalcheck]
+#IF
+checkitem 荣誉勋章11号 1
+#act
+goto @11
+break
+
+#IF
+checkitem 荣誉勋章12号 1
+#act
+goto @12
+break
+
+#IF
+checkitem 荣誉勋章13号 1
+#act
+goto @13
+break
+
+#IF
+checkitem 荣誉勋章14号 1
+#act
+goto @14
+break
+
+#IF
+checkitem 荣誉勋章15号 1
+#act
+goto @15
+break
+
+#IF
+checkitem 荣誉勋章21号 1
+#act
+goto @21
+break
+
+#IF
+checkitem 荣誉勋章22号 1
+#act
+goto @22
+break
+
+#IF
+checkitem 荣誉勋章23号 1
+#act
+goto @23
+break
+
+#IF
+checkitem 荣誉勋章24号 1
+#act
+goto @24
+break
+
+#IF
+checkitem 荣誉勋章25号 1
+#act
+goto @25
+break
+
+#IF
+checkitem 荣誉勋章31号 1
+#act
+goto @31
+break
+
+#IF
+checkitem 荣誉勋章32号 1
+#act
+goto @32
+break
+
+#IF
+checkitem 荣誉勋章33号 1
+#act
+goto @33
+break
+
+#IF
+checkitem 荣誉勋章34号 1
+#act
+goto @34
+break
+
+#IF
+checkitem 荣誉勋章35号 1
+#act
+goto @35
+break
+
+#IF
+checkitem 荣誉勋章41号 1
+#act
+goto @41
+break
+
+#IF
+checkitem 荣誉勋章42号 1
+#act
+goto @42
+break
+
+#IF
+checkitem 荣誉勋章43号 1
+#act
+goto @43
+break
+
+#IF
+checkitem 荣誉勋章44号 1
+#act
+goto @44
+break
+
+#IF
+checkitem 荣誉勋章45号 1
+#act
+goto @45
+break
+
+#elseact
+goto @nomedal
+
+[@11]
+#say
+你的勋章属性为防御0-1。\\
+<确定/@main>
+
+[@12]
+#say
+你的勋章属性为魔防0-1。\\
+<确定/@main>
+
+[@13]
+#say
+你的勋章属性为攻击0-1。\\
+<确定/@main>
+
+
+[@14]
+#say
+你的勋章属性为魔法0-1。\\
+<确定/@main>
+
+[@15]
+#say
+你的勋章属性为道术0-1。\\
+<确定/@main>
+
+
+[@21]
+#say
+你的勋章属性为防御0-2。\\
+<确定/@main>
+
+
+[@22]
+#say
+你的勋章属性为魔防0-2。\\
+<确定/@main>
+
+
+[@23]
+#say
+你的勋章属性为攻击0-2。\\
+<确定/@main>
+
+
+[@24]
+#say
+你的勋章属性为魔法0-2。\\
+<确定/@main>
+
+
+[@25]
+#say
+你的勋章属性为道术0-2。\\
+<确定/@main>
+
+
+[@31]
+#say
+你的勋章属性为防御1-2。\\
+<确定/@main>
+
+
+[@32]
+#say
+你的勋章属性为魔防1-2。\\
+<确定/@main>
+
+
+[@33]
+#say
+你的勋章属性为攻击1-2。\\
+<确定/@main>
+
+
+[@34]
+#say
+你的勋章属性为魔法1-2。\\
+<确定/@main>
+
+
+[@35]
+#say
+你的勋章属性为道术1-2。\\
+<确定/@main>
+
+
+[@41]
+#say
+你的勋章属性为防御1-3。\\
+<确定/@main>
+
+
+[@42]
+#say
+你的勋章属性为魔防1-3。\\
+<确定/@main>
+
+
+[@43]
+#say
+你的勋章属性为攻击1-3。\\
+<确定/@main>
+
+
+[@44]
+#say
+你的勋章属性为魔法1-3。\\
+<确定/@main>
+
+
+[@45]
+#say
+你的勋章属性为道术1-3。\\
+<确定/@main>
+
+
+[@nomedal]
+您身上没有荣誉勋章，\
+无法鉴定。\
+<返回/@main>
+
+
+[@superamo]
+哦？你问我苍月岛的秘密，老实说我也不是非常清楚，\
+只是有听我的师傅说过，苍月岛会影响所有事物，\
+你可以去毒蛇山谷转转，说不定会有所发现哦。\
+嗯？你不知道蛇谷在那里...玛法人都知道啊...\\
+<返回/@main>

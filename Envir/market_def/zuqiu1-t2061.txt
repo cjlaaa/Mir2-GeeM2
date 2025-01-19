@@ -1,0 +1,93 @@
+;第一关
+
+[@main]
+欢迎来到“足球迷宫”！\
+你将要接受重重考验才能达到光明的彼岸！\
+当然，只要够水准，这些挑战是不在话下啦！\
+第一关的题目是小学生等级的。\ \
+<我要挑战！/@q>\
+<你藐视我吗？我才不回答/@exit>
+
+[@q]
+#if
+random 7
+#act
+goto @q1
+break
+
+#if
+random 6
+#act
+goto @q2
+break
+
+#if
+random 5
+#act
+goto @q3
+break
+
+#if
+random 4
+#act
+goto @q4
+break
+
+#if
+random 3
+#act
+goto @q5
+break
+
+#if
+random 2
+#act
+goto @q6
+#elseact
+goto @q7
+
+
+[@q1]
+现在一场比赛有几个裁判？\
+<三个/@loss>\
+<四个/@win>
+
+[@q2]
+足球半场比赛多少时间？\
+<40分钟/@loss>\
+<45分钟/@win>
+
+[@q3]
+一场正式比赛最多可以换几个人？\
+<三个/@win>\
+<五个/@loss>
+
+[@q4]
+中国总共入围几次世界杯？\
+<一次/@win>\
+<两次/@loss>
+
+[@q5]
+世界杯每几年举行一次？\
+<两年/@loss>\
+<四年/@win>
+
+[@q6]
+韩日世界杯哪个国家夺得冠军？\
+<德国/@loss>\
+<巴西/@win>
+
+[@q7>
+球场上球员得到红牌意味着什么？\
+<被警告/@loss>\
+<被罚下场/@win>
+
+[@win]
+勇敢的少年啊，你已经顺利通过本关！
+#act
+map T3061
+
+[@loss]
+挑战失败，请从头再来……
+#act
+map 3

@@ -1,0 +1,50 @@
+[@main]
+你想要做什么？\
+<求婚/@askmarry>\
+<领奖品/@teacher>\
+<询问如何结婚/@ask1>\
+<询问如何收徒/@ask2>\
+<询问如何拜师/@ask3>\
+<离开/@exit>
+
+[@askmarry]
+#IF
+gender woman
+#act
+goto @woman
+break
+
+#if
+checklevel 22
+#act
+goto @marry
+break
+
+#elseact
+goto @nomarry
+
+[@nomarry]
+你现在等级太低，\
+等22级以后再来吧！\
+<离开/@exit>
+
+[@woman]
+只有男性才能求婚！\
+<离开/@exit>
+
+[@marry]
+#if
+checklevel 22
+check 金条 1
+#act
+take 金条 1
+#say
+你可以求婚了！\
+<离开/@exit>
+#elsesay
+你带的钱不够，\
+请交付一根金条作为结婚费用。\
+<离开/@exit>
+
+
+

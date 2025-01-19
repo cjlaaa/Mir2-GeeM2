@@ -1,0 +1,67 @@
+%100
+;戒指
++22
++23
+;; 命运之刃指示第一分歧点
+;###################################
+;对话, '*' : 对话tag
+
+[@main]
+欢迎光临，有什么事情吗？\ \
+<买/@buy>戒指\
+<卖/@sell>戒指\
+<修理/@repair>戒指\
+ <离开/@Tmove>这里\
+<关闭/@exit>
+<>
+
+[@Tmove]
+#IF
+random 4
+#ACT
+mapmove 0 306 276
+break
+
+#IF
+random 4
+#ACT
+mapmove 0 306 277
+break
+
+#IF
+random 4
+#ACT
+mapmove 0 296 286
+break
+
+#IF
+random 4
+#ACT
+mapmove 0 297 285
+break
+
+#ELSEACT
+goto @Tmove
+
+[@buy]
+要买戒指吗？\ \ \
+ <返回/@main>
+
+[@sell]
+要卖戒指吗？\ \ \
+ <返回/@main>
+
+[@repair]
+要修理戒指吗？\ \ \
+ <返回/@main>
+
+[~@repair]
+修理得还算不错。\ \
+ <返回/@main>
+
+[goods]
+;商品          数量       时间
+古铜戒指        3          3
+六角戒指        3          3
+玻璃戒指        3          3
+

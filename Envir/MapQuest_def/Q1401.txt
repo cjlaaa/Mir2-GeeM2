@@ -1,0 +1,18 @@
+[@main]
+#IF
+check [402] 1
+#ACT
+break
+
+#IF
+random 5
+check [401] 1
+#ACT
+SET [402] 1
+#SAY
+(As I killed a Root Spider..)\
+Rev.taoist Perry will tell me\
+every secret.\ \
+#ELSESAY
+(I killed the RootSpider...\
+But i am not feeling so good...)\ \

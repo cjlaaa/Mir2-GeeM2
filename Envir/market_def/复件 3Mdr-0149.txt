@@ -1,0 +1,99 @@
+;武器
+%100
++10
++11
+
+;对话, '*' : 对话tag
+[@main]
+欢迎，你需要点什么？\ \
+ <买/@buy>  衣服\
+ <卖/@sell>  衣服\
+ <修补/@repair> 衣服\
+ <打听/@qweapon>超级装备的消息\
+ <离开/@Tmove>这里\
+ <取消/@exit>
+<>
+
+[@Tmove]
+#IF
+random 8
+#ACT
+mapmove 3 320 303
+break
+
+#IF
+random 8
+#ACT
+mapmove 3 320 304
+break
+
+#IF
+random 8
+#ACT
+mapmove 3 321 304
+break
+
+#IF
+random 8
+#ACT
+mapmove 3 321 303
+break
+
+#IF
+random 8
+#ACT
+mapmove 3 310 293
+break
+
+#IF
+random 8
+#ACT
+mapmove 3 310 294
+break
+
+#IF
+random 8
+#ACT
+mapmove 3 311 294
+break
+
+#IF
+random 8
+#ACT
+mapmove 3 311 293
+break
+
+#ELSEACT
+goto @Tmove
+
+
+[@buy]
+你想买什么样的衣服？\ \ \
+ <返回/@main>
+
+
+[@sell]
+把你要卖的衣服给我看看，我会给你个估价。\
+ <返回/@main>
+
+[@repair]
+请放上去要修补的衣服.\ \ \
+ <返回/@main>
+
+[~@repair]
+看来修补得很不错.\ \ \
+ <返回/@main>
+
+[@qweapon]
+传说中三英雄留下了三套绝顶装备。\
+法神套装听说就在赤月峡谷的双头金刚手里，\
+得到它的魔法师将是最接近神的人……\\
+ <返回/@main>
+
+[goods]
+;items(can be Zen)      pieces     hour
+布衣(男)        50         1
+布衣(女)        50         1
+轻型盔甲(男)    50         1
+轻型盔甲(女)    50         1
+

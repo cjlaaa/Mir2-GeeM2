@@ -1,0 +1,35 @@
+;Weapon
+%100
++15
+
+;Dialogue'*' : Dialogue tag
+[@main]
+欢迎！我能为你做点什么？\ \
+ <买/@buy>  头盔\
+ <卖/@sell>  头盔\
+ <修理/@repair>头盔\
+ <特殊修理/@s_repair>\
+ <取消/@exit> 
+<>
+
+[@buy]
+你想买什么样的头盔？\ \ \
+ <返回/@main>
+
+
+[@sell]
+把你要卖的头看看给我看看，\
+我会给你一个估价。\
+ <返回/@main>
+
+[@repair]
+这里你可以修补头盔.\ \ \
+ <返回/@main>
+
+[~@repair]
+这个看上去已经补好了。\ \ \
+ <返回/@main>
+
+[goods]
+;itmes(can be Zen)   pieces       hour
+青铜头盔        5         1

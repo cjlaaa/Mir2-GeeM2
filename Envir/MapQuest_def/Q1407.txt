@@ -1,0 +1,25 @@
+[@main]
+#IF
+check [409] 1
+#ACT
+break
+
+#IF
+check [408] 1
+#SAY
+(Now i'll go back to master Thunderman\
+for more information...)\ \
+#ACT
+break
+
+#IF
+random 5
+check [407] 1
+#SAY
+Just looking at it makes me bloodthirsty...\
+Now, i'll go back to master Thunderman for\
+further information.\ \
+#ACT
+give Ñª½£ËéÆ¬ 1
+SET [408] 1
+

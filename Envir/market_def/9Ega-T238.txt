@@ -1,0 +1,145 @@
+[@main]
+#IF
+equal p2 0
+#ACT
+mov p2 1
+goto @race
+#ELSESAY
+你是否不想和我对话? \
+我不想给你投骰子的机会. \
+如果重新做的话, 请从头再来. \ \
+<关闭/@Quit>
+
+[@Quit]
+#IF
+#ACT
+map B011
+
+[@race]
+#IF
+checkmonmap T238 1
+#SAY
+里面有老鼠,我很害怕,保护我好吗?. \
+为了报答你,我将给你提供下次投骰子的机会. \
+祝你好运. \ \
+<退出/@exit>
+#ACT
+mov p2 0
+#ELSESAY
+谢谢你,从老鼠群里保护我,为了报答你. \
+我将给你提供下次投骰子的机会. \
+祝你好运/@pre_Cube>
+
+[@pre_cube]
+#IF
+checkitem 筹码 1
+#ACT
+take 筹码 1
+SET [799] 0
+SET [798] 0
+movr d0 6
+inc d0 1
+playdice 1 @cube
+#ELSEACT
+goto @quit
+
+[@cube]
+#SAY
+骰子的点数 <$STR(D0)>  \
+你可以前进 <$STR(D0)>  \ \
+<移动/@next_cube>
+
+[@next_cube]
+#IF
+equal d0 1 
+#ACT
+goto @posi1
+break
+
+#IF
+equal d0 2 
+#ACT
+goto @posi2
+break
+
+#IF
+equal d0 3 
+#ACT
+goto @posi3
+break
+
+#IF
+equal d0 4 
+#ACT
+goto @posi4
+break
+
+#IF
+equal d0 5
+#ACT
+goto @posi5
+break
+
+#IF
+equal d0 6 
+#ACT
+goto @posi6
+break
+
+[@Posi1]
+#IF
+#ACT
+batchDelay 1
+addbatch B239
+batchmove
+
+[@Posi2]
+#IF
+#ACT
+batchDelay 1
+addbatch B239
+addbatch B240
+batchmove
+
+[@Posi3]
+#IF
+#ACT
+batchDelay 1
+addbatch B239
+addbatch B240
+addbatch B201
+batchmove
+
+[@Posi4]
+#IF
+#ACT
+batchDelay 1
+addbatch B239
+addbatch B240
+addbatch B201
+addbatch B202
+batchmove
+
+[@Posi5]
+#IF
+#ACT
+batchDelay 1
+addbatch B239
+addbatch B240
+addbatch B201
+addbatch B202
+addbatch B203
+batchmove
+
+[@Posi6]
+#IF
+#ACT
+batchDelay 1
+addbatch B239
+addbatch B240
+addbatch B201
+addbatch B202
+addbatch B203
+addbatch B204
+batchmove
+

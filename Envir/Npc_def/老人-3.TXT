@@ -1,0 +1,17 @@
+;对话, '*' : 对话语言
+[@main]
+你想要问我一些什么东西?\ \
+
+<想问攻城的时间？./@aboutwar>\
+
+[@aboutwar]
+你可以看看攻城战役的时间表，这样你就非常清楚了,\
+是两天以后的晚上 <$CASTLEWARDATE>, 8点.\ \
+
+<看一些攻城战役的时间表/@listwar>\
+<返回/@main>\
+
+
+[@listwar]
+<$LISTOFWAR>\
+<返回/@aboutwar>\

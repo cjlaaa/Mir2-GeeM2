@@ -1,0 +1,33 @@
+[@main]
+#IF
+check [405] 1
+#ACT
+break
+
+#IF
+check [404] 1
+#ACT
+goto @next
+break
+
+#IF
+random 5
+check [403] 1
+#ACT
+SET [404] 1
+give JadeCrystal 1
+#SAY
+Hmmm.... This is the JadeCrystal \
+REv.taoist Perry was talking about.\
+(With this JadeCrystal I can get in the room on\
+which a taoistic defensive power was set up.)\
+
+
+[@next]
+#IF
+random 20
+#SAY
+Where is the room on which the \
+taoistic defense power was set up?\ \
+
+

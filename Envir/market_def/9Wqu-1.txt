@@ -1,0 +1,244 @@
+;武器
+%100
+
+;;------------------------------------------------------------------------------
+;; [308] 半兽勇士,骷髅战士 诱惑 任务进行事宜
+;; [309] 诱惑半兽勇士,骷髅战士之后的任务事宜
+;;------------------------------------------------------------------------------
+
+;对话, '*' : 对话 信息
+[@main]
+#IF
+random 2
+#ACT
+goto @QUEST
+#ELSEACT
+goto @normal
+
+[@QUEST]
+#IF
+check [309] 1
+#ACT
+goto @Q309
+break
+
+#IF
+check [308] 1
+#ACT
+goto @Q308
+break
+
+#IF
+check [307] 1
+#ACT
+goto @Q307
+#ELSEACT
+goto @normal
+
+[@normal]
+半兽勇士住在沃玛森林里面... \
+这个怪物可不简单哦... \ \
+<退出/@exit>
+
+[@Q307]
+竟然有人认识我.... \
+嗨,你好啊...怪事.\ \
+对助理<询问/@Q307_1> \
+
+[@Q307_1]
+你认识我么?我的故事已经是很久以前的了.. \
+很久以前,我在比奇城当过厨师.. \
+的确是很久以前的事情了,我想念当年的朋友啦.. \ \
+
+对助理 <拜托/@Q307_2>.
+
+[@Q307_2]
+#IF
+   random 2
+#ACT
+goto @Q307_3
+#ELSESAY
+拜托我?我凭什么接受你的请求啊? \
+你走吧...... \ \
+<退出/@exit>
+
+[@Q307_3]
+#IF
+  random 2
+#SAY 
+你真了不起,你的意志很强,那么,那么...\
+为了我,我只拜托一件事情... \
+这几天我去过好几个地方,到处看了看 \ 
+到了一些很希奇的地方...\ \
+<下一步/@Q307_4>   
+#ELSESAY
+你想让我给你炒菜,为了这个.... \
+是不是我得去比奇城堡一次呀?? \ 
+我对比奇城堡早已经有一种厌倦了... \
+对不起,我要走了... \ \
+<退出/@exit>
+
+[@Q307_4]
+这个地方很古怪,有一种怪物 \
+虽然我比较弱,但我还可以击退它啦\
+也跟它打过,可是给他揍得不成样子... \
+因为这个地方非常古怪,你进去后一分钟后就会回到现实 \
+这是古怪的地方啊,你也去试试么? \ \
+<下一步/@Q307_5>
+
+[@Q307_5]
+你要是能打死它,可别忘了把它的头盔带给我.. \
+那样我就可以帮你... \
+我可以把你带到那个地方,祝你好运啦.. \ \
+<进去./@Q307_6>
+
+[@Q307_6]
+#IF
+   checkhum Q001 1
+#SAY
+现在里面还有一个人,你要稍候一下啦! \ \
+<退出/@exit>
+#ELSEACT
+goto @Q307_6_1
+
+[@Q307_6_1]
+#IF
+   checkjob warrior
+#ACT
+   goto @Q307_6_1_1
+break
+
+#IF 
+   checkjob wizard
+#ACT
+   goto @Q307_6_1_2
+break
+
+#IF
+   checkjob taoist
+#ACT
+   goto @Q307_6_1_3
+break
+
+[@Q307_6_1_1]
+#IF
+#ACT
+Monclear Q001
+Param1 Q001
+Param2 10
+Param3 10
+MonGen 骷髅精灵2 1 10
+TimeRecall 1
+map Q001
+SET [308] 1
+
+[@Q307_6_1_2]
+#IF
+#ACT
+Monclear Q002
+Param1 Q002
+Param2 10
+Param3 10
+MonGen 半兽勇士2 1 10
+TimeRecall 1
+map Q002
+SET [308] 1
+
+[@Q307_6_1_3]
+#IF
+#ACT
+Monclear Q003
+Param1 Q003
+Param2 10
+Param3 10
+MonGen 巨型多角虫2 1 10
+TimeRecall 1
+map Q003
+SET [308] 1
+
+[@Q308]
+#IF
+checkitem 头盔 1
+#ACT
+   goto @Q308_1
+#ELSEACT
+   goto @Q308_2
+
+[@Q308_1]
+#IF
+#ACT
+SET [309] 1
+take 头盔 1
+#SAY
+你真棒啊,那么厉害的怪物也被你打死了!!! \
+你给带了头盔,,我可就欠你一个人情了. \
+你真的厉害! \
+既然你帮我做了一件事情,那我也帮你作一件事情... \ 
+你去找一下金氏..我已经跟她约好了\ \
+<退出/@exit>
+   
+[@Q308_2]
+#IF
+random 5
+#SAY
+你也打不过那个怪物?唉.. \
+那个怪物的确很厉害吧.... \
+你要不要再试一次啊?? \ \
+<挑战./@Q308_2_1>\
+等会儿<挑战./@exit>
+#ELSESAY
+现在我很忙,无法帮助你了 \
+等会儿再来.. \ \
+<退出/@exit>
+
+[@Q308_2_1]
+#IF
+   checkhum Q001 1
+#SAY
+现在有人正在被怪物折磨,呵呵,恐怕你要等一下了! \ \
+<退出/@exit>
+#ELSEACT
+goto @Q308_2_1_1
+
+[@Q308_2_1_1]
+#IF
+   checkjob warrior
+#ACT
+Monclear Q001
+Param1 Q001
+Param2 10
+Param3 10
+MonGen 骷髅精灵2 1 10
+TimeRecall 1
+map Q001
+break
+
+#IF 
+   checkjob wizard
+#ACT
+Monclear Q002
+Param1 Q002
+Param2 10
+Param3 10
+MonGen 半兽勇士2 1 10
+TimeRecall 1
+map Q002
+break
+
+#IF
+   checkjob taoist
+#ACT
+Monclear Q003
+Param1 Q003
+Param2 10
+Param3 10
+MonGen 巨型多角虫2 1 10
+TimeRecall 1
+map Q003
+break
+
+[@Q309]
+#IF
+#SAY
+你快点去找金氏! \ \
+<退出/@exit>

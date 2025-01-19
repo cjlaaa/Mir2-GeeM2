@@ -1,0 +1,143 @@
+[@main]
+#IF
+equal p3 0
+#ACT
+mov p3 1
+goto @main-1
+#ELSESAY
+你是否不想和我对话? \
+我不想给你投骰子的机会. \
+如果重新做的话, 请从头再来. \ \
+<关闭/@Quit>
+
+[@main-1]
+#IF
+checkitem 筹码 1
+#SAY
+给你提供投骰子的机会. \
+祝你好运.. \ \
+<下一步/@pre_Cube>
+#ELSESAY
+<$USERNAME>没有筹码了. \
+你无法继续赌博. \ 
+想继续进行,那准备好筹码后再来\ \
+<退出/@Quit>
+
+[@Quit]
+#IF
+#ACT
+map B011
+
+[@pre_cube]
+#IF
+checkitem 筹码 1
+#ACT
+take 筹码 1
+SET [799] 0
+SET [798] 0
+movr d0 6
+inc d0 1
+playdice 1 @cube
+#ELSEACT
+goto @quit
+
+[@cube]
+#SAY
+骰子的点数 <$STR(D0)>  \
+你可以前进 <$STR(D0)>  \ \
+<移动/@next_cube>
+
+[@next_cube]
+#IF
+equal d0 1 
+#ACT
+goto @posi1
+break
+
+#IF
+equal d0 2 
+#ACT
+goto @posi2
+break
+
+#IF
+equal d0 3 
+#ACT
+goto @posi3
+break
+
+#IF
+equal d0 4 
+#ACT
+goto @posi4
+break
+
+#IF
+equal d0 5
+#ACT
+goto @posi5
+break
+
+#IF
+equal d0 6 
+#ACT
+goto @posi6
+break
+
+[@Posi1]
+#IF
+#ACT
+batchDelay 1
+addbatch B337
+batchmove
+
+[@Posi2]
+#IF
+#ACT
+batchDelay 1
+addbatch B337
+addbatch B338
+batchmove
+
+[@Posi3]
+#IF
+#ACT
+batchDelay 1
+addbatch B337
+addbatch B338
+addbatch B339
+batchmove
+
+[@Posi4]
+#IF
+#ACT
+batchDelay 1
+addbatch B337
+addbatch B338
+addbatch B339
+addbatch B340
+batchmove
+
+[@Posi5]
+#IF
+#ACT
+batchDelay 1
+addbatch B337
+addbatch B338
+addbatch B339
+addbatch B340
+addbatch B301
+batchmove
+
+[@Posi6]
+#IF
+#ACT
+batchDelay 1
+addbatch B337
+addbatch B338
+addbatch B339
+addbatch B340
+addbatch B301
+addbatch B302
+batchmove
+

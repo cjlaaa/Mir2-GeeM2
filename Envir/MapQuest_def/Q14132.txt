@@ -1,0 +1,18 @@
+[@main]
+#IF
+check [414] 1
+#ACT
+break
+
+#IF
+check [413] 1
+checkitem Ğ°¶ñ¾ŞÈËÓÍ 1
+checkitem Ğ°¶ñ¾ŞÈËĞÄÔà 1
+
+#ACT
+give ³àÑªÄ§½£ 1
+take Ğ°¶ñ¾ŞÈËÓÍ 1
+take Ğ°¶ñ¾ŞÈËĞÄÔà 1
+SET [414] 1
+#SAY
+RedmoonEvil is dead, Now you can recover the HolySword...\ \

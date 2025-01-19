@@ -1,0 +1,73 @@
+;武器
+%100
+;项链
++20
++19
++21
+
+;对话框, '*' : 对话框 标签
+[@main]
+欢迎. 我可以帮你什么吗?\ \
+ <购买/@buy> 项链 \
+ <出售/@sell> 项链\
+ <修理/@repair> 项链\
+ <离开/@Tmove>这里\
+ <取消/@exit>
+<>
+
+[@Tmove]
+#IF
+random 5
+#ACT
+mapmove 3 300 294
+break
+
+#IF
+random 5
+#ACT
+mapmove 3 301 294
+break
+
+#IF
+random 5
+#ACT
+mapmove 3 301 293
+break
+
+#IF
+random 5
+#ACT
+mapmove 3 291 303
+break
+
+#IF
+random 5
+#ACT
+mapmove 3 290 303
+break
+
+#ELSEACT
+goto @Tmove
+
+
+[@buy]
+你要购买项链?\ \ \
+ <返回/@main>
+
+[@sell]
+您出售哪种项链?\ \ \
+ <返回/@main>
+
+[@repair]
+你要修理项链?\ \ \
+ <返回/@main>
+
+[~@repair]
+看上去它是好的.\ \
+ <返回/@main>
+
+[goods]
+;物品(can be Zen)	数量      时间
+金项链         3         3
+传统项链     3         3
+

@@ -1,0 +1,14 @@
+[@main]
+#IF
+check [413] 1
+#ACT
+break
+
+#IF
+random 5
+check [412] 1
+#SAY
+(Here is the Heart Master Thunderman was talking about..)\ \ 
+#ACT
+give Ğ°¶ñ¾ŞÈËĞÄÔà 1
+SET [413] 1

@@ -1,0 +1,12 @@
+[@main]
+#IF
+check [412] 1
+#ACT
+break
+
+#IF
+check [411] 1
+#ACT
+SET [412] 1
+#ELSESAY
+(I feel dizzy...)\ \

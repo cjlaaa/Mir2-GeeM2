@@ -1,0 +1,10 @@
+;;命运之刃指示最后分歧点
+[@main]
+#IF
+checkmonmap 01141 1
+#SAY
+哦，魔鬼在作孽，快去把它们消除掉。\ \
+ <关闭/@exit>
+#ELSEACT
+map 0114
+set [220] 1
