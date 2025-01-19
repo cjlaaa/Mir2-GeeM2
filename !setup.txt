@@ -5,8 +5,8 @@ ServerNumber=0
 VentureServer=FALSE
 
 TestServer=TRUE
-TestLevel=40
-TestGold=10000000
+TestLevel=1
+TestGold=0
 TestServerUserLimit=1000
 ServiceMode=FALSE
 NonPKServer=FALSE
