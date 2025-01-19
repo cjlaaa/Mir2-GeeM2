@@ -4,12 +4,12 @@ ServerName=´«Ææ
 ServerNumber=0
 VentureServer=FALSE
 
-;TestServer=TRUE
-;TestLevel=1
-;TestGold=0
-;TestServerUserLimit=1000
-;ServiceMode=FALSE
-;NonPKServer=FALSE
+TestServer=TRUE
+TestLevel=40
+TestGold=10000000
+TestServerUserLimit=1000
+ServiceMode=FALSE
+NonPKServer=FALSE
 
 
 DBAddr=192.168.10.8
@@ -41,17 +41,17 @@ HalfFeeStart=2
 HalfFeeEnd=10
 
 [Share]
-BaseDir=d:\Mud2\Mir200\Share\
-GuildDir=d:\Mud2\Mir200\GuildBase\Guilds\
-GuildFile=d:\Mud2\Mir200\GuildBase\Guildlist.txt
-VentureDir=d:\Mud2\Mir200\ShareV\
-ConLogDir=d:\Mud2\Mir200\ShareL\DragonServer\
-CastleDir=d:\Mud2\Mir200\Envir\Castle\
-EnvirDir=d:\Mud2\Mir200\Envir\
-MapDir=d:\Mud2\Mir200\Map\
+BaseDir=d:\MirServer\Mir200\Share\
+GuildDir=d:\MirServer\Mir200\GuildBase\Guilds\
+GuildFile=d:\MirServer\Mir200\GuildBase\Guildlist.txt
+VentureDir=d:\MirServer\Mir200\ShareV\
+ConLogDir=d:\MirServer\Mir200\ShareL\DragonServer\
+CastleDir=d:\MirServer\Mir200\Envir\Castle\
+EnvirDir=d:\MirServer\Mir200\Envir\
+MapDir=d:\MirServer\Mir200\Map\
 
 [Setup]
-ItemNumber=1317736
+ItemNumber=2676793
 HomeMap=0
 HomeX=289
 HomeY=618

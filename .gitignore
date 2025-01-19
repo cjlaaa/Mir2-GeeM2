@@ -10,3 +10,6 @@ ShareL/
 *.dll
 mir.dat
 mirhook.ini
+Log/
+Envir/Market_saved/
+Envir/Market_prices/
