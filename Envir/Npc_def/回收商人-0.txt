@@ -1,0 +1,1214 @@
+[@main]
+你有多余的装备吗？\
+那就不如给我吧，我正好需要这些东西来炼制一些物品，\
+好的装备和物品我可以用金币或者声望来回收，\
+有多余的就给我吧...\ \
+<金币回收/@金币回收1> \
+<声望回收/@声望回收1> \
+<退出/@exit>
+
+[@金币回收1]
+我可以用30万金币来买你的这些物品，你想要卖我哪个呢？\ \
+<幽灵项链/@幽灵项链1>        <幽灵手套/@幽灵手套1>        <龙之戒指/@龙之戒指1> \
+<生命项链/@生命项链1>        <思贝儿手镯/@思贝儿手镯1>      <红宝石戒指/@红宝石戒指1>\
+<天珠项链/@天珠项链1>        <心灵手镯/@心灵手镯1>        <铂金戒指/@铂金戒指1>\
+<炼狱/@炼狱1>            <魔杖/@魔杖1>            <银蛇/@银蛇1>\
+<井中月/@井中月1>          <无极棍/@无极棍1>          <祝福油/@祝福油1>\ \
+　　　　　　　　　　　　　　　　　　　　　<首  页/@main>  <下一页/@金币回收2>
+
+[@金币回收2]
+我可以用50万金币来买你的这些物品，你想要卖我哪个呢？\ \
+<绿色项链/@绿色项链1>        <骑士手镯/@骑士手镯1>        <力量戒指/@力量戒指1> \
+<恶魔铃铛/@恶魔铃铛1>        <龙之手镯/@龙之手镯1>        <紫碧螺/@紫碧螺1>\
+<灵魂项链/@灵魂项链1>        <三眼手镯/@三眼手镯1>        <泰坦戒指/@泰坦戒指1>\
+<黑铁头盔/@黑铁头盔1>        <阎罗手套/@阎罗手套1>        <血饮/@血饮1>\
+<裁决之杖/@裁决之杖1>        <骨玉权杖/@骨玉权杖1>        <龙纹剑/@龙纹剑1>\ \
+　　　　　　　　　　　　　　　　　　　　　<上一页/@金币回收1>  <下一页/@金币回收3>
+
+[@金币回收3]
+我可以用100万金币来买你的这些物品，你想要卖我哪个呢？\ \
+<圣战项链/@圣战项链1>        <圣战手镯/@圣战手镯1>        <圣战戒指/@圣战戒指1> \
+<法神项链/@法神项链1>        <法神手镯/@法神手镯1>        <法神戒指/@法神戒指1>\
+<天尊项链/@天尊项链1>        <天尊手镯/@天尊手镯1>        <天尊戒指/@天尊戒指1>\
+<圣战头盔/@圣战头盔1>        <法神头盔/@法神头盔1>        <天尊头盔/@天尊头盔1>\
+<怒斩/@怒斩1>            <龙牙/@龙牙1>            <逍遥扇/@逍遥扇1>\ \
+　　　　　　　　　　　　　　　　　　　　　<上一页/@金币回收2>    <首  页/@main>
+
+
+
+[@幽灵项链1]
+#IF
+checkitem 幽灵项链 1
+#ACT
+take 幽灵项链 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@幽灵手套1]
+#IF
+checkitem 幽灵手套 1
+#ACT
+take 幽灵手套 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@龙之戒指1]
+#IF
+checkitem 龙之戒指 1
+#ACT
+take 龙之戒指 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@生命项链1]
+#IF
+checkitem 生命项链 1
+#ACT
+take 生命项链 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@思贝儿手镯1]
+#IF
+checkitem 思贝儿手镯 1
+#ACT
+take 思贝儿手镯 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@红宝石戒指1]
+#IF
+checkitem 红宝石戒指 1
+#ACT
+take 红宝石戒指 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@天珠项链1]
+#IF
+checkitem 天珠项链 1
+#ACT
+take 天珠项链 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@心灵手镯1]
+#IF
+checkitem 心灵手镯 1
+#ACT
+take 心灵手镯 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@铂金戒指1]
+#IF
+checkitem 铂金戒指 1
+#ACT
+take 铂金戒指 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@炼狱1]
+#IF
+checkitem 炼狱 1
+#ACT
+take 炼狱 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@魔杖1]
+#IF
+checkitem 魔杖 1
+#ACT
+take 魔杖 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@银蛇1]
+#IF
+checkitem 银蛇 1
+#ACT
+take 银蛇 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@井中月1]
+#IF
+checkitem 井中月 1
+#ACT
+take 井中月 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@无极棍1]
+#IF
+checkitem 无极棍 1
+#ACT
+take 无极棍 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@祝福油1]
+#IF
+checkitem 祝福油 1
+#ACT
+take 祝福油 1
+give 金币 300000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@绿色项链1]
+#IF
+checkitem 绿色项链 1
+#ACT
+take 绿色项链 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@骑士手镯1]
+#IF
+checkitem 骑士手镯 1
+#ACT
+take 骑士手镯 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@力量戒指1]
+#IF
+checkitem 力量戒指 1
+#ACT
+take 力量戒指 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@恶魔铃铛1]
+#IF
+checkitem 恶魔铃铛 1
+#ACT
+take 恶魔铃铛 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@龙之手镯1]
+#IF
+checkitem 龙之手镯 1
+#ACT
+take 龙之手镯 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@紫碧螺1]
+#IF
+checkitem 紫碧螺 1
+#ACT
+take 紫碧螺 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@灵魂项链1]
+#IF
+checkitem 灵魂项链 1
+#ACT
+take 灵魂项链 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@三眼手镯1]
+#IF
+checkitem 三眼手镯 1
+#ACT
+take 三眼手镯 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@泰坦戒指1]
+#IF
+checkitem 泰坦戒指 1
+#ACT
+take 泰坦戒指 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@黑铁头盔1]
+#IF
+checkitem 黑铁头盔 1
+#ACT
+take 黑铁头盔 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@阎罗手套1]
+#IF
+checkitem 阎罗手套 1
+#ACT
+take 阎罗手套 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@血饮1]
+#IF
+checkitem 血饮 1
+#ACT
+take 血饮 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@裁决之杖1]
+#IF
+checkitem 裁决之杖 1
+#ACT
+take 裁决之杖 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@骨玉权杖1]
+#IF
+checkitem 骨玉权杖 1
+#ACT
+take 骨玉权杖 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@龙纹剑1]
+#IF
+checkitem 龙纹剑 1
+#ACT
+take 龙纹剑 1
+give 金币 500000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@圣战项链1]
+#IF
+checkitem 圣战项链 1
+#ACT
+take 圣战项链 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@圣战手镯1]
+#IF
+checkitem 圣战手镯 1
+#ACT
+take 圣战手镯 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@圣战戒指1]
+#IF
+checkitem 圣战戒指 1
+#ACT
+take 圣战戒指 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@法神项链1]
+#IF
+checkitem 法神项链 1
+#ACT
+take 法神项链 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@法神手镯1]
+#IF
+checkitem 法神手镯 1
+#ACT
+take 法神手镯 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@法神戒指1]
+#IF
+checkitem 法神戒指 1
+#ACT
+take 法神戒指 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@天尊项链1]
+#IF
+checkitem 天尊项链 1
+#ACT
+take 天尊项链 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@天尊手镯1]
+#IF
+checkitem 天尊手镯 1
+#ACT
+take 天尊手镯 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@天尊戒指1]
+#IF
+checkitem 天尊戒指 1
+#ACT
+take 天尊戒指 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@圣战头盔1]
+#IF
+checkitem 圣战头盔 1
+#ACT
+take 圣战头盔 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@法神头盔1]
+#IF
+checkitem 法神头盔 1
+#ACT
+take 法神头盔 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@天尊头盔1]
+#IF
+checkitem 天尊头盔 1
+#ACT
+take 天尊头盔 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@怒斩1]
+#IF
+checkitem 怒斩 1
+#ACT
+take 怒斩 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@龙牙1]
+#IF
+checkitem 龙牙 1
+#ACT
+take 龙牙 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@逍遥扇1]
+#IF
+checkitem 逍遥扇 1
+#ACT
+take 逍遥扇 1
+give 金币 1000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@雷霆项链1]
+#IF
+checkitem 雷霆项链 1
+#ACT
+take 雷霆项链 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@雷霆护腕1]
+#IF
+checkitem 雷霆护腕 1
+#ACT
+take 雷霆护腕 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@雷霆战戒1]
+#IF
+checkitem 雷霆战戒 1
+#ACT
+take 雷霆战戒 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@烈焰项链1]
+#IF
+checkitem 烈焰项链 1
+#ACT
+take 烈焰项链 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@烈焰护腕1]
+#IF
+checkitem 烈焰护腕 1
+#ACT
+take 烈焰护腕 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@烈焰魔戒1]
+#IF
+checkitem 烈焰魔戒 1
+#ACT
+take 烈焰魔戒 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@光芒项链1]
+#IF
+checkitem 光芒项链 1
+#ACT
+take 光芒项链 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@光芒护腕1]
+#IF
+checkitem 光芒护腕 1
+#ACT
+take 光芒护腕 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@光芒道戒1]
+#IF
+checkitem 光芒道戒 1
+#ACT
+take 光芒道戒 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@圣龙盔1]
+#IF
+checkitem 圣龙盔 1
+#ACT
+take 圣龙盔 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@魔龙盔1]
+#IF
+checkitem 魔龙盔 1
+#ACT
+take 魔龙盔 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@天龙盔1]
+#IF
+checkitem 天龙盔 1
+#ACT
+take 天龙盔 1
+give 金币2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@开天1]
+#IF
+checkitem 开天 1
+#ACT
+take 开天 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@镇天1]
+#IF
+checkitem 镇天 1
+#ACT
+take 镇天 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@玄天1]
+#IF
+checkitem 玄天 1
+#ACT
+take 玄天 1
+give 金币 2000000
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@声望回收1]
+我可以用1点声望来换你的这些物品，你想交换哪个呢？\ \
+<幽灵项链/@幽灵项链2>        <幽灵手套/@幽灵手套2>        <龙之戒指/@龙之戒指2> \
+<生命项链/@生命项链2>        <思贝儿手镯/@思贝儿手镯2>      <红宝石戒指/@红宝石戒指2>\
+<天珠项链/@天珠项链2>        <心灵手镯/@心灵手镯2>        <铂金戒指/@铂金戒指2>\
+<炼狱/@炼狱2>            <魔杖/@魔杖2>            <银蛇/@银蛇2>\
+<井中月/@井中月2>          <无极棍/@无极棍2>          <祝福油/@祝福油2>\ \
+　　　　　　　　　　　　　　　　　　　　　<首  页/@main>  <下一页/@声望回收2>
+
+[@声望回收2]
+我可以用3点声望来换你的这些物品，你想交换哪个呢？\ \
+<绿色项链/@绿色项链2>        <骑士手镯/@骑士手镯2>        <力量戒指/@力量戒指2> \
+<恶魔铃铛/@恶魔铃铛2>        <龙之手镯/@龙之手镯2>        <紫碧螺/@紫碧螺2>\
+<灵魂项链/@灵魂项链2>        <三眼手镯/@三眼手镯2>        <泰坦戒指/@泰坦戒指2>\
+<黑铁头盔/@黑铁头盔2>        <阎罗手套/@阎罗手套2>        <血饮/@血饮2>\
+<裁决之杖/@裁决之杖2>        <骨玉权杖/@骨玉权杖2>        <龙纹剑/@龙纹剑2>\ \
+　　　　　　　　　　　　　　　　　　　　　<上一页/@声望回收1>  <下一页/@声望回收3>
+
+[@声望回收3]
+我可以用5点声望来换你的这些物品，你想交换哪个呢？\ \
+<圣战项链/@圣战项链2>        <圣战手镯/@圣战手镯2>        <圣战戒指/@圣战戒指2> \
+<法神项链/@法神项链2>        <法神手镯/@法神手镯2>        <法神戒指/@法神戒指2>\
+<天尊项链/@天尊项链2>        <天尊手镯/@天尊手镯2>        <天尊戒指/@天尊戒指2>\
+<圣战头盔/@圣战头盔2>        <法神头盔/@法神头盔2>        <天尊头盔/@天尊头盔2>\
+<怒斩/@怒斩2>            <龙牙/@龙牙2>            <逍遥扇/@逍遥扇2>\ \
+　　　　　　　　　　　　　　　　　　　　　<上一页/@声望回收2>  <下一页/@声望回收4>
+
+[@声望回收4]
+我可以用10点声望来换你的这些物品，你想交换哪个呢？\ \
+<雷霆项链/@雷霆项链2>        <雷霆护腕/@雷霆护腕2>        <雷霆战戒/@雷霆战戒2> \
+<烈焰项链/@烈焰项链2>        <烈焰护腕/@烈焰护腕2>        <烈焰魔戒/@烈焰魔戒2>\
+<光芒项链/@光芒项链2>        <光芒护腕/@光芒护腕2>        <光芒道戒/@光芒道戒2>\
+<圣 龙 盔/@圣龙盔2>        <魔 龙 盔/@魔龙盔2>        <天 龙 盔/@天龙盔2>\
+<开天/@开天2>            <镇天/@镇天2>            <玄天/@玄天2>\ \
+　　　　　　　　　　　　　　　　　　　　　<上一页/@声望回收3>  <首  页/@main>
+
+
+[@幽灵项链2]
+#IF
+checkitem 幽灵项链 1
+#ACT
+take 幽灵项链 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@幽灵手套2]
+#IF
+checkitem 幽灵手套 1
+#ACT
+take 幽灵手套 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@龙之戒指2]
+#IF
+checkitem 龙之戒指 1
+#ACT
+take 龙之戒指 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@生命项链2]
+#IF
+checkitem 生命项链 1
+#ACT
+take 生命项链 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@思贝儿手镯2]
+#IF
+checkitem 思贝儿手镯 1
+#ACT
+take 思贝儿手镯 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@红宝石戒指2]
+#IF
+checkitem 红宝石戒指 1
+#ACT
+take 红宝石戒指 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@天珠项链2]
+#IF
+checkitem 天珠项链 1
+#ACT
+take 天珠项链 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@心灵手镯2]
+#IF
+checkitem 心灵手镯 1
+#ACT
+take 心灵手镯 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@铂金戒指2]
+#IF
+checkitem 铂金戒指 1
+#ACT
+take 铂金戒指 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@炼狱2]
+#IF
+checkitem 炼狱 1
+#ACT
+take 炼狱 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@魔杖2]
+#IF
+checkitem 魔杖 1
+#ACT
+take 魔杖 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@银蛇2]
+#IF
+checkitem 银蛇 1
+#ACT
+take 银蛇 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@井中月2]
+#IF
+checkitem 井中月 1
+#ACT
+take 井中月 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@无极棍2]
+#IF
+checkitem 无极棍 1
+#ACT
+take 无极棍 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@祝福油2]
+#IF
+checkitem 祝福油 1
+#ACT
+take 祝福油 1
+CREDITPOINT + 1
+SENDMSG 5 提示：物品已被回收，你获得了1点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@绿色项链2]
+#IF
+checkitem 绿色项链 1
+#ACT
+take 绿色项链 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@骑士手镯2]
+#IF
+checkitem 骑士手镯 1
+#ACT
+take 骑士手镯 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@力量戒指2]
+#IF
+checkitem 力量戒指 1
+#ACT
+take 力量戒指 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@恶魔铃铛2]
+#IF
+checkitem 恶魔铃铛 1
+#ACT
+take 恶魔铃铛 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@龙之手镯2]
+#IF
+checkitem 龙之手镯 1
+#ACT
+take 龙之手镯 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@紫碧螺2]
+#IF
+checkitem 紫碧螺 1
+#ACT
+take 紫碧螺 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@灵魂项链2]
+#IF
+checkitem 灵魂项链 1
+#ACT
+take 灵魂项链 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@三眼手镯2]
+#IF
+checkitem 三眼手镯 1
+#ACT
+take 三眼手镯 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@泰坦戒指2]
+#IF
+checkitem 泰坦戒指 1
+#ACT
+take 泰坦戒指 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@黑铁头盔2]
+#IF
+checkitem 黑铁头盔 1
+#ACT
+take 黑铁头盔 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@阎罗手套2]
+#IF
+checkitem 阎罗手套 1
+#ACT
+take 阎罗手套 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@血饮2]
+#IF
+checkitem 血饮 1
+#ACT
+take 血饮 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@裁决之杖2]
+#IF
+checkitem 裁决之杖 1
+#ACT
+take 裁决之杖 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@骨玉权杖2]
+#IF
+checkitem 骨玉权杖 1
+#ACT
+take 骨玉权杖 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@龙纹剑2]
+#IF
+checkitem 龙纹剑 1
+#ACT
+take 龙纹剑 1
+CREDITPOINT + 3
+SENDMSG 5 提示：物品已被回收，你获得了3点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@圣战项链2]
+#IF
+checkitem 圣战项链 1
+#ACT
+take 圣战项链 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@圣战手镯2]
+#IF
+checkitem 圣战手镯 1
+#ACT
+take 圣战手镯 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@圣战戒指2]
+#IF
+checkitem 圣战戒指 1
+#ACT
+take 圣战戒指 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@法神项链2]
+#IF
+checkitem 法神项链 1
+#ACT
+take 法神项链 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@法神手镯2]
+#IF
+checkitem 法神手镯 1
+#ACT
+take 法神手镯 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@法神戒指2]
+#IF
+checkitem 法神戒指 1
+#ACT
+take 法神戒指 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@天尊项链2]
+#IF
+checkitem 天尊项链 1
+#ACT
+take 天尊项链 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@天尊手镯2]
+#IF
+checkitem 天尊手镯 1
+#ACT
+take 天尊手镯 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@天尊戒指2]
+#IF
+checkitem 天尊戒指 1
+#ACT
+take 天尊戒指 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@圣战头盔2]
+#IF
+checkitem 圣战头盔 1
+#ACT
+take 圣战头盔 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@法神头盔2]
+#IF
+checkitem 法神头盔 1
+#ACT
+take 法神头盔 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@天尊头盔2]
+#IF
+checkitem 天尊头盔 1
+#ACT
+take 天尊头盔 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@怒斩2]
+#IF
+checkitem 怒斩 1
+#ACT
+take 怒斩 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@龙牙2]
+#IF
+checkitem 龙牙 1
+#ACT
+take 龙牙 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@逍遥扇2]
+#IF
+checkitem 逍遥扇 1
+#ACT
+take 逍遥扇 1
+CREDITPOINT + 5
+SENDMSG 5 提示：物品已被回收，你获得了5点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@雷霆项链2]
+#IF
+checkitem 雷霆项链 1
+#ACT
+take 雷霆项链 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@雷霆护腕2]
+#IF
+checkitem 雷霆护腕 1
+#ACT
+take 雷霆护腕 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@雷霆战戒2]
+#IF
+checkitem 雷霆战戒 1
+#ACT
+take 雷霆战戒 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@烈焰项链2]
+#IF
+checkitem 烈焰项链 1
+#ACT
+take 烈焰项链 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@烈焰护腕2]
+#IF
+checkitem 烈焰护腕 1
+#ACT
+take 烈焰护腕 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@烈焰魔戒2]
+#IF
+checkitem 烈焰魔戒 1
+#ACT
+take 烈焰魔戒 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@光芒项链2]
+#IF
+checkitem 光芒项链 1
+#ACT
+take 光芒项链 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@光芒护腕2]
+#IF
+checkitem 光芒护腕 1
+#ACT
+take 光芒护腕 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@光芒道戒2]
+#IF
+checkitem 光芒道戒 1
+#ACT
+take 光芒道戒 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@圣龙盔2]
+#IF
+checkitem 圣龙盔 1
+#ACT
+take 圣龙盔 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@魔龙盔2]
+#IF
+checkitem 魔龙盔 1
+#ACT
+take 魔龙盔 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@天龙盔2]
+#IF
+checkitem 天龙盔 1
+#ACT
+take 天龙盔 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@开天2]
+#IF
+checkitem 开天 1
+#ACT
+take 开天 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@镇天2]
+#IF
+checkitem 镇天 1
+#ACT
+take 镇天 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
+
+[@玄天2]
+#IF
+checkitem 玄天 1
+#ACT
+take 玄天 1
+CREDITPOINT + 10
+SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
+#ELSEACT 
+MESSAGEBOX 你没有该物品，无法回收！！
