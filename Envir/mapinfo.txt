@@ -2936,20 +2936,20 @@ T1343	5,36  -> 10123    7,5
 1002    9,18  -> 11    227,269
 
 ;´ÔÁÖµØÀÎ
-[12 ´ÔÁÖÃÔ¹¬ 0] DAY
-[D10011 ³àÔÂÏ¿¹È±±Èë¿Ú 0] DAY  MINE
-[D10012 ³àÔÂÏ¿¹ÈÄÏÈë¿Ú 0] DAY  MINE
-[D10013 ³àÔÂÏ¿¹È¶«Èë¿Ú 0] DAY  MINE
-[D1002 ³àÔÂÏ¿¹È¹ã³¡ 0] DAY  MINE
+[12 ´ÔÁÖÃÔ¹¬ 0] DARK
+[D10011 ³àÔÂÏ¿¹È±±Èë¿Ú 0] DARK  MINE
+[D10012 ³àÔÂÏ¿¹ÈÄÏÈë¿Ú 0] DARK  MINE
+[D10013 ³àÔÂÏ¿¹È¶«Èë¿Ú 0] DARK  MINE
+[D1002 ³àÔÂÏ¿¹È¹ã³¡ 0] DARK  MINE
 [D1003 ´ý¶¨ 0] DARK
-[D10031 ×ó»ØÀÈ 0] DAY
-[D10032 ÓÒ»ØÀÈ 0] DAY
-[D1004 ¾ñÔñÖ®µØ 0] DAY
-[D10051 É½¹ÈÃØµÀ 0] DAY	
-[D10052 É½¹ÈÃØµÀ 0] DAY
-[D10061 ¶ñÄ§¼ÀÌ³ 0] DAY  
-[D10062 ³àÔÂÄ§Ñ¨ 0] DAY
-[D10071 ³àÔÂÄ§Ñ¨ 0] DAY
+[D10031 ×ó»ØÀÈ 0] DARK
+[D10032 ÓÒ»ØÀÈ 0] DARK
+[D1004 ¾ñÔñÖ®µØ 0] DARK
+[D10051 É½¹ÈÃØµÀ 0] DARK	
+[D10052 É½¹ÈÃØµÀ 0] DARK
+[D10061 ¶ñÄ§¼ÀÌ³ 0] DARK  
+[D10062 ³àÔÂÄ§Ñ¨ 0] DARK
+[D10071 ³àÔÂÄ§Ñ¨ 0] DARK
 [D423 ´ý¶¨ 0] DARK  
 [D619 ´ý¶¨ 0] DARK  
 
@@ -3024,32 +3024,32 @@ D10051   179,54  -> D10061     20,25
 ;[D12 ÐÂÊÖÑµÁ·Óª 0] NORECALL NORECONNECT(0131) FIGHT
 
 [4 ·âÄ§¹È 0]
-[D2000	·âÄ§¿óÇø	0] MINE
-[D2001 ÆéÂ· 0]
-[D2002 Á¬½ÓÍ¨µÀ 0] NORECALL NORANDOMMOVE NORECONNECT(4)
-[D2003 ·âÄ§µÀ 0]
-[D2004 ¼²·çµî 0]
-[D2005 ¹âÃ¢»ØÀÈ 0]
-[D2006 ÁÒÑæµî 0]  NORECALL NORANDOMMOVE
-[D2007 À×öªÖ®Â· 0]
-[D2008 °ÔÕß´óÌü 0]  NORECALL NORANDOMMOVE
-[D2009 ÓÄÚ¤»ØÀÈ 0]  NORECALL NORANDOMMOVE
-[D2010 ×ÝºáµÀ 0] 
-[D2011 Ä§»êµî 0] NORECALL NORANDOMMOVE
-[D2012 Á¶Óü»ØÀÈ 0] NORECALL NORANDOMMOVE
-[D2013 ·âÄ§µî 0]  NORECALL NORANDOMMOVE NORECONNECT(D2005)
-[B341 ·âÄ§±¤ 0]
-[B342 ¶ñÄ§Ìú½³ÆÌ 0] FIGHT
-[B345 ¶ñÄ§·þ×°µê 0] FIGHT
-[B343 ¶ñÄ§Ò©ÊéÆÌ 0] FIGHT
-[B344 ¶ñÄ§Ê×ÊÎµê 0] FIGHT
-[B346 ¶ñÄ§¼àÀÎ 0] FIGHT
-[B347 ¶ñÄ§Ç®×¯ 0] FIGHT
-[D10053	ÃØÃÜÍ¨µÀ 0]  
-[D10054	ÃØÃÜÍ¨µÀ 0]   
+[D2000	·âÄ§¿óÇø	0] DARK MINE
+[D2001 ÆéÂ· 0] DARK
+[D2002 Á¬½ÓÍ¨µÀ 0] DARK NORECALL NORANDOMMOVE NORECONNECT(4)
+[D2003 ·âÄ§µÀ 0] DARK
+[D2004 ¼²·çµî 0] DARK
+[D2005 ¹âÃ¢»ØÀÈ 0] DARK
+[D2006 ÁÒÑæµî 0] DARK NORECALL NORANDOMMOVE
+[D2007 À×öªÖ®Â· 0] DARK
+[D2008 °ÔÕß´óÌü 0] DARK NORECALL NORANDOMMOVE
+[D2009 ÓÄÚ¤»ØÀÈ 0] DARK NORECALL NORANDOMMOVE
+[D2010 ×ÝºáµÀ 0] DARK
+[D2011 Ä§»êµî 0] DARK NORECALL NORANDOMMOVE
+[D2012 Á¶Óü»ØÀÈ 0] DARK NORECALL NORANDOMMOVE
+[D2013 ·âÄ§µî 0] DARK  NORECALL NORANDOMMOVE NORECONNECT(D2005)
+[B341 ·âÄ§±¤ 0] DAY
+[B342 ¶ñÄ§Ìú½³ÆÌ 0] DAY FIGHT
+[B345 ¶ñÄ§·þ×°µê 0] DAY FIGHT
+[B343 ¶ñÄ§Ò©ÊéÆÌ 0] DAY FIGHT
+[B344 ¶ñÄ§Ê×ÊÎµê 0] DAY FIGHT
+[B346 ¶ñÄ§¼àÀÎ 0] DAY FIGHT
+[B347 ¶ñÄ§Ç®×¯ 0] DAY FIGHT
+[D10053	ÃØÃÜÍ¨µÀ 0] DARK 
+[D10054	ÃØÃÜÍ¨µÀ 0] DARK 
 ;[D12 ÐÂÊÖÑµÁ·Óª 0] FIGHT NORECALL NORECONNECT(0131)
-[M100 Í¬ÐÄÐ¡¾¶ 0] 
-[M101 ÒöÔµÉñµî 0] FIGHT
+[M100 Í¬ÐÄÐ¡¾¶ 0] DARK
+[M101 ÒöÔµÉñµî 0] DAY FIGHT
 
 4 445 193 -> 1 47 170
 4 446 192 -> 1 47 169
@@ -3184,22 +3184,22 @@ D2013	21,25	->	D2008	83,83
 [B355  Êéµê 0] DAY FIGHT
 [B356  Ò©µê 0] DAY FIGHT
 
-[D2051 Ê¬Ä§¶´Ò»²ã 0]
-[D2052 Ê¬Ä§¶´Èý²ã 0]
-[D2053 Ê¬Ä§¶´¶þ²ã 0] 
+[D2051 Ê¬Ä§¶´Ò»²ã 0] DARK
+[D2052 Ê¬Ä§¶´Èý²ã 0] DARK
+[D2053 Ê¬Ä§¶´¶þ²ã 0] DARK
 
-[D2054 Ê¬Ä§¶´ 0]
-[D2055 Ê¬Ä§¶´ 0]
-[D2056 Ê¬Ä§¶´ 0]
+[D2054 Ê¬Ä§¶´ 0] DARK
+[D2055 Ê¬Ä§¶´ 0] DARK
+[D2056 Ê¬Ä§¶´ 0] DARK
 
 [D2061 ¹ÇÄ§¶´Ò»²ã 0] DARK
 [D2062 ¹ÇÄ§¶´¶þ²ã 0] DARK
 [D2063 ¹ÇÄ§¶´Èý²ã 0] DARK
 [D2064 ¹ÇÄ§¶´ËÄ²ã 0] DARK
-[D2067 ¹ÇÄ§¶´Îå²ã 0] NORECALL NORANDOMMOVE
+[D2067 ¹ÇÄ§¶´Îå²ã 0] DARK NORECALL NORANDOMMOVE
 
-[D2065 ¹ÇÄ§¶´ 0]
-[D2066 ¹ÇÄ§¶´ 0]
+[D2065 ¹ÇÄ§¶´ 0] DARK
+[D2066 ¹ÇÄ§¶´ 0] DARK
 
 
 [D2070 Å£Ä§ËÂÃíÈë¿Ú 0] DARK 
@@ -3210,11 +3210,11 @@ D2013	21,25	->	D2008	83,83
 [D2075 Å£Ä§ËÂÃíËÄ²ã 0] DARK
 [D2076 Å£Ä§ËÂÃíÎå²ã 0] DARK
 
-[D2078 Å£Ä§ËÂÃíÁù²ã 0] NORECALL NORANDOMMOVE
+[D2078 Å£Ä§ËÂÃíÁù²ã 0] DARK NORECALL NORANDOMMOVE
 [D2079 Å£Ä§ËÂÃí´óÌü 0] DARK NORECALL NORANDOMMOVE NORECONNECT(D2070)
 
-[D2074 Å£Ä§ËÂÃí 0]
-[D2077 Å£Ä§ËÂÃí 0]
+[D2074 Å£Ä§ËÂÃí 0] DARK
+[D2077 Å£Ä§ËÂÃí 0] DARK
 
 
 
@@ -3738,8 +3738,8 @@ B201      8,7   ->      H010  370,376
 
 ;Ä§Áú³Ç
 [6 Ä§Áú³Ç]  
-[B357 Ä§Áú¾üÓª] 
-[GA1 Ä§Áú¹¬µî]  
+[B357 Ä§Áú¾üÓª] DAY
+[GA1 Ä§Áú¹¬µî] DAY
 [61 Ä§Áú¶«½¼]    
 [62 Ä§ÁúÎ÷½¼]    
 [63 Ä§ÁúÁë]    
@@ -3753,7 +3753,7 @@ B201      8,7   ->      H010  370,376
 [622 Ä§ÁúÕÓÔó]    
 [632 ¶«Ä§Áú¹Ø] NORECONNECT(63)   
 [631 Î÷Ä§Áú¹Ø] NORECONNECT(63)  
-[EM300 Ä§Áúµî] NORECONNECT(6) NEEDHOLE 
+[EM300 Ä§Áúµî] DARK NORECONNECT(6) NEEDHOLE 
 
 ;Ä§Áú³Ç
 ;Ä§Áú³ÇÈ¥Ä§ÁúÎ÷½¼µÄ×ø±ê
@@ -3987,9 +3987,9 @@ GA1 25 38 -> B357 8 9
 66 256 213 -> 65 43 159
 66 255 214 -> 65 42 160
 
-[D2081 À×Ñ×¶´Ñ¨Ò»²ã] NORECONNECT(63) THUNDER(10) LAVA(10)  
-[D2082 À×Ñ×¶´Ñ¨¶þ²ã] NORECONNECT(63) THUNDER(10) LAVA(10)  
-[D2083 »ðÁúµî] NORECONNECT(63) THUNDER(10) LAVA(10)  
+[D2081 À×Ñ×¶´Ñ¨Ò»²ã] DARK NORECONNECT(63) THUNDER(10) LAVA(10)  
+[D2082 À×Ñ×¶´Ñ¨¶þ²ã] DARK NORECONNECT(63) THUNDER(10) LAVA(10)  
+[D2083 »ðÁúµî] DARK NORECONNECT(63) THUNDER(10) LAVA(10)  
 
 D2081 19,218 -> D2082 380,44 
 D2082 381,45 -> D2081 20,220 
@@ -4004,9 +4004,9 @@ D2083 44,86 -> D2082 373,274
 D2083 42,84 -> D2082 373,274
 
 ;ºüÔÂÉ½
-[fox01  ºüÔÂÃÜµÀ] NORECONNECT(3)  
-[fox02  ºüÔÂÉ½] NORECONNECT(3) 
-[fox03  ºüÔÂÉñµî] NORECONNECT(3) THUNDER(10) LAVA(10) 
+[fox01 ºüÔÂÃÜµÀ] DARK NORECONNECT(3)  
+[fox02 ºüÔÂÉ½] NORECONNECT(3) 
+[fox03 ºüÔÂÉñµî] DARK NORECONNECT(3) THUNDER(10) LAVA(10) 
 
 3 655,770 -> fox01 116,19
 fox01 115,18 -> 3 655,768
