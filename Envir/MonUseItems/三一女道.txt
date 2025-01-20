@@ -103,7 +103,7 @@ UseItems0=灵魂战衣(女)
 ;武器
 UseItems1=无极棍
 ;照明物
-UseItems2=荣誉勋章35号
+UseItems2=火炬
 ;项链
 UseItems3=天珠项链
 ;头盔

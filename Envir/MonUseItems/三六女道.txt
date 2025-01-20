@@ -115,7 +115,7 @@ UseItems0=幽灵战衣(女)
 ;武器
 UseItems1=龙纹剑
 ;照明物
-UseItems2=荣誉勋章45号
+UseItems2=火炬
 ;项链
 UseItems3=灵魂项链
 ;头盔

@@ -9,19 +9,19 @@ goto @main-1
 break
 
 [@main-1]
-法师可以召唤以下宝宝(鹰卫和虎卫限带2个,请优先召唤) \
+法师可以召唤以下宝宝(鹰卫和虎卫限带1个,请优先召唤) \
 <蛤蟆(13)/@蛤蟆>  <多钩猫(13)/@多钩猫>  <钉耙猫(13)/@钉耙猫>  <半兽人(13)/@半兽人>  <猎鹰(14)/@猎鹰> \
 <盔甲虫(14)/@盔甲虫>  <狼(14)/@狼>  <威思而小虫(14)/@威思而小虫>  <多角虫(14)/@多角虫>  <森林雪人(14)/@森林雪人> \
 <毒蜘蛛(14)/@毒蜘蛛>  <沙虫(15)/@沙虫>  <红蛇(15)/@红蛇>  <蝎子(16)/@蝎子>  <虎蛇(16)/@虎蛇> \
 <半兽战士(20)/@半兽战士> <蜈蚣(24)/@蜈蚣> <暗黑战士(24)/@暗黑战士> <黑色恶蛆(26)/@黑色恶蛆> <半兽勇士(26)/@半兽勇士> \
 <钳虫(29)/@钳虫>  <契娥(30)/@契娥>  <巨型多角虫(30)/@巨型多角虫>  <鹰卫(30)/@鹰卫>  <虎卫(30)/@虎卫> \
-道士可以召唤以下宝宝(限招2个) \
+道士可以召唤以下宝宝(限招1个) \
 <3级骷髅(19)/@3级骷髅>   <5级骷髅(23)/@5级骷髅>   <7级骷髅(26)/@7级骷髅> \
 <3级神兽(35)/@3级神兽>   <5级神兽(37)/@5级神兽>   <7级神兽(40)/@7级神兽>
 
 [@3级骷髅]
 #IF
-  CHECKSLAVECOUNT < 2
+  CHECKSLAVECOUNT < 1
   CheckJob Taoist
   CheckLevel 19
 #ACT
@@ -33,7 +33,7 @@ break
 
 [@5级骷髅]
 #IF
-  CHECKSLAVECOUNT < 2
+  CHECKSLAVECOUNT < 1
   CheckJob Taoist
   CheckLevel 23
 #ACT
@@ -45,7 +45,7 @@ break
 
 [@7级骷髅]
 #IF
-  CHECKSLAVECOUNT < 2
+  CHECKSLAVECOUNT < 1
   CheckJob Taoist
   CheckLevel 26
 #ACT
@@ -57,7 +57,7 @@ break
 
 [@3级神兽]
 #IF
-  CHECKSLAVECOUNT < 2
+  CHECKSLAVECOUNT < 1
   CheckJob Taoist
   CheckLevel 35
 #ACT
@@ -69,7 +69,7 @@ break
 
 [@5级神兽]
 #IF
-  CHECKSLAVECOUNT < 2
+  CHECKSLAVECOUNT < 1
   CheckJob Taoist
   CheckLevel 37
 #ACT
@@ -81,7 +81,7 @@ break
 
 [@7级神兽]
 #IF
-  CHECKSLAVECOUNT < 2
+  CHECKSLAVECOUNT < 1
   CheckJob Taoist
   CheckLevel 40
 #ACT
@@ -394,7 +394,7 @@ break
 
 [@鹰卫]
 #IF
-  CHECKSLAVECOUNT < 2
+  CHECKSLAVECOUNT < 1
   CheckJob Wizard
   CheckLevel 30
 #ACT
@@ -406,7 +406,7 @@ break
 
 [@虎卫]
 #IF
-  CHECKSLAVECOUNT < 2
+  CHECKSLAVECOUNT < 1
   CheckJob Wizard
   CheckLevel 30
 #ACT

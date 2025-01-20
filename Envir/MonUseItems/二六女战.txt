@@ -67,7 +67,7 @@ UseItems0=重盔甲(女)
 ;武器
 UseItems1=炼狱
 ;照明物
-UseItems2=荣誉勋章23号
+UseItems2=火炬
 ;项链
 UseItems3=蓝翡翠项链
 ;头盔

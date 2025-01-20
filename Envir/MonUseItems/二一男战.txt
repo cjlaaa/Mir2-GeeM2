@@ -63,7 +63,7 @@ UseItems0=中型盔甲(男)
 ;武器
 UseItems1=斩马刀
 ;照明物
-UseItems2=荣誉勋章13号
+UseItems2=火炬
 ;项链
 UseItems3=魔鬼项链
 ;头盔

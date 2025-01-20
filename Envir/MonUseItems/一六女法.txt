@@ -71,7 +71,7 @@ UseItems0=中型盔甲(女)
 ;武器
 UseItems1=海魂
 ;照明物
-UseItems2=
+UseItems2=火炬
 ;项链
 UseItems3=黑檀项链
 ;头盔

@@ -67,7 +67,7 @@ UseItems0=中型盔甲(女)
 ;武器
 UseItems1=半月
 ;照明物
-UseItems2=
+UseItems2=火炬
 ;项链
 UseItems3=黄色水晶项链
 ;头盔

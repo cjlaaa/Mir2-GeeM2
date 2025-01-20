@@ -59,7 +59,7 @@ UseItems0=中型盔甲(男)
 ;武器
 UseItems1=八荒
 ;照明物
-UseItems2=
+UseItems2=火炬
 ;项链
 UseItems3=黑色水晶项链
 ;头盔

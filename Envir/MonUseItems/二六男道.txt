@@ -95,7 +95,7 @@ UseItems0=灵魂战衣(男)
 ;武器
 UseItems1=银蛇
 ;照明物
-UseItems2=荣誉勋章25号
+UseItems2=火炬
 ;项链
 UseItems3=竹笛
 ;头盔

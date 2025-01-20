@@ -75,7 +75,7 @@ UseItems0=重盔甲(女)
 ;武器
 UseItems1=井中月
 ;照明物
-UseItems2=荣誉勋章33号
+UseItems2=火炬
 ;项链
 UseItems3=幽灵项链
 ;头盔
