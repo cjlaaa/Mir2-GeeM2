@@ -1,0 +1,350 @@
+(@storage @getback )
+%100
+
+[@main]
+#IF
+checkpkpoint 2
+#SAY
+我不想和你这样的人打交道.. \ \
+<退出/@exit>
+
+#ELSEACT
+goto @main-1
+
+[@main-1]
+#if
+  random 2
+#act
+  break
+#SAY
+需要帮什么忙吗？\
+目前不收取保管费，请多利用。\ \
+ <开启仓库/@OPENBIG>\
+ <保管/@storage>东西\
+ <找回/@getback>东西\
+ <进行对话/@QUEST>\
+ <捆/@MBIND>各种卷书和药水\
+ <退出/@exit> 
+#if
+  random 2
+#act
+  break
+#SAY
+你怎么又来我这里存宝物了,最近我发现打到宝物的勇士越来越多了\
+我这里都快存不下了。如果您也想多存点宝物的话，就去问问罗家\
+老板他或许知道点线索。\
+ <开启仓库/@OPENBIG>\
+ <保管/@storage>东西\
+ <找回/@getback>东西\
+ <进行对话/@QUEST>\
+ <捆/@MBIND>各种卷书和药水\
+ <退出/@exit> 
+#if
+#act
+  break
+#SAY
+需要帮什么忙吗？\
+目前不收取保管费，请多利用。\ \
+ <开启仓库/@OPENBIG>\
+ <保管/@storage>东西\
+ <找回/@getback>东西\
+ <进行对话/@QUEST>\
+ <捆/@MBIND>各种卷书和药水\
+ <退出/@exit> 
+
+[@OPENBIG]
+启用密宝最新防护功能，\
+上线后前三分钟，身上的装备也能得到隐藏保护！\
+过了三分钟后方可开启仓库功能，以便于得到更好的防护功能！\
+在使用密宝防护时，必须先开启绑定模式给仓库加密。\
+ <开启仓库/@OKBIG>\
+ <开启绑定/@OKBD>\
+ <修改密宝/@XGBD>\
+ <返回/@main> 
+
+[@OKBIG]
+#IF
+  OnLineLongMin < 3
+#ACT
+  SENDMSG 6 系统检测当前在线时间底于三分钟，暂时不能开启仓库功能。
+  break
+#IF
+  ISLOCKPASSWORD
+#ACT
+  Gmexecute 仓库开锁
+#ElseAct
+  Gmexecute 锁定仓库
+
+[@OKBD]
+#ACT
+  Gmexecute 设置密码
+
+[@XGBD]
+#ACT
+  Gmexecute 修改密码
+
+[@storage]
+需要保管什么东西？\ \ \
+ <返回/@main>
+
+[@getback]
+请看目录决定找什么东西。\ \ \
+ <返回/@main>
+
+[@MBIND]
+你知道我是什么人吗？\ 
+我做的是这样的事情...\
+你要试一下吗？有什么要拜托的就说吧\ \
+ <金币换金条./@changeGold>\
+ <金条换金币./@changeMoney>\
+ <捆/@MBINDYJ>\
+ <退出/@exit>
+
+[@MBINDYJ]
+目前我能捆的只有卷书和药水\
+你要捆吗？\ 
+要捆东西需要100金币.\ \
+ <捆/@H_@BIND>药水\
+ <捆/@M_@BIND>卷书\
+
+[@H_@BIND]
+ <捆/@QH_@BIND> 强效金创药\
+ <捆/@QM_@BIND> 强效魔法药\ 
+ <捆/@ZH_@BIND> 金创药(中量)\
+ <捆/@ZM_@BIND> 魔法药(中量)\
+ <捆/@XH_@BIND> 金创药\
+ <捆/@XM_@BIND> 魔法药\
+ <返回/@MBINDYJ>
+
+[@M_@BIND]
+ <捆/@DL_@BIND> 地牢逃脱卷\
+ <捆/@SJ_@BIND> 随机传送卷\
+ <捆/@HC_@BIND> 回城卷\
+ <捆/@HH_@BIND> 行会回城卷\
+ <返回/@MBINDYJ>
+
+[@QH_@BIND]
+#IF
+  checkitem 强效金创药 6
+#ACT
+ take 金币 100
+ take 强效金创药 6
+ give 超级金创药 1
+#SAY
+已经捆好了... 我的技术不错吧..\
+还有要捆的就拿给我吧..\ \
+ <继续捆/@H_@BIND> \
+ <退出/@exit>
+#ELSESAY
+你都没有要捆的药水，还捆什么？\
+等准备好药水之后，再来找我吧..\ \
+ <退出/@exit>
+
+[@QM_@BIND]
+#IF
+  checkitem 强效魔法药 6
+#ACT
+ take 金币 100
+ take 强效魔法药 6
+ give 超级魔法药 1
+#SAY
+已经捆好了... 我的技术不错吧..\
+还有要捆的就拿给我吧..\ \
+ <继续捆/@H_@BIND> \
+ <退出/@exit>
+#ELSESAY
+你都没有要捆的药水，还捆什么？\
+等准备好药水之后，再来找我吧..\ \
+ <退出/@exit>
+
+[@ZH_@BIND]
+#IF
+  checkitem 金创药(中量) 6
+#ACT
+ take 金币 100
+ take 金创药(中量) 6
+ give 金创药(中)包 1
+#SAY
+已经捆好了... 我的技术不错吧..\
+还有要捆的就拿给我吧..\ \
+ <继续捆/@H_@BIND> \
+ <退出/@exit>
+#ELSESAY
+你都没有要捆的药水，还捆什么？\
+等准备好药水之后，再来找我吧..\ \
+ <退出/@exit>
+
+[@ZM_@BIND]
+#IF
+  checkitem 魔法药(中量) 6
+#ACT
+ take 金币 100
+ take 魔法药(中量) 6
+ give 魔法药(中)包 1
+#SAY
+已经捆好了... 我的技术不错吧..\
+还有要捆的就拿给我吧..\ \
+ <继续捆/@H_@BIND> \
+ <退出/@exit>
+#ELSESAY
+你都没有要捆的药水，还捆什么？\
+等准备好药水之后，再来找我吧..\ \
+ <退出/@exit>
+
+[@XH_@BIND]
+#IF
+  checkitem 金创药 6
+#ACT
+ take 金币 100
+ take 金创药 6
+ give 金创药(小)包 1
+#SAY
+已经捆好了... 我的技术不错吧..\
+还有要捆的就拿给我吧..\ \
+ <继续捆/@H_@BIND> \
+ <退出/@exit>
+#ELSESAY
+你都没有要捆的药水，还捆什么？\
+等准备好药水之后，再来找我吧..\ \
+ <退出/@exit>
+
+[@XM_@BIND]
+#IF
+  checkitem 魔法药 6
+#ACT
+ take 金币 100
+ take 魔法药 6
+ give 魔法药(小)包 1
+#SAY
+已经捆好了... 我的技术不错吧..\
+还有要捆的就拿给我吧..\ \
+ <继续捆/@H_@BIND> \
+ <退出/@exit>
+#ELSESAY
+你都没有要捆的药水，还捆什么？\
+等准备好药水之后，再来找我吧..\ \
+ <退出/@exit>
+
+[@DL_@BIND]
+#IF
+  checkitem 地牢逃脱卷 6
+#ACT
+ take 金币 100
+ take 地牢逃脱卷 6
+ give 地牢逃脱卷包 1
+#SAY
+已经捆好了... 我的技术不错吧..\
+还有要捆的就拿给我吧..\ \
+ <继续捆/@M_@BIND> \
+ <退出/@exit>
+#ELSESAY
+你都没有可以捆的卷书，还捆什么？\
+等准备好之后，再来找我吧..\ \
+ <退出/@exit>
+
+[@SJ_@BIND]
+#IF
+  checkitem 随机传送卷 6
+#ACT
+ take 金币 100
+ take 随机传送卷 6
+ give 随机传送卷包 1
+#SAY
+已经捆好了... 我的技术不错吧..\
+还有要捆的就拿给我吧..\ \
+ <继续捆/@M_@BIND> \
+ <退出/@exit>
+#ELSESAY
+你都没有可以捆的卷书，还捆什么？\
+等准备好之后，再来找我吧..\ \
+ <退出/@exit>
+
+[@HC_@BIND]
+#IF
+  checkitem 回城卷 6
+#ACT
+ take 金币 100
+ take 回城卷 6
+ give 回城卷包 1
+#SAY
+已经捆好了... 我的技术不错吧..\
+还有要捆的就拿给我吧..\ \
+ <继续捆/@M_@BIND> \
+ <退出/@exit>
+#ELSESAY
+你都没有可以捆的卷书，还捆什么？\
+等准备好之后，再来找我吧..\ \
+ <退出/@exit>
+
+[@HH_@BIND]
+#IF
+  checkitem 行会回城卷 6
+#ACT
+ take 金币 100
+ take 行会回城卷 6
+ give 行会回城卷包 1
+#SAY
+已经捆好了... 我的技术不错吧..\
+还有要捆的就拿给我吧..\ \
+ <继续捆/@M_@BIND> \
+ <退出/@exit>
+#ELSESAY
+你都没有可以捆的卷书，还捆什么？\
+等准备好之后，再来找我吧..\ \
+ <退出/@exit>
+
+[@changeGold]
+#IF
+  checkgold 1002000
+  CHECKBAGSIZE 1
+#ACT
+  take 金币 1002000
+  give 金条 1
+#SAY
+金币已经换好金条了，\ 
+需要继续吗？ \ \
+ <继续/@changeGold> \
+ <退出/@exit>
+#ELSESAY
+你的金币、或包裹空位不够！ \ \
+
+[@changeMoney]
+#IF
+  checkitem 金条 1
+#ACT
+  take 金条 1
+  give 金币 998000
+#SAY 
+金条已经帮你换好了，\ 
+需要继续吗？ \ \
+ <继续/@changeMoney>\
+ <退出/@exit>
+#ELSESAY
+你没有足够的金条 \ \
+
+[@QUEST]
+#IF
+check [305] 1
+#ACT
+goto @Q305
+#ELSEACT
+goto @QUEST2
+
+[@Q305]
+#IF
+#ACT
+SET [306] 1
+#SAY
+你在找厨师吗？ \ 
+我对厨师也不是很了解。 \ 
+但是据说毒蛇山谷的米家服装老板知道此事，\
+你可以去找他一下。\ \
+<退出/@exit>
+
+[@QUEST2]
+#IF
+#SAY
+<$USERNAME>您对传奇世界了解得足够多了. \
+我认为您自己一个人完全可以开拓自己的路 \
+我是帮不上忙了，祝你好运. \ \
+<退出/@exit>
