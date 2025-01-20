@@ -1,3 +1,4 @@
+(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %200
 ;首饰店老板
 ;项链,戒指,戒指

@@ -1,5 +1,6 @@
 ;
 ;科目 肉块  , 干肉产品
+(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +40
 +1

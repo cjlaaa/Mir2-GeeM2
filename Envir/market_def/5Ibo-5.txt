@@ -1,5 +1,6 @@
 ;/R => remark as read
 ;  scrolls, books
+(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +3
 +4

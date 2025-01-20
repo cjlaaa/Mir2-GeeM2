@@ -1,4 +1,5 @@
 ;武器
+(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +25
 +3
@@ -37,6 +38,9 @@ mapmove H001 73 67
 
 [goods]
 ;物品(can be Zen)     数量       小时
+蜡烛				200			1
+火把				200			1
+火炬				200			1
 地牢逃脱卷        1000        1
 随机传送卷      1000        1
 护身符            100         1

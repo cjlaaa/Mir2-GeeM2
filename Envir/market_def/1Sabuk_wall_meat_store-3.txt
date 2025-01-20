@@ -1,5 +1,6 @@
 ;
 ;items  Èâ  , ¸ÉÈâ²úÆ·
+(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +40
 +1

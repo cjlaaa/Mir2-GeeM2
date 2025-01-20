@@ -1,4 +1,5 @@
 ;公扁
+(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +3
 
@@ -75,6 +76,8 @@ mapmove H001 73 67
 
 [goods]
 ;菜单项(can be Zen)     数量       小时
+蜡烛				200			1
+火把				200			1
 地牢逃脱卷        1000        1
 地牢逃脱卷包      100         1
 
