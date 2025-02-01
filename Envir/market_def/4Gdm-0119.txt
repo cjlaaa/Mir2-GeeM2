@@ -6,7 +6,7 @@
 
 [@main]
 你是来炼什么药？\ \
-<挑战/@h1>幻境\
+ \
  <炼/@makedrug>药\
  有关毒药<听说明./@helpmakedrug>\
 <退出/@exit>
