@@ -15,6 +15,33 @@ SENDMSG 6 开始挂机，使用快捷键“CTRL+ALT+X”停止挂机
 StopAutoPlayGame
 SENDMSG 6 停止挂机，使用快捷键“CTRL+ALT+X”开始挂机
 
+[@StdModeFunc14] 
+#IF
+checkitem 强效太阳水 6
+#ACT
+take 强效太阳水 6
+give 强效太阳水包 1 
+#ELSEACT
+AddFunItemDura 1000
+
+[@StdModeFunc15]
+#IF
+checkitem 万年雪霜 6
+#ACT
+take 万年雪霜 6
+give 万年雪霜包 1
+#ELSEACT
+AddFunItemDura 1000 
+
+[@StdModeFunc16] 
+#IF 
+checkitem 疗伤药 6
+#ACT 
+take 疗伤药 6
+give 疗伤药包 1
+#ELSEACT
+AddFunItemDura 1000
+
 [@StdModeFunc17] 
 #ACT 
 close 
@@ -24,3 +51,35 @@ mapmove 0 327 272
 #ACT 
 close
 mapmove 3 330 330
+
+[@StdModeFunc31]
+#IF
+#ACT
+KILLMONEXPRATE 200 10800 1
+SENDMSG 7 你获得了3个小时双倍经验,期间死亡或下线不减少双倍时间,重复使用无效!
+
+[@StdModeFunc32]
+#IF
+#ACT
+KILLMONEXPRATE 200 21600 1
+SENDMSG 7 你获得了6个小时双倍经验,期间死亡或下线不减少双倍时间,重复使用无效!
+
+[@StdModeFunc33]
+#IF
+CheckJob Taoist
+#ACT
+ChangeSlaveLevel 变异骷髅 = 7
+ChangeSlaveLevel 神兽 = 7
+ChangeSlaveLevel 神兽0 = 7
+ChangeSlaveLevel 月灵 = 7
+Break
+#ELSEACT
+sendmsg 7 召唤强化卷只适合道士职业使用！！
+
+[@StdModeFunc34] 
+#IF 
+CheckSlaveCount < 5 
+#ACT
+RECALLMOB 虎卫 3
+#ELSEACT 
+SENDMSG 7 可带领的宠物数量已达到5个的上限！！

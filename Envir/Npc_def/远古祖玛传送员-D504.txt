@@ -1,0 +1,50 @@
+[@main]
+#if
+;CHECKLEVEL 75
+#act
+DelMirrorMap <$USERNAME>D5074
+DELAYGOTO 3000 @main-1 1
+#say
+...呼...呼...稍等...马上好... \
+ \ \
+(他似乎正在倾尽全力维持一个时空传送阵,就等他几秒吧) \
+
+#elsesay
+;你还太稚嫩了，等你75级以后再来找我吧！\ \
+<退出/@exit>
+
+[@main-1]
+#if
+#act
+CLOSEMERCHANTBIGDLG
+#say
+...呼...呼...终于可以歇会儿了... \
+这里是附近时空的能量聚合点,所以我可以用魔法帮你回到远古时期,\ 
+因为维持这个法阵需要大量的精力和材料,所以你要付我一些钱才行, \ \
+注意,因为是传送到远古的随机时间点,所以无论因为任何原因离开,\ 
+都会<无法再回到原来的地方/SCOLOR=249>,所以一定要看好你的东西! \ 
+我的魔法可以最多维持你在那里停留<两个小时/SCOLOR=249>,千万注意安全! \ \
+<花费200W进入副本/@远古祖玛>     <退出/@exit>
+
+[@远古祖玛]
+#if
+checkgold 2000000
+#act
+close
+take 金币 2000000
+give 回城卷 1
+AddMirrorMap D5074 <$USERNAME>D5074 远古祖玛 7200 0 51 N1 1 0,0
+
+; 100*100=125
+MONGENEX <$USERNAME>D5074 50 50 古代大老鼠 50 20
+MONGENEX <$USERNAME>D5074 50 50 古代祖玛弓箭手 50 20
+MONGENEX <$USERNAME>D5074 50 50 古代祖玛雕像 50 20
+MONGENEX <$USERNAME>D5074 50 50 古代祖玛卫士 50 20
+MONGENEX <$USERNAME>D5074 33 21 古代咒魔击雷将 5 1
+MONGENEX <$USERNAME>D5074 72 17 古代咒魔击雷将 2 1
+
+mapmove <$USERNAME>D5074 47 89
+sendmsg 7 副本：已进入[远古祖玛]地图...
+#elsesay
+你的金币不足，无法进入！ \
+<退出/@exit>

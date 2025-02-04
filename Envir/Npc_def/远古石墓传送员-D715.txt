@@ -1,0 +1,50 @@
+[@main]
+#if
+;CHECKLEVEL 75
+#act
+DelMirrorMap <$USERNAME>D717
+DELAYGOTO 3000 @main-1 1
+#say
+...呼...呼...稍等...马上好... \
+ \ \
+(他似乎正在倾尽全力维持一个时空传送阵,就等他几秒吧) \
+
+#elsesay
+;你还太稚嫩了，等你75级以后再来找我吧！\ \
+<退出/@exit>
+
+[@main-1]
+#if
+#act
+CLOSEMERCHANTBIGDLG
+#say
+...呼...呼...终于可以歇会儿了... \
+这里是附近时空的能量聚合点,所以我可以用魔法帮你回到远古时期,\ 
+因为维持这个法阵需要大量的精力和材料,所以你要付我一些钱才行, \ \
+注意,因为是传送到远古的随机时间点,所以无论因为任何原因离开,\ 
+都会<无法再回到原来的地方/SCOLOR=249>,所以一定要看好你的东西! \ 
+我的魔法可以最多维持你在那里停留<两个小时/SCOLOR=249>,千万注意安全! \ \
+<花费80W进入副本/@远古石墓>     <退出/@exit>
+
+[@远古石墓]
+#if
+checkgold 800000
+#act
+close
+take 金币 800000
+give 回城卷 1
+AddMirrorMap D717 <$USERNAME>D717 远古石墓 7200 0 57 N1 1 0,0
+
+; 100*100=125
+MONGENEX <$USERNAME>D717 50 50 古代黑色恶蛆 50 20
+MONGENEX <$USERNAME>D717 50 50 古代红野猪 50 20
+MONGENEX <$USERNAME>D717 50 50 古代黑野猪 50 20
+MONGENEX <$USERNAME>D717 50 50 古代蝎蛇 50 20
+MONGENEX <$USERNAME>D717 62 44 古代白野猪 2 1
+MONGENEX <$USERNAME>D717 80 28 古代野猪王 2 1
+
+mapmove <$USERNAME>D717 28 74
+sendmsg 7 副本：已进入[远古石墓]地图...
+#elsesay
+你的金币不足，无法进入！ \
+<退出/@exit>
