@@ -83,3 +83,24 @@ CheckSlaveCount < 5
 RECALLMOB 虎卫 3
 #ELSEACT 
 SENDMSG 7 可带领的宠物数量已达到5个的上限！！
+
+;拍卖行出价被冲
+[@AuctionInvalidItem]
+#IF
+;物品被别人秒了
+EQUAL <$AuctionItemSelled> 1
+#ACT
+sendmsg 7 很遗憾，你出价<$AuctionItemInvalidPrice>的竞拍物品【<$AuctionItemName>；底价：<$AuctionItemStartPrice><$AuctionItemMoneyType>；一口价：<$AuctionItemSellPrice>】被人用秒拍
+#ELSEACT
+sendmsg 7 你出价<$AuctionItemInvalidPrice>的竞拍物品【<$AuctionItemName>；底价：<$AuctionItemStartPrice><$AuctionItemMoneyType>；一口价：<$AuctionItemSellPrice>】被人出了更高的价格：<$AuctionItemFinaPrice>，赶快去加价吧
+ 
+;拍卖人的物品被卖出
+[@AuctionSellItem]
+#ACT
+sendmsg 7 你拍卖的物品【<$AuctionItemName>；底价：<$AuctionItemStartPrice><$AuctionItemMoneyType>；一口价：<$AuctionItemSellPrice>】被人用<$AuctionItemFinaPrice>的价格买走
+ 
+;竞拍人买到物品
+[@AuctionBuyItem]
+#ACT
+sendmsg 7 恭喜。你参与竞拍的物品【<$AuctionItemName>；底价：<$AuctionItemStartPrice><$AuctionItemMoneyType>；一口价：<$AuctionItemSellPrice>】竞拍成功。成交价：<$AuctionItemFinaPrice> 
+ 

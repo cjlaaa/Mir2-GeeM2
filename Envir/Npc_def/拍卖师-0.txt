@@ -1,0 +1,3 @@
+[@main]
+#act
+OpenAuctionView
