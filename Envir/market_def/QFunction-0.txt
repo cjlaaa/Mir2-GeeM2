@@ -14,3 +14,13 @@ SENDMSG 6 开始挂机，使用快捷键“CTRL+ALT+X”停止挂机
 #ACT
 StopAutoPlayGame
 SENDMSG 6 停止挂机，使用快捷键“CTRL+ALT+X”开始挂机
+
+[@StdModeFunc17] 
+#ACT 
+close 
+mapmove 0 327 272 
+
+[@StdModeFunc18] 
+#ACT 
+close
+mapmove 3 330 330
