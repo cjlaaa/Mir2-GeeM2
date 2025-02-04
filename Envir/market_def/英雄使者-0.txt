@@ -1,8 +1,28 @@
 (@@CreateHero)
 
 [@main]
-体验真正的英雄:<[创建英雄]/@@CreateHero> 千万不要乱点哈:<[删除英雄]/@删除英雄>\
-英雄的技能书可以在比奇书店购买
+#if
+CHECKLEVEL 22
+#say
+创建英雄需要90W金币，英雄的技能书可以在比奇书店购买。 \ \
+
+<[创建英雄]/@创建英雄>   更换英雄前请先<[删除英雄]/@删除英雄>\ \
+<退出/@exit>
+#elsesay
+召唤英雄需要22级和90万金币。\ \
+<退出/@exit>
+
+[@创建英雄]
+#IF
+CHECKLEVEL 22
+checkgold 900000
+#SAY
+你已达到召唤英雄的条件! \ \
+
+<点击开始创建英雄/@@CreateHero>
+#ELSESAY
+金钱不足或等级不够! \ \
+<确定/@exit>
 
 [@main1]
 体验真正的英雄:<[创建英雄]/@@CreateHero> 千万不要乱点哈:<[删除英雄]/@删除英雄>\
@@ -180,29 +200,70 @@ CheckHaveHero
 <返回/@main>
 
 [@CREATEHERO_WARR_MAN]
+#IF
+checkgold 900000
 #Act
+take 金币 900000
 CREATEHERO 0 0
 Goto @CreateingHero
+#ELSESAY
+金钱不足或等级不够! \ \
+<确定/@exit>
+
 [@CREATEHERO_WARR_WOM]
+#IF
+checkgold 900000
 #Act
+take 金币 900000
 CREATEHERO 0 1
 Goto @CreateingHero
+#ELSESAY
+金钱不足或等级不够! \ \
+<确定/@exit>
+
 [@CREATEHERO_WIZA_MAN]
+#IF
+checkgold 900000
 #Act
+take 金币 900000
 CREATEHERO 1 0
 Goto @CreateingHero
+#ELSESAY
+金钱不足或等级不够! \ \
+<确定/@exit>
+
 [@CREATEHERO_WIZA_WOM]
+#IF
+checkgold 900000
 #Act
+take 金币 900000
 CREATEHERO 1 1
 Goto @CreateingHero
+#ELSESAY
+金钱不足或等级不够! \ \
+<确定/@exit>
+
 [@CREATEHERO_TAOS_MAN]
+#IF
+checkgold 900000
 #Act
+take 金币 900000
 CREATEHERO 2 0
 Goto @CreateingHero
+#ELSESAY
+金钱不足或等级不够! \ \
+<确定/@exit>
+
 [@CREATEHERO_TAOS_WOM]
+#IF
+checkgold 900000
 #Act
+take 金币 900000
 CREATEHERO 2 1
 Goto @CreateingHero
+#ELSESAY
+金钱不足或等级不够! \ \
+<确定/@exit>
 
 
 ;//返回消息
