@@ -24,14 +24,14 @@ CLOSEMERCHANTBIGDLG
 注意,因为是传送到远古的随机时间点,所以无论因为任何原因离开,\ 
 都会<无法再回到原来的地方/SCOLOR=249>,所以一定要看好你的东西! \ 
 我的魔法可以最多维持你在那里停留<两个小时/SCOLOR=249>,千万注意安全! \ \
-<花费80W进入副本/@远古石墓>     <退出/@exit>
+<花费50W进入副本/@远古石墓>     <退出/@exit>
 
 [@远古石墓]
 #if
-checkgold 800000
+checkgold 500000
 #act
 close
-take 金币 800000
+take 金币 500000
 give 回城卷 1
 AddMirrorMap D717 <$USERNAME>D717 远古石墓 7200 0 57 N1 1 0,0
 

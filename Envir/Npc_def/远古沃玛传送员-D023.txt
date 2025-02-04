@@ -24,14 +24,14 @@ CLOSEMERCHANTBIGDLG
 注意,因为是传送到远古的随机时间点,所以无论因为任何原因离开,\ 
 都会<无法再回到原来的地方/SCOLOR=249>,所以一定要看好你的东西! \ 
 我的魔法可以最多维持你在那里停留<两个小时/SCOLOR=249>,千万注意安全! \ \
-<花费150W进入副本/@远古沃玛>     <退出/@exit>
+<花费100W进入副本/@远古沃玛>     <退出/@exit>
 
 [@远古沃玛]
 #if
-checkgold 1500000
+checkgold 1000000
 #act
 close
-take 金币 1500000
+take 金币 1000000
 give 回城卷 1
 AddMirrorMap D024 <$USERNAME>D024 远古沃玛 7200 0 45 N1 1 0,0
 
