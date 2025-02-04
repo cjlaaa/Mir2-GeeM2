@@ -1,0 +1,96 @@
+[@main]
+我是快捷收购员，可以一键回收你包裹里的垃圾装备\ 
+\ \
+<注意：/SCOLOR=249>  \
+<将会回收包裹中所有低于沃玛的装备(不包含沃玛装备)，小号慎用/SCOLOR=249>  \
+<请先将极品装备存入仓库或英雄背包，以免当垃圾回收/SCOLOR=249>  \
+<回收价格统一为物品商店购买价格的40%，无视耐久/SCOLOR=249>\
+\ \ 
+<一键回收垃圾/@回收垃圾>      
+
+
+ 
+[@回收垃圾]
+#IF
+#ACT
+TakeBagItem 木剑 46 0 20 0 0 N1 1
+TakeBagItem 匕首 46 0 200 0 0 N1 1
+TakeBagItem 青铜剑 46 0 360 0 0 N1 1
+TakeBagItem 乌木剑 46 0 1600 0 0 N1 1
+TakeBagItem 铁剑 46 0 480 0 0 N1 1
+TakeBagItem 短剑 46 0 400 0 0 N1 1
+TakeBagItem 鹤嘴锄 46 0 280 0 0 N1 1
+TakeBagItem 青铜斧 46 0 600 0 0 N1 1
+TakeBagItem 八荒 46 0 2000 0 0 N1 1
+TakeBagItem 半月 46 0 1600 0 0 N1 1
+TakeBagItem 海魂 46 0 1200 0 0 N1 1
+TakeBagItem 罗刹 46 0 4000 0 0 N1 1
+TakeBagItem 凌风 46 0 2000 0 0 N1 1
+TakeBagItem 破魂 46 0 2000 0 0 N1 1
+TakeBagItem 斩马刀 46 0 2400 0 0 N1 1
+TakeBagItem 偃月 46 0 4000 0 0 N1 1
+TakeBagItem 降魔 46 0 4000 0 0 N1 1
+TakeBagItem 修罗 46 0 4000 0 0 N1 1
+TakeBagItem 凝霜 46 0 3200 0 0 N1 1
+TakeBagItem 布衣(男) 46 0 48 0 0 N1 1
+TakeBagItem 布衣(女) 46 0 48 0 0 N1 1
+TakeBagItem 轻型盔甲(男) 46 0 1200 0 0 N1 1
+TakeBagItem 轻型盔甲(女) 46 0 1200 0 0 N1 1
+TakeBagItem 中型盔甲(男) 46 0 2400 0 0 N1 1
+TakeBagItem 中型盔甲(女) 46 0 2400 0 0 N1 1
+TakeBagItem 重盔甲(男) 46 0 4800 0 0 N1 1
+TakeBagItem 重盔甲(女) 46 0 4800 0 0 N1 1
+TakeBagItem 魔法长袍(男) 46 0 4000 0 0 N1 1
+TakeBagItem 魔法长袍(女) 46 0 4000 0 0 N1 1
+TakeBagItem 灵魂战衣(男) 46 0 4000 0 0 N1 1
+TakeBagItem 灵魂战衣(女) 46 0 4000 0 0 N1 1
+TakeBagItem 青铜头盔 46 0 400 0 0 N1 1
+TakeBagItem 骷髅头盔 46 0 3200 0 0 N1 1
+TakeBagItem 魔法头盔 46 0 800 0 0 N1 1
+TakeBagItem 道士头盔 46 0 2000 0 0 N1 1
+TakeBagItem 金项链 46 0 200 0 0 N1 1
+TakeBagItem 传统项链 46 0 400 0 0 N1 1
+TakeBagItem 白金项链 46 0 800 0 0 N1 1
+TakeBagItem 白色虎齿项链 46 0 1200 0 0 N1 1
+TakeBagItem 躲避手链 46 0 10000 0 0 N1 1
+TakeBagItem 黑檀项链 46 0 480 0 0 N1 1
+TakeBagItem 黄色水晶项链 46 0 480 0 0 N1 1
+TakeBagItem 黑色水晶项链 46 0 600 0 0 N1 1
+TakeBagItem 魔鬼项链 46 0 1000 0 0 N1 1
+TakeBagItem 琥珀项链 46 0 800 0 0 N1 1
+TakeBagItem 凤凰明珠 46 0 800 0 0 N1 1
+TakeBagItem 灯笼项链 46 0 1200 0 0 N1 1
+TakeBagItem 蓝翡翠项链 46 0 4000 0 0 N1 1
+TakeBagItem 竹笛 46 0 2400 0 0 N1 1
+TakeBagItem 放大镜 46 0 2400 0 0 N1 1
+TakeBagItem 铁手镯 46 0 320 0 0 N1 1
+TakeBagItem 小手镯 46 0 400 0 0 N1 1
+TakeBagItem 银手镯 46 0 600 0 0 N1 1
+TakeBagItem 皮制手套 46 0 600 0 0 N1 1
+TakeBagItem 钢手镯 46 0 800 0 0 N1 1
+TakeBagItem 大手镯 46 0 2000 0 0 N1 1
+TakeBagItem 夏普儿手镯 46 0 8000 0 0 N1 1
+TakeBagItem 坚固手套 46 0 2800 0 0 N1 1
+TakeBagItem 魔法手镯 46 0 1600 0 0 N1 1
+TakeBagItem 道士手镯 46 0 1600 0 0 N1 1
+TakeBagItem 黑檀手镯 46 0 1600 0 0 N1 1
+TakeBagItem 避邪手镯 46 0 8000 0 0 N1 1
+TakeBagItem 魔力手镯 46 0 3200 0 0 N1 1
+TakeBagItem 死神手套 46 0 3200 0 0 N1 1
+TakeBagItem 金手镯 46 0 2800 0 0 N1 1
+TakeBagItem 古铜戒指 46 0 200 0 0 N1 1
+TakeBagItem 六角戒指 46 0 320 0 0 N1 1
+TakeBagItem 玻璃戒指 46 0 320 0 0 N1 1
+TakeBagItem 牛角戒指 46 0 400 0 0 N1 1
+TakeBagItem 生铁戒指 46 0 1200 0 0 N1 1
+TakeBagItem 蓝色水晶戒指 46 0 600 0 0 N1 1
+TakeBagItem 黑色水晶戒指 46 0 800 0 0 N1 1
+TakeBagItem 蛇眼戒指 46 0 800 0 0 N1 1
+TakeBagItem 珍珠戒指 46 0 800 0 0 N1 1
+TakeBagItem 金戒指 46 0 3200 0 0 N1 1
+TakeBagItem 魅力戒指 46 0 1600 0 0 N1 1
+TakeBagItem 道德戒指 46 0 1600 0 0 N1 1
+TakeBagItem 珊瑚戒指 46 0 6000 0 0 N1 1
+TakeBagItem 骷髅戒指 46 0 2000 0 0 N1 1
+SENDMSG 6 成功回收垃圾装备，价格为商店购买价格的40%.
+break
