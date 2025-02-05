@@ -33,7 +33,7 @@ checkgold 300000
 close
 take ½ð±Ò 300000
 give »Ø³Ç¾í 1
-AddMirrorMap E602 <$USERNAME>E602 Ô¶¹Å÷¼÷Ã¶´ 7200 0 68 N1 1 0,0
+AddMirrorMap E602 <$USERNAME>E602 Ô¶¹Å÷¼÷Ã¶´ 7200 D003 68 N1 1 348,230
 
 ; 150*150=281
 MONGENEX <$USERNAME>E602 75 75 ¹Å´ú÷¼÷Ã 75 20

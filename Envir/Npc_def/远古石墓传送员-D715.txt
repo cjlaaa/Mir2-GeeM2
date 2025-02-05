@@ -33,7 +33,7 @@ checkgold 500000
 close
 take 金币 500000
 give 回城卷 1
-AddMirrorMap D717 <$USERNAME>D717 远古石墓 7200 0 57 N1 1 0,0
+AddMirrorMap D717 <$USERNAME>D717 远古石墓 7200 D715 57 N1 1 272,90
 
 ; 100*100=125
 MONGENEX <$USERNAME>D717 50 50 古代黑色恶蛆 50 20
