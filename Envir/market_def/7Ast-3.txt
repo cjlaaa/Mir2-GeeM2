@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +3
 +25
@@ -10,6 +10,7 @@
 让我们按你的意愿给你必要的物品. \
 按这个城堡领主的命令我们给行会成员八折的优惠..\\
  \
+ <打开/@trading> 交易市场\
  <购买/@buy> 物品\
  <出售/@sell> 物品\
 <退出/@exit>

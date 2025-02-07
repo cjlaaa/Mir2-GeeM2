@@ -1,5 +1,5 @@
 ;杂货店老板
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +25
 +3
@@ -8,6 +8,7 @@
 你好啊，快来买点东西，现在我生意好的很，\
 晚了你就买不到了！ \ \
  \
+ <打开/@trading> 交易市场\
  <购买/@buy> 物品\
  <出售/@sell> 物品\
 <退出/@exit>

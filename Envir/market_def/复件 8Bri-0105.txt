@@ -1,4 +1,4 @@
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 ;戒指
 +22
@@ -9,7 +9,8 @@
 
 [@main]
 欢迎光临，有什么事情吗？\ \
-<买/@buy>戒指\
+<打开/@trading> 交易市场\
+ <买/@buy>戒指\
 <卖/@sell>戒指\
 <修理/@repair>戒指\
  <离开/@Tmove>这里\

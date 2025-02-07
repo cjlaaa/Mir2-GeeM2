@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +0
 +42
@@ -9,6 +9,7 @@
 [@main]
 欢迎，我能为你做点什么？\ \
  \
+ <打开/@trading> 交易市场\
  <买/@buy> 物品\
  <卖/@sell> 物品\
  <对话/@QUEST>\

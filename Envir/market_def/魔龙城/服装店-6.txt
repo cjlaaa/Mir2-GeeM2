@@ -1,4 +1,4 @@
-(@buy @sell @repair @s_repair )
+(@trading @buy @sell @repair @s_repair )
 %100
 +10
 +11
@@ -9,6 +9,7 @@
 
 欢迎光临，有什么事情需要我帮忙吗？\ \
  <打听天工神剪的故事/@DTTGSJ>\
+ <打开/@trading> 交易市场\
  <买/@buy>衣服\
  <卖/@sell>衣服\
  <修复/@repair>衣服\

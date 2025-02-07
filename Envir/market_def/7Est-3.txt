@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %150
 +0
 +5
@@ -12,6 +12,7 @@
 不要想打折...\
 我认为你别无选择...\ \
  \
+ <打开/@trading> 交易市场\
  <购买/@buy> 物品\
  <出售/@sell> 物品\ 
 <退出/@exit>

@@ -1,6 +1,6 @@
 ;
 ;品名  彩票
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +3
 
@@ -10,7 +10,8 @@
 封魔谷的入口在沃玛森林附近，\
 不过我还是劝你不要去会比较安全一点……\ \
  \
- 彩票 <买/@buy>\
+ 彩票 <打开/@trading> 交易市场\
+ <买/@buy>\
  奖金 <查询/@Bingo>\
  <对话./@talkwith>\
 <退出/@exit>

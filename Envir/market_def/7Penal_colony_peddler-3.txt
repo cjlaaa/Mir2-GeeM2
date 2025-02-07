@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %150
 +30
 +0
@@ -28,7 +28,8 @@ goto @main1
 你已经拿了不少了\
 把这些匕首送给我远在比奇和沃玛森林的老友吧!\\
 
-我要<买东西/@main1>\
+我要<打开/@trading> 交易市场\
+ <买东西/@main1>\
 <确定/@exit>
 
 
@@ -99,6 +100,7 @@ give 牢犯匕首 1
 欢迎, 我可以为你做什么吗?\
 不要想打折...\
 我认为你别无选择...\
+ <打开/@trading> 交易市场\
  <购买/@buy> 物品\
  <出售/@sell> 物品\\
  <取消/@exit>

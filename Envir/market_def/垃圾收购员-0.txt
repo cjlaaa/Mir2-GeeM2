@@ -1,5 +1,5 @@
 ;百货店
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +0
 +1
@@ -53,6 +53,7 @@
 
 [@main]
 我收取各种你不要的垃圾. \
+ <打开/@trading> 交易市场\
  <买/@buy>\
  <卖/@sell>\
  <修理/@repair>\

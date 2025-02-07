@@ -1,5 +1,5 @@
 ;百货店
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +5
 +6
@@ -24,6 +24,7 @@
 你竟然能跑到这里来？\
 看在你这么卖命的份上，我就帮助你一下。\
 顺便告诉你一下，一旦进入幻境迷宫，就再也不能回头了！\ \
+ <打开/@trading> 交易市场\
  <买/@buy>\
  <卖/@sell>\
  <修理/@repair>\

@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 ;Neckalace
 +20
@@ -12,6 +12,7 @@
 当我粗心时. 喔，呵呵~. \ 
 你是兄弟行会的成员，我给你个特惠价\  
 怎么样? 不错吧?  喔，呵呵~ \ \ 
+ <打开/@trading> 交易市场\
  <购买/@buy> 项链\
  <出售/@sell> 项链\
  <修理/@repair> 项链\

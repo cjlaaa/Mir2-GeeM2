@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +5
 +6
@@ -10,6 +10,7 @@
 欢迎光临!鄙人白日门专职铁匠，手艺精良，价格公道！\ 
 要买要卖，或者修理武器，我一个人包了！\ \
   \
+ <打开/@trading> 交易市场\
  <买/@buy>武器\
  <卖/@sell>武器\
  <修理/@repair>武器\

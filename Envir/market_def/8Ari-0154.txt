@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 :戒指
 +22
@@ -10,6 +10,7 @@
 欢迎来商店, 我们出售戒指. \
 因为这里是<$OWNERGUILD>的城，我们为<$OWNERGUILD>行会成员提供20%的优惠 \
  \
+ <打开/@trading> 交易市场\
  <购买/@buy> 戒指 \
  <出售/@sell> 戒指 \
  <修理/@repair> 戒指\

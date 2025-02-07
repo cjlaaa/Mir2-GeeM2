@@ -1,5 +1,5 @@
 ;Weapon
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +0
 +42
@@ -10,6 +10,7 @@
 哼，好吧，那么买了东西赶紧走吧，能走多快就走多快\
 你是 <$OWNERGUILD>的成员吗？ \
 那么我会给你打20%的折扣， 这有什么好奇怪的？ \ \
+ <打开/@trading> 交易市场\
  <买/@buy> 药品\
  <卖/@sell> 药品\
  <取消/@exit>

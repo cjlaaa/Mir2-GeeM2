@@ -1,5 +1,5 @@
 ;Weapon
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +10
 +11
@@ -9,6 +9,7 @@
 ;Dialogue, '*' : Dialogue tag
 [@main]
 欢迎，你需要点什么？\ \
+ <打开/@trading> 交易市场\
  <买/@buy>  衣服\
  <卖/@sell>  衣服\
  <修补/@repair> 衣服\

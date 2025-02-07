@@ -1,11 +1,12 @@
 ;Weapon
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +26
 
 [@main]
 欢迎！这里有你想要的手套。\ \
  \
+ <打开/@trading> 交易市场\
  <买/@buy> 手套\
  <卖/@sell> 手套\
  <修补/@repair> 手套\

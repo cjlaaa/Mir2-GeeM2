@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %180
 +0
 +3
@@ -14,7 +14,8 @@
 一路上还好吧？要买什么?\
 但是别想讲价钱。\
 不知道今天能不能回到家。\ \
-<买./@buy>东西\
+<打开/@trading> 交易市场\
+ <买./@buy>东西\
 <卖./@sell>东西\
 <修理./@repair>东西\
 <退出/@exit>

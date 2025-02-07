@@ -1,5 +1,5 @@
 ;科目  彩票
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +3
 
@@ -10,6 +10,7 @@
 如果你同意，就请抽奖吧。\
 到了一定的限度，你的钱会掉到地上，\
 请注意啊!\ \
+ <打开/@trading> 交易市场\
  <买/@buy>彩票\
  <了解/@Bingo>彩票\
  <关闭/@exit>

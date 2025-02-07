@@ -1,11 +1,12 @@
 ;Weapon
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +15
 
 [@main]
 欢迎！我能为你做点什么？\ \
   \
+ <打开/@trading> 交易市场\
  <买/@buy>  头盔\
  <卖/@sell>  头盔\
  <修理/@repair>头盔\

@@ -1,6 +1,6 @@
 ;/R => remark as read
 ;  scrolls, books
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +3
 +4
@@ -8,6 +8,7 @@
 ;Dialogue, '*' : Dialogue tag
 [@main]
 欢迎，你想买些修炼的书吗？\ \
+ <打开/@trading> 交易市场\
  <买/@buy>  书\
  <卖/@sell>  书 \
  <询问/@helpbooks> 各种武技的细节\ 

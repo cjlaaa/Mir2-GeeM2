@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 ;手镯
 +24
@@ -8,6 +8,7 @@
 ;对话框, '*' : 对话框 标签
 [@main]
 欢迎. 我可以帮你什么吗?\ \
+ <打开/@trading> 交易市场\
  <购买/@buy> 手镯\
  <出售/@sell> 手镯\
  <修理/@repair> 手镯\

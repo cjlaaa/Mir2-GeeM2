@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +0
 +42
@@ -7,6 +7,7 @@
 ;对话, '*' : 对话tag
 [@main]
 欢迎光临，有什么事情需要我帮忙吗？\ \
+ <打开/@trading> 交易市场\
  <买/@buy>药\
  <卖/@sell>药\
  <进行对话/@talkwith>\

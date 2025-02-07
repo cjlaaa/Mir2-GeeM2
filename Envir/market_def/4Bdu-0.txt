@@ -1,5 +1,5 @@
 ;公扁
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +0
 +42
@@ -8,6 +8,7 @@
 [@main]
 欢迎，在这里你可以买一些常见的药品。\ \
  \
+ <打开/@trading> 交易市场\
  <买/@buy> 药品\
  <卖/@sell> 药品\
 <打听/@talk> 关于特殊药水的消息\

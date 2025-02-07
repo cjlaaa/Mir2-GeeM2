@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %200
 +0
 
@@ -9,6 +9,7 @@
 我也是走到这里迷路了，只好在这里做生意...\
 我不知道你能不能穿过这条路继续你的旅程.\ \
 
+  <打开/@trading> 交易市场\
   <买/@buy>药\
  
 <退出/@exit>

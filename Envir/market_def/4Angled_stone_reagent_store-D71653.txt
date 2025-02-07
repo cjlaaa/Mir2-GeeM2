@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %200
 +0
 
@@ -10,6 +10,7 @@
 但是记住，命只有一条。\
 来，我延长你一点生命，需要什么吗？\ \
 
+ <打开/@trading> 交易市场\
  <买/@buy>药\
  <关闭/@exit>
 <>

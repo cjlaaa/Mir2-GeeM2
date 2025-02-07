@@ -1,5 +1,5 @@
 ;Weapon
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +15
 
@@ -9,6 +9,7 @@
 你要是不用你又怎么能知道它的好处？想试试的话\
 你就立刻穿上它吧！对于<$OWNERGUILD>的成员\
 打20%的特殊。因为这个城堡属于<$OWNERGUILD>.\
+ <打开/@trading> 交易市场\
  <买/@buy>  衣服\
  <卖/@sell>  衣服\
  <修补/@repair> 衣服\

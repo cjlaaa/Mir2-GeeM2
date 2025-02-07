@@ -1,5 +1,5 @@
 ;ÎäÆ÷
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +5
 +6
@@ -9,6 +9,7 @@
 [@main]
 »¶Ó­¹âÁÙ¶¾ÉßÉ½¹ÈÌú½³ÆÌ.\ \
   \
+ <´ò¿ª/@trading> ½»Ò×ÊĞ³¡\
  <Âò/@buy>ÎäÆ÷\
  <Âô/@sell>ÎäÆ÷\
  <ĞŞÀí/@repair>ÎäÆ÷\

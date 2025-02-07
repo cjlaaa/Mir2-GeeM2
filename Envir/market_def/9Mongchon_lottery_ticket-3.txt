@@ -1,6 +1,6 @@
 ;
 ;科目  彩票
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +3
 
@@ -11,6 +11,7 @@
 但是就算没中奖，你也不要怪我啊.\
 如果超过一定的限度，钱就会掉到地上，\
 请主意啊！\
+ <打开/@trading> 交易市场\
  <买/@buy>彩票\
  <了解/@Bingo>彩票\
  <想用瞬间移动？/@talkwith>, \

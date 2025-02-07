@@ -1,4 +1,4 @@
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %200
 ;首饰店老板
 ;项链,戒指,戒指
@@ -14,6 +14,7 @@
 [@main]
 欢迎!我们经营精美首饰！\ \
  \
+ <打开/@trading> 交易市场\
  <购买/@buy> 首饰 \
  <出售/@sell> 首饰\
  <修理/@repair> 首饰\

@@ -1,5 +1,5 @@
 ;武器
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 ;项链
 +20
@@ -10,6 +10,7 @@
 [@main]
 欢迎. 我可以帮你什么吗?\ \
  \
+ <打开/@trading> 交易市场\
  <购买/@buy> 项链 \
  <出售/@sell> 项链\
  <修理/@repair> 项链\

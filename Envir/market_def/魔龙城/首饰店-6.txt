@@ -1,4 +1,4 @@
-(@buy @sell @repair @s_repair )
+(@trading @buy @sell @repair @s_repair )
 %100
 +19
 +20
@@ -15,6 +15,7 @@
 
 首饰，项链，戒指都让我来帮你处理好了。\
  \
+ <打开/@trading> 交易市场\
  <购买/@buy> 首饰\
  <出售/@sell> 首饰\
  <修理/@repair> 首饰\

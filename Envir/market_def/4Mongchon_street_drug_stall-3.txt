@@ -1,5 +1,5 @@
 ;Weapon
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +0
 +42
@@ -8,6 +8,7 @@
 [@main]
 欢迎，你需要点什么？\ 
 我这里消息是最准确的哦，这个你问大伙就知道了！\
+ <打开/@trading> 交易市场\
  <买/@buy> 药品\
  <卖/@sell> 药品\
  <打听消息/@news>\

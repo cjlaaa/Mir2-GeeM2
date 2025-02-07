@@ -1,6 +1,6 @@
 ;
 ;科目 肉块  , 干肉产品
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +40
 +1
@@ -38,6 +38,7 @@ goto @normal
 [@normal]
 欢迎光临,有什么事情需要我帮忙吗？\
 这年头做事情也步容易阿，你要体谅我\\
+ <打开/@trading> 交易市场\
  <买/@buy>肉\
  <卖/@sell>肉\
  <关闭/@exit>

@@ -1,5 +1,5 @@
 ;百货店
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +5
 +6
@@ -25,6 +25,7 @@
 你竟然能跑到这里来？佩服佩服。\
 看来消灭赤月魔指日可待啦！\
 我能帮你什么忙吗？\\
+ <打开/@trading> 交易市场\
  <买/@buy>\
  <卖/@sell>\
  <修理/@repair>\

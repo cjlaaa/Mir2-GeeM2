@@ -1,6 +1,6 @@
 ;/R => remark as read 
 ; item  Èâ¿é , ¸ÉÈâ²úÆ·
-(@buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +40
 +1
