@@ -2,236 +2,88 @@
 #IF
 checkpkpoint 2
 #SAY
-我将会把你传送到你想要去的地方!\ \
+我不想和你这样的人打交道!\ \
  <离开/@exit>\
 #ELSEACT
 goto @main-1
 
 [@main-1]
-我将会把你传送到你想要去的地方!\
-<比奇城堡/@比奇城堡>  <银杏山谷/@银杏山谷>  <比奇村庄/@比奇村庄>  <比奇皇宫/@比奇皇宫>  <盟重土城/@盟重土城>  <白日天门/@白日天门>  \
-<封魔神谷/@封魔神谷>  <苍月小岛/@苍月小岛>  <沙城区域/@沙城区域>  <远古比奇/@魔龙城>\
-<骷髅洞口/@骷髅洞口>  <矿区洞口/@矿区洞口>  <蜈蚣洞口/@蜈蚣洞口>  <沃玛洞口/@沃玛洞口>  <石墓洞口/@石墓洞口>  <封魔洞口/@封魔入口>  \
-<祖玛洞口/@祖玛洞口>  <赤月洞口/@赤月洞口>  <牛魔洞口/@牛魔洞口>  <尸魔洞口/@尸魔洞口>  <骨魔洞口/@骨魔洞口>  <狐月洞口/@狐月密道>  \
- \
+你好, 你要去什么地方?\
+<边界村(2000元)/@边界村>\
+<银杏山谷(2000元)/@银杏山谷>\
+<毒蛇山谷(2000元)/@毒蛇山谷>\
+<比奇城(2000元)/@比奇城>\
+<盟重土城(2000元)/@盟重土城>\
+<白日门(2000元)/@白日门>\
+<封魔谷(2000元)/@封魔谷>\
+<离开/@exit>\
 
-[@比奇城堡]
+[@边界村]
+#IF
+checkgold 2000
 #ACT
-mapmove 0 333 268
-break
- 
-[@银杏山谷]
-#ACT
-mapmove 0 650 624
-break
-
-[@比奇村庄]
-#ACT
+take 金币 2000
 mapmove 0 290 615
-break
+#ELSESAY
+金钱不足!
+<确定/@exit>
 
-[@比奇皇宫]
+[@银杏山谷]
+#IF
+checkgold 2000
 #ACT
-mapmove 0122 18 31
-break
+take 金币 2000
+mapmove 0 650 624
+#ELSESAY
+金钱不足!
+<确定/@exit>
 
+[@毒蛇山谷]
+#IF
+checkgold 2000
+#ACT
+take 金币 2000
+mapmove 2 504 486
+#ELSESAY
+金钱不足!
+<确定/@exit>
+
+[@比奇城]
+#IF
+checkgold 2000
+#ACT
+take 金币 2000
+mapmove 0 333 268
+#ELSESAY
+金钱不足!
+<确定/@exit>
+ 
 [@盟重土城]
+#IF
+checkgold 2000
 #ACT
+take 金币 2000
 mapmove 3 333 333
-break
+#ELSESAY
+金钱不足!
+<确定/@exit>
 
-[@白日天门]
+[@白日门]
+#IF
+checkgold 2000
 #ACT
+take 金币 2000
 mapmove 11 177 324
-break
+#ELSESAY
+金钱不足!
+<确定/@exit>
  
-[@封魔神谷]
+[@封魔谷]
+#IF
+checkgold 2000
 #ACT
-mapmove 4 241 203
-break
- 
-[@苍月小岛]
-#ACT
-mapmove 5 140 338
-break
-
-[@沙城区域]
-#ACT
-mapmove 3 706 407
-give 回城卷 1
-break
-
-[@魔龙城]
-#ACT
-mapmove 6 121 154
-break
-
-[@幻境洞口]
-#ACT
-mapmove H001 74 68
-give 回城卷 1
-break
-
-[@骷髅洞口]
-#ACT
-mapmove 0 146 35
-give 回城卷 1
-break
-
-[@矿区洞口]
-#ACT
-mapmove 0 659 218
-give 回城卷 1
-break
- 
-[@蜈蚣洞口]
-#ACT
-mapmove 3 142 92
-give 回城卷 1
-break
- 
-[@沃玛洞口]
-#ACT
-mapmove D021 71 69
-give 回城卷 1
-break
- 
-[@石墓洞口]
-#ACT
-mapmove D710
-give 回城卷 1
-break
-
-[@封魔入口]
-#ACT
-mapmove 4 139 68
-give 回城卷 1
-break
- 
-[@赤月洞口]
-#ACT
-mapmove 12 324 473
-give 回城卷 1
-break
- 
-[@祖玛洞口]
-#ACT
-mapmove 0157
-give 回城卷 1
-break
- 
-[@牛魔洞口]
-#ACT
-mapmove D2070
-give 回城卷 1
-break
- 
-[@尸魔洞口]
-#ACT
-mapmove 5 522 615
-give 回城卷 1
-break 
- 
-[@骨魔洞口]
-#ACT
-mapmove 5 547 129
-give 回城卷 1
-break 
-
-[@狐月密道]
-#ACT
-mapmove 3 655 768
-give 回城卷 1
-break 
-
-[@霸者大厅]
-#ACT
-mapmove D2008
-give 回城卷 1
-break 
- 
- 
-[@幻境七层]
-#if
-#ACT
-mapmove H007 161 172
-give 回城卷 1
-break
-
-[@尸王大殿]
-#ACT
-mapmove q004
-give 回城卷 1
-break
-
-[@未知暗殿]
-#ACT
-mapmove M001
-give 回城卷 1
-break
-
-[@石墓六层]
-#ACT
-mapmove D716
-give 回城卷 1
-break
- 
-[@死亡棺材]
-#ACT
-mapmove D606
-give 回城卷 1
-break
- 
-[@祖玛七层]
-#ACT
-mapmove D5071
-give 回城卷 1
-break
- 
-[@牛魔寺庙]
-#ACT
-mapmove D2078 253 254
-give 回城卷 1
-break
- 
-[@抉择之地]
-#ACT
-mapmove D1004
-give 回城卷 1
-break
- 
-[@困惑殿堂]
-#ACT
-MAPMOVE T140
-give 回城卷 1
-break
- 
-[@堕落坟场]
-#ACT
-MAPMOVE T115
-give 回城卷 1
-break
- 
-[@死亡神殿]
-#ACT
-MAPMOVE T118
-give 回城卷 1
-break
- 
-[@地狱烈焰]
-#ACT
-MAPMOVE T139
-give 回城卷 1
-break
- 
-[@深渊魔域]
-#ACT
-MAPMOVE T119
-give 回城卷 1
-break
- 
-[@钳虫巢穴]
-#ACT
-MAPMOVE T132
-give 回城卷 1
-break
+take 金币 2000
+mapmove 4 265 252
+#ELSESAY
+金钱不足!
+<确定/@exit>

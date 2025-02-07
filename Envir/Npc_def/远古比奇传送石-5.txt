@@ -1,0 +1,21 @@
+[@main]
+#if
+#act
+CLOSEMERCHANTBIGDLG
+#say
+一块巨大的魔石, 仿佛引起了附近时空的共振, 嗡嗡作响...\ 
+(似乎需要一些金币来激活它)\ \ \
+
+
+<花费20000元前往远古比奇/@远古比奇> \
+<退出/@exit>
+
+[@远古比奇]
+#IF
+checkgold 20000
+#ACT
+take 金币 20000
+mapmove 6 76 249
+#ELSESAY
+金钱不足!
+<确定/@exit>

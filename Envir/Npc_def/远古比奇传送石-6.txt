@@ -1,0 +1,15 @@
+[@main]
+#if
+#act
+CLOSEMERCHANTBIGDLG
+#say
+一块巨大的魔石, 仿佛引起了附近时空的共振, 嗡嗡作响... \ \ \ 
+
+
+<回到未来/@回到未来> \
+<退出/@exit>
+
+[@回到未来]
+#IF
+#ACT
+mapmove 5 349 603

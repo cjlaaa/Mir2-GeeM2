@@ -1,0 +1,24 @@
+[@main]
+#IF
+checkpkpoint 2
+#SAY
+我不想和你这样的人打交道!\ \
+ <离开/@exit>\
+#ELSEACT
+goto @main-1
+
+[@main-1]
+你好，我可以用我的船送你返回比奇省的边界村。 \ \ \
+
+<支付2000元乘船返回比奇省边界村/@边界村海边>\
+<离开/@exit>\
+
+[@边界村海边]
+#IF
+checkgold 2000
+#ACT
+take 金币 2000
+mapmove 0 254 679
+#ELSESAY
+金钱不足!
+<确定/@exit>
