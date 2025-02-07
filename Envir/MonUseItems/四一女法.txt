@@ -117,7 +117,7 @@ NewLevel=0
 ;衣服
 UseItems0=霓裳羽衣
 ;武器
-UseItems1=龙牙
+UseItems1=怒斩
 ;照明物
 UseItems2=火炬
 ;项链

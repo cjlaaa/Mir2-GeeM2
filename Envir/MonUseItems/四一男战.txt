@@ -81,7 +81,7 @@ NewLevel=0
 ;衣服
 UseItems0=天魔神甲
 ;武器
-UseItems1=怒斩
+UseItems1=龙牙
 ;照明物
 UseItems2=火炬
 ;项链
