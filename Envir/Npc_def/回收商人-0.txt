@@ -1036,9 +1036,9 @@ MESSAGEBOX 你没有该物品，无法回收！！
 
 [@开天2]
 #IF
-checkitem 开天 1
+checkitem 独孤九剑 1
 #ACT
-take 开天 1
+take 独孤九剑 1
 CREDITPOINT + 10
 SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
 #ELSEACT 
@@ -1046,9 +1046,9 @@ MESSAGEBOX 你没有该物品，无法回收！！
 
 [@镇天2]
 #IF
-checkitem 镇天 1
+checkitem 映邪天神 1
 #ACT
-take 镇天 1
+take 映邪天神 1
 CREDITPOINT + 10
 SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
 #ELSEACT 
@@ -1056,9 +1056,9 @@ MESSAGEBOX 你没有该物品，无法回收！！
 
 [@玄天2]
 #IF
-checkitem 玄天 1
+checkitem 太极慧剑 1
 #ACT
-take 玄天 1
+take 太极慧剑 1
 CREDITPOINT + 10
 SENDMSG 5 提示：物品已被回收，你获得了10点声望，当前声望：<$CREDITPOINT>点...
 #ELSEACT 
