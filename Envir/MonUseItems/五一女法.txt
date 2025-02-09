@@ -119,7 +119,7 @@ NewLevel=0
 
 [UseItems]
 ;衣服
-UseItems0=凰天魔衣
+UseItems0=天衣无缝(女)
 ;武器
 UseItems1=映邪天神
 ;照明物

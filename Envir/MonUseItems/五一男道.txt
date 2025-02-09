@@ -115,7 +115,7 @@ NewLevel=0
 
 [UseItems]
 ;衣服
-UseItems0=凤天魔甲
+UseItems0=天衣无缝(男)
 ;武器
 UseItems1=太极慧剑
 ;照明物
