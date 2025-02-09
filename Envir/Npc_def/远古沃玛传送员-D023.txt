@@ -33,7 +33,7 @@ checkgold 1000000
 close
 take 金币 1000000
 give 回城卷 1
-AddMirrorMap D024 <$USERNAME>D024 远古沃玛 7200 D023 45 N1 1 334,37
+AddMirrorMap D024 <$USERNAME>D024 远古沃玛 7200 D023 45 N1 1 0,0
 
 ; 100*100=125
 MONGENEX <$USERNAME>D024 50 50 古代沃玛战士 50 20
