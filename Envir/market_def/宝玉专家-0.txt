@@ -1,15 +1,15 @@
-;宝石
+;宝玉
 (@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 
 [@main]
-在与怪物战斗过程中会收集到一些宝玉,我可以用它们强化你的装备;\
+你可能会收集到了一些宝玉,这些东西能够强化你的装备;\
 <勇猛宝玉,魔性宝玉,仙界宝玉/SCOLOR=249>可用于武器,项链,戒指,手镯; \
 <守护宝玉,制魔宝玉/SCOLOR=249>可用于衣服,头盔,手镯,戒指,鞋子,腰带; \
 <集中宝玉,疾风宝玉/SCOLOR=249>仅可用于武器;\
 <强化宝玉/SCOLOR=249>可保证升级成功,但是十分稀有  \
 若不使用强化宝玉<可能会损坏装备/SCOLOR=249>,一定要谨慎升级  \
-<(集中和疾风宝玉描述有误,实际增加准确和攻速)/SCOLOR=249>  \ \
+<(集中宝玉和疾风宝玉描述有误,实际为增加准确和攻速)/SCOLOR=249>  \ \
 
 <开始/@OpenUpgradeDialog>强化    <打开/@trading>交易市场    <再见/@exit>\ 
 
