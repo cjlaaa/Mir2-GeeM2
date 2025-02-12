@@ -1,3 +1,31 @@
+[@ClosedBagItemClick]
+#act
+mov n1 <$ExtBagOpenItemCount>
+inc n1 1
+mul n1 10000
+MESSAGEBOX 是否花费<$STR(n1)>金币开启新格子? @开启新背包格子 @取消
+
+[@开启新背包格子]
+#act
+mov n1 <$ExtBagOpenItemCount>
+inc n1 1
+mul n1 10000
+#if 
+checkgold n1
+Large <$ExtBagCloseItemCount> 0
+#act
+take 金币 n1
+mov n2 <$ExtBagOpenItemCount>
+ExtBagOpenItemCount + 1
+SENDMSG 7 你的扩展背包已从<$STR(n2)>格扩展到<$ExtBagOpenItemCount>格
+#elsesay
+你的金币不足，扩展失败！ \ \
+<退出/@exit>
+
+[@取消]
+#ACT
+break
+
 ;点开始挂机触发
 [@StartAutoOnline]
 #IF
@@ -93,14 +121,14 @@ EQUAL <$AuctionItemSelled> 1
 sendmsg 7 很遗憾，你出价<$AuctionItemInvalidPrice>的竞拍物品【<$AuctionItemName>；底价：<$AuctionItemStartPrice><$AuctionItemMoneyType>；一口价：<$AuctionItemSellPrice>】被人用秒拍
 #ELSEACT
 sendmsg 7 你出价<$AuctionItemInvalidPrice>的竞拍物品【<$AuctionItemName>；底价：<$AuctionItemStartPrice><$AuctionItemMoneyType>；一口价：<$AuctionItemSellPrice>】被人出了更高的价格：<$AuctionItemFinaPrice>，赶快去加价吧
- 
+
 ;拍卖人的物品被卖出
 [@AuctionSellItem]
 #ACT
 sendmsg 7 你拍卖的物品【<$AuctionItemName>；底价：<$AuctionItemStartPrice><$AuctionItemMoneyType>；一口价：<$AuctionItemSellPrice>】被人用<$AuctionItemFinaPrice>的价格买走
- 
+
 ;竞拍人买到物品
 [@AuctionBuyItem]
 #ACT
 sendmsg 7 恭喜。你参与竞拍的物品【<$AuctionItemName>；底价：<$AuctionItemStartPrice><$AuctionItemMoneyType>；一口价：<$AuctionItemSellPrice>】竞拍成功。成交价：<$AuctionItemFinaPrice> 
- 
+
