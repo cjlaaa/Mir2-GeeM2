@@ -1,5 +1,6 @@
 import os
-from items_data import items_tables
+from items_data import equips_data
+from items_data import potions_data
 
 if __name__ == '__main__':
     # output_directory = 'D:\MirServer\Mir200\Envir\MonItems'
@@ -25,11 +26,16 @@ if __name__ == '__main__':
                 if infos[0] == "G":
                     output_lines.append(f"1/{infos[1]} 金币 {infos[2]}")
                     output_lines.append("")
-                elif infos[0] == "E":
+                elif infos[0] == "P":
+                    potion_name = potions_data[infos[1]][0]
+                    for i in range(int(infos[2])):
+                        output_lines.append(f"1/{infos[3]} {potion_name}")
+                    output_lines.append("")
+                elif infos[0] == "O":
                     output_lines.append(f"1/{infos[1]} {infos[2]}")
                     output_lines.append("")
                 else:
-                    items = items_tables.get(infos[0], [])
+                    items = equips_data.get(infos[0], [])
                     for item in items:
                         output_lines.append(f"1/{infos[1]} {item}")
                     output_lines.append("")
