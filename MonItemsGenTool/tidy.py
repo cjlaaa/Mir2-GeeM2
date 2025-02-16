@@ -4,6 +4,8 @@ import pprint
 from items_data import equipment_data
 from items_data import potions_data
 from items_data import equipment_group_order
+from items_data import monster_group_order
+from items_data import monster_data
 
 if __name__ == '__main__':
     # output_directory = 'D:\MirServer\Mir200\Envir\MonItems'
@@ -16,9 +18,10 @@ if __name__ == '__main__':
 
     directory_path = 'D:\MirServer\Mir200\Envir\MonItems'
     # directory_path = 'src'
-    for root, dirs, files in os.walk(directory_path):
-        for file in files:
-            file_path = os.path.join(root, file)
+    for monster_group_name in monster_group_order:
+        drops_data_auto.append(f";{monster_group_name}")
+        for monster_name in monster_data[monster_group_name]:
+            file_path = os.path.join(directory_path, f"{monster_name}.txt")
             file_name = os.path.basename(file_path)
 
             # drops: {
@@ -140,14 +143,16 @@ if __name__ == '__main__':
 
                 # print(file_name, "|".join(drops_data))
                 drops_data_str = "|".join(drops_data)
-                drops_data_auto.append(f"{file_name}: {drops_data_str}")
+                drops_data_auto.append(f"{os.path.splitext(file_name)[0]}: {drops_data_str}")
 
-                # if output_lines:
-                #     print("\n".join(output_lines))
-                #
-                #     output_file_path = os.path.join(output_directory, f"{file_name}")
-                #     with open(output_file_path, 'w', encoding='utf-8') as output_file:
-                #         output_file.write("\n".join(output_lines))
+                if output_lines:
+                    print("\n".join(output_lines))
+
+                    output_file_path = os.path.join(output_directory, f"{file_name}")
+                    with open(output_file_path, 'w', encoding='utf-8') as output_file:
+                        output_file.write("\n".join(output_lines))
+
+        drops_data_auto.append("")
 
     # print(drops_data_auto)
     if drops_data_auto:

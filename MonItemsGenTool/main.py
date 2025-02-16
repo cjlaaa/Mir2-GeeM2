@@ -1,5 +1,5 @@
 import os
-from items_data import equips_data
+from items_data import equipment_data
 from items_data import potions_data
 
 if __name__ == '__main__':
@@ -22,7 +22,7 @@ if __name__ == '__main__':
             output_lines.append(f";{monster_name}")
 
             for group in groups:
-                infos = group.split(",")
+                infos = [item.strip() for item in group.split(",")]
                 if infos[0] == "G":
                     output_lines.append(f"1/{infos[1]} 金币 {infos[2]}")
                     output_lines.append("")
@@ -35,7 +35,7 @@ if __name__ == '__main__':
                     output_lines.append(f"1/{infos[1]} {infos[2]}")
                     output_lines.append("")
                 else:
-                    items = equips_data.get(infos[0], [])
+                    items = equipment_data.get(infos[0], [])
                     for item in items:
                         output_lines.append(f"1/{infos[1]} {item}")
                     output_lines.append("")
