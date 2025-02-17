@@ -158,6 +158,6 @@ if __name__ == '__main__':
     if drops_data_auto:
         print("\n".join(drops_data_auto))
 
-        output_file_path = os.path.join("", f"drops_data_auto.txt")
+        output_file_path = os.path.join("", f"drops_data_official.txt")
         with open(output_file_path, 'w', encoding='utf-8') as output_file:
             output_file.write("\n".join(drops_data_auto))
