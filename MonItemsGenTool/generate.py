@@ -3,8 +3,8 @@ from items_data import equipment_data
 from items_data import potions_data
 
 if __name__ == '__main__':
-    # output_directory = 'D:\MirServer\Mir200\Envir\MonItems'
-    output_directory = 'MonItems'
+    output_directory = 'D:\MirServer\Mir200\Envir\MonItems'
+    # output_directory = 'MonItems'
 
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
