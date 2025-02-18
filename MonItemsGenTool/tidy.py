@@ -24,6 +24,9 @@ if __name__ == '__main__':
             file_path = os.path.join(directory_path, f"{monster_name}.txt")
             file_name = os.path.basename(file_path)
 
+            if not os.path.exists(file_path):
+                continue
+
             # drops: {
             # Gold: [[num, rate], [num, rate]],
             # Potions: [[id, rate], [id, rate]],
@@ -149,7 +152,7 @@ if __name__ == '__main__':
                     print("\n".join(output_lines))
 
                     output_file_path = os.path.join(output_directory, f"{file_name}")
-                    with open(output_file_path, 'w', encoding='utf-8') as output_file:
+                    with open(output_file_path, 'w', encoding='gbk') as output_file:
                         output_file.write("\n".join(output_lines))
 
         drops_data_auto.append("")
@@ -158,6 +161,12 @@ if __name__ == '__main__':
     if drops_data_auto:
         print("\n".join(drops_data_auto))
 
-        output_file_path = os.path.join("", f"drops_data_official.txt")
+        output_file_path = os.path.join("", f"tidy_drops_data.txt")
         with open(output_file_path, 'w', encoding='utf-8') as output_file:
+            output_file.write(f";规则\n")
+            output_file.write(f";金币,爆率,数量 G,4,30\n")
+            output_file.write(f";药品,id,数量,爆率 P,R1,4,2\n")
+            output_file.write(f";其他物品,爆率,物品名 O,100,魔法头盔\n")
+            output_file.write(f";装备组,爆率 B1,600\n")
+            output_file.write(f"\n")
             output_file.write("\n".join(drops_data_auto))

@@ -9,7 +9,7 @@ if __name__ == '__main__':
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
-    with open('drops_data.txt', 'r', encoding='utf-8') as file:
+    with open('generate_drops_data.txt', 'r', encoding='utf-8') as file:
         for line in file:
             line = line.strip()
             if not line or line.startswith(';'):
@@ -44,5 +44,5 @@ if __name__ == '__main__':
                 print("\n".join(output_lines))
 
                 output_file_path = os.path.join(output_directory, f"{monster_name}.txt")
-                with open(output_file_path, 'w', encoding='utf-8') as output_file:
+                with open(output_file_path, 'w', encoding='gbk') as output_file:
                     output_file.write("\n".join(output_lines))
