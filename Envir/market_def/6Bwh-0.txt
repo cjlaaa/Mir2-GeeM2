@@ -164,12 +164,10 @@ mapmove H001 73 67
  <捆/@Z_bind>卷书 \
 
 [@P_bind]
- <捆/@ch_bind1> 强效金创药 \
- <捆/@ma_bind1> 强效魔法药 \ 
- <捆/@ch_bind2> 金创药（中） \
- <捆/@ma_bind2> 魔法药（中）\
- <捆/@ch_bind3> 金创药\
- <捆/@ma_bind3> 魔法药\
+ <捆/@ch_bind4> 金创药(特量)   <捆/@ch_bind4> 魔法药(特量) \
+ <捆/@ch_bind1> 强效金创药     <捆/@ma_bind1> 强效魔法药 \ 
+ <捆/@ch_bind2> 金创药（中）   <捆/@ma_bind2> 魔法药（中）\
+ <捆/@ch_bind3> 金创药        <捆/@ma_bind3> 魔法药\
  <返回/@bind>
 
 [@Z_bind]
@@ -368,6 +366,70 @@ mapmove H001 73 67
 快走吧.... \ \
 <取消/@exit>
 
+
+[@ch_bind4]
+#IF
+   checkitem 金创药(特量) 6
+#ACT
+   goto @ch_bind4_1
+#ELSESAY
+你都没有药水捆，还捆什么? \
+等准备好药水之后，再来找我吧. \ \
+<取消/@exit>
+
+
+[@ch_bind4_1]
+#IF 
+   checkgold 100
+   checkitem 金创药(特量) 6
+#ACT
+   take 金币 100
+   take 金创药(特量) 6
+   give 金创药(特)包 1
+#SAY
+已经捆好了... 我的技术不错吧.. \
+以后还有要捆的，就来找我吧.. \ \
+
+<继续捆/@P_bind> \
+<取消/@exit>
+
+#ELSESAY
+你都没有钱捆东西，\
+还捆什么? \
+快走吧.... \ \
+<取消/@exit>
+
+[@ma_bind4]
+#IF
+   checkitem 魔法药(特量) 6
+#ACT
+   goto @ma_bind4_1
+#ELSESAY
+你都没有药水捆，还捆什么? \
+等准备好药水之后，再来找我吧. \ \
+<取消/@exit>
+
+
+[@ma_bind4_1]
+#IF 
+   checkgold 100
+   checkitem 魔法药(特量) 6
+#ACT
+   take 金币 100
+   take 魔法药(特量) 6
+   give 魔法药(特)包 1
+#SAY
+已经捆好了... 我的技术不错吧.. \
+以后还有要捆的，就来找我吧.. \ \
+
+<继续捆/@P_bind> \
+<取消/@exit>
+
+#ELSESAY
+你都没有钱捆东西，\
+还捆什么? \
+快走吧.... \ \
+<取消/@exit>
 
 
 [@zum_bind1]
