@@ -164,7 +164,7 @@ mapmove H001 73 67
  <捆/@Z_bind>卷书 \
 
 [@P_bind]
- <捆/@ch_bind4> 金创药(特量)   <捆/@ch_bind4> 魔法药(特量) \
+ <捆/@ch_bind4> 金创药(特量)   <捆/@ma_bind4> 魔法药(特量) \
  <捆/@ch_bind1> 强效金创药     <捆/@ma_bind1> 强效魔法药 \ 
  <捆/@ch_bind2> 金创药（中）   <捆/@ma_bind2> 魔法药（中）\
  <捆/@ch_bind3> 金创药        <捆/@ma_bind3> 魔法药\
