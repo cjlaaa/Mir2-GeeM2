@@ -29,6 +29,7 @@
 +27
 +28
 +29
++30
 +31
 +32
 +33
@@ -53,13 +54,31 @@
 +64
 
 [@main]
+#SAY
 我收取各种你不要的垃圾. \
  <打开/@trading> 交易市场\
  <买/@buy>\
  <卖/@sell>\
  <修理/@repair>\
- <特殊修理/@s_repair>\
+ <特殊修理/@s_repair>    <快速修理/@f_repair>\
 <退出/@exit>
+#ACT
+CHECKREPAIRALLGOLD <$STR(N99)>
+
+[@f_repair]
+#ACT
+MESSAGEBOX 修理全身需要<$STR(N99)>金币,是否确认? @f_repair_confirm
+
+[@f_repair_confirm]
+#IF
+checkgold <$STR(N99)> 
+#ACT
+take 金币 <$STR(N99)> 
+ACTREPAIRALL
+#elsesay
+你的金币不足，修理失败！ \ \
+<退出/@exit>
+
 
 [@buy]
 您想买些什么?\ \ \
