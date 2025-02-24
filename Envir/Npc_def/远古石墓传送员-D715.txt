@@ -9,7 +9,7 @@ CLOSEMERCHANTBIGDLG
 对了,因为我的能力有限,如果你进入了新的随机时间点,那么我就无\ 
 法维持前往原先时间点的通道了,所以一定要小心! \  \
 我的魔法最多可以维持传送通道<两个小时/SCOLOR=249>,千万注意安全! \ \
-<花费30W前往远古时间点/@前往新副本>  <尝试返回上次远古时间点/@返回上次副本>  <退出/@exit>
+<花费50W前往远古时间点/@前往新副本>  <尝试返回上次远古时间点/@返回上次副本>  <退出/@exit>
 
 [@返回上次副本]
 #act
@@ -28,15 +28,14 @@ checkgold 500000
 #act
 close
 take 金币 500000
-give 回城卷 1
 AddMirrorMap D717 <$USERNAME>D717 远古石墓 7200 D715 57 N1 1 0,0
 
-; 100*100=125
+; (3800+3900+3900+4000+4400)*20=400000
 MONGENEX <$USERNAME>D717 50 50 古代黑色恶蛆 50 20
 MONGENEX <$USERNAME>D717 50 50 古代红野猪 50 20
 MONGENEX <$USERNAME>D717 50 50 古代黑野猪 50 20
 MONGENEX <$USERNAME>D717 50 50 古代蝎蛇 50 20
-MONGENEX <$USERNAME>D717 62 44 古代白野猪 2 1
+MONGENEX <$USERNAME>D717 50 50 古代白野猪 50 20
 MONGENEX <$USERNAME>D717 80 28 古代野猪王 2 1
 
 mapmove <$USERNAME>D717 28 74

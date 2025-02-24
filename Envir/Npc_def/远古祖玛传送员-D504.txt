@@ -1,5 +1,5 @@
 ;远古祖玛
-[@main-1]
+[@main]
 #if
 #act
 CLOSEMERCHANTBIGDLG
@@ -9,7 +9,7 @@ CLOSEMERCHANTBIGDLG
 对了,因为我的能力有限,如果你进入了新的随机时间点,那么我就无\ 
 法维持前往原先时间点的通道了,所以一定要小心! \  \
 我的魔法最多可以维持传送通道<两个小时/SCOLOR=249>,千万注意安全! \ \
-<花费150W前往远古时间点/@前往新副本>  <尝试返回上次远古时间点/@返回上次副本>  <退出/@exit>
+<花费100W前往远古时间点/@前往新副本>  <尝试返回上次远古时间点/@返回上次副本>  <退出/@exit>
 
 [@返回上次副本]
 #act
@@ -24,19 +24,17 @@ DELAYGOTO 3000 @远古祖玛
 
 [@远古祖玛]
 #if
-checkgold 1500000
+checkgold 1000000
 #act
 close
-take 金币 1500000
-give 回城卷 1
+take 金币 1000000
 AddMirrorMap D5074 <$USERNAME>D5074 远古祖玛 7200 D504 51 N1 1 0,0
 
-; 100*100=125
-MONGENEX <$USERNAME>D5074 50 50 古代大老鼠 50 20
-MONGENEX <$USERNAME>D5074 50 50 古代祖玛弓箭手 50 20
-MONGENEX <$USERNAME>D5074 50 50 古代祖玛雕像 50 20
-MONGENEX <$USERNAME>D5074 50 50 古代祖玛卫士 50 20
-MONGENEX <$USERNAME>D5074 33 21 古代咒魔击雷将 5 1
+; (6000+6100+6200+6300+6100)*30=921000
+MONGENEX <$USERNAME>D5074 50 50 古代大老鼠 50 30
+MONGENEX <$USERNAME>D5074 50 50 古代祖玛弓箭手 50 60
+MONGENEX <$USERNAME>D5074 50 50 古代祖玛雕像 50 30
+MONGENEX <$USERNAME>D5074 50 50 古代祖玛卫士 50 30
 MONGENEX <$USERNAME>D5074 72 17 古代咒魔击雷将 2 1
 
 mapmove <$USERNAME>D5074 47 89

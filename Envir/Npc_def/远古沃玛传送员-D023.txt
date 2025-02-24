@@ -9,7 +9,7 @@ CLOSEMERCHANTBIGDLG
 对了,因为我的能力有限,如果你进入了新的随机时间点,那么我就无\ 
 法维持前往原先时间点的通道了,所以一定要小心! \  \
 我的魔法最多可以维持传送通道<两个小时/SCOLOR=249>,千万注意安全! \ \
-<花费100W前往远古时间点/@前往新副本>  <尝试返回上次远古时间点/@返回上次副本>  <退出/@exit>
+<花费90W前往远古时间点/@前往新副本>  <尝试返回上次远古时间点/@返回上次副本>  <退出/@exit>
 
 [@返回上次副本]
 #act
@@ -24,19 +24,18 @@ DELAYGOTO 3000 @远古沃玛
 
 [@远古沃玛]
 #if
-checkgold 1000000
+checkgold 900000
 #act
 close
-take 金币 1000000
-give 回城卷 1
+take 金币 900000
 AddMirrorMap D024 <$USERNAME>D024 远古沃玛 7200 D023 45 N1 1 0,0
 
-; 100*100=125
+; (5200+5300+5400+5500+5600+5400+5500)*20=758000
 MONGENEX <$USERNAME>D024 50 50 古代沃玛战士 50 20
 MONGENEX <$USERNAME>D024 50 50 古代沃玛勇士 50 20
-MONGENEX <$USERNAME>D024 50 50 古代沃玛战将 50 20
-MONGENEX <$USERNAME>D024 50 50 古代火焰沃玛 50 20
-MONGENEX <$USERNAME>D024 50 50 古代沃玛卫士 5 1
+MONGENEX <$USERNAME>D024 50 50 古代沃玛战将 50 40
+MONGENEX <$USERNAME>D024 50 50 古代火焰沃玛 50 40
+MONGENEX <$USERNAME>D024 50 50 古代沃玛卫士 50 20
 MONGENEX <$USERNAME>D024 88 81 古代沃玛教主 2 1
 
 mapmove <$USERNAME>D024 17 19
