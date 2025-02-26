@@ -112,6 +112,44 @@ RECALLMOB 虎卫 3
 #ELSEACT 
 SENDMSG 7 可带领的宠物数量已达到5个的上限！！
 
+
+[@StdModeFunc101]
+#IF
+#ACT
+KILLMONEXPRATE 130 3600 1
+SENDMSG 7 你获得了1个小时30%经验增益,期间死亡或下线不减少双倍时间,重复使用无效!
+
+[@StdModeFunc102]
+#IF
+#ACT
+KILLMONEXPRATE 130 10800 1
+SENDMSG 7 你获得了3个小时30%经验增益,期间死亡或下线不减少双倍时间,重复使用无效!
+
+[@StdModeFunc103]
+#IF
+#ACT
+KILLMONEXPRATE 130 18000 1
+SENDMSG 7 你获得了5个小时30%经验增益,期间死亡或下线不减少双倍时间,重复使用无效!
+
+[@StdModeFunc104]
+#IF
+#ACT
+KILLMONEXPRATE 130 86400 1
+SENDMSG 7 你获得了24个小时30%经验增益,期间死亡或下线不减少双倍时间,重复使用无效!
+
+[@StdModeFunc105]
+#IF
+#ACT
+KILLMONEXPRATE 300 10800 1
+SENDMSG 7 你获得了3个小时3倍经验增益,期间死亡或下线不减少双倍时间,重复使用无效!
+
+[@StdModeFunc106]
+#IF
+#ACT
+KILLMONEXPRATE 300 86400 1
+SENDMSG 7 你获得了24个小时3倍经验增益,期间死亡或下线不减少双倍时间,重复使用无效!
+
+
 ;拍卖行出价被冲
 [@AuctionInvalidItem]
 #IF
