@@ -149,6 +149,22 @@ SENDMSG 7 你获得了3个小时3倍经验增益,期间死亡或下线不减少双倍时间,重复使用无效!
 KILLMONEXPRATE 300 86400 1
 SENDMSG 7 你获得了24个小时3倍经验增益,期间死亡或下线不减少双倍时间,重复使用无效!
 
+[@StdmodeShow101]
+#if
+CHECKITEMTYPE 
+#act
+;SendMsg 6 人物当前使用的物品名:<$UseItemName>，唯一ID:<$UseItemMakeIndex>
+;SendMsg 6 使用物品目标名字:<$BagItemName>,唯一ID:<$BagItemMakeIndex>
+LinkBagItem <$BagItemMakeIndex>
+GetItemFieldValue -1 name S1
+GetItemFieldValue -1 idx S2
+GetItemFieldValue -1 dura S3
+GetItemFieldValue -1 duramax S4
+;SendMsg 6 当前操作的装备Idx：<$Str(S1)>；dura：<$Str(S3)>，duramax：<$Str(S4)>
+ChangeItemDura -1 = <$Str(S4)> 0
+UpdateItem -1
+ClearLinkItem
+break
 
 ;拍卖行出价被冲
 [@AuctionInvalidItem]
