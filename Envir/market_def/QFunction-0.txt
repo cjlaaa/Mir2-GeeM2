@@ -151,7 +151,6 @@ SENDMSG 7 你获得了24个小时3倍经验增益,期间死亡或下线不减少双倍时间,重复使用无效!
 
 [@StdmodeShow101]
 #if
-CHECKITEMTYPE 
 #act
 ;SendMsg 6 人物当前使用的物品名:<$UseItemName>，唯一ID:<$UseItemMakeIndex>
 ;SendMsg 6 使用物品目标名字:<$BagItemName>,唯一ID:<$BagItemMakeIndex>
