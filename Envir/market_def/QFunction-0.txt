@@ -165,6 +165,25 @@ UpdateItem -1
 ClearLinkItem
 break
 
+[@StdmodeShow102]
+#if
+#act
+;SendMsg 6 人物当前使用的物品名:<$UseItemName>，唯一ID:<$UseItemMakeIndex>
+;SendMsg 6 使用物品目标名字:<$BagItemName>,唯一ID:<$BagItemMakeIndex>
+LinkBagItem <$BagItemMakeIndex>
+GetItemFieldValue -1 name S1
+GetItemFieldValue -1 idx S2
+GetItemFieldValue -1 dura S3
+GetItemFieldValue -1 duramax S4
+DIV S4 30
+MUL S4 29
+ChangeItemDura -1 = <$Str(S4)> 1
+ChangeItemDura -1 = <$Str(S4)> 0
+SendMsg 6 当前操作的装备Idx：<$Str(S1)>；dura：<$Str(S3)>，duramax：<$Str(S4)>
+UpdateItem -1
+ClearLinkItem
+break
+
 ;拍卖行出价被冲
 [@AuctionInvalidItem]
 #IF
