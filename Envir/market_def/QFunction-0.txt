@@ -1,3 +1,46 @@
+[@OpenStoratge2]
+#if 
+not CheckStorageOpen 2
+#act
+MESSAGEBOX 是否花费100W金币开启仓库第二页? @开启仓库第二页 @取消
+
+[@OpenStoratge3]
+#if 
+not CheckStorageOpen 3
+#act
+MESSAGEBOX 是否花费200W金币开启仓库第三页? @开启仓库第三页 @取消
+
+[@OpenStoratge4]
+#if 
+not CheckStorageOpen 4
+#act
+MESSAGEBOX 是否花费300W金币开启仓库第四页? @开启仓库第四页 @取消
+
+[@开启仓库第二页]
+#if 
+checkgold 1000000
+#act
+take 金币 1000000
+OpenStoratge 2 1
+SendMsg 5 开启仓库第二页成功!
+
+[@开启仓库第三页]
+#if 
+checkgold 2000000
+#act
+take 金币 2000000
+OpenStoratge 3 1
+SendMsg 5 开启仓库第三页成功!
+
+[@开启仓库第四页]
+#if 
+checkgold 3000000
+#act
+take 金币 3000000
+OpenStoratge 4 1
+SendMsg 5 开启仓库第四页成功!
+
+
 [@ClosedBagItemClick]
 #act
 mov n1 <$ExtBagOpenItemCount>
