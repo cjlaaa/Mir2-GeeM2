@@ -1,3 +1,10 @@
+[@MagSelfFunc1024]
+#ACT
+ChangeSlaveLevel 变异骷髅 = 7
+ChangeSlaveLevel 神兽 = 7
+ChangeSlaveLevel 神兽0 = 7
+ChangeSlaveLevel 月灵 = 7
+
 [@OpenStoratge2]
 #if 
 not CheckStorageOpen 2
