@@ -14,3 +14,4 @@ Magic6.wzl
 Magic2.wzl
 Magic4.wzl
 cboEffect.wzl
+MagIcon2.wzl

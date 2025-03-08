@@ -1,4 +1,27 @@
 [@MagSelfFunc1024]
+#IF
+checkskill 血龙水 = 0
+#ACT
+ChangeSlaveLevel 变异骷髅 = 4
+ChangeSlaveLevel 神兽 = 4
+ChangeSlaveLevel 神兽0 = 4
+ChangeSlaveLevel 月灵 = 4
+#IF
+checkskill 血龙水 = 1
+#ACT
+ChangeSlaveLevel 变异骷髅 = 5
+ChangeSlaveLevel 神兽 = 5
+ChangeSlaveLevel 神兽0 = 5
+ChangeSlaveLevel 月灵 = 5
+#IF
+checkskill 血龙水 = 2
+#ACT
+ChangeSlaveLevel 变异骷髅 = 6
+ChangeSlaveLevel 神兽 = 6
+ChangeSlaveLevel 神兽0 = 6
+ChangeSlaveLevel 月灵 = 6
+#IF
+checkskill 血龙水 = 3
 #ACT
 ChangeSlaveLevel 变异骷髅 = 7
 ChangeSlaveLevel 神兽 = 7
