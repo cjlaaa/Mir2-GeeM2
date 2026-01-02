@@ -1,0 +1,28 @@
+;武器
+(@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
+%100
++5
++6
+
+[@main]
+你来啦!你也来南蛮送死啦?\
+啊,对不起,没别的意思,我只是提醒你这里很危险啦. \ 
+ \ \
+<修理/@repair>\
+<特殊修理/@s_repair>\
+ \ \
+<退出/@exit>
+
+[@repair]
+放心吧，我会好好给你磨的。\
+全包在我身上。\ \
+ <返回/@main>
+
+[~@repair]
+修好了。\
+如果还有要修理的武器，就在这儿修理吧。\ \
+ <返回/@main>
+
+[goods]
+;商品 数量  时间(hour)
+

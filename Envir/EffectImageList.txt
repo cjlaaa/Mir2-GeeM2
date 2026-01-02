@@ -15,3 +15,9 @@ Magic2.wzl
 Magic4.wzl
 cboEffect.wzl
 MagIcon2.wzl
+mon46.wzl
+mon47.wzl
+mon49.wzl
+mon50.wzl
+mon51.wzl
+mon53.wzl

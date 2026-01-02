@@ -204,3 +204,25 @@ H010  184
 fox01   329
 fox02   330
 fox03   331
+
+;·ÏÆúÖ®µØ
+dygw 3150
+hsdk1 3141
+hsdk2 3142
+hsdk777 3143
+hsdk778 3030
+hsdk779 3030
+hsdk780 3143
+hsdk781 3030
+hsdk782 3030
+hsdk783 3143
+hsdk784 3030
+hsdk785 3030
+hsdk786 3143
+hsdk3 3152
+
+;ÄÏÂù
+ygfx1 3155
+ygfx2 3154
+ygfx3 3140
+nanm 3026

@@ -1,0 +1,89 @@
+[@main]
+#IF
+checkpkpoint 2
+#SAY
+我不想和你这样的人打交道!\ \
+ <离开/@exit>\
+#ELSEACT
+goto @main-1
+
+[@main-1]
+你好, 你要去什么地方?\
+<边界村(2000元)/@边界村>\
+<银杏山谷(2000元)/@银杏山谷>\
+<毒蛇山谷(2000元)/@毒蛇山谷>\
+<比奇城(2000元)/@比奇城>\
+<盟重土城(2000元)/@盟重土城>\
+<白日门(2000元)/@白日门>\
+<封魔谷(2000元)/@封魔谷>\
+<离开/@exit>\
+
+[@边界村]
+#IF
+checkgold 2000
+#ACT
+take 金币 2000
+mapmove 0 290 615
+#ELSESAY
+金钱不足!
+<确定/@exit>
+
+[@银杏山谷]
+#IF
+checkgold 2000
+#ACT
+take 金币 2000
+mapmove 0 650 624
+#ELSESAY
+金钱不足!
+<确定/@exit>
+
+[@毒蛇山谷]
+#IF
+checkgold 2000
+#ACT
+take 金币 2000
+mapmove 2 504 486
+#ELSESAY
+金钱不足!
+<确定/@exit>
+
+[@比奇城]
+#IF
+checkgold 2000
+#ACT
+take 金币 2000
+mapmove 0 333 268
+#ELSESAY
+金钱不足!
+<确定/@exit>
+ 
+[@盟重土城]
+#IF
+checkgold 2000
+#ACT
+take 金币 2000
+mapmove 3 333 333
+#ELSESAY
+金钱不足!
+<确定/@exit>
+
+[@白日门]
+#IF
+checkgold 2000
+#ACT
+take 金币 2000
+mapmove 11 177 324
+#ELSESAY
+金钱不足!
+<确定/@exit>
+ 
+[@封魔谷]
+#IF
+checkgold 2000
+#ACT
+take 金币 2000
+mapmove 4 264 251
+#ELSESAY
+金钱不足!
+<确定/@exit>
