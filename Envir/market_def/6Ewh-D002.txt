@@ -2,22 +2,22 @@
 (@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 
-;��ȭ, '*' : ��ȭ �±�
+;措拳, '*' : 措拳 怕弊
 [@main]
-�����˾�Ȼ�����������ʲô������\
-�Ѷ�������һ����200��ҡ�\
-��֪�������ܲ��ܻص��ҡ�\ \
-<����/@storage>����\
-<ȡ����Ʒ./@getback>\
-<�˳�/@exit>
+还有人竟然来到这里，你有什么事情吗？\
+把东西保管一次收200金币。\
+不知道今天能不能回到家。\ \
+<保管/@storage>东西\
+<取回物品./@getback>\
+<退出/@exit>
 
 
 
 [@storage]
-��Ҫ����ʲô������ \ \
- <����/@main>
+需要保管什么东西？ \ \
+ <返回/@main>
 
 [@getback]
-�뿴Ŀ¼������ʲô������\ \ \
- <����/@main>
+请看目录决定找什么东西。\ \ \
+ <返回/@main>
 

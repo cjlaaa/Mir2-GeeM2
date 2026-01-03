@@ -1,46 +1,46 @@
 [@main]
 #IF
 #SAY
-ÄúÖªµÀÎÒÊÇ×öÊ²Ã´ÊÂÇéµÄÃ´? \ 
-ÎÒ¸øÄãËµËµÎÒ×öÊ²Ã´ÊÂÇéµÄ°É... \ 
-ÎÒÊÇ»ØÊÕ³ïÂëµÄÀ²£¬Ã¿¸ö³ïÂëÊÇ1000½ð±Ò\
-ÏëÊÔÊÔÃ´..? Èç¹ûÄãÓÐÊ²Ã´ÒªÇó¿ÉÒÔ¸úÎÒËµ \\
-ÓÃ³ïÂë <½»»»½ð±Ò./@changeMoney> \
-<ÍË³ö./@exit>
+æ‚¨çŸ¥é“æˆ‘æ˜¯åšä»€ä¹ˆäº‹æƒ…çš„ä¹ˆ? \ 
+æˆ‘ç»™ä½ è¯´è¯´æˆ‘åšä»€ä¹ˆäº‹æƒ…çš„å§... \ 
+æˆ‘æ˜¯å›žæ”¶ç­¹ç çš„å•¦ï¼Œæ¯ä¸ªç­¹ç æ˜¯1000é‡‘å¸\
+æƒ³è¯•è¯•ä¹ˆ..? å¦‚æžœä½ æœ‰ä»€ä¹ˆè¦æ±‚å¯ä»¥è·Ÿæˆ‘è¯´ \\
+ç”¨ç­¹ç  <äº¤æ¢é‡‘å¸./@changeMoney> \
+<é€€å‡º./@exit>
 
 [@changeMoney]
 #IF
-checkitem ³ïÂë 1
+checkitem ç­¹ç  1
 #SAY 
-ÄãÏëÓÃ³ïÂë»»Ç®Ã´? \
-ÎªÁË¸øÄãÉú»îÒ»µãÒÀ¿¿,ÎÒÊÇÔ¸ÒâÎªÄãÐ§ÀÍµÄÀ² \
-¿ÉÊÇ,»¹ÊÇÀÏ¹æ¾Ø,ÊÖÐø·Ñ×ÜÊÇÃâ²»ÁËµÄÑ½ \
-ÊÖÐø·ÑÊÇ100½ð±Ò,Äã»¹Òª»»Ã´? \ \
+ä½ æƒ³ç”¨ç­¹ç æ¢é’±ä¹ˆ? \
+ä¸ºäº†ç»™ä½ ç”Ÿæ´»ä¸€ç‚¹ä¾é ,æˆ‘æ˜¯æ„¿æ„ä¸ºä½ æ•ˆåŠ³çš„å•¦ \
+å¯æ˜¯,è¿˜æ˜¯è€è§„çŸ©,æ‰‹ç»­è´¹æ€»æ˜¯å…ä¸äº†çš„å‘€ \
+æ‰‹ç»­è´¹æ˜¯100é‡‘å¸,ä½ è¿˜è¦æ¢ä¹ˆ? \ \
 
-<½»»»./@changeMoney_1> \
-<ÍË³ö./@exit>
+<äº¤æ¢./@changeMoney_1> \
+<é€€å‡º./@exit>
 
 #ELSESAY
-ºßºß,ÏëÆ­ÎÒ,Äã¸ù±¾¾ÍÃ»ÓÐ³ïÂëÀ²? \
-ÉÙÀ´ÕâÒ»Ì×À²! \ \
-<ÍË³ö./@exit>
+å“¼å“¼,æƒ³éª—æˆ‘,ä½ æ ¹æœ¬å°±æ²¡æœ‰ç­¹ç å•¦? \
+å°‘æ¥è¿™ä¸€å¥—å•¦! \ \
+<é€€å‡º./@exit>
 
 [@changeMoney_1]
 #IF
-   checkitem ³ïÂë 1
+   checkitem ç­¹ç  1
 #ACT
    goto @changeMoney_2
 
 [@changeMoney_2]
 #IF 
-   checkitem ³ïÂë 1
+   checkitem ç­¹ç  1
 #ACT
-   take ³ïÂë 1
-   give ½ð±Ò 900
+   take ç­¹ç  1
+   give é‡‘å¸ 900
 #SAY
-ÒÑ¾­»»ºÃÀ²,Ð¡»ï×Ó,²»´íÑ½. \ 
-»¹Òª»»Ã´? \ \
+å·²ç»æ¢å¥½å•¦,å°ä¼™å­,ä¸é”™å‘€. \ 
+è¿˜è¦æ¢ä¹ˆ? \ \
 
-<½»»»./@changeMoney> \
-<ÍË³ö./@exit>
+<äº¤æ¢./@changeMoney> \
+<é€€å‡º./@exit>
 

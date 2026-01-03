@@ -10,5 +10,5 @@ check [412] 1
 #SAY
 (Here is the Heart Master Thunderman was talking about..)\ \ 
 #ACT
-give Ğ°¶ñ¾ŞÈËĞÄÔà 1
+give é‚ªæ¶å·¨äººå¿ƒè„ 1
 SET [413] 1

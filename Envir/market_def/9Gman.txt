@@ -1,8 +1,8 @@
 [@main]
-ÄãÏëÒªÀë¿ªÂð£¿\
-<»Ø±ÈÆæ/@biqi>\
-<»ØÃËÖØ/@mengzhong>\
-<²»Àë¿ª/@exit>
+ä½ æƒ³è¦ç¦»å¼€å—ï¼Ÿ\
+<å›žæ¯”å¥‡/@biqi>\
+<å›žç›Ÿé‡/@mengzhong>\
+<ä¸ç¦»å¼€/@exit>
 
 [@biqi]
 #act

@@ -1,5 +1,5 @@
-;道术学员
+;閬撴湳瀛﹀憳
 
 [@main]
-呼噜呼噜ZZzzZZzz\\
-<确定/@exit>
+鍛煎櫆鍛煎櫆ZZzzZZzz\\
+<纭畾/@exit>

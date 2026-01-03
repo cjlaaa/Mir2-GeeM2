@@ -1,96 +1,96 @@
 [@main]
-ÎÒÊÇ¿ì½İÊÕ¹ºÔ±£¬¿ÉÒÔÒ»¼ü»ØÊÕÄã°ü¹üÀïµÄÀ¬»ø×°±¸\ 
+æˆ‘æ˜¯å¿«æ·æ”¶è´­å‘˜ï¼Œå¯ä»¥ä¸€é”®å›æ”¶ä½ åŒ…è£¹é‡Œçš„åƒåœ¾è£…å¤‡\ 
 \ \
-<×¢Òâ£º/SCOLOR=249>  \
-<½«»á»ØÊÕ°ü¹üÖĞËùÓĞµÍÓÚÎÖÂêµÄ×°±¸(²»°üº¬ÎÖÂê×°±¸)£¬Ğ¡ºÅÉ÷ÓÃ/SCOLOR=249>  \
-<ÇëÏÈ½«¼«Æ·×°±¸´æÈë²Ö¿â»òÓ¢ĞÛ±³°ü£¬ÒÔÃâµ±À¬»ø»ØÊÕ/SCOLOR=249>  \
-<»ØÊÕ¼Û¸ñÍ³Ò»ÎªÎïÆ·ÉÌµê¹ºÂò¼Û¸ñµÄ40%£¬ÎŞÊÓÄÍ¾Ã/SCOLOR=249>\
+<æ³¨æ„ï¼š/SCOLOR=249>  \
+<å°†ä¼šå›æ”¶åŒ…è£¹ä¸­æ‰€æœ‰ä½äºæ²ƒç›çš„è£…å¤‡(ä¸åŒ…å«æ²ƒç›è£…å¤‡)ï¼Œå°å·æ…ç”¨/SCOLOR=249>  \
+<è¯·å…ˆå°†æå“è£…å¤‡å­˜å…¥ä»“åº“æˆ–è‹±é›„èƒŒåŒ…ï¼Œä»¥å…å½“åƒåœ¾å›æ”¶/SCOLOR=249>  \
+<å›æ”¶ä»·æ ¼ç»Ÿä¸€ä¸ºç‰©å“å•†åº—è´­ä¹°ä»·æ ¼çš„40%ï¼Œæ— è§†è€ä¹…/SCOLOR=249>\
 \ \ 
-<Ò»¼ü»ØÊÕÀ¬»ø/@»ØÊÕÀ¬»ø>      
+<ä¸€é”®å›æ”¶åƒåœ¾/@å›æ”¶åƒåœ¾>      
 
 
  
-[@»ØÊÕÀ¬»ø]
+[@å›æ”¶åƒåœ¾]
 #IF
 #ACT
-TakeBagItem Ä¾½£ 46 0 20 0 0 N1 1
-TakeBagItem Ø°Ê× 46 0 200 0 0 N1 1
-TakeBagItem ÇàÍ­½£ 46 0 360 0 0 N1 1
-TakeBagItem ÎÚÄ¾½£ 46 0 1600 0 0 N1 1
-TakeBagItem Ìú½£ 46 0 480 0 0 N1 1
-TakeBagItem ¶Ì½£ 46 0 400 0 0 N1 1
-TakeBagItem º××ì³ú 46 0 280 0 0 N1 1
-TakeBagItem ÇàÍ­¸« 46 0 600 0 0 N1 1
-TakeBagItem °Ë»Ä 46 0 2000 0 0 N1 1
-TakeBagItem °ëÔÂ 46 0 1600 0 0 N1 1
-TakeBagItem º£»ê 46 0 1200 0 0 N1 1
-TakeBagItem ÂŞÉ² 46 0 4000 0 0 N1 1
-TakeBagItem Áè·ç 46 0 2000 0 0 N1 1
-TakeBagItem ÆÆ»ê 46 0 2000 0 0 N1 1
-TakeBagItem Õ¶Âíµ¶ 46 0 2400 0 0 N1 1
-TakeBagItem ÙÈÔÂ 46 0 4000 0 0 N1 1
-TakeBagItem ½µÄ§ 46 0 4000 0 0 N1 1
-TakeBagItem ĞŞÂŞ 46 0 4000 0 0 N1 1
-TakeBagItem ÄıËª 46 0 3200 0 0 N1 1
-TakeBagItem ²¼ÒÂ(ÄĞ) 46 0 48 0 0 N1 1
-TakeBagItem ²¼ÒÂ(Å®) 46 0 48 0 0 N1 1
-TakeBagItem ÇáĞÍ¿ø¼×(ÄĞ) 46 0 1200 0 0 N1 1
-TakeBagItem ÇáĞÍ¿ø¼×(Å®) 46 0 1200 0 0 N1 1
-TakeBagItem ÖĞĞÍ¿ø¼×(ÄĞ) 46 0 2400 0 0 N1 1
-TakeBagItem ÖĞĞÍ¿ø¼×(Å®) 46 0 2400 0 0 N1 1
-TakeBagItem ÖØ¿ø¼×(ÄĞ) 46 0 4800 0 0 N1 1
-TakeBagItem ÖØ¿ø¼×(Å®) 46 0 4800 0 0 N1 1
-TakeBagItem Ä§·¨³¤ÅÛ(ÄĞ) 46 0 4000 0 0 N1 1
-TakeBagItem Ä§·¨³¤ÅÛ(Å®) 46 0 4000 0 0 N1 1
-TakeBagItem Áé»êÕ½ÒÂ(ÄĞ) 46 0 4000 0 0 N1 1
-TakeBagItem Áé»êÕ½ÒÂ(Å®) 46 0 4000 0 0 N1 1
-TakeBagItem ÇàÍ­Í·¿ø 46 0 400 0 0 N1 1
-TakeBagItem ÷¼÷ÃÍ·¿ø 46 0 3200 0 0 N1 1
-TakeBagItem Ä§·¨Í·¿ø 46 0 800 0 0 N1 1
-TakeBagItem µÀÊ¿Í·¿ø 46 0 2000 0 0 N1 1
-TakeBagItem ½ğÏîÁ´ 46 0 200 0 0 N1 1
-TakeBagItem ´«Í³ÏîÁ´ 46 0 400 0 0 N1 1
-TakeBagItem °×½ğÏîÁ´ 46 0 800 0 0 N1 1
-TakeBagItem °×É«»¢³İÏîÁ´ 46 0 1200 0 0 N1 1
-TakeBagItem ¶ã±ÜÊÖÁ´ 46 0 10000 0 0 N1 1
-TakeBagItem ºÚÌ´ÏîÁ´ 46 0 480 0 0 N1 1
-TakeBagItem »ÆÉ«Ë®¾§ÏîÁ´ 46 0 480 0 0 N1 1
-TakeBagItem ºÚÉ«Ë®¾§ÏîÁ´ 46 0 600 0 0 N1 1
-TakeBagItem Ä§¹íÏîÁ´ 46 0 1000 0 0 N1 1
-TakeBagItem çúçêÏîÁ´ 46 0 800 0 0 N1 1
-TakeBagItem ·ï»ËÃ÷Öé 46 0 800 0 0 N1 1
-TakeBagItem µÆÁıÏîÁ´ 46 0 1200 0 0 N1 1
-TakeBagItem À¶ôä´äÏîÁ´ 46 0 4000 0 0 N1 1
-TakeBagItem ÖñµÑ 46 0 2400 0 0 N1 1
-TakeBagItem ·Å´ó¾µ 46 0 2400 0 0 N1 1
-TakeBagItem ÌúÊÖïí 46 0 320 0 0 N1 1
-TakeBagItem Ğ¡ÊÖïí 46 0 400 0 0 N1 1
-TakeBagItem ÒøÊÖïí 46 0 600 0 0 N1 1
-TakeBagItem Æ¤ÖÆÊÖÌ× 46 0 600 0 0 N1 1
-TakeBagItem ¸ÖÊÖïí 46 0 800 0 0 N1 1
-TakeBagItem ´óÊÖïí 46 0 2000 0 0 N1 1
-TakeBagItem ÏÄÆÕ¶ùÊÖïí 46 0 8000 0 0 N1 1
-TakeBagItem ¼á¹ÌÊÖÌ× 46 0 2800 0 0 N1 1
-TakeBagItem Ä§·¨ÊÖïí 46 0 1600 0 0 N1 1
-TakeBagItem µÀÊ¿ÊÖïí 46 0 1600 0 0 N1 1
-TakeBagItem ºÚÌ´ÊÖïí 46 0 1600 0 0 N1 1
-TakeBagItem ±ÜĞ°ÊÖïí 46 0 8000 0 0 N1 1
-TakeBagItem Ä§Á¦ÊÖïí 46 0 3200 0 0 N1 1
-TakeBagItem ËÀÉñÊÖÌ× 46 0 3200 0 0 N1 1
-TakeBagItem ½ğÊÖïí 46 0 2800 0 0 N1 1
-TakeBagItem ¹ÅÍ­½äÖ¸ 46 0 200 0 0 N1 1
-TakeBagItem Áù½Ç½äÖ¸ 46 0 320 0 0 N1 1
-TakeBagItem ²£Á§½äÖ¸ 46 0 320 0 0 N1 1
-TakeBagItem Å£½Ç½äÖ¸ 46 0 400 0 0 N1 1
-TakeBagItem ÉúÌú½äÖ¸ 46 0 1200 0 0 N1 1
-TakeBagItem À¶É«Ë®¾§½äÖ¸ 46 0 600 0 0 N1 1
-TakeBagItem ºÚÉ«Ë®¾§½äÖ¸ 46 0 800 0 0 N1 1
-TakeBagItem ÉßÑÛ½äÖ¸ 46 0 800 0 0 N1 1
-TakeBagItem ÕäÖé½äÖ¸ 46 0 800 0 0 N1 1
-TakeBagItem ½ğ½äÖ¸ 46 0 3200 0 0 N1 1
-TakeBagItem ÷ÈÁ¦½äÖ¸ 46 0 1600 0 0 N1 1
-TakeBagItem µÀµÂ½äÖ¸ 46 0 1600 0 0 N1 1
-TakeBagItem Éºº÷½äÖ¸ 46 0 6000 0 0 N1 1
-TakeBagItem ÷¼÷Ã½äÖ¸ 46 0 2000 0 0 N1 1
-SENDMSG 6 ³É¹¦»ØÊÕÀ¬»ø×°±¸£¬¼Û¸ñÎªÉÌµê¹ºÂò¼Û¸ñµÄ40%.
+TakeBagItem æœ¨å‰‘ 46 0 20 0 0 N1 1
+TakeBagItem åŒ•é¦– 46 0 200 0 0 N1 1
+TakeBagItem é’é“œå‰‘ 46 0 360 0 0 N1 1
+TakeBagItem ä¹Œæœ¨å‰‘ 46 0 1600 0 0 N1 1
+TakeBagItem é“å‰‘ 46 0 480 0 0 N1 1
+TakeBagItem çŸ­å‰‘ 46 0 400 0 0 N1 1
+TakeBagItem é¹¤å˜´é”„ 46 0 280 0 0 N1 1
+TakeBagItem é’é“œæ–§ 46 0 600 0 0 N1 1
+TakeBagItem å…«è’ 46 0 2000 0 0 N1 1
+TakeBagItem åŠæœˆ 46 0 1600 0 0 N1 1
+TakeBagItem æµ·é­‚ 46 0 1200 0 0 N1 1
+TakeBagItem ç½—åˆ¹ 46 0 4000 0 0 N1 1
+TakeBagItem å‡Œé£ 46 0 2000 0 0 N1 1
+TakeBagItem ç ´é­‚ 46 0 2000 0 0 N1 1
+TakeBagItem æ–©é©¬åˆ€ 46 0 2400 0 0 N1 1
+TakeBagItem åƒæœˆ 46 0 4000 0 0 N1 1
+TakeBagItem é™é­” 46 0 4000 0 0 N1 1
+TakeBagItem ä¿®ç½— 46 0 4000 0 0 N1 1
+TakeBagItem å‡éœœ 46 0 3200 0 0 N1 1
+TakeBagItem å¸ƒè¡£(ç”·) 46 0 48 0 0 N1 1
+TakeBagItem å¸ƒè¡£(å¥³) 46 0 48 0 0 N1 1
+TakeBagItem è½»å‹ç›”ç”²(ç”·) 46 0 1200 0 0 N1 1
+TakeBagItem è½»å‹ç›”ç”²(å¥³) 46 0 1200 0 0 N1 1
+TakeBagItem ä¸­å‹ç›”ç”²(ç”·) 46 0 2400 0 0 N1 1
+TakeBagItem ä¸­å‹ç›”ç”²(å¥³) 46 0 2400 0 0 N1 1
+TakeBagItem é‡ç›”ç”²(ç”·) 46 0 4800 0 0 N1 1
+TakeBagItem é‡ç›”ç”²(å¥³) 46 0 4800 0 0 N1 1
+TakeBagItem é­”æ³•é•¿è¢(ç”·) 46 0 4000 0 0 N1 1
+TakeBagItem é­”æ³•é•¿è¢(å¥³) 46 0 4000 0 0 N1 1
+TakeBagItem çµé­‚æˆ˜è¡£(ç”·) 46 0 4000 0 0 N1 1
+TakeBagItem çµé­‚æˆ˜è¡£(å¥³) 46 0 4000 0 0 N1 1
+TakeBagItem é’é“œå¤´ç›” 46 0 400 0 0 N1 1
+TakeBagItem éª·é«…å¤´ç›” 46 0 3200 0 0 N1 1
+TakeBagItem é­”æ³•å¤´ç›” 46 0 800 0 0 N1 1
+TakeBagItem é“å£«å¤´ç›” 46 0 2000 0 0 N1 1
+TakeBagItem é‡‘é¡¹é“¾ 46 0 200 0 0 N1 1
+TakeBagItem ä¼ ç»Ÿé¡¹é“¾ 46 0 400 0 0 N1 1
+TakeBagItem ç™½é‡‘é¡¹é“¾ 46 0 800 0 0 N1 1
+TakeBagItem ç™½è‰²è™é½¿é¡¹é“¾ 46 0 1200 0 0 N1 1
+TakeBagItem èº²é¿æ‰‹é“¾ 46 0 10000 0 0 N1 1
+TakeBagItem é»‘æª€é¡¹é“¾ 46 0 480 0 0 N1 1
+TakeBagItem é»„è‰²æ°´æ™¶é¡¹é“¾ 46 0 480 0 0 N1 1
+TakeBagItem é»‘è‰²æ°´æ™¶é¡¹é“¾ 46 0 600 0 0 N1 1
+TakeBagItem é­”é¬¼é¡¹é“¾ 46 0 1000 0 0 N1 1
+TakeBagItem ç¥ç€é¡¹é“¾ 46 0 800 0 0 N1 1
+TakeBagItem å‡¤å‡°æ˜ç  46 0 800 0 0 N1 1
+TakeBagItem ç¯ç¬¼é¡¹é“¾ 46 0 1200 0 0 N1 1
+TakeBagItem è“ç¿¡ç¿ é¡¹é“¾ 46 0 4000 0 0 N1 1
+TakeBagItem ç«¹ç¬› 46 0 2400 0 0 N1 1
+TakeBagItem æ”¾å¤§é•œ 46 0 2400 0 0 N1 1
+TakeBagItem é“æ‰‹é•¯ 46 0 320 0 0 N1 1
+TakeBagItem å°æ‰‹é•¯ 46 0 400 0 0 N1 1
+TakeBagItem é“¶æ‰‹é•¯ 46 0 600 0 0 N1 1
+TakeBagItem çš®åˆ¶æ‰‹å¥— 46 0 600 0 0 N1 1
+TakeBagItem é’¢æ‰‹é•¯ 46 0 800 0 0 N1 1
+TakeBagItem å¤§æ‰‹é•¯ 46 0 2000 0 0 N1 1
+TakeBagItem å¤æ™®å„¿æ‰‹é•¯ 46 0 8000 0 0 N1 1
+TakeBagItem åšå›ºæ‰‹å¥— 46 0 2800 0 0 N1 1
+TakeBagItem é­”æ³•æ‰‹é•¯ 46 0 1600 0 0 N1 1
+TakeBagItem é“å£«æ‰‹é•¯ 46 0 1600 0 0 N1 1
+TakeBagItem é»‘æª€æ‰‹é•¯ 46 0 1600 0 0 N1 1
+TakeBagItem é¿é‚ªæ‰‹é•¯ 46 0 8000 0 0 N1 1
+TakeBagItem é­”åŠ›æ‰‹é•¯ 46 0 3200 0 0 N1 1
+TakeBagItem æ­»ç¥æ‰‹å¥— 46 0 3200 0 0 N1 1
+TakeBagItem é‡‘æ‰‹é•¯ 46 0 2800 0 0 N1 1
+TakeBagItem å¤é“œæˆ’æŒ‡ 46 0 200 0 0 N1 1
+TakeBagItem å…­è§’æˆ’æŒ‡ 46 0 320 0 0 N1 1
+TakeBagItem ç»ç’ƒæˆ’æŒ‡ 46 0 320 0 0 N1 1
+TakeBagItem ç‰›è§’æˆ’æŒ‡ 46 0 400 0 0 N1 1
+TakeBagItem ç”Ÿé“æˆ’æŒ‡ 46 0 1200 0 0 N1 1
+TakeBagItem è“è‰²æ°´æ™¶æˆ’æŒ‡ 46 0 600 0 0 N1 1
+TakeBagItem é»‘è‰²æ°´æ™¶æˆ’æŒ‡ 46 0 800 0 0 N1 1
+TakeBagItem è›‡çœ¼æˆ’æŒ‡ 46 0 800 0 0 N1 1
+TakeBagItem çç æˆ’æŒ‡ 46 0 800 0 0 N1 1
+TakeBagItem é‡‘æˆ’æŒ‡ 46 0 3200 0 0 N1 1
+TakeBagItem é­…åŠ›æˆ’æŒ‡ 46 0 1600 0 0 N1 1
+TakeBagItem é“å¾·æˆ’æŒ‡ 46 0 1600 0 0 N1 1
+TakeBagItem çŠç‘šæˆ’æŒ‡ 46 0 6000 0 0 N1 1
+TakeBagItem éª·é«…æˆ’æŒ‡ 46 0 2000 0 0 N1 1
+SENDMSG 6 æˆåŠŸå›æ”¶åƒåœ¾è£…å¤‡ï¼Œä»·æ ¼ä¸ºå•†åº—è´­ä¹°ä»·æ ¼çš„40%.
 break

@@ -1,19 +1,19 @@
-;ÎäÆ÷
+;æ­¦å™¨
 (@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +10
 +11
 
-;¶Ô»°, '*' : ¶Ô»°tag
+;å¯¹è¯, '*' : å¯¹è¯tag
 [@main]
-»¶Ó­£¬ÄãÐèÒªµãÊ²Ã´£¿\ \
- <´ò¿ª/@trading> ½»Ò×ÊÐ³¡\
- <Âò/@buy>  ÒÂ·þ\
- <Âô/@sell>  ÒÂ·þ\
- <ÐÞ²¹/@repair> ÒÂ·þ\
- <´òÌý/@qweapon>³¬¼¶×°±¸µÄÏûÏ¢\
- <Àë¿ª/@Tmove>ÕâÀï\
- <È¡Ïû/@exit>
+æ¬¢è¿Žï¼Œä½ éœ€è¦ç‚¹ä»€ä¹ˆï¼Ÿ\ \
+ <æ‰“å¼€/@trading> äº¤æ˜“å¸‚åœº\
+ <ä¹°/@buy>  è¡£æœ\
+ <å–/@sell>  è¡£æœ\
+ <ä¿®è¡¥/@repair> è¡£æœ\
+ <æ‰“å¬/@qweapon>è¶…çº§è£…å¤‡çš„æ¶ˆæ¯\
+ <ç¦»å¼€/@Tmove>è¿™é‡Œ\
+ <å–æ¶ˆ/@exit>
 <>
 
 [@Tmove]
@@ -70,32 +70,32 @@ goto @Tmove
 
 
 [@buy]
-ÄãÏëÂòÊ²Ã´ÑùµÄÒÂ·þ£¿\ \ \
- <·µ»Ø/@main>
+ä½ æƒ³ä¹°ä»€ä¹ˆæ ·çš„è¡£æœï¼Ÿ\ \ \
+ <è¿”å›ž/@main>
 
 
 [@sell]
-°ÑÄãÒªÂôµÄÒÂ·þ¸øÎÒ¿´¿´£¬ÎÒ»á¸øÄã¸ö¹À¼Û¡£\
- <·µ»Ø/@main>
+æŠŠä½ è¦å–çš„è¡£æœç»™æˆ‘çœ‹çœ‹ï¼Œæˆ‘ä¼šç»™ä½ ä¸ªä¼°ä»·ã€‚\
+ <è¿”å›ž/@main>
 
 [@repair]
-Çë·ÅÉÏÈ¥ÒªÐÞ²¹µÄÒÂ·þ.\ \ \
- <·µ»Ø/@main>
+è¯·æ”¾ä¸ŠåŽ»è¦ä¿®è¡¥çš„è¡£æœ.\ \ \
+ <è¿”å›ž/@main>
 
 [~@repair]
-¿´À´ÐÞ²¹µÃºÜ²»´í.\ \ \
- <·µ»Ø/@main>
+çœ‹æ¥ä¿®è¡¥å¾—å¾ˆä¸é”™.\ \ \
+ <è¿”å›ž/@main>
 
 [@qweapon]
-´«ËµÖÐÈýÓ¢ÐÛÁôÏÂÁËÈýÌ×¾ø¶¥×°±¸¡£\
-·¨ÉñÌ××°ÌýËµ¾ÍÔÚ³àÔÂÏ¿¹ÈµÄË«Í·½ð¸ÕÊÖÀï£¬\
-µÃµ½ËüµÄÄ§·¨Ê¦½«ÊÇ×î½Ó½üÉñµÄÈË¡­¡­\\
- <·µ»Ø/@main>
+ä¼ è¯´ä¸­ä¸‰è‹±é›„ç•™ä¸‹äº†ä¸‰å¥—ç»é¡¶è£…å¤‡ã€‚\
+æ³•ç¥žå¥—è£…å¬è¯´å°±åœ¨èµ¤æœˆå³¡è°·çš„åŒå¤´é‡‘åˆšæ‰‹é‡Œï¼Œ\
+å¾—åˆ°å®ƒçš„é­”æ³•å¸ˆå°†æ˜¯æœ€æŽ¥è¿‘ç¥žçš„äººâ€¦â€¦\\
+ <è¿”å›ž/@main>
 
 [goods]
 ;items(can be Zen)      pieces     hour
-²¼ÒÂ(ÄÐ)        50         1
-²¼ÒÂ(Å®)        50         1
-ÇáÐÍ¿ø¼×(ÄÐ)    50         1
-ÇáÐÍ¿ø¼×(Å®)    50         1
+å¸ƒè¡£(ç”·)        50         1
+å¸ƒè¡£(å¥³)        50         1
+è½»åž‹ç›”ç”²(ç”·)    50         1
+è½»åž‹ç›”ç”²(å¥³)    50         1
 

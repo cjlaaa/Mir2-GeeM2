@@ -1,11 +1,11 @@
 [@main]
-����Ҫ��ʲô��\
-<���/@askmarry>\
-<�콱Ʒ/@teacher>\
-<ѯ����ν��/@ask1>\
-<ѯ�������ͽ/@ask2>\
-<ѯ����ΰ�ʦ/@ask3>\
-<�뿪/@exit>
+你想要做什么？\
+<求婚/@askmarry>\
+<领奖品/@teacher>\
+<询问如何结婚/@ask1>\
+<询问如何收徒/@ask2>\
+<询问如何拜师/@ask3>\
+<离开/@exit>
 
 [@askmarry]
 #IF
@@ -24,27 +24,27 @@ break
 goto @nomarry
 
 [@nomarry]
-�����ڵȼ�̫�ͣ�\
-��22���Ժ������ɣ�\
-<�뿪/@exit>
+你现在等级太低，\
+等22级以后再来吧！\
+<离开/@exit>
 
 [@woman]
-ֻ�����Բ�����飡\
-<�뿪/@exit>
+只有男性才能求婚！\
+<离开/@exit>
 
 [@marry]
 #if
 checklevel 22
-check ���� 1
+check 金条 1
 #act
-take ���� 1
+take 金条 1
 #say
-���������ˣ�\
-<�뿪/@exit>
+你可以求婚了！\
+<离开/@exit>
 #elsesay
-�����Ǯ������\
-�뽻��һ��������Ϊ�����á�\
-<�뿪/@exit>
+你带的钱不够，\
+请交付一根金条作为结婚费用。\
+<离开/@exit>
 
 
 

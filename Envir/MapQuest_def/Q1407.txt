@@ -20,6 +20,6 @@ Just looking at it makes me bloodthirsty...\
 Now, i'll go back to master Thunderman for\
 further information.\ \
 #ACT
-give Ñª½£ËéÆ¬ 1
+give è¡€å‰‘ç¢Žç‰‡ 1
 SET [408] 1
 

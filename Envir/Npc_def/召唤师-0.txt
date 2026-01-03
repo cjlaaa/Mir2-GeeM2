@@ -2,416 +2,416 @@
 #IF
 checkpkpoint 2
 #SAY
-�Ҳ�������������˴򽻵�!\ \
- <�뿪/@exit>\
+我不想和你这样的人打交道!\ \
+ <离开/@exit>\
 #ELSEACT
 goto @main-1
 break
 
 [@main-1]
-��ʦ�����ٻ����±���(ӥ���ͻ����޴�2��,�������ٻ�) \
-<���(13)/@���>  <�๳è(13)/@�๳è>  <����è(13)/@����è>  <������(13)/@������>  <��ӥ(14)/@��ӥ> \
-<���׳�(14)/@���׳�>  <��(14)/@��>  <��˼��С��(14)/@��˼��С��>  <��ǳ�(14)/@��ǳ�>  <ɭ��ѩ��(14)/@ɭ��ѩ��> \
-<��֩��(14)/@��֩��>  <ɳ��(15)/@ɳ��>  <����(15)/@����>  <Ы��(16)/@Ы��>  <����(16)/@����> \
-<����սʿ(20)/@����սʿ> <���(24)/@���> <����սʿ(24)/@����սʿ> <��ɫ����(26)/@��ɫ����> <������ʿ(26)/@������ʿ> \
-<ǯ��(29)/@ǯ��>  <����(30)/@����>  <���Ͷ�ǳ�(30)/@���Ͷ�ǳ�>  <ӥ��(30)/@ӥ��>  <����(30)/@����> \
-��ʿ�����ٻ����±���(����1��) \
-<3������(19)/@3������>   <5������(23)/@5������>   <7������(26)/@7������> \
-<3������(35)/@3������>   <5������(37)/@5������>   <7������(40)/@7������>
+法师可以召唤以下宝宝(鹰卫和虎卫限带2个,请优先召唤) \
+<蛤蟆(13)/@蛤蟆>  <多钩猫(13)/@多钩猫>  <钉耙猫(13)/@钉耙猫>  <半兽人(13)/@半兽人>  <猎鹰(14)/@猎鹰> \
+<盔甲虫(14)/@盔甲虫>  <狼(14)/@狼>  <威思而小虫(14)/@威思而小虫>  <多角虫(14)/@多角虫>  <森林雪人(14)/@森林雪人> \
+<毒蜘蛛(14)/@毒蜘蛛>  <沙虫(15)/@沙虫>  <红蛇(15)/@红蛇>  <蝎子(16)/@蝎子>  <虎蛇(16)/@虎蛇> \
+<半兽战士(20)/@半兽战士> <蜈蚣(24)/@蜈蚣> <暗黑战士(24)/@暗黑战士> <黑色恶蛆(26)/@黑色恶蛆> <半兽勇士(26)/@半兽勇士> \
+<钳虫(29)/@钳虫>  <契娥(30)/@契娥>  <巨型多角虫(30)/@巨型多角虫>  <鹰卫(30)/@鹰卫>  <虎卫(30)/@虎卫> \
+道士可以召唤以下宝宝(限招1个) \
+<3级骷髅(19)/@3级骷髅>   <5级骷髅(23)/@5级骷髅>   <7级骷髅(26)/@7级骷髅> \
+<3级神兽(35)/@3级神兽>   <5级神兽(37)/@5级神兽>   <7级神兽(40)/@7级神兽>
 
-[@3������]
+[@3级骷髅]
 #IF
   CHECKSLAVECOUNT < 1
   CheckJob Taoist
   CheckLevel 19
 #ACT
-  RECALLMOB �������� 3 30000 0
+  RECALLMOB 变异骷髅 3 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@5������]
+[@5级骷髅]
 #IF
   CHECKSLAVECOUNT < 1
   CheckJob Taoist
   CheckLevel 23
 #ACT
-  RECALLMOB �������� 5 30000 0
+  RECALLMOB 变异骷髅 5 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@7������]
+[@7级骷髅]
 #IF
   CHECKSLAVECOUNT < 1
   CheckJob Taoist
   CheckLevel 26
 #ACT
-  RECALLMOB �������� 7 30000 0
+  RECALLMOB 变异骷髅 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@3������]
+[@3级神兽]
 #IF
   CHECKSLAVECOUNT < 1
   CheckJob Taoist
   CheckLevel 35
 #ACT
-  RECALLMOB ���� 3 30000 0
+  RECALLMOB 神兽 3 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@5������]
+[@5级神兽]
 #IF
   CHECKSLAVECOUNT < 1
   CheckJob Taoist
   CheckLevel 37
 #ACT
-  RECALLMOB ���� 5 30000 0
+  RECALLMOB 神兽 5 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@7������]
+[@7级神兽]
 #IF
   CHECKSLAVECOUNT < 1
   CheckJob Taoist
   CheckLevel 40
 #ACT
-  RECALLMOB ���� 7 30000 0
+  RECALLMOB 神兽 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@���]
+[@蛤蟆]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 13
 #ACT
-  RECALLMOB ��� 7 30000 0
+  RECALLMOB 蛤蟆 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@���]
+[@蛤蟆]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 13
 #ACT
-  RECALLMOB ��� 7 30000 0
+  RECALLMOB 蛤蟆 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@�๳è]
+[@多钩猫]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 13
 #ACT
-  RECALLMOB �๳è 7 30000 0
+  RECALLMOB 多钩猫 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@����è]
+[@钉耙猫]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 13
 #ACT
-  RECALLMOB ����è 7 30000 0
+  RECALLMOB 钉耙猫 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@������]
+[@半兽人]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 13
 #ACT
-  RECALLMOB ������ 7 30000 0
+  RECALLMOB 半兽人 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@��ӥ]
+[@猎鹰]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 14
 #ACT
-  RECALLMOB ��ӥ 7 30000 0
+  RECALLMOB 猎鹰 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@���׳�]
+[@盔甲虫]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 14
 #ACT
-  RECALLMOB ���׳� 7 30000 0
+  RECALLMOB 盔甲虫 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@��]
+[@狼]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 14
 #ACT
-  RECALLMOB �� 7 30000 0
+  RECALLMOB 狼 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@��˼��С��]
+[@威思而小虫]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 14
 #ACT
-  RECALLMOB ��˼��С�� 7 30000 0
+  RECALLMOB 威思而小虫 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!\
+数量过多或职业错误!\
 
-[@��ǳ�]
+[@多角虫]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 14
 #ACT
-  RECALLMOB ��ǳ� 7 30000 0
+  RECALLMOB 多角虫 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
 
-[@ɭ��ѩ��]
+[@森林雪人]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 14
 #ACT
-  RECALLMOB ɭ��ѩ�� 7 30000 0
+  RECALLMOB 森林雪人 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@��֩��]
+[@毒蜘蛛]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 14
 #ACT
-  RECALLMOB ��֩�� 7 30000 0
+  RECALLMOB 毒蜘蛛 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@ɳ��]
+[@沙虫]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 15
 #ACT
-  RECALLMOB ɳ�� 7 30000 0
+  RECALLMOB 沙虫 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@����]
+[@红蛇]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 15
 #ACT
-  RECALLMOB ���� 7 30000 0
+  RECALLMOB 红蛇 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@Ы��]
+[@蝎子]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 16
 #ACT
-  RECALLMOB Ы�� 7 30000 0
+  RECALLMOB 蝎子 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@����]
+[@虎蛇]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 16
 #ACT
-  RECALLMOB ���� 7 30000 0
+  RECALLMOB 虎蛇 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@����]
+[@虎蛇]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 16
 #ACT
-  RECALLMOB ���� 7 30000 0
+  RECALLMOB 虎蛇 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@����սʿ]
+[@半兽战士]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 20
 #ACT
-  RECALLMOB ����սʿ 7 30000 0
+  RECALLMOB 半兽战士 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@���]
+[@蜈蚣]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 24
 #ACT
-  RECALLMOB ��� 7 30000 0
+  RECALLMOB 蜈蚣 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@����սʿ]
+[@暗黑战士]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 24
 #ACT
-  RECALLMOB ����սʿ 7 30000 0
+  RECALLMOB 暗黑战士 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@���Ͷ�ǳ�]
+[@巨型多角虫]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 30
 #ACT
-  RECALLMOB ���Ͷ�ǳ�1 7 30000 0
+  RECALLMOB 巨型多角虫1 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@��ɫ����]
+[@黑色恶蛆]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 26
 #ACT
-  RECALLMOB ��ɫ���� 7 30000 0
+  RECALLMOB 黑色恶蛆 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@������ʿ]
+[@半兽勇士]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 26
 #ACT
-  RECALLMOB ������ʿ 7 30000 0
+  RECALLMOB 半兽勇士 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@ǯ��]
+[@钳虫]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 29
 #ACT
-  RECALLMOB ǯ�� 7 30000 0
+  RECALLMOB 钳虫 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@����]
+[@契娥]
 #IF
   CHECKSLAVECOUNT < 5
   CheckJob Wizard
   CheckLevel 30
 #ACT
-  RECALLMOB Ш�� 7 30000 0
+  RECALLMOB 楔蛾 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@ӥ��]
+[@鹰卫]
 #IF
   CHECKSLAVECOUNT < 2
   CheckJob Wizard
   CheckLevel 30
 #ACT
-  RECALLMOB ӥ�� 7 30000 0
+  RECALLMOB 鹰卫 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!
 
-[@����]
+[@虎卫]
 #IF
   CHECKSLAVECOUNT < 2
   CheckJob Wizard
   CheckLevel 30
 #ACT
-  RECALLMOB ���� 7 30000 0
+  RECALLMOB 虎卫 7 30000 0
 #SAY
-�úÿ����Լ��ı�������Ҫ��ҧ�ˡ�
+好好看着自己的宝宝，不要乱咬人。
 #ELSESAY
-���������ְҵ����!
+数量过多或职业错误!

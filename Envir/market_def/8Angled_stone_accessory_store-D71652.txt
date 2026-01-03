@@ -1,6 +1,6 @@
 (@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %200
-;ÏîÁ´,½äÖ¸,½äÖ¸
+;é¡¹é“¾,æˆ’æŒ‡,æˆ’æŒ‡
 +19
 +20
 +21
@@ -9,24 +9,24 @@
 +24
 +26
 
-;¶Ô»°, '*' : ¶Ô»°tag
+;å¯¹è¯, '*' : å¯¹è¯tag
 [@main]
-ÄãÒ²ÊÇÎªÁËÑ°ÕÒÐÂµÄ¶«Î÷²ÅÀ´µ½ÕâÀïµÄÂð£¿\
-ÄãÒ²Ó¦¸ÃÖªµÀÕâÀïºÜÎ£ÏÕ¡£\
-ÎÒÄÜ¹»°ïÄãµÄ¾ÍÊÇÐÞÀí×°ÊÎÆ·¡£\\
+ä½ ä¹Ÿæ˜¯ä¸ºäº†å¯»æ‰¾æ–°çš„ä¸œè¥¿æ‰æ¥åˆ°è¿™é‡Œçš„å—ï¼Ÿ\
+ä½ ä¹Ÿåº”è¯¥çŸ¥é“è¿™é‡Œå¾ˆå±é™©ã€‚\
+æˆ‘èƒ½å¤Ÿå¸®ä½ çš„å°±æ˜¯ä¿®ç†è£…é¥°å“ã€‚\\
 
- <ÐÞÀí/@repair>×°ÊÎÆ·\
- <ÌØÊâÐÞÀí/@s_repair>\
- <È¡Ïû/@exit> 
+ <ä¿®ç†/@repair>è£…é¥°å“\
+ <ç‰¹æ®Šä¿®ç†/@s_repair>\
+ <å–æ¶ˆ/@exit> 
 <>
 
 [@repair]
-ÒªÐÞÀí×°ÊÎÆ·Âð£¿ \ \
- <·µ»Ø/@main>
+è¦ä¿®ç†è£…é¥°å“å—ï¼Ÿ \ \
+ <è¿”å›ž/@main>
 
 [~@repair]
-ÐÞÀíµÃ»¹Ëã¿ÉÒÔ¡£\ \
- <·µ»Ø/@main>
+ä¿®ç†å¾—è¿˜ç®—å¯ä»¥ã€‚\ \
+ <è¿”å›ž/@main>
 
 [goods]
-ÉÌÆ·          ÊýÁ¿      Ê±¼ä
+å•†å“          æ•°é‡      æ—¶é—´

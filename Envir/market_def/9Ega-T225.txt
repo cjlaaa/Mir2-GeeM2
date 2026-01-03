@@ -1,43 +1,43 @@
 [@main]
 #IF
 #SAY
-ÄãºÃ£¡ÕâÀïÊÇÆ½°²·¿ÁË \
-Æ½°²·¿¿ÉÒÔ°ïÄãÓÃ³ïÂëÀ´½»»»½ð´¯Ò©°üºÍÄ§·¨Ò©°ü  \
-ÇëÑ¡Ôñ \ \
-ÓÃ³ïÂë½»»»½ð´¯Ò©°ü <½»»»./@buyP> \
-ÓÃ³ïÂë½»»»Ä§·¨Ò©°ü <½»»»./@buyB> \ 
-Í¶÷»×Ó <ÏÂÒ»²½./@pre2_cube>
+ä½ å¥½ï¼è¿™é‡Œæ˜¯å¹³å®‰æˆ¿äº† \
+å¹³å®‰æˆ¿å¯ä»¥å¸®ä½ ç”¨ç­¹ç æ¥äº¤æ¢é‡‘ç–®è¯åŒ…å’Œé­”æ³•è¯åŒ…  \
+è¯·é€‰æ‹© \ \
+ç”¨ç­¹ç äº¤æ¢é‡‘ç–®è¯åŒ… <äº¤æ¢./@buyP> \
+ç”¨ç­¹ç äº¤æ¢é­”æ³•è¯åŒ… <äº¤æ¢./@buyB> \ 
+æŠ•éª°å­ <ä¸‹ä¸€æ­¥./@pre2_cube>
 
 [@buyP]
 #IF
-checkitem ³ïÂë 1
+checkitem ç­¹ç  1
 #ACT
-take ³ïÂë 1
-give ½ð´¯Ò©°ü 1
+take ç­¹ç  1
+give é‡‘ç–®è¯åŒ… 1
 #SAY
-°Ñ³ïÂëÒÑ»»³É½ð´¯Ò©°ü. \ \
-<·µ»Ø/@main>
+æŠŠç­¹ç å·²æ¢æˆé‡‘ç–®è¯åŒ…. \ \
+<è¿”å›ž/@main>
 
 [@buyB]
 #IF
-checkitem ³ïÂë 1
+checkitem ç­¹ç  1
 #ACT
-take ³ïÂë 1
-give Ä§·¨Ò©°ü 1
+take ç­¹ç  1
+give é­”æ³•è¯åŒ… 1
 #SAY
-°Ñ³ïÂëÒÑ»»³ÉÄ§·¨Ò©°ü. \ \
-<·µ»Ø/@main>
+æŠŠç­¹ç å·²æ¢æˆé­”æ³•è¯åŒ…. \ \
+<è¿”å›ž/@main>
 
 [@pre2_cube]
 #IF
-checkitem ³ïÂë 1
+checkitem ç­¹ç  1
 #ACT
 goto @pre_cube
 #ELSESAY
-<$USERNAME>Ã»ÓÐ³ïÂëÁË. \
-ÄãÎÞ·¨¼ÌÐø¶Ä²©. \ 
-Ïë¼ÌÐø½øÐÐ,ÄÇ×¼±¸ºÃ³ïÂëºóÔÙÀ´\ \
-<ÍË³ö/@Quit>
+<$USERNAME>æ²¡æœ‰ç­¹ç äº†. \
+ä½ æ— æ³•ç»§ç»­èµŒåš. \ 
+æƒ³ç»§ç»­è¿›è¡Œ,é‚£å‡†å¤‡å¥½ç­¹ç åŽå†æ¥\ \
+<é€€å‡º/@Quit>
 
 [@Quit]
 #IF
@@ -46,9 +46,9 @@ map B011
 
 [@pre_cube]
 #IF
-checkitem ³ïÂë 1
+checkitem ç­¹ç  1
 #ACT
-take ³ïÂë 1
+take ç­¹ç  1
 SET [799] 0
 SET [798] 0
 movr d0 6
@@ -59,9 +59,9 @@ goto @quit
 
 [@cube]
 #SAY
-÷»×ÓµÄµãÊý <$STR(D0)>  \
-Äã¿ÉÒÔÇ°½ø <$STR(D0)>  \ \
-<ÒÆ¶¯/@next_cube>
+éª°å­çš„ç‚¹æ•° <$STR(D0)>  \
+ä½ å¯ä»¥å‰è¿› <$STR(D0)>  \ \
+<ç§»åŠ¨/@next_cube>
 
 [@next_cube]
 #IF

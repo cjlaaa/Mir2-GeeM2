@@ -1,44 +1,44 @@
-;Զ������
+;远古祖玛
 [@main]
 #if
 #act
 CLOSEMERCHANTBIGDLG
 #say
-�����Ǹ���ʱ�յ������ۺϵ�,�����ҿ�����ħ������ص�Զ��ʱ��,\ 
-��Ϊά�����ͨ����Ҫ�����ľ����Ͳ���,������Ҫ����һЩǮ����; \
-����,��Ϊ�ҵ���������,�����������µ����ʱ���,��ô�Ҿ���\ 
-��ά��ǰ��ԭ��ʱ����ͨ����,����һ��ҪС��! \  \
-�ҵ�ħ��������ά�ִ���ͨ��<����Сʱ/SCOLOR=249>,ǧ��ע�ⰲȫ! \ \
-<����100Wǰ��Զ��ʱ���/@ǰ���¸���>  <���Է����ϴ�Զ��ʱ���/@�����ϴθ���>  <�˳�/@exit>
+这里是附近时空的能量聚合点,所以我可以用魔法帮你回到远古时期,\ 
+因为维持这个通道需要大量的精力和材料,所以你要付我一些钱才行; \
+对了,因为我的能力有限,如果你进入了新的随机时间点,那么我就无\ 
+法维持前往原先时间点的通道了,所以一定要小心! \  \
+我的魔法最多可以维持传送通道<两个小时/SCOLOR=249>,千万注意安全! \ \
+<花费100W前往远古时间点/@前往新副本>  <尝试返回上次远古时间点/@返回上次副本>  <退出/@exit>
 
-[@�����ϴθ���]
+[@返回上次副本]
 #act
 mapmove <$USERNAME>D5074 47 89
 
-[@ǰ���¸���]
+[@前往新副本]
 #say
-���ڽ���ǰ��Զ�����ʱ����ͨ��...���Ժ�...���Ϻ�...
+正在建立前往远古随机时间点的通道...请稍后...马上好...
 #ACT
 DelMirrorMap <$USERNAME>D5074
-DELAYGOTO 3000 @Զ������
+DELAYGOTO 3000 @远古祖玛
 
-[@Զ������]
+[@远古祖玛]
 #if
 checkgold 1000000
 #act
 close
-take ��� 1000000
-AddMirrorMap D5074 <$USERNAME>D5074 Զ������ 7200 D504 51 N1 1 0,0
+take 金币 1000000
+AddMirrorMap D5074 <$USERNAME>D5074 远古祖玛 7200 D504 51 N1 1 0,0
 
 ; (6000+6100+6200+6100)*38+6300*5=934300
-MONGENEX <$USERNAME>D5074 50 50 �Ŵ������� 50 38
-MONGENEX <$USERNAME>D5074 50 50 �Ŵ����깭���� 50 76
-MONGENEX <$USERNAME>D5074 50 50 �Ŵ�������� 50 38
-MONGENEX <$USERNAME>D5074 50 50 �Ŵ�������ʿ 50 5
-MONGENEX <$USERNAME>D5074 72 17 �Ŵ�������׽� 2 1
+MONGENEX <$USERNAME>D5074 50 50 古代大老鼠 50 38
+MONGENEX <$USERNAME>D5074 50 50 古代祖玛弓箭手 50 76
+MONGENEX <$USERNAME>D5074 50 50 古代祖玛雕像 50 38
+MONGENEX <$USERNAME>D5074 50 50 古代祖玛卫士 50 5
+MONGENEX <$USERNAME>D5074 72 17 古代祖玛击雷将 2 1
 
 mapmove <$USERNAME>D5074 47 89
-sendmsg 7 �������ѽ���[Զ������]��ͼ...
+sendmsg 7 副本：已进入[远古祖玛]地图...
 #elsesay
-��Ľ�Ҳ��㣬�޷����룡 \
-<�˳�/@exit>
+你的金币不足，无法进入！ \
+<退出/@exit>

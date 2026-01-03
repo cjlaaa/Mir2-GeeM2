@@ -1,144 +1,144 @@
-;���
+;物价
 (@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 
-;��ȭ, '*' : ��ȭ �±�
+;措拳, '*' : 措拳 怕弊
 [@main]
-��Ҫ��ʲôæ��\
-Ŀǰ���ձ��ܷѣ�������á�\ \
- <����/@storage>����\
- <�һ�/@getback>����\
- <��/@mbind>���־����ҩˮ\
+需要帮什么忙吗？\
+目前不收保管费，请多利用。\ \
+ <保管/@storage>东西\
+ <找回/@getback>东西\
+ <捆/@mbind>各种卷书和药水\
  
-<�˳�/@exit>
+<退出/@exit>
 
 [@wol]
-������������ȫ���й�����������������Ϸ���������¹���\
-1��ȫ��̳�Ŀǰ����Ѫ��������������ݺ��û�����<����/@wol1>\
-2������ĵ��ߣ����ܣ������ĳ���<����/@wol2>\
-3���������޻������Ƴ����������Ҫ�󲻶�����<����/@wol3>\
-4������32λ��ʺ�1024*768�������<����/@wol4>\
-�������ܣ�����Ʒ�ʣ��������עwww.woool.com\\
-<����/@main>
+传奇世界是完全由中国自主开发的网络游戏，具有以下功能\
+1、全面继承目前《热血》传奇的所有内容和用户数据<详情/@wol1>\
+2、更多的道具，技能，更宏大的场景<详情/@wol2>\
+3、骑马，兽化功能推出，根据玩家要求不断新增<详情/@wol3>\
+4、真正32位真彩和1024*768完美结合<详情/@wol4>\
+更高性能，更高品质，详情请关注www.woool.com\\
+<返回/@main>
 
 [@wol1]
-��������֧����Ѫ������������ƽ�ơ�������Ѫ������\
-��õ����еȼ������ߣ���������װ���������ܵȽ�\
-ȫ��ƽ�Ƶ����������С�\
-���һ��Ŭ������������ó��ϣ�\
-��עδ�������ע��������www.woool.com\\
-<����/@wol>
+传奇世界支持热血传奇所有数据平移。你在热血传奇中\
+获得的所有等级，道具（包括特殊装备），技能等将\
+全部平移到传奇世界中。\
+你的一切努力在这里均会获得承认，\
+关注未来，请关注传奇世界www.woool.com\\
+<返回/@wol>
 
 [@wol2]
-�µĴ��������ڰ���Ŀǰ���е����������ͬʱ����\
-�Ƴ�����ȫ�µľ������⹦�ܵĵ��ߡ�ͬʱ����������\
-��Ϊÿ��ְҵ�ṩ�˸��µ�ְҵ���ܺ�ħ������������\
-��Ϊ���Ĵ���������۳ҡ�\
-��עδ�������ע��������www.woool.com\\
-<����/@wol>
+新的传奇世界在包含目前所有的神兵利器的同时，将\
+推出更多全新的具有特殊功能的刀具。同时，传奇世界\
+还为每个职业提供了更新的职业技能和魔法，允许你在\
+更为宏大的传奇世界里驰骋。\
+关注未来，请关注传奇世界www.woool.com\\
+<返回/@wol>
 
 [@wol3]
-�ڴ�����������ܹ�ѱ��Ұ���������۳ң�����\
-��۵糸�Ŀ�С�\
-�ڴ���������㻹��ӵ���޻�������ʹ�Լ���Ϊ���ˣ�\
-���߻���Ϊ�����Ĵ��ε���\
-�ڴ�����������Ǹ�����ȡ�����������µĹ��ܡ�\
-��עδ������ע��������www.woool.com\\
-<����/@wol>
+在传奇世界里，你能够驯服野马，掣马驰骋，享受\
+风驰电掣的快感。\
+在传奇世界里，你还能拥有兽化能力，使自己成为巨人，\
+或者化身为蝙蝠四处游荡。\
+在传奇世界里，我们更会听取你的意见增加新的功能。\
+关注未来，关注传奇世界www.woool.com\\
+<返回/@wol>
 
 [@wol4]
-������������ʵ����32λ��ʺ�1024*768�ĳ�����ܡ�\
-���������������ܽ���Ѫ���������20%\
-������������������������˷������ٶȺ�Ч�ʸ���\
-����������Ҫ���������Ҫ����ͣ����и�����\
-��עδ������ע��������www.woool.com\\
-<����/@wol>
+传奇世界真正实现了32位真彩和1024*768的超酷感受。\
+传奇世界整体性能较热血传奇提高了20%\
+传奇世界依靠自主开发，因此封闭外挂速度和效率更高\
+传奇世界需要网络带宽等要求更低，运行更流畅\
+关注未来，关注传奇世界www.woool.com\\
+<返回/@wol>
 
 
 
 [@storage]
-��Ҫ����ʲô������\ \ \
- <����/@main>
+需要保管什么东西？\ \ \
+ <返回/@main>
 
 [@getback]
-�뿴Ŀ¼������ʲô������\ \ \
- <����/@main>
+请看目录决定找什么东西。\ \ \
+ <返回/@main>
 
  
 [@Mbind]
 #IF
 #SAY
-��֪������ʲô���� \ 
-������������������... \ 
-��Ҫ��һ������ʲôҪ���еľ�˵�� \ \
+你知道我是什么人吗？ \ 
+我做的是这样的事情... \ 
+你要试一下吗？有什么要拜托的就说吧 \ \
 
-�ý��<����/@changeGold>���� \
-�ý���<����/@changeMoney>��� \
-<��/@bind> \ 
+用金币<交换/@changeGold>金条 \
+用金条<交换/@changeMoney>金币 \
+<捆/@bind> \ 
 
-<ȡ��/@exit>
+<取消/@exit>
 
 [@changeGold]
 #IF
    checkgold 1000000
 #SAY
-��˵��Ҫ�ý�һ��ɽ���? \
-�õģ��Ұ��㻻 \
-����Ҫ֧�������� \
-������2000��ң��㻹���� \ \
+你说你要用金币换成金条? \
+好的，我帮你换 \
+但是要支付手续费 \
+费用是2000金币，你还换吗？ \ \
 
-<����/@changeGold_1> \
-<ȡ��/@exit>
+<交换/@changeGold_1> \
+<取消/@exit>
 
 #ELSESAY
-�������Ǯ��û�У�����ʲô�� \
-�������㹻��Ǯ���������Ұ� \ \
-<����/@main>
+你连这点钱都没有，还换什么？ \
+等你有足够的钱，再来找我吧 \ \
+<返回/@main>
 
 [@changeGold_1]
 #IF 
    checkbaggage
    checkgold 1002000
 #ACT
-   take ��� 1002000
-   give ���� 1
+   take 金币 1002000
+   give 金条 1
 #SAY
-����Ѿ����ý�����. \ 
-������ \ \
+金币已经换好金条了. \ 
+还换吗？ \ \
 
-<����/@changeGold> \
-<ȡ��/@exit>
+<交换/@changeGold> \
+<取消/@exit>
 
 #ELSESAY
-��İ��ﶫ���Ѿ����ˣ�������û���㹻��Ǯ֧��������\
-����ȷ��һ�°� \ \
-<ȡ��/@exit>
+你的包里东西已经满了，或者你没有足够的钱支付手续费\
+你再确认一下吧 \ \
+<取消/@exit>
 
 [@changeMoney]
 #IF
-   checkitem ���� 1
+   checkitem 金条 1
 #SAY 
-��Ҫ�ѽ������ɽ��? \
-�õģ��Ҹ��㻻 \
-������Ҫ֧��������\
-������2000��ң��㻹���� \ \
+你要把金条换成金币? \
+好的，我给你换 \
+不过需要支付手续费\
+费用是2000金币，你还换吗？ \ \
 
-<����/@changeMoney_1> \
-<ȡ��/@exit>
+<交换/@changeMoney_1> \
+<取消/@exit>
 
 #ELSESAY
-�㶼û�н�������ʲô? \
-��ƭ��?���! \ \
-<ȡ��/@exit>
+你都没有金条还换什么? \
+想骗我?快滚! \ \
+<取消/@exit>
 
 [@changeMoney_1]
 #IF
-   checkitem ���� 1
+   checkitem 金条 1
    checkgold 4002001
 #SAY
-��Ҳ������㻻�� \
-������Ǯ̫���ˣ���û�취���㻻. \ \
-<ȡ��/@exit>
+我也很想给你换， \
+但是你钱太多了，我没办法给你换. \ \
+<取消/@exit>
 
 #ELSEACT
    goto @changeMoney_2
@@ -146,364 +146,364 @@
 
 [@changeMoney_2]
 #IF 
-   checkitem ���� 1
+   checkitem 金条 1
 #ACT
-   take ���� 1
-   give ��� 998000
+   take 金条 1
+   give 金币 998000
 #SAY
-�����Ѿ����ý����. \ 
-������ \ \
+金条已经换好金币了. \ 
+还换吗？ \ \
 
-<����/@changeMoney> \
-<ȡ��/@exit>
+<交换/@changeMoney> \
+<取消/@exit>
 
 [@bind]
-Ŀǰ��������ֻ�о����ҩˮ \
-��Ҫ���� \ 
-Ҫ��������Ҫ100���. \ \
- <��/@P_bind>ҩˮ \
- <��/@Z_bind>���� \
+目前我能捆的只有卷书和药水 \
+你要捆吗？ \ 
+要捆东西需要100金币. \ \
+ <捆/@P_bind>药水 \
+ <捆/@Z_bind>卷书 \
 
 [@P_bind]
- <��/@ch_bind1> ǿЧ��ҩ \
- <��/@ma_bind1> ǿЧħ��ҩ \ 
- <��/@ch_bind2> ��ҩ���У� \
- <��/@ma_bind2> ħ��ҩ���У�\
- <��/@ch_bind3> ��ҩ\
- <��/@ma_bind3> ħ��ҩ\
- <����/@bind>
+ <捆/@ch_bind1> 强效金创药 \
+ <捆/@ma_bind1> 强效魔法药 \ 
+ <捆/@ch_bind2> 金创药（中） \
+ <捆/@ma_bind2> 魔法药（中）\
+ <捆/@ch_bind3> 金创药\
+ <捆/@ma_bind3> 魔法药\
+ <返回/@bind>
 
 [@Z_bind]
- <��/@zum_bind1> �������Ѿ� \
- <��/@zum_bind2> ������;� \
- <��/@zum_bind3> �سǾ� \
- <��/@zum_bind4> �л�سǾ� \
- <����/@bind>
+ <捆/@zum_bind1> 地牢逃脱卷 \
+ <捆/@zum_bind2> 随机传送卷 \
+ <捆/@zum_bind3> 回城卷 \
+ <捆/@zum_bind4> 行会回城卷 \
+ <返回/@bind>
 
 [@ch_bind1]
 #IF
-   checkitem ǿЧ��ҩ 6
+   checkitem 强效金创药 6
 #ACT
    goto @ch_bind1_1
 #ELSESAY
-�㶼û��Ҫ����ҩˮ������ʲô? \
-��׼����ҩˮ֮���������Ұ�.. \ \
-<ȡ��/@exit>
+你都没有要捆的药水，还捆什么? \
+等准备好药水之后再来找我吧.. \ \
+<取消/@exit>
 
 [@ch_bind1_1]
 #IF 
    checkgold 100
-   checkitem ǿЧ��ҩ 6
+   checkitem 强效金创药 6
 #ACT
-   take ��� 100
-   take ǿЧ��ҩ 6
-   give ������ҩ 1
+   take 金币 100
+   take 强效金创药 6
+   give 超级金创药 1
 #SAY
-�Ѿ�������... �ҵļ���������.. \
-����Ҫ���ľ��ø��Ұ�.. \ \
+已经捆好了... 我的技术不错吧.. \
+还有要捆的就拿给我吧.. \ \
 
-<������/@P_bind> \
-<ȡ��/@exit>
+<继续捆/@P_bind> \
+<取消/@exit>
 #ELSESAY
-�㶼û��Ǯ��������\
-����ʲô? \
-���߰�.... \ \
-<ȡ��/@exit>
+你都没有钱捆东西，\
+还捆什么? \
+快走吧.... \ \
+<取消/@exit>
 
 [@ma_bind1]
 #IF
-   checkitem ǿЧħ��ҩ 6
+   checkitem 强效魔法药 6
 #ACT
    goto @ma_bind1_1
 #ELSESAY
-�㶼û��ҩˮ��������ʲô? \
-��׼����ҩˮ֮���������Ұ�. \ \
-<ȡ��/@exit>
+你都没有药水捆，还捆什么? \
+等准备好药水之后，再来找我吧. \ \
+<取消/@exit>
 
 [@ma_bind1_1]
 #IF 
    checkgold 100
-   checkitem ǿЧħ��ҩ 6
+   checkitem 强效魔法药 6
 #ACT
-   take ��� 100
-   take ǿЧħ��ҩ 6
-   give ����ħ��ҩ 1
+   take 金币 100
+   take 强效魔法药 6
+   give 超级魔法药 1
 #SAY
-�Ѿ�������... �ҵļ���������.. \
-�Ժ���Ҫ���ģ��������Ұ�.. \ \
+已经捆好了... 我的技术不错吧.. \
+以后还有要捆的，就来找我吧.. \ \
 
-<������/@P_bind> \
-<ȡ��/@exit>
+<继续捆/@P_bind> \
+<取消/@exit>
 
 #ELSESAY
-�㶼û��Ǯ��������\
-����ʲô? \
-���߰�.... \ \
-<ȡ��/@exit>
+你都没有钱捆东西，\
+还捆什么? \
+快走吧.... \ \
+<取消/@exit>
 
 [@ch_bind2]
 #IF
-   checkitem ��ҩ(����) 6
+   checkitem 金创药(中量) 6
 #ACT
    goto @ch_bind2_1
 #ELSESAY
-�㶼û��ҩˮ��������ʲô? \
-��׼����ҩˮ֮���������Ұ�. \ \
-<ȡ��/@exit>
+你都没有药水捆，还捆什么? \
+等准备好药水之后，再来找我吧. \ \
+<取消/@exit>
 
 
 [@ch_bind2_1]
 #IF 
    checkgold 100
-   checkitem ��ҩ(����) 6
+   checkitem 金创药(中量) 6
 #ACT
-   take ��� 100
-   take ��ҩ(����) 6
-   give ��ҩ(��)�� 1
+   take 金币 100
+   take 金创药(中量) 6
+   give 金创药(中)包 1
 #SAY
-�Ѿ�������... �ҵļ���������.. \
-�Ժ���Ҫ���ģ��������Ұ�.. \ \
+已经捆好了... 我的技术不错吧.. \
+以后还有要捆的，就来找我吧.. \ \
 
-<������/@P_bind> \
-<ȡ��/@exit>
+<继续捆/@P_bind> \
+<取消/@exit>
 #ELSESAY
-�㶼û��Ǯ��������\
-����ʲô? \
-���߰�.... \ \
-<ȡ��/@exit>
+你都没有钱捆东西，\
+还捆什么? \
+快走吧.... \ \
+<取消/@exit>
 
 [@ma_bind2]
 #IF
-   checkitem ħ��ҩ(����) 6
+   checkitem 魔法药(中量) 6
 #ACT
    goto @ma_bind2_1
 #ELSESAY
-�㶼û��ҩˮ��������ʲô? \
-��׼����ҩˮ֮���������Ұ�. \ \
-<ȡ��/@exit>
+你都没有药水捆，还捆什么? \
+等准备好药水之后，再来找我吧. \ \
+<取消/@exit>
 
 
 [@ma_bind2_1]
 #IF 
    checkgold 100
-   checkitem ħ��ҩ(����) 6
+   checkitem 魔法药(中量) 6
 #ACT
-   take ��� 100
-   take ħ��ҩ(����) 6
-   give ħ��ҩ(��)�� 1
+   take 金币 100
+   take 魔法药(中量) 6
+   give 魔法药(中)包 1
 #SAY
-�Ѿ�������... �ҵļ���������.. \
-�Ժ���Ҫ���ģ��������Ұ�.. \ \
+已经捆好了... 我的技术不错吧.. \
+以后还有要捆的，就来找我吧.. \ \
 
-<������/@P_bind> \
-<ȡ��/@exit>
+<继续捆/@P_bind> \
+<取消/@exit>
 
 #ELSESAY
-�㶼û��Ǯ��������\
-����ʲô? \
-���߰�.... \ \
-<ȡ��/@exit>
+你都没有钱捆东西，\
+还捆什么? \
+快走吧.... \ \
+<取消/@exit>
 
 
 [@ch_bind3]
 #IF
-   checkitem ��ҩ(С��) 6
+   checkitem 金创药(小量) 6
 #ACT
    goto @ch_bind3_1
 #ELSESAY
-�㶼û��ҩˮ��������ʲô? \
-��׼����ҩˮ֮���������Ұ�. \ \
-<ȡ��/@exit>
+你都没有药水捆，还捆什么? \
+等准备好药水之后，再来找我吧. \ \
+<取消/@exit>
 
 
 [@ch_bind3_1]
 #IF 
    checkgold 100
-   checkitem ��ҩ(С��) 6
+   checkitem 金创药(小量) 6
 #ACT
-   take ��� 100
-   take ��ҩ(С��) 6
-   give ��ҩ(С)�� 1
+   take 金币 100
+   take 金创药(小量) 6
+   give 金创药(小)包 1
 #SAY
-�Ѿ�������... �ҵļ���������.. \
-�Ժ���Ҫ���ģ��������Ұ�.. \ \
+已经捆好了... 我的技术不错吧.. \
+以后还有要捆的，就来找我吧.. \ \
 
-<������/@P_bind> \
-<ȡ��/@exit>
+<继续捆/@P_bind> \
+<取消/@exit>
 
 #ELSESAY
-�㶼û��Ǯ��������\
-����ʲô? \
-���߰�.... \ \
-<ȡ��/@exit>
+你都没有钱捆东西，\
+还捆什么? \
+快走吧.... \ \
+<取消/@exit>
 
 [@ma_bind3]
 #IF
-   checkitem ħ��ҩ(С��) 6
+   checkitem 魔法药(小量) 6
 #ACT
    goto @ma_bind3_1
 #ELSESAY
-�㶼û��ҩˮ��������ʲô? \
-��׼����ҩˮ֮���������Ұ�. \ \
-<ȡ��/@exit>
+你都没有药水捆，还捆什么? \
+等准备好药水之后，再来找我吧. \ \
+<取消/@exit>
 
 
 [@ma_bind3_1]
 #IF 
    checkgold 100
-   checkitem ħ��ҩ(С��) 6
+   checkitem 魔法药(小量) 6
 #ACT
-   take ��� 100
-   take ħ��ҩ(С��) 6
-   give ħ��ҩ(С)�� 1
+   take 金币 100
+   take 魔法药(小量) 6
+   give 魔法药(小)包 1
 #SAY
-�Ѿ�������... �ҵļ���������.. \
-�Ժ���Ҫ���ģ��������Ұ�.. \ \
+已经捆好了... 我的技术不错吧.. \
+以后还有要捆的，就来找我吧.. \ \
 
-<������/@P_bind> \
-<ȡ��/@exit>
+<继续捆/@P_bind> \
+<取消/@exit>
 
 #ELSESAY
-�㶼û��Ǯ��������\
-����ʲô? \
-���߰�.... \ \
-<ȡ��/@exit>
+你都没有钱捆东西，\
+还捆什么? \
+快走吧.... \ \
+<取消/@exit>
 
 
 
 [@zum_bind1]
 #IF
-   checkitem �������Ѿ� 6
+   checkitem 地牢逃脱卷 6
 #ACT
    goto @zum_bind1_1
 #ELSESAY
-�㶼û�п������ľ��飬����ʲô? \
-��׼����֮���������Ұ�.. \ \
-<ȡ��/@exit>
+你都没有可以捆的卷书，还捆什么? \
+等准备好之后，再来找我吧.. \ \
+<取消/@exit>
 
 [@zum_bind1_1]
 #IF 
    checkgold 100
-  checkitem �������Ѿ� 6
+  checkitem 地牢逃脱卷 6
 #ACT
-   take ��� 100
-   take �������Ѿ� 6
-   give �������Ѿ��� 1
+   take 金币 100
+   take 地牢逃脱卷 6
+   give 地牢逃脱卷包 1
 #SAY
-�Ѿ�������... �ҵļ���������.. \
-�Ժ���Ҫ���ģ��������Ұ�.. \ \
+已经捆好了... 我的技术不错吧.. \
+以后还有要捆的，就来找我吧.. \ \
 
-<������/@z_bind> \
-<ȡ��/@exit>
+<继续捆/@z_bind> \
+<取消/@exit>
 
 #ELSESAY
-�㶼û��Ǯ��������\
-����ʲô? \
-���߰�.... \ \
-<ȡ��/@exit>
+你都没有钱捆东西，\
+还捆什么? \
+快走吧.... \ \
+<取消/@exit>
 
 
 
 [@zum_bind2]
 #IF
-   checkitem ������;� 6
+   checkitem 随机传送卷 6
 #ACT
    goto @zum_bind2_1
 #ELSESAY
-�㶼û�п������ľ��飬����ʲô? \
-��׼����֮���������Ұ�.. \ \
-<ȡ��/@exit>
+你都没有可以捆的卷书，还捆什么? \
+等准备好之后，再来找我吧.. \ \
+<取消/@exit>
 
 [@zum_bind2_1]
 #IF 
    checkgold 100
-   checkitem ������;� 6
+   checkitem 随机传送卷 6
 #ACT
-   take ���100
-   take ������;� 6
-   give ������;��� 1
+   take 金币100
+   take 随机传送卷 6
+   give 随机传送卷包 1
 #SAY
-�Ѿ�������... �ҵļ���������.. \
-�Ժ���Ҫ���ģ��������Ұ�.. \ \
+已经捆好了... 我的技术不错吧.. \
+以后还有要捆的，就来找我吧.. \ \
 
-<������/@z_bind> \
-<ȡ��/@exit>
+<继续捆/@z_bind> \
+<取消/@exit>
 
 #ELSESAY
-�㶼û��Ǯ��������\
-����ʲô? \
-���߰�.... \ \
-<ȡ��/@exit>
+你都没有钱捆东西，\
+还捆什么? \
+快走吧.... \ \
+<取消/@exit>
 
 
 
 
 [@zum_bind3]
 #IF
-   checkitem �سǾ� 6
+   checkitem 回城卷 6
 #ACT
    goto @zum_bind3_1
 #ELSESAY
-�㶼û�п������ľ��飬����ʲô? \
-��׼����֮���������Ұ�.. \ \
-<ȡ��/@exit>
+你都没有可以捆的卷书，还捆什么? \
+等准备好之后，再来找我吧.. \ \
+<取消/@exit>
 
 
 
 [@zum_bind3_1]
 #IF 
    checkgold 100
-   checkitem �سǾ� 6
+   checkitem 回城卷 6
 #ACT
-   take ��� 100
-   take �سǾ� 6
-   give �سǾ��� 1
+   take 金币 100
+   take 回城卷 6
+   give 回城卷包 1
 #SAY
-�Ѿ�������... �ҵļ���������.. \
-�Ժ���Ҫ���ģ��������Ұ�.. \ \
+已经捆好了... 我的技术不错吧.. \
+以后还有要捆的，就来找我吧.. \ \
 
-<������/@z_bind> \
-<ȡ��/@exit>
+<继续捆/@z_bind> \
+<取消/@exit>
 
 #ELSESAY
-�㶼û��Ǯ��������\
-����ʲô? \
-���߰�.... \ \
-<ȡ��/@exit>
+你都没有钱捆东西，\
+还捆什么? \
+快走吧.... \ \
+<取消/@exit>
 
 
 
 [@zum_bind4]
 #IF
-   checkitem �л�سǾ� 6
+   checkitem 行会回城卷 6
 #ACT
    goto @zum_bind4_1
 #ELSESAY
-�㶼û�п������ľ��飬����ʲô? \
-��׼����֮���������Ұ�.. \ \
-<ȡ��/@exit>
+你都没有可以捆的卷书，还捆什么? \
+等准备好之后，再来找我吧.. \ \
+<取消/@exit>
 
 
 [@zum_bind4_1]
 #IF 
    checkgold 100
-   checkitem �л�سǾ� 6
+   checkitem 行会回城卷 6
 #ACT
-   take ��� 100
-   take �л�سǾ� 6
-   give �л�سǾ��� 1
+   take 金币 100
+   take 行会回城卷 6
+   give 行会回城卷包 1
 #SAY
-�Ѿ�������... �ҵļ���������.. \
-�Ժ���Ҫ���ģ��������Ұ�.. \ \
+已经捆好了... 我的技术不错吧.. \
+以后还有要捆的，就来找我吧.. \ \
 
-<������/@z_bind> \
-<ȡ��/@exit>
+<继续捆/@z_bind> \
+<取消/@exit>
 
 #ELSESAY
-�㶼û��Ǯ��������\
-����ʲô? \
-���߰�.... \ \
-<ȡ��/@exit>
+你都没有钱捆东西，\
+还捆什么? \
+快走吧.... \ \
+<取消/@exit>
 
 
 

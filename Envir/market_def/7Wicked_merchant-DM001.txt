@@ -1,4 +1,4 @@
-;����
+;武器
 (@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %180
 +30
@@ -10,7 +10,7 @@
 +11
 +45
 
-;�Ի�, '*' : �Ի�tag
+;对话, '*' : 对话tag
 [@main]
 #IF
 random 2
@@ -27,60 +27,60 @@ goto @Q353
 break
 #IF
 check [352] 1
-checkitemw ն���� 1
+checkitemw 斩马刀 1
 #ACT
 goto @Q352
 #ELSEACT
 goto @normal
 
 [@normal]
-һ·�ϻ��ðɣ�Ҫ��ʲô?\
-���Ǳ��뽲��Ǯ��\
-��֪�������ܲ��ܻص��ҡ�\
-<��/@trading> �����г�\
- <��./@buy>����\
-<��./@sell>����\
-<����./@repair>����\
-<�ر�/@exit>
+一路上还好吧？要买什么?\
+但是别想讲价钱。\
+不知道今天能不能回到家。\
+<打开/@trading> 交易市场\
+ <买./@buy>东西\
+<卖./@sell>东西\
+<修理./@repair>东西\
+<关闭/@exit>
 
 [@Q352]
 #IF
 #ACT
-takew ն���� 1
-give ��� 100
+takew 斩马刀 1
+give 金币 100
 SET [353] 1
 #SAY
-���������ն������ʲô������\ 
-�ѵ����������ն��������ƭ�ң�\
-лл�㣬�һ��������ɡ�\
-������˼���ã�����100�ְɣ����лл�Ұ��� \ 
-������ȥ��ˮ�ӻ���\ \
-<�ر�/@exit>
+哈哈，你的斩马刀是什么东西？\ 
+难道你想用这个斩马刀来欺骗我？\
+谢谢你，我还是用它吧。\
+不好意思白拿，给你100分吧，你得谢谢我啊。 \ 
+还有你去沓水杂货。\ \
+<关闭/@exit>
 
 [@Q353]
 #IF
 #SAY
-��ȥ������ˮ�ӻ���\ \
-<�ر�/@exit>
+快去看看沓水杂货。\ \
+<关闭/@exit>
 
 [@buy]
-��Ȼ�е�󣬵��ǳ������п���ɡ�\ \ \
- <����/@main>
+虽然有点贵，但是趁现在有快买吧。\ \ \
+ <返回/@main>
 
 [@sell]
-Ҫ��ʲô������\ \ \
- <����/@main>
+要卖什么东西？\ \ \
+ <返回/@main>
 
 [@repair]
-�������������Ʒ�����·���������\
+这里可以修理的品种有衣服，武器。\
 
- <����/@main>
+ <返回/@main>
 
 [goods]
-��Ʒ            ����       ʱ��
-����            1000        1
-��ҩ      1000        1
-ħ��ҩ      1000        1
-�������Ѿ�        1000        1
-����		5	    1
+商品            数量       时间
+蜡烛            1000        1
+金创药      1000        1
+魔法药      1000        1
+地牢逃脱卷        1000        1
+骰子		5	    1
 

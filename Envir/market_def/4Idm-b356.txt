@@ -1,71 +1,71 @@
-;����
+;武器
 (@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +0
 +42
 
-;�Ի�, '*' : �Ի�tag
+;对话, '*' : 对话tag
 [@main]
-������ʲô��\
- <��/@makedrug>ҩ\
- �йض�ҩ<��˵��./@helpmakedrug>\
-  <�ر�/@exit>
+你想做什么？\
+ <炼/@makedrug>药\
+ 有关毒药<听说明./@helpmakedrug>\
+  <关闭/@exit>
 <>
 
 [@makedrug]
-��ѡ������ʲôҩ��\
-�������Ӧ�ô����˰ɣ�\ \
- <����/@main>
+请选择想炼什么药。\
+所需材料应该带来了吧？\ \
+ <返回/@main>
 
 
 [@helpmakedrug]
-�����������ҩֻ�����֡�\ \
- <��ɫ����/@helpdrug1>�Ĺ���\
- <��ɫ����/@helpdrug2>�Ĺ���\
- <��ɫ����/@helpmakedrug1>��ԭ��\
- <��ɫ����/@helpmakedrug2>��ԭ��\
- <����/@main>
+这里可以炼的药只有两种。\ \
+ <灰色毒粉/@helpdrug1>的功能\
+ <黄色毒粉/@helpdrug2>的功能\
+ <灰色毒粉/@helpmakedrug1>的原料\
+ <黄色毒粉/@helpmakedrug2>的原料\
+ <返回/@main>
 
 
 [@helpdrug1]
-��ʿ������ʹʩ����ʱ���û�ɫ���ۣ�\
-�ж������������\ \
- <����/@helpmakedrug>
+道士可以在使施毒术时，用灰色毒粉，\
+中毒会减掉体力。\ \
+ <返回/@helpmakedrug>
 
 [@helpdrug2]
-��ʿ������ʹʩ����ʱ���û�ɫ���ۣ�\
-�ж����������������\ \
- <����/@helpmakedrug>
+道士可以在使施毒术时，用黄色毒粉，\
+中毒会减掉防御能力。\ \
+ <返回/@helpmakedrug>
 
 
 [@helpmakedrug1]
-��ɫ���۵�ԭ���� <ʳ�����Ĺ���/@helpitem_1> 1���� ��֩������ 2��,\
-ʳ����Ҷ 4����\ \
- <����/@helpmakedrug>
+灰色毒粉的原料有 <食人树的果子/@helpitem_1> 1个， 毒蜘蛛牙齿 2个,\
+食人树叶 4个。\ \
+ <返回/@helpmakedrug>
 
 
 [@helpmakedrug2]
-��ɫ���۵�ԭ���� <����/@helpitem_2> 1��, Ы��β\
-1��, ʳ����Ҷ 4����\ \
- <����/@helpmakedrug>
+黄色毒粉的原料有 <蛆卵/@helpitem_2> 1个, 蝎子尾\
+1个, 食人树叶 4个。\ \
+ <返回/@helpmakedrug>
 
 
 [@helpitem_1]
-��ʳ�˲ݿ��Եõ�ʳ�����Ĺ��ӣ�\
-����5��ʳ�˲��п��Եõ���ʵ�ģ�\
-ֻ��1����\ \
- <����/@helpmakedrug1>
+割食人草可以得到食人树的果子，\
+但是5个食人草中可以得到果实的，\
+只有1个。\ \
+ <返回/@helpmakedrug1>
 
 
 [@helpitem_2]
-ץ����Ѩ��Ķ������Ϳ��Եõ����ѡ�\
-������ԲԲ�ļ롣\ \
- <����/@helpmakedrug2>
+抓到洞穴里的洞蛆，就可以得到蛆卵。\
+长得像圆圆的茧。\ \
+ <返回/@helpmakedrug2>
 
 
 [goods]
-;��Ʒ         ����     ʱ��
-��ɫҩ��(����)     1        1
-��ɫҩ��(����)     1        1
-��ɫҩ��(����)     1        1
-��ɫҩ��(����)     1        1
+;商品         数量     时间
+灰色药粉(少量)     1        1
+黄色药粉(少量)     1        1
+灰色药粉(中量)     1        1
+黄色药粉(中量)     1        1

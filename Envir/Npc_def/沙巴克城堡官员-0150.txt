@@ -1,87 +1,87 @@
 [@main]
-Õâ¸ö³Ç±¤µÄ½»Ò×»õ±ÒÊÇ <$CASTLEGOLD>½ð±Ò, ½ñÌìµÄÊÕÈëÊÇ \
-<$TODAYINCOME>½ð±Ò.\ \
+è¿™ä¸ªåŸŽå ¡çš„äº¤æ˜“è´§å¸æ˜¯ <$CASTLEGOLD>é‡‘å¸, ä»Šå¤©çš„æ”¶å…¥æ˜¯ \
+<$TODAYINCOME>é‡‘å¸.\ \
 
- <È¡»Ø×Ê½ð/@@withdrawal>\
- <´æ´¢×Ê½ð/@@receipts>\
- <³ÇÃÅµÄ¹æÕÂÖÆ¶ÈÃüÁî/@treatdoor>\
- <¼òµ¥Î¬»¤µÄÃüÁî/@repaircastle>\
- <ÃÅÎÀµÄÃüÁî/@guardcmd>\
+ <å–å›žèµ„é‡‘/@@withdrawal>\
+ <å­˜å‚¨èµ„é‡‘/@@receipts>\
+ <åŸŽé—¨çš„è§„ç« åˆ¶åº¦å‘½ä»¤/@treatdoor>\
+ <ç®€å•ç»´æŠ¤çš„å‘½ä»¤/@repaircastle>\
+ <é—¨å«çš„å‘½ä»¤/@guardcmd>\
 
 
 ;--------------------------------------------------
-;³ÇÃÅµÄ¹æÔò
+;åŸŽé—¨çš„è§„åˆ™
 
 [@treatdoor]
-µ±Ç°´óÃÅÊÇ <$CASTLEDOORSTATE>.\ \
- <¹Ø±Õ´óÃÅ./@closemaindoor>\
- <´ò¿ª´óÃÅ./@openmaindoor>\
- <·µ»Ø/@main>\
+å½“å‰å¤§é—¨æ˜¯ <$CASTLEDOORSTATE>.\ \
+ <å…³é—­å¤§é—¨./@closemaindoor>\
+ <æ‰“å¼€å¤§é—¨./@openmaindoor>\
+ <è¿”å›ž/@main>\
 
 [@openmaindoor]
-´óÃÅ±»´ò¿ªÁË.\ \
- <·µ»Ø/@treatdoor>\
+å¤§é—¨è¢«æ‰“å¼€äº†.\ \
+ <è¿”å›ž/@treatdoor>\
 
 [@closemaindoor]
-´óÃÅ±»¹Ø±ÕÁË.\ \
- <·µ»Ø/@treatdoor>\
+å¤§é—¨è¢«å…³é—­äº†.\ \
+ <è¿”å›ž/@treatdoor>\
 
 
 ;--------------------------------------------------
-;¹ØÓÚÎ¬»¤ 
+;å…³äºŽç»´æŠ¤ 
 
 [@repaircastle]
-ÄãÏëÈ¥ÄÄÀïÐÞÀí ?\ \
- <ÐÞÀí´óÃÅ./@repairdoor>\
- <ÐÞÀí³ÇÇ½./@repairwalls>\
- <·µ»Ø/@main>\
+ä½ æƒ³åŽ»å“ªé‡Œä¿®ç† ?\ \
+ <ä¿®ç†å¤§é—¨./@repairdoor>\
+ <ä¿®ç†åŸŽå¢™./@repairwalls>\
+ <è¿”å›ž/@main>\
 
 [@repairdoor]
-Èç¹ûÄãÒª¼ÓÇ¿³Ç±¤´óÃÅµÄ»°£¬Äã±ØÐëÒªÖ§¸¶Ò»¶¨µÄ <$REPAIRDOORGOLD> ½ð±Ò .\ \
- <¼ÓÇ¿´óÃÅ½¨Öþ./@repairdoornow>\
- <·µ»Ø/@repaircastle>\
+å¦‚æžœä½ è¦åŠ å¼ºåŸŽå ¡å¤§é—¨çš„è¯ï¼Œä½ å¿…é¡»è¦æ”¯ä»˜ä¸€å®šçš„ <$REPAIRDOORGOLD> é‡‘å¸ .\ \
+ <åŠ å¼ºå¤§é—¨å»ºç­‘./@repairdoornow>\
+ <è¿”å›ž/@repaircastle>\
 
 [@repairwalls]
-Èç¹ûÄãÒª¼ÓÇ¿³Ç±¤µÄ³ÇÇ½µÄ»°£¬Ò²ÊÇÐèÒªÖ§¸¶Ò»¶¨µÄ <$REPAIRWALLGOLD> ½ð±Ò.\ \
- <ÐÞÀí×ó³ÇÇ½./@repairwallnow1>\
- <ÐÞÀíÖÐ³ÇÇ½./@repairwallnow2>\
- <ÐÞÀíÓÒ³ÇÇ½./@repairwallnow3>\
- <·µ»Ø/@repaircastle>\
+å¦‚æžœä½ è¦åŠ å¼ºåŸŽå ¡çš„åŸŽå¢™çš„è¯ï¼Œä¹Ÿæ˜¯éœ€è¦æ”¯ä»˜ä¸€å®šçš„ <$REPAIRWALLGOLD> é‡‘å¸.\ \
+ <ä¿®ç†å·¦åŸŽå¢™./@repairwallnow1>\
+ <ä¿®ç†ä¸­åŸŽå¢™./@repairwallnow2>\
+ <ä¿®ç†å³åŸŽå¢™./@repairwallnow3>\
+ <è¿”å›ž/@repaircastle>\
 
 
 ;--------------------------------------------------
-;¹ØÓÚÎÀÊ¿
+;å…³äºŽå«å£«
 
 [@guardcmd]
-Çë¶ÔÎÀÊ¿Ö¸¶¨ÄãµÄÃüÁî.\ \
-; <¹ÍÓ¶ÎÀÊ¿./@hireguards>\
- <¹ÍÓ¶¹­¼ýÊÖ./@hirearchers>\
- <¸Ä±ä¹¥»÷ÃüÁî./@commandorder>\
- <·µ»Ø/@main>\
+è¯·å¯¹å«å£«æŒ‡å®šä½ çš„å‘½ä»¤.\ \
+; <é›‡ä½£å«å£«./@hireguards>\
+ <é›‡ä½£å¼“ç®­æ‰‹./@hirearchers>\
+ <æ”¹å˜æ”»å‡»å‘½ä»¤./@commandorder>\
+ <è¿”å›ž/@main>\
 
 
 [@hireguards]
-ÄãÏëÒª°ÑÄã¹ÍÓ¶µÄÎÀÊ¿·ÅÔÚÊ²Ã´µØ·½£¿?\
-Äã±ØÐëÒªÏòÃ¿¸öÎÀÊ¿<$GUARDFEE>Ö§¸¶½ð±Ò.\ \
- ´óÃÅÇ°<×óÃÅÎª/@hireguardnow1>, <ÓÒÃÅÎÀ/@hireguardnow2>\
- ³ÇÇ½Ç°<×óÎÀÊ¿/@hireguardnow3>, <ÓÒÎÀÊ¿/@hireguardnow4>\
- <·µ»Ø/@guardcmd>\
+ä½ æƒ³è¦æŠŠä½ é›‡ä½£çš„å«å£«æ”¾åœ¨ä»€ä¹ˆåœ°æ–¹ï¼Ÿ?\
+ä½ å¿…é¡»è¦å‘æ¯ä¸ªå«å£«<$GUARDFEE>æ”¯ä»˜é‡‘å¸.\ \
+ å¤§é—¨å‰<å·¦é—¨ä¸º/@hireguardnow1>, <å³é—¨å«/@hireguardnow2>\
+ åŸŽå¢™å‰<å·¦å«å£«/@hireguardnow3>, <å³å«å£«/@hireguardnow4>\
+ <è¿”å›ž/@guardcmd>\
 
 [@hirearchers]
-ÄãÏëÒª°ÑÄã¹ÍÓ¶µÄ¹­¼ýÊÖ·½ÔÚÊ²Ã´µØ·½£¿?\
-Äã±ØÐëÒªÏòÃ¿¸ö¹­¼ýÊÖ<$ARCHERFEE>Ö§¸¶½ð±Ò.\ \
- ×ó³ÇÇ½ <×ó¹­¼ýÊÖ/@hirearchernow1>, <ÖÐ¹­¼ýÊÖ/@hirearchernow2>, <ÓÒ¹­¼ýÊÖ/@hirearchernow3>\
- ³ÇÄÚ¹­¼ýÊÖ<×ó¹­¼ýÊÖ/@hirearchernow4>, <ÖÐ¹­¼ýÊÖ/@hirearchernow5>,
- <ÓÒ¹­¼ýÊÖ/@hirearchernow6>\
- ³ÇÄÚµÄµÚ¶þ²ã<×ó¹­¼ýÊÖ/@hirearchernow7>, <ÓÒ¹­¼ýÊÖ/@hirearchernow8>\
- ·ÅÖÃÔÚÃÅÇ°<×ó¹­¼ýÊÖ/@hirearchernow9>, <ÓÒ¹­¼ýÊÖ/@hirearchernow10>\
- ·ÅÖÃÔÚ´óÃÅÓÒ±ß<×ó¹­¼ýÊÖ/@hirearchernow11>, <ÓÒ¹­¼ýÊÖ/@hirearchernow12>\
- <·µ»Ø/@guardcmd>\
+ä½ æƒ³è¦æŠŠä½ é›‡ä½£çš„å¼“ç®­æ‰‹æ–¹åœ¨ä»€ä¹ˆåœ°æ–¹ï¼Ÿ?\
+ä½ å¿…é¡»è¦å‘æ¯ä¸ªå¼“ç®­æ‰‹<$ARCHERFEE>æ”¯ä»˜é‡‘å¸.\ \
+ å·¦åŸŽå¢™ <å·¦å¼“ç®­æ‰‹/@hirearchernow1>, <ä¸­å¼“ç®­æ‰‹/@hirearchernow2>, <å³å¼“ç®­æ‰‹/@hirearchernow3>\
+ åŸŽå†…å¼“ç®­æ‰‹<å·¦å¼“ç®­æ‰‹/@hirearchernow4>, <ä¸­å¼“ç®­æ‰‹/@hirearchernow5>,
+ <å³å¼“ç®­æ‰‹/@hirearchernow6>\
+ åŸŽå†…çš„ç¬¬äºŒå±‚<å·¦å¼“ç®­æ‰‹/@hirearchernow7>, <å³å¼“ç®­æ‰‹/@hirearchernow8>\
+ æ”¾ç½®åœ¨é—¨å‰<å·¦å¼“ç®­æ‰‹/@hirearchernow9>, <å³å¼“ç®­æ‰‹/@hirearchernow10>\
+ æ”¾ç½®åœ¨å¤§é—¨å³è¾¹<å·¦å¼“ç®­æ‰‹/@hirearchernow11>, <å³å¼“ç®­æ‰‹/@hirearchernow12>\
+ <è¿”å›ž/@guardcmd>\
 
 [@commandorder]
-µ±Ç°ÎÀÊ¿µÄÃüÁî<$GUARDRULE>.\
-ÄãÐèÒªÔõÑù¸Ä±ä?\ \
- <Ò»°ãÎÀÊ¿ÃüÁî/@guardrule_normalnow>\
- <¹¥»÷ÎÀÊ¿ÃüÁî/@guardrule_pkattack>\
- <·µ»Ø/@guardcmd>\
+å½“å‰å«å£«çš„å‘½ä»¤<$GUARDRULE>.\
+ä½ éœ€è¦æ€Žæ ·æ”¹å˜?\ \
+ <ä¸€èˆ¬å«å£«å‘½ä»¤/@guardrule_normalnow>\
+ <æ”»å‡»å«å£«å‘½ä»¤/@guardrule_pkattack>\
+ <è¿”å›ž/@guardcmd>\
 

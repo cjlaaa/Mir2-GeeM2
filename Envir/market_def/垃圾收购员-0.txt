@@ -1,4 +1,4 @@
-;°Ù»õµê
+;ç™¾è´§åº—
 (@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %100
 +0
@@ -55,60 +55,60 @@
 
 [@main]
 #SAY
-ÎÒÊÕÈ¡¸÷ÖÖÄã²»ÒªµÄÀ¬»ø. \
-ÁíÍâÌýËµÌØ¼¶ÎïÆ·ÏúÊÛÔ±ÄÇÀïÉÏ¼ÜÁË×°±¸ÌØÐÞ´¸,Äã¿ÉÒÔÈ¥ÁË½âÒ»ÏÂ!\
- <´ò¿ª/@trading> ½»Ò×ÊÐ³¡\
- <Âò/@buy>\
- <Âô/@sell>\
- <ÐÞÀí/@repair>\
- <ÌØÊâÐÞÀí/@s_repair>    <¿ìËÙÐÞÀí/@f_repair>\
- <ÍË³ö/@exit>
+æˆ‘æ”¶å–å„ç§ä½ ä¸è¦çš„åžƒåœ¾. \
+å¦å¤–å¬è¯´ç‰¹çº§ç‰©å“é”€å”®å‘˜é‚£é‡Œä¸Šæž¶äº†è£…å¤‡ç‰¹ä¿®é”¤,ä½ å¯ä»¥åŽ»äº†è§£ä¸€ä¸‹!\
+ <æ‰“å¼€/@trading> äº¤æ˜“å¸‚åœº\
+ <ä¹°/@buy>\
+ <å–/@sell>\
+ <ä¿®ç†/@repair>\
+ <ç‰¹æ®Šä¿®ç†/@s_repair>    <å¿«é€Ÿä¿®ç†/@f_repair>\
+ <é€€å‡º/@exit>
 
 [@f_repair]
 #IF
 CHECKREPAIRALLGOLD <$STR(N99)>
 #ACT
-MESSAGEBOX ÐÞÀíÈ«Éí×°±¸ÐèÒª<$STR(N99)>½ð±Ò,ÊÇ·ñÈ·ÈÏ? @f_repair_confirm
+MESSAGEBOX ä¿®ç†å…¨èº«è£…å¤‡éœ€è¦<$STR(N99)>é‡‘å¸,æ˜¯å¦ç¡®è®¤? @f_repair_confirm
 
 [@f_repair_confirm]
 #IF
 checkgold <$STR(N99)> 
 #ACT
-take ½ð±Ò <$STR(N99)> 
+take é‡‘å¸ <$STR(N99)> 
 ACTREPAIRALL
 #elsesay
-ÄãµÄ½ð±Ò²»×ã£¬ÐÞÀíÊ§°Ü£¡ \ \
-<ÍË³ö/@exit>
+ä½ çš„é‡‘å¸ä¸è¶³ï¼Œä¿®ç†å¤±è´¥ï¼ \ \
+<é€€å‡º/@exit>
 
 
 [@buy]
-ÄúÏëÂòÐ©Ê²Ã´?\ \ \
- <·µ»Ø/@main>
+æ‚¨æƒ³ä¹°äº›ä»€ä¹ˆ?\ \ \
+ <è¿”å›ž/@main>
 
 [@sell]
-¸øÎÒÄúÒªÂôµÄÎïÆ·.\ \ \
- <·µ»Ø/@main>
+ç»™æˆ‘æ‚¨è¦å–çš„ç‰©å“.\ \ \
+ <è¿”å›ž/@main>
 
 
 [@repair]
-ÄúÒªÐÞÀíÂð?\
-ÎÒ¿ÉÊÇ¸öÍòÄÜ¹¤½³Å¶£¡\\
- <·µ»Ø/@main>
+æ‚¨è¦ä¿®ç†å—?\
+æˆ‘å¯æ˜¯ä¸ªä¸‡èƒ½å·¥åŒ å“¦ï¼\\
+ <è¿”å›ž/@main>
 
 
 [~@repair]
-ÔõÃ´Ñù£¬ÐÞºÃÁË°É£¡\ \
- <·µ»Ø/@main>
+æ€Žä¹ˆæ ·ï¼Œä¿®å¥½äº†å§ï¼\ \
+ <è¿”å›ž/@main>
  
  [@s_repair]
-ÄúÒªÌØÊâÐÞÀíÂð?\
-ÌØÊâÐÞÀíÒªÉÔÎ¢¹óÒ»Ð©Å¶£¡\\
- <·µ»Ø/@main>
+æ‚¨è¦ç‰¹æ®Šä¿®ç†å—?\
+ç‰¹æ®Šä¿®ç†è¦ç¨å¾®è´µä¸€äº›å“¦ï¼\\
+ <è¿”å›ž/@main>
 
 
 [~@s_repair]
-ÔõÃ´Ñù£¬ÐÞºÃÁË°É£¿¿´ÆðÀ´±ÈÐÂµÄ»¹ÖµÇ®£¡\ \
- <·µ»Ø/@main>
+æ€Žä¹ˆæ ·ï¼Œä¿®å¥½äº†å§ï¼Ÿçœ‹èµ·æ¥æ¯”æ–°çš„è¿˜å€¼é’±ï¼\ \
+ <è¿”å›ž/@main>
 
 
 

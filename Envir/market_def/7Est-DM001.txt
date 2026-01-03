@@ -1,4 +1,4 @@
-;ÎäÆ÷
+;æ­¦å™¨
 (@trading @buy @sell @makedrug @storage @getback @upgradenow @getbackupgnow @repair @s_repair @@sendmsg)
 %180
 +0
@@ -11,34 +11,34 @@
 
 
 [@main]
-Ò»Â·ÉÏ»¹ºÃ°É£¿ÒªÂòÊ²Ã´?\
-µ«ÊÇ±ðÏë½²¼ÛÇ®¡£\
-²»ÖªµÀ½ñÌìÄÜ²»ÄÜ»Øµ½¼Ò¡£\ \
-<´ò¿ª/@trading> ½»Ò×ÊÐ³¡\
- <Âò./@buy>¶«Î÷\
-<Âô./@sell>¶«Î÷\
-<ÐÞÀí./@repair>¶«Î÷\
-<ÍË³ö/@exit>
+ä¸€è·¯ä¸Šè¿˜å¥½å§ï¼Ÿè¦ä¹°ä»€ä¹ˆ?\
+ä½†æ˜¯åˆ«æƒ³è®²ä»·é’±ã€‚\
+ä¸çŸ¥é“ä»Šå¤©èƒ½ä¸èƒ½å›žåˆ°å®¶ã€‚\ \
+<æ‰“å¼€/@trading> äº¤æ˜“å¸‚åœº\
+ <ä¹°./@buy>ä¸œè¥¿\
+<å–./@sell>ä¸œè¥¿\
+<ä¿®ç†./@repair>ä¸œè¥¿\
+<é€€å‡º/@exit>
 
 
 
 [@buy]
-ËäÈ»ÓÐµã¹ó£¬µ«ÊÇ³ÃÏÖÔÚÓÐ¿ìÂò°É¡£\ \ \
- <·µ»Ø/@main>
+è™½ç„¶æœ‰ç‚¹è´µï¼Œä½†æ˜¯è¶çŽ°åœ¨æœ‰å¿«ä¹°å§ã€‚\ \ \
+ <è¿”å›ž/@main>
 
 [@sell]
-ÒªÂôÊ²Ã´¶«Î÷£¿\ \ \
- <·µ»Ø/@main>
+è¦å–ä»€ä¹ˆä¸œè¥¿ï¼Ÿ\ \ \
+ <è¿”å›ž/@main>
 
 [@repair]
-ÕâÀï¿ÉÒÔÐÞÀíµÄÆ·ÖÖÓÐÒÂ·þ£¬ÎäÆ÷¡£\
- <·µ»Ø/@main>
+è¿™é‡Œå¯ä»¥ä¿®ç†çš„å“ç§æœ‰è¡£æœï¼Œæ­¦å™¨ã€‚\
+ <è¿”å›ž/@main>
 
 [goods]
-ÉÌÆ·            ÊýÁ¿       Ê±¼ä
-½ð´´Ò©      1000        1
-Ä§·¨Ò©      1000        1
-µØÀÎÌÓÍÑ¾í        1000        1
-÷»×Ó		5	    1
+å•†å“            æ•°é‡       æ—¶é—´
+é‡‘åˆ›è¯      1000        1
+é­”æ³•è¯      1000        1
+åœ°ç‰¢é€ƒè„±å·        1000        1
+éª°å­		5	    1
 
 

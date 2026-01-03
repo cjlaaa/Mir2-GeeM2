@@ -2,348 +2,348 @@
 
 [@main]
 #say
-������ո���ļ��һЩӢ�ۣ����Ƿ�Ը�����ѵ����Щ��ʿ�أ� \
-�㻹����������ʹ����ͨ������һ�Ӣ�ۼ����顣  \ \ \ 
+我这里刚刚招募了一些英雄，你是否愿意帮我训练这些勇士呢？ \
+你还可以在我这使用普通技能书兑换英雄技能书。  \ \ \ 
 
-<����Ӣ��/@����Ӣ��> <(��Ҫ22��90����) /SCOLOR=249>  \
-<(����Ӣ��ǰ��Ҫ��ɾ������Ӣ��)/SCOLOR=249> <ɾ��Ӣ��/@ɾ��Ӣ��>  \
-<�һ�/@makedrug> Ӣ�ۼ�����\
-<�˳�/@exit>
+<创建英雄/@创建英雄> <(需要22级90万金币) /SCOLOR=249>  \
+<(更换英雄前需要先删除已有英雄)/SCOLOR=249> <删除英雄/@删除英雄>  \
+<兑换/@makedrug> 英雄技能书\
+<退出/@exit>
 
-[@����Ӣ��]
+[@创建英雄]
 #IF
 CHECKLEVEL 22
 checkgold 900000
 #SAY
-���Ѵﵽ�ٻ�Ӣ�۵�����! \
+你已达到召唤英雄的条件! \
 
-<�����ʼ����Ӣ��/@@CreateHero>
+<点击开始创建英雄/@@CreateHero>
 #ELSESAY
-��Ǯ����90���ȼ�����22��! \ \
-<ȷ��/@exit>
+金钱不足90万或等级不够22级! \ \
+<确定/@exit>
 
 [@makedrug]
-��ѡ����һ��ļ����顣\
-�������ͨ������Ӧ�ô����˰ɣ�\ \
- <����/@main>
+请选择想兑换的技能书。\
+所需的普通技能书应该带来了吧？\ \
+ <返回/@main>
 
 [goods]
-;��Ʒ         ����     ʱ��
-Ӣ�ۻ�������     1        1
-Ӣ�۹�ɱ����     1        1
-Ӣ�۴�ɱ����     1        1
-Ӣ�۰����䵶     1        1
-Ӣ��Ұ����ײ     1        1
-Ӣ���һ𽣷�     1        1
-Ӣ��ʨ�Ӻ�     1        1
-Ӣ����������     1        1
-Ӣ��˫��ն     1        1
-Ӣ����Ӱ����     1        1
-Ӣ�ۻ�����     1        1
-Ӣ�ۿ��ܻ�     1        1
-Ӣ���ջ�֮��     1        1
-Ӣ�۴����     1        1
-Ӣ�۵�����     1        1
-Ӣ���׵���     1        1
-Ӣ��˲Ϣ�ƶ�     1        1
-Ӣ�۱��ѻ���     1        1
-Ӣ�ۻ�ǽ     1        1
-Ӣ�ۼ����Ӱ     1        1
-Ӣ�ۺ�����     1        1
-Ӣ�۵����׹�     1        1
-Ӣ��ħ����     1        1
-Ӣ��ʥ����     1        1
-Ӣ�۱�����     1        1
-Ӣ�������     1        1
-Ӣ����Ѫ��     1        1
-Ӣ��������     1        1
-Ӣ�۾���ս��     1        1
-Ӣ��ʩ����     1        1
-Ӣ�������     1        1
-Ӣ���ٻ�����     1        1
-Ӣ��������     1        1
-Ӣ�ۼ�������     1        1
-Ӣ�������     1        1
-Ӣ��������ʾ     1        1
-Ӣ����ʥս��     1        1
-Ӣ��������     1        1
-Ӣ����ħ��     1        1
-Ӣ��Ⱥ������     1        1
-Ӣ���޼�����     1        1
-Ӣ���ٻ�����     1        1
-Ӣ���ٻ�����     1        1
-Ӣ�۾�����     1        1
+;商品         数量     时间
+英雄基本剑术     1        1
+英雄攻杀剑术     1        1
+英雄刺杀剑术     1        1
+英雄半月弯刀     1        1
+英雄野蛮冲撞     1        1
+英雄烈火剑法     1        1
+英雄狮子吼     1        1
+英雄雷霆剑法     1        1
+英雄双龙斩     1        1
+英雄龙影剑法     1        1
+英雄火球术     1        1
+英雄抗拒火环     1        1
+英雄诱惑之光     1        1
+英雄大火球     1        1
+英雄地狱火     1        1
+英雄雷电术     1        1
+英雄瞬息移动     1        1
+英雄爆裂火焰     1        1
+英雄火墙     1        1
+英雄疾光电影     1        1
+英雄寒冰掌     1        1
+英雄地狱雷光     1        1
+英雄魔法盾     1        1
+英雄圣言术     1        1
+英雄冰咆哮     1        1
+英雄灭天火     1        1
+英雄嗜血术     1        1
+英雄治愈术     1        1
+英雄精神战法     1        1
+英雄施毒术     1        1
+英雄灵魂火符     1        1
+英雄召唤骷髅     1        1
+英雄隐身术     1        1
+英雄集体隐身     1        1
+英雄幽灵盾     1        1
+英雄心灵启示     1        1
+英雄神圣战甲     1        1
+英雄气功波     1        1
+英雄困魔咒     1        1
+英雄群体治疗     1        1
+英雄无极真气     1        1
+英雄召唤神兽     1        1
+英雄召唤月灵     1        1
+英雄净化术     1        1
 
 [@main1]
-����������Ӣ��:<[����Ӣ��]/@@CreateHero> ǧ��Ҫ�ҵ��:<[ɾ��Ӣ��]/@ɾ��Ӣ��>\
-Ӣ��Ҳ��Ҫѧϰ���ܵ��ѡ��Ӣ��ְҵ��ȡӢ�۵ļ����鼮:\
-<[սʿӢ�ۼ�����]/@mirhhyxjn01> <[��ʦӢ�ۼ�����]/@mirhhyxjn02> <[��ʿӢ�ۼ�����]/@mirhhyxjn03>\
-�ϻ��鼮Ҳ��Ҫ�������Ŷ����ѡ���������ְҵ�Լ�Ӣ�۵�ְҵ:\
-սʿ+սʿ�ϻ�:<[�� �� ն]/@hj1> ��ʿ+��ʿ�ϻ�:<[�ɻ�����]/@hj2>\
-��ʦ+��ʦ�ϻ�:<[��������]/@hj3> սʿ+��ʦ�ϻ�:<[����һ��]/@hj4>\
-��ʿ+��ʦ�ϻ�:<[ĩ������]/@hj5> սʿ+��ʿ�ϻ�:<[����ն]/@hj6>\ \
-�ϻ��ر���Ʒ:<[����֮��]/@hj7> \
+体验真正的英雄:<[创建英雄]/@@CreateHero> 千万不要乱点哈:<[删除英雄]/@删除英雄>\
+英雄也需要学习技能的嘛，选择英雄职业领取英雄的技能书籍:\
+<[战士英雄技能书]/@mirhhyxjn01> <[法师英雄技能书]/@mirhhyxjn02> <[道士英雄技能书]/@mirhhyxjn03>\
+合击书籍也需要技能书的哦，请选择你人物的职业以及英雄的职业:\
+战士+战士合击:<[破 魂 斩]/@hj1> 道士+道士合击:<[噬魂沼泽]/@hj2>\
+法师+法师合击:<[火龙气焰]/@hj3> 战士+法师合击:<[雷霆一击]/@hj4>\
+道士+法师合击:<[末日审判]/@hj5> 战士+道士合击:<[劈星斩]/@hj6>\ \
+合击必备物品:<[火龙之心]/@hj7> \
 
 [@READSKILLNG]
 #if
 #ACT
 READSKILLNG
-SENDMSG 6 ��ϲ������ϰ�ڹ�����
+SENDMSG 6 恭喜您领练习内功！！
 
 [@hj7]
 #if
 #ACT
-SENDMSG 6 ��ϲ����ȡ�ϻ��ر���Ʒ����֮�ĳɹ�����
-give ����֮�� 1
+SENDMSG 6 恭喜您领取合击必备物品火龙之心成功！！
+give 火龙之心 1
 
 [@hj1]
 #if
 #ACT
-SENDMSG 6 ��ϲ����ȡսʿ+սʿӢ�ۺϻ�[�ƻ�ն]�ɹ�����
-give �ƻ�ն 1
+SENDMSG 6 恭喜您领取战士+战士英雄合击[破魂斩]成功！！
+give 破魂斩 1
 
 [@hj2]
 #if
 #ACT
-SENDMSG 6 ��ϲ����ȡ��ʿ+��ʿӢ�ۺϻ�[�ɻ�����]�ɹ�����
-give �ɻ����� 1
+SENDMSG 6 恭喜您领取道士+道士英雄合击[噬魂沼泽]成功！！
+give 噬魂沼泽 1
 
 [@hj3]
 #if
 #ACT
-SENDMSG 6 ��ϲ����ȡ��ʦ+��ʦӢ�ۺϻ�[��������]�ɹ�����
-give �������� 1
+SENDMSG 6 恭喜您领取法师+法师英雄合击[火龙气焰]成功！！
+give 火龙气焰 1
 
 [@hj4]
 #if
 #ACT
-SENDMSG 6 ��ϲ����ȡսʿ+��ʦӢ�ۺϻ�[����һ��]�ɹ�����
-give ����һ�� 1
+SENDMSG 6 恭喜您领取战士+法师英雄合击[雷霆一击]成功！！
+give 雷霆一击 1
 
 [@hj5]
 #if
 #ACT
-SENDMSG 6 ��ϲ����ȡ��ʿ+��ʦӢ�ۺϻ�[ĩ������]�ɹ�����
-give ĩ������ 1 
+SENDMSG 6 恭喜您领取道士+法师英雄合击[末日审判]成功！！
+give 末日审判 1 
 
 [@hj6]
 #iF 
 #ACT
-SENDMSG 6 ��ϲ����ȡսʿ+��ʿӢ�ۺϻ�[����ն]�ɹ�����
-give ����ն 1
+SENDMSG 6 恭喜您领取战士+道士英雄合击[劈星斩]成功！！
+give 劈星斩 1
 
 [@mirhhyxjn01]
 #if
 CheckHaveHero
 #act
 #ELSEACT
-MESSAGEBOX �Բ�����û��Ӣ�ۣ�
+MESSAGEBOX 对不起，您没有英雄！
 BREAK
 #if
 CHECKHEROONLINE
 #act
 #ELSEACT
-MESSAGEBOX �Բ�������Ӣ�۲����ߣ�
+MESSAGEBOX 对不起，您的英雄不在线！
 BREAK
 #if
 CHECKHEROJOB WARRIOR
 #act
-H.ADDSKILL Ӣ�ۻ������� 3
-H.ADDSKILL Ӣ�۹�ɱ���� 3
-H.ADDSKILL Ӣ�۴�ɱ���� 3
-H.ADDSKILL Ӣ�۰����䵶 3
-H.ADDSKILL Ӣ��Ұ����ײ 3
-H.ADDSKILL Ӣ���һ𽣷� 3
-H.ADDSKILL Ӣ��ʨ�Ӻ� 3
-H.ADDSKILL Ӣ�ۿ���ն 3
-H.ADDSKILL Ӣ�����ս��� 3
+H.ADDSKILL 英雄基本剑术 3
+H.ADDSKILL 英雄攻杀剑术 3
+H.ADDSKILL 英雄刺杀剑术 3
+H.ADDSKILL 英雄半月弯刀 3
+H.ADDSKILL 英雄野蛮冲撞 3
+H.ADDSKILL 英雄烈火剑法 3
+H.ADDSKILL 英雄狮子吼 3
+H.ADDSKILL 英雄开天斩 3
+H.ADDSKILL 英雄逐日剑法 3
 break
 #Elsesay
-��Ӣ��ְҵ��Ϊսʿ
+你英雄职业不为战士
 
 [@mirhhyxjn02]
 #if
 CheckHaveHero
 #act
 #ELSEACT
-MESSAGEBOX �Բ�����û��Ӣ�ۣ�
+MESSAGEBOX 对不起，您没有英雄！
 BREAK
 #if
 CHECKHEROONLINE
 #act
 #ELSEACT
-MESSAGEBOX �Բ�������Ӣ�۲����ߣ�
+MESSAGEBOX 对不起，您的英雄不在线！
 BREAK
 #if
 CHECKHEROJOB WIZARD
 #act
-H.ADDSKILL Ӣ�ۻ����� 3
-H.ADDSKILL Ӣ�۴���� 3
-H.ADDSKILL Ӣ�۵����� 3
-H.ADDSKILL Ӣ���ջ�֮�� 3
-H.ADDSKILL Ӣ��˲Ϣ�ƶ� 3
-H.ADDSKILL Ӣ�۱��ѻ��� 3
-H.ADDSKILL Ӣ�ۿ��ܻ� 3
-H.ADDSKILL Ӣ�ۼ����Ӱ 3
-H.ADDSKILL Ӣ���׵��� 3
-H.ADDSKILL Ӣ�ۻ�ǽ 3
-H.ADDSKILL Ӣ�۵����׹� 3
-H.ADDSKILL Ӣ��ħ���� 3
-H.ADDSKILL Ӣ�۱����� 3
-H.ADDSKILL Ӣ������� 3
-H.ADDSKILL Ӣ�ۺ����� 3
-H.ADDSKILL Ӣ��ʥ���� 3
-H.ADDSKILL Ӣ�����ǻ��� 3
+H.ADDSKILL 英雄火球术 3
+H.ADDSKILL 英雄大火球 3
+H.ADDSKILL 英雄地狱火 3
+H.ADDSKILL 英雄诱惑之光 3
+H.ADDSKILL 英雄瞬息移动 3
+H.ADDSKILL 英雄爆裂火焰 3
+H.ADDSKILL 英雄抗拒火环 3
+H.ADDSKILL 英雄疾光电影 3
+H.ADDSKILL 英雄雷电术 3
+H.ADDSKILL 英雄火墙 3
+H.ADDSKILL 英雄地狱雷光 3
+H.ADDSKILL 英雄魔法盾 3
+H.ADDSKILL 英雄冰咆哮 3
+H.ADDSKILL 英雄灭天火 3
+H.ADDSKILL 英雄寒冰掌 3
+H.ADDSKILL 英雄圣言术 3
+H.ADDSKILL 英雄流星火雨 3
 break
 #Elsesay
-��Ӣ��ְҵ��Ϊ��ʦ
+你英雄职业不为法师
 
 [@mirhhyxjn03]
 #if
 CheckHaveHero
 #act
 #ELSEACT
-MESSAGEBOX �Բ�����û��Ӣ�ۣ�
+MESSAGEBOX 对不起，您没有英雄！
 BREAK
 #if
 CHECKHEROONLINE
 #act
 #ELSEACT
-MESSAGEBOX �Բ�������Ӣ�۲����ߣ�
+MESSAGEBOX 对不起，您的英雄不在线！
 BREAK
 #if
 CHECKHEROJOB taoist
 #act
-H.ADDSKILL Ӣ�������� 3
-H.ADDSKILL Ӣ�۾���ս�� 3
-H.ADDSKILL Ӣ��ʩ���� 3
-H.ADDSKILL Ӣ������� 3
-H.ADDSKILL Ӣ���ٻ����� 3
-H.ADDSKILL Ӣ�������� 3
-H.ADDSKILL Ӣ�ۼ������� 3
-H.ADDSKILL Ӣ����ʥս�� 3
-H.ADDSKILL Ӣ������� 3
-H.ADDSKILL Ӣ����ħ�� 3
-H.ADDSKILL Ӣ��������ʾ 3
-H.ADDSKILL Ӣ��Ⱥ������ 3
-H.ADDSKILL Ӣ���ٻ����� 3
-H.ADDSKILL Ӣ���޼����� 3
-H.ADDSKILL Ӣ�������� 3
-H.ADDSKILL Ӣ���ٻ����� 3
-H.ADDSKILL Ӣ����Ѫ�� 3
+H.ADDSKILL 英雄治愈术 3
+H.ADDSKILL 英雄精神战法 3
+H.ADDSKILL 英雄施毒术 3
+H.ADDSKILL 英雄灵魂火符 3
+H.ADDSKILL 英雄召唤骷髅 3
+H.ADDSKILL 英雄隐身术 3
+H.ADDSKILL 英雄集体隐身 3
+H.ADDSKILL 英雄神圣战甲 3
+H.ADDSKILL 英雄幽灵盾 3
+H.ADDSKILL 英雄困魔咒 3
+H.ADDSKILL 英雄心灵启示 3
+H.ADDSKILL 英雄群体治疗 3
+H.ADDSKILL 英雄召唤神兽 3
+H.ADDSKILL 英雄无极真气 3
+H.ADDSKILL 英雄气功波 3
+H.ADDSKILL 英雄召唤月灵 3
+H.ADDSKILL 英雄噬血术 3
 break
 #Elsesay
-��Ӣ��ְҵ��Ϊ��ʿ
+你英雄职业不为道士
 
 [@CreateHero]
 #if
 CheckHaveHero
 #ACT
 #SAy
-���Ѿ���ȡ��Ӣ��!!\ \
-<����/@main>
+你已经领取了英雄!!\ \
+<返回/@main>
 #Elsesay
-ѡ����Ҫ��Ӣ��ְҵ�Ա�.\ \
-<��Ӣ��սʿ/@CREATEHERO_WARR_MAN> <ŮӢ��սʿ/@CREATEHERO_WARR_WOM>\ \
-<��Ӣ�۷�ʦ/@CREATEHERO_WIZA_MAN> <ŮӢ�۷�ʦ/@CREATEHERO_WIZA_WOM>\ \
-<��Ӣ�۵�ʿ/@CREATEHERO_TAOS_MAN> <ŮӢ�۵�ʿ/@CREATEHERO_TAOS_WOM>\ \
-<����/@main>
+选择需要的英雄职业性别.\ \
+<男英雄战士/@CREATEHERO_WARR_MAN> <女英雄战士/@CREATEHERO_WARR_WOM>\ \
+<男英雄法师/@CREATEHERO_WIZA_MAN> <女英雄法师/@CREATEHERO_WIZA_WOM>\ \
+<男英雄道士/@CREATEHERO_TAOS_MAN> <女英雄道士/@CREATEHERO_TAOS_WOM>\ \
+<返回/@main>
 
 [@CREATEHERO_WARR_MAN]
 #IF
 checkgold 900000
 #Act
-take ��� 900000
+take 金币 900000
 CREATEHERO 0 0
 Goto @CreateingHero
 #ELSESAY
-��Ǯ�����ȼ�����! \ \
-<ȷ��/@exit>
+金钱不足或等级不够! \ \
+<确定/@exit>
 
 [@CREATEHERO_WARR_WOM]
 #IF
 checkgold 900000
 #Act
-take ��� 900000
+take 金币 900000
 CREATEHERO 0 1
 Goto @CreateingHero
 #ELSESAY
-��Ǯ�����ȼ�����! \ \
-<ȷ��/@exit>
+金钱不足或等级不够! \ \
+<确定/@exit>
 
 [@CREATEHERO_WIZA_MAN]
 #IF
 checkgold 900000
 #Act
-take ��� 900000
+take 金币 900000
 CREATEHERO 1 0
 Goto @CreateingHero
 #ELSESAY
-��Ǯ�����ȼ�����! \ \
-<ȷ��/@exit>
+金钱不足或等级不够! \ \
+<确定/@exit>
 
 [@CREATEHERO_WIZA_WOM]
 #IF
 checkgold 900000
 #Act
-take ��� 900000
+take 金币 900000
 CREATEHERO 1 1
 Goto @CreateingHero
 #ELSESAY
-��Ǯ�����ȼ�����! \ \
-<ȷ��/@exit>
+金钱不足或等级不够! \ \
+<确定/@exit>
 
 [@CREATEHERO_TAOS_MAN]
 #IF
 checkgold 900000
 #Act
-take ��� 900000
+take 金币 900000
 CREATEHERO 2 0
 Goto @CreateingHero
 #ELSESAY
-��Ǯ�����ȼ�����! \ \
-<ȷ��/@exit>
+金钱不足或等级不够! \ \
+<确定/@exit>
 
 [@CREATEHERO_TAOS_WOM]
 #IF
 checkgold 900000
 #Act
-take ��� 900000
+take 金币 900000
 CREATEHERO 2 1
 Goto @CreateingHero
 #ELSESAY
-��Ǯ�����ȼ�����! \ \
-<ȷ��/@exit>
+金钱不足或等级不够! \ \
+<确定/@exit>
 
 
-;//������Ϣ
+;//返回消息
 [@HeroNameFilter]
-����Ӣ��ʧ�ܣ������а�����ֹ�ַ��򳤶ȳ���14λ�ַ�����\\<�ر�/@exit>
+创建英雄失败，名字中包含禁止字符或长度超过14位字符……\\<关闭/@exit>
 
 [@CreateingHero]
-ϵͳ���ڽ������룬���Ժ򡭡�\
-<�ر�/@exit>
+系统正在接受申请，请稍候……\
+<关闭/@exit>
 
 [@HaveHero]
-���Ѿ���Ӣ���ˡ�\
-<�ر�/@exit>
+您已经有英雄了。\
+<关闭/@exit>
 
 [@SetHeroName]
-���ȸ�����Ӣ��ȡ���֡�\
-<�ر�/@exit>
+请先给您的英雄取名字。\
+<关闭/@exit>
 
-[@ɾ��Ӣ��]
-�Ƿ�ȷ��ɾ��Ӣ��\
-<�ǣ���ȷ��ɾ��Ӣ��/@DelMyHero>\ 
-<�ҿ�����/@exit>
+[@删除英雄]
+是否确认删除英雄\
+<是，我确认删除英雄/@DelMyHero>\ 
+<我考虑下/@exit>
 
 [@DelMyHero]
 #ACT
 DELETEHERO
-;//������Ϣ
+;//返回消息
 
 [@NotHaveHero]
-��û��Ӣ�ۡ�\\<�ر�/@exit>
+你没有英雄。\\<关闭/@exit>
 
 [@LogOutHeroFirst]
-�뽫Ӣ���������ߣ�\\<�ر�/@exit>
+请将英雄设置下线！\\<关闭/@exit>

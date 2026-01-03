@@ -1,74 +1,74 @@
 [@MagSelfFunc1024]
 #IF
-checkskill ÑªÁúË® = 0
+checkskill è¡€é¾™æ°´ = 0
 #ACT
-ChangeSlaveLevel ±äÒì÷¼÷Ã = 4
-ChangeSlaveLevel ÉñÊŞ = 4
-ChangeSlaveLevel ÉñÊŞ0 = 4
-ChangeSlaveLevel ÔÂÁé = 4
+ChangeSlaveLevel å˜å¼‚éª·é«… = 4
+ChangeSlaveLevel ç¥å…½ = 4
+ChangeSlaveLevel ç¥å…½0 = 4
+ChangeSlaveLevel æœˆçµ = 4
 #IF
-checkskill ÑªÁúË® = 1
+checkskill è¡€é¾™æ°´ = 1
 #ACT
-ChangeSlaveLevel ±äÒì÷¼÷Ã = 5
-ChangeSlaveLevel ÉñÊŞ = 5
-ChangeSlaveLevel ÉñÊŞ0 = 5
-ChangeSlaveLevel ÔÂÁé = 5
+ChangeSlaveLevel å˜å¼‚éª·é«… = 5
+ChangeSlaveLevel ç¥å…½ = 5
+ChangeSlaveLevel ç¥å…½0 = 5
+ChangeSlaveLevel æœˆçµ = 5
 #IF
-checkskill ÑªÁúË® = 2
+checkskill è¡€é¾™æ°´ = 2
 #ACT
-ChangeSlaveLevel ±äÒì÷¼÷Ã = 6
-ChangeSlaveLevel ÉñÊŞ = 6
-ChangeSlaveLevel ÉñÊŞ0 = 6
-ChangeSlaveLevel ÔÂÁé = 6
+ChangeSlaveLevel å˜å¼‚éª·é«… = 6
+ChangeSlaveLevel ç¥å…½ = 6
+ChangeSlaveLevel ç¥å…½0 = 6
+ChangeSlaveLevel æœˆçµ = 6
 #IF
-checkskill ÑªÁúË® = 3
+checkskill è¡€é¾™æ°´ = 3
 #ACT
-ChangeSlaveLevel ±äÒì÷¼÷Ã = 7
-ChangeSlaveLevel ÉñÊŞ = 7
-ChangeSlaveLevel ÉñÊŞ0 = 7
-ChangeSlaveLevel ÔÂÁé = 7
+ChangeSlaveLevel å˜å¼‚éª·é«… = 7
+ChangeSlaveLevel ç¥å…½ = 7
+ChangeSlaveLevel ç¥å…½0 = 7
+ChangeSlaveLevel æœˆçµ = 7
 
 [@OpenStoratge2]
 #if 
 not CheckStorageOpen 2
 #act
-MESSAGEBOX ÊÇ·ñ»¨·Ñ100W½ğ±Ò¿ªÆô²Ö¿âµÚ¶şÒ³? @¿ªÆô²Ö¿âµÚ¶şÒ³ @È¡Ïû
+MESSAGEBOX æ˜¯å¦èŠ±è´¹100Wé‡‘å¸å¼€å¯ä»“åº“ç¬¬äºŒé¡µ? @å¼€å¯ä»“åº“ç¬¬äºŒé¡µ @å–æ¶ˆ
 
 [@OpenStoratge3]
 #if 
 not CheckStorageOpen 3
 #act
-MESSAGEBOX ÊÇ·ñ»¨·Ñ200W½ğ±Ò¿ªÆô²Ö¿âµÚÈıÒ³? @¿ªÆô²Ö¿âµÚÈıÒ³ @È¡Ïû
+MESSAGEBOX æ˜¯å¦èŠ±è´¹200Wé‡‘å¸å¼€å¯ä»“åº“ç¬¬ä¸‰é¡µ? @å¼€å¯ä»“åº“ç¬¬ä¸‰é¡µ @å–æ¶ˆ
 
 [@OpenStoratge4]
 #if 
 not CheckStorageOpen 4
 #act
-MESSAGEBOX ÊÇ·ñ»¨·Ñ300W½ğ±Ò¿ªÆô²Ö¿âµÚËÄÒ³? @¿ªÆô²Ö¿âµÚËÄÒ³ @È¡Ïû
+MESSAGEBOX æ˜¯å¦èŠ±è´¹300Wé‡‘å¸å¼€å¯ä»“åº“ç¬¬å››é¡µ? @å¼€å¯ä»“åº“ç¬¬å››é¡µ @å–æ¶ˆ
 
-[@¿ªÆô²Ö¿âµÚ¶şÒ³]
+[@å¼€å¯ä»“åº“ç¬¬äºŒé¡µ]
 #if 
 checkgold 1000000
 #act
-take ½ğ±Ò 1000000
+take é‡‘å¸ 1000000
 OpenStoratge 2 1
-SendMsg 5 ¿ªÆô²Ö¿âµÚ¶şÒ³³É¹¦!
+SendMsg 5 å¼€å¯ä»“åº“ç¬¬äºŒé¡µæˆåŠŸ!
 
-[@¿ªÆô²Ö¿âµÚÈıÒ³]
+[@å¼€å¯ä»“åº“ç¬¬ä¸‰é¡µ]
 #if 
 checkgold 2000000
 #act
-take ½ğ±Ò 2000000
+take é‡‘å¸ 2000000
 OpenStoratge 3 1
-SendMsg 5 ¿ªÆô²Ö¿âµÚÈıÒ³³É¹¦!
+SendMsg 5 å¼€å¯ä»“åº“ç¬¬ä¸‰é¡µæˆåŠŸ!
 
-[@¿ªÆô²Ö¿âµÚËÄÒ³]
+[@å¼€å¯ä»“åº“ç¬¬å››é¡µ]
 #if 
 checkgold 3000000
 #act
-take ½ğ±Ò 3000000
+take é‡‘å¸ 3000000
 OpenStoratge 4 1
-SendMsg 5 ¿ªÆô²Ö¿âµÚËÄÒ³³É¹¦!
+SendMsg 5 å¼€å¯ä»“åº“ç¬¬å››é¡µæˆåŠŸ!
 
 
 [@ClosedBagItemClick]
@@ -76,9 +76,9 @@ SendMsg 5 ¿ªÆô²Ö¿âµÚËÄÒ³³É¹¦!
 mov n1 <$ExtBagOpenItemCount>
 inc n1 1
 mul n1 10000
-MESSAGEBOX ÊÇ·ñ»¨·Ñ<$STR(n1)>½ğ±Ò¿ªÆôĞÂ¸ñ×Ó? @¿ªÆôĞÂ±³°ü¸ñ×Ó @È¡Ïû
+MESSAGEBOX æ˜¯å¦èŠ±è´¹<$STR(n1)>é‡‘å¸å¼€å¯æ–°æ ¼å­? @å¼€å¯æ–°èƒŒåŒ…æ ¼å­ @å–æ¶ˆ
 
-[@¿ªÆôĞÂ±³°ü¸ñ×Ó]
+[@å¼€å¯æ–°èƒŒåŒ…æ ¼å­]
 #act
 mov n1 <$ExtBagOpenItemCount>
 inc n1 1
@@ -87,59 +87,59 @@ mul n1 10000
 checkgold n1
 Large <$ExtBagCloseItemCount> 0
 #act
-take ½ğ±Ò n1
+take é‡‘å¸ n1
 mov n2 <$ExtBagOpenItemCount>
 ExtBagOpenItemCount + 1
-SENDMSG 7 ÄãµÄÀ©Õ¹±³°üÒÑ´Ó<$STR(n2)>¸ñÀ©Õ¹µ½<$ExtBagOpenItemCount>¸ñ
+SENDMSG 7 ä½ çš„æ‰©å±•èƒŒåŒ…å·²ä»<$STR(n2)>æ ¼æ‰©å±•åˆ°<$ExtBagOpenItemCount>æ ¼
 #elsesay
-ÄãµÄ½ğ±Ò²»×ã£¬À©Õ¹Ê§°Ü£¡ \ \
-<ÍË³ö/@exit>
+ä½ çš„é‡‘å¸ä¸è¶³ï¼Œæ‰©å±•å¤±è´¥ï¼ \ \
+<é€€å‡º/@exit>
 
-[@È¡Ïû]
+[@å–æ¶ˆ]
 #ACT
 break
 
-;µã¿ªÊ¼¹Ò»ú´¥·¢
+;ç‚¹å¼€å§‹æŒ‚æœºè§¦å‘
 [@StartAutoOnline]
 #IF
 ;CHECKMAPNAME 0
 #ACT
-;SENDMSG 6 µ±Ç°µØÍ¼½ûÖ¹¹Ò»ú
+;SENDMSG 6 å½“å‰åœ°å›¾ç¦æ­¢æŒ‚æœº
 ;#ELSEACT
 StartAutoPlayGame
-SENDMSG 6 ¿ªÊ¼¹Ò»ú£¬Ê¹ÓÃ¿ì½İ¼ü¡°CTRL+ALT+X¡±Í£Ö¹¹Ò»ú
+SENDMSG 6 å¼€å§‹æŒ‚æœºï¼Œä½¿ç”¨å¿«æ·é”®â€œCTRL+ALT+Xâ€åœæ­¢æŒ‚æœº
 
-;µãÍ£Ö¹¹Ò»ú´¥·¢
+;ç‚¹åœæ­¢æŒ‚æœºè§¦å‘
 [@StopAutoOnline]
 #IF
 #ACT
 StopAutoPlayGame
-SENDMSG 6 Í£Ö¹¹Ò»ú£¬Ê¹ÓÃ¿ì½İ¼ü¡°CTRL+ALT+X¡±¿ªÊ¼¹Ò»ú
+SENDMSG 6 åœæ­¢æŒ‚æœºï¼Œä½¿ç”¨å¿«æ·é”®â€œCTRL+ALT+Xâ€å¼€å§‹æŒ‚æœº
 
 [@StdModeFunc14] 
 #IF
-checkitem Ç¿Ğ§Ì«ÑôË® 6
+checkitem å¼ºæ•ˆå¤ªé˜³æ°´ 6
 #ACT
-take Ç¿Ğ§Ì«ÑôË® 6
-give Ç¿Ğ§Ì«ÑôË®°ü 1 
+take å¼ºæ•ˆå¤ªé˜³æ°´ 6
+give å¼ºæ•ˆå¤ªé˜³æ°´åŒ… 1 
 #ELSEACT
 AddFunItemDura 1000
 
 [@StdModeFunc15]
 #IF
-checkitem ÍòÄêÑ©Ëª 6
+checkitem ä¸‡å¹´é›ªéœœ 6
 #ACT
-take ÍòÄêÑ©Ëª 6
-give ÍòÄêÑ©Ëª°ü 1
+take ä¸‡å¹´é›ªéœœ 6
+give ä¸‡å¹´é›ªéœœåŒ… 1
 #ELSEACT
 AddFunItemDura 1000 
 
 [@StdModeFunc16] 
 #IF 
-checkitem ÁÆÉËÒ© 6
+checkitem ç–—ä¼¤è¯ 6
 #ACT 
-take ÁÆÉËÒ© 6
-give ÁÆÉËÒ©°ü 1
+take ç–—ä¼¤è¯ 6
+give ç–—ä¼¤è¯åŒ… 1
 #ELSEACT
 AddFunItemDura 1000
 
@@ -157,82 +157,82 @@ mapmove 3 330 330
 #IF
 #ACT
 KILLMONEXPRATE 200 10800 1
-SENDMSG 7 Äã»ñµÃÁË3¸öĞ¡Ê±Ë«±¶¾­Ñé,ÆÚ¼äËÀÍö»òÏÂÏß²»¼õÉÙË«±¶Ê±¼ä,ÖØ¸´Ê¹ÓÃÎŞĞ§!
+SENDMSG 7 ä½ è·å¾—äº†3ä¸ªå°æ—¶åŒå€ç»éªŒ,æœŸé—´æ­»äº¡æˆ–ä¸‹çº¿ä¸å‡å°‘åŒå€æ—¶é—´,é‡å¤ä½¿ç”¨æ— æ•ˆ!
 
 [@StdModeFunc32]
 #IF
 #ACT
 KILLMONEXPRATE 200 21600 1
-SENDMSG 7 Äã»ñµÃÁË6¸öĞ¡Ê±Ë«±¶¾­Ñé,ÆÚ¼äËÀÍö»òÏÂÏß²»¼õÉÙË«±¶Ê±¼ä,ÖØ¸´Ê¹ÓÃÎŞĞ§!
+SENDMSG 7 ä½ è·å¾—äº†6ä¸ªå°æ—¶åŒå€ç»éªŒ,æœŸé—´æ­»äº¡æˆ–ä¸‹çº¿ä¸å‡å°‘åŒå€æ—¶é—´,é‡å¤ä½¿ç”¨æ— æ•ˆ!
 
 [@StdModeFunc33]
 #IF
 CheckJob Taoist
 #ACT
-ChangeSlaveLevel ±äÒì÷¼÷Ã = 7
-ChangeSlaveLevel ÉñÊŞ = 7
-ChangeSlaveLevel ÉñÊŞ0 = 7
-ChangeSlaveLevel ÔÂÁé = 7
+ChangeSlaveLevel å˜å¼‚éª·é«… = 7
+ChangeSlaveLevel ç¥å…½ = 7
+ChangeSlaveLevel ç¥å…½0 = 7
+ChangeSlaveLevel æœˆçµ = 7
 Break
 #ELSEACT
-sendmsg 7 ÕÙ»½Ç¿»¯¾íÖ»ÊÊºÏµÀÊ¿Ö°ÒµÊ¹ÓÃ£¡£¡
+sendmsg 7 å¬å”¤å¼ºåŒ–å·åªé€‚åˆé“å£«èŒä¸šä½¿ç”¨ï¼ï¼
 
 [@StdModeFunc34] 
 #IF 
 CheckSlaveCount < 5 
 #ACT
-RECALLMOB »¢ÎÀ 3
+RECALLMOB è™å« 3
 #ELSEACT 
-SENDMSG 7 ¿É´øÁìµÄ³èÎïÊıÁ¿ÒÑ´ïµ½5¸öµÄÉÏÏŞ£¡£¡
+SENDMSG 7 å¯å¸¦é¢†çš„å® ç‰©æ•°é‡å·²è¾¾åˆ°5ä¸ªçš„ä¸Šé™ï¼ï¼
 
 
 [@StdModeFunc101]
 #IF
 #ACT
 KILLMONEXPRATE 130 3600 1
-SENDMSG 7 Äã»ñµÃÁË1¸öĞ¡Ê±30%¾­ÑéÔöÒæ,ÆÚ¼äËÀÍö»òÏÂÏß²»¼õÉÙË«±¶Ê±¼ä,ÖØ¸´Ê¹ÓÃÎŞĞ§!
+SENDMSG 7 ä½ è·å¾—äº†1ä¸ªå°æ—¶30%ç»éªŒå¢ç›Š,æœŸé—´æ­»äº¡æˆ–ä¸‹çº¿ä¸å‡å°‘åŒå€æ—¶é—´,é‡å¤ä½¿ç”¨æ— æ•ˆ!
 
 [@StdModeFunc102]
 #IF
 #ACT
 KILLMONEXPRATE 130 10800 1
-SENDMSG 7 Äã»ñµÃÁË3¸öĞ¡Ê±30%¾­ÑéÔöÒæ,ÆÚ¼äËÀÍö»òÏÂÏß²»¼õÉÙË«±¶Ê±¼ä,ÖØ¸´Ê¹ÓÃÎŞĞ§!
+SENDMSG 7 ä½ è·å¾—äº†3ä¸ªå°æ—¶30%ç»éªŒå¢ç›Š,æœŸé—´æ­»äº¡æˆ–ä¸‹çº¿ä¸å‡å°‘åŒå€æ—¶é—´,é‡å¤ä½¿ç”¨æ— æ•ˆ!
 
 [@StdModeFunc103]
 #IF
 #ACT
 KILLMONEXPRATE 130 18000 1
-SENDMSG 7 Äã»ñµÃÁË5¸öĞ¡Ê±30%¾­ÑéÔöÒæ,ÆÚ¼äËÀÍö»òÏÂÏß²»¼õÉÙË«±¶Ê±¼ä,ÖØ¸´Ê¹ÓÃÎŞĞ§!
+SENDMSG 7 ä½ è·å¾—äº†5ä¸ªå°æ—¶30%ç»éªŒå¢ç›Š,æœŸé—´æ­»äº¡æˆ–ä¸‹çº¿ä¸å‡å°‘åŒå€æ—¶é—´,é‡å¤ä½¿ç”¨æ— æ•ˆ!
 
 [@StdModeFunc104]
 #IF
 #ACT
 KILLMONEXPRATE 130 86400 1
-SENDMSG 7 Äã»ñµÃÁË24¸öĞ¡Ê±30%¾­ÑéÔöÒæ,ÆÚ¼äËÀÍö»òÏÂÏß²»¼õÉÙË«±¶Ê±¼ä,ÖØ¸´Ê¹ÓÃÎŞĞ§!
+SENDMSG 7 ä½ è·å¾—äº†24ä¸ªå°æ—¶30%ç»éªŒå¢ç›Š,æœŸé—´æ­»äº¡æˆ–ä¸‹çº¿ä¸å‡å°‘åŒå€æ—¶é—´,é‡å¤ä½¿ç”¨æ— æ•ˆ!
 
 [@StdModeFunc105]
 #IF
 #ACT
 KILLMONEXPRATE 300 10800 1
-SENDMSG 7 Äã»ñµÃÁË3¸öĞ¡Ê±3±¶¾­ÑéÔöÒæ,ÆÚ¼äËÀÍö»òÏÂÏß²»¼õÉÙË«±¶Ê±¼ä,ÖØ¸´Ê¹ÓÃÎŞĞ§!
+SENDMSG 7 ä½ è·å¾—äº†3ä¸ªå°æ—¶3å€ç»éªŒå¢ç›Š,æœŸé—´æ­»äº¡æˆ–ä¸‹çº¿ä¸å‡å°‘åŒå€æ—¶é—´,é‡å¤ä½¿ç”¨æ— æ•ˆ!
 
 [@StdModeFunc106]
 #IF
 #ACT
 KILLMONEXPRATE 300 86400 1
-SENDMSG 7 Äã»ñµÃÁË24¸öĞ¡Ê±3±¶¾­ÑéÔöÒæ,ÆÚ¼äËÀÍö»òÏÂÏß²»¼õÉÙË«±¶Ê±¼ä,ÖØ¸´Ê¹ÓÃÎŞĞ§!
+SENDMSG 7 ä½ è·å¾—äº†24ä¸ªå°æ—¶3å€ç»éªŒå¢ç›Š,æœŸé—´æ­»äº¡æˆ–ä¸‹çº¿ä¸å‡å°‘åŒå€æ—¶é—´,é‡å¤ä½¿ç”¨æ— æ•ˆ!
 
 [@StdmodeShow101]
 #if
 #act
-;SendMsg 6 ÈËÎïµ±Ç°Ê¹ÓÃµÄÎïÆ·Ãû:<$UseItemName>£¬Î¨Ò»ID:<$UseItemMakeIndex>
-;SendMsg 6 Ê¹ÓÃÎïÆ·Ä¿±êÃû×Ö:<$BagItemName>,Î¨Ò»ID:<$BagItemMakeIndex>
+;SendMsg 6 äººç‰©å½“å‰ä½¿ç”¨çš„ç‰©å“å:<$UseItemName>ï¼Œå”¯ä¸€ID:<$UseItemMakeIndex>
+;SendMsg 6 ä½¿ç”¨ç‰©å“ç›®æ ‡åå­—:<$BagItemName>,å”¯ä¸€ID:<$BagItemMakeIndex>
 LinkBagItem <$BagItemMakeIndex>
 GetItemFieldValue -1 name S1
 GetItemFieldValue -1 idx S2
 GetItemFieldValue -1 dura S3
 GetItemFieldValue -1 duramax S4
-;SendMsg 6 µ±Ç°²Ù×÷µÄ×°±¸Idx£º<$Str(S1)>£»dura£º<$Str(S3)>£¬duramax£º<$Str(S4)>
+;SendMsg 6 å½“å‰æ“ä½œçš„è£…å¤‡Idxï¼š<$Str(S1)>ï¼›duraï¼š<$Str(S3)>ï¼Œduramaxï¼š<$Str(S4)>
 ChangeItemDura -1 = <$Str(S4)> 0
 UpdateItem -1
 ClearLinkItem
@@ -241,8 +241,8 @@ break
 [@StdmodeShow102]
 #if
 #act
-;SendMsg 6 ÈËÎïµ±Ç°Ê¹ÓÃµÄÎïÆ·Ãû:<$UseItemName>£¬Î¨Ò»ID:<$UseItemMakeIndex>
-;SendMsg 6 Ê¹ÓÃÎïÆ·Ä¿±êÃû×Ö:<$BagItemName>,Î¨Ò»ID:<$BagItemMakeIndex>
+;SendMsg 6 äººç‰©å½“å‰ä½¿ç”¨çš„ç‰©å“å:<$UseItemName>ï¼Œå”¯ä¸€ID:<$UseItemMakeIndex>
+;SendMsg 6 ä½¿ç”¨ç‰©å“ç›®æ ‡åå­—:<$BagItemName>,å”¯ä¸€ID:<$BagItemMakeIndex>
 LinkBagItem <$BagItemMakeIndex>
 GetItemFieldValue -1 name S1
 GetItemFieldValue -1 idx S2
@@ -252,28 +252,28 @@ DIV S4 30
 MUL S4 29
 ChangeItemDura -1 = <$Str(S4)> 1
 ChangeItemDura -1 = <$Str(S4)> 0
-SendMsg 6 µ±Ç°²Ù×÷µÄ×°±¸Idx£º<$Str(S1)>£»dura£º<$Str(S3)>£¬duramax£º<$Str(S4)>
+SendMsg 6 å½“å‰æ“ä½œçš„è£…å¤‡Idxï¼š<$Str(S1)>ï¼›duraï¼š<$Str(S3)>ï¼Œduramaxï¼š<$Str(S4)>
 UpdateItem -1
 ClearLinkItem
 break
 
-;ÅÄÂôĞĞ³ö¼Û±»³å
+;æ‹å–è¡Œå‡ºä»·è¢«å†²
 [@AuctionInvalidItem]
 #IF
-;ÎïÆ·±»±ğÈËÃëÁË
+;ç‰©å“è¢«åˆ«äººç§’äº†
 EQUAL <$AuctionItemSelled> 1
 #ACT
-sendmsg 7 ºÜÒÅº¶£¬Äã³ö¼Û<$AuctionItemInvalidPrice>µÄ¾ºÅÄÎïÆ·¡¾<$AuctionItemName>£»µ×¼Û£º<$AuctionItemStartPrice><$AuctionItemMoneyType>£»Ò»¿Ú¼Û£º<$AuctionItemSellPrice>¡¿±»ÈËÓÃÃëÅÄ
+sendmsg 7 å¾ˆé—æ†¾ï¼Œä½ å‡ºä»·<$AuctionItemInvalidPrice>çš„ç«æ‹ç‰©å“ã€<$AuctionItemName>ï¼›åº•ä»·ï¼š<$AuctionItemStartPrice><$AuctionItemMoneyType>ï¼›ä¸€å£ä»·ï¼š<$AuctionItemSellPrice>ã€‘è¢«äººç”¨ç§’æ‹
 #ELSEACT
-sendmsg 7 Äã³ö¼Û<$AuctionItemInvalidPrice>µÄ¾ºÅÄÎïÆ·¡¾<$AuctionItemName>£»µ×¼Û£º<$AuctionItemStartPrice><$AuctionItemMoneyType>£»Ò»¿Ú¼Û£º<$AuctionItemSellPrice>¡¿±»ÈË³öÁË¸ü¸ßµÄ¼Û¸ñ£º<$AuctionItemFinaPrice>£¬¸Ï¿ìÈ¥¼Ó¼Û°É
+sendmsg 7 ä½ å‡ºä»·<$AuctionItemInvalidPrice>çš„ç«æ‹ç‰©å“ã€<$AuctionItemName>ï¼›åº•ä»·ï¼š<$AuctionItemStartPrice><$AuctionItemMoneyType>ï¼›ä¸€å£ä»·ï¼š<$AuctionItemSellPrice>ã€‘è¢«äººå‡ºäº†æ›´é«˜çš„ä»·æ ¼ï¼š<$AuctionItemFinaPrice>ï¼Œèµ¶å¿«å»åŠ ä»·å§
 
-;ÅÄÂôÈËµÄÎïÆ·±»Âô³ö
+;æ‹å–äººçš„ç‰©å“è¢«å–å‡º
 [@AuctionSellItem]
 #ACT
-sendmsg 7 ÄãÅÄÂôµÄÎïÆ·¡¾<$AuctionItemName>£»µ×¼Û£º<$AuctionItemStartPrice><$AuctionItemMoneyType>£»Ò»¿Ú¼Û£º<$AuctionItemSellPrice>¡¿±»ÈËÓÃ<$AuctionItemFinaPrice>µÄ¼Û¸ñÂò×ß
+sendmsg 7 ä½ æ‹å–çš„ç‰©å“ã€<$AuctionItemName>ï¼›åº•ä»·ï¼š<$AuctionItemStartPrice><$AuctionItemMoneyType>ï¼›ä¸€å£ä»·ï¼š<$AuctionItemSellPrice>ã€‘è¢«äººç”¨<$AuctionItemFinaPrice>çš„ä»·æ ¼ä¹°èµ°
 
-;¾ºÅÄÈËÂòµ½ÎïÆ·
+;ç«æ‹äººä¹°åˆ°ç‰©å“
 [@AuctionBuyItem]
 #ACT
-sendmsg 7 ¹§Ï²¡£Äã²ÎÓë¾ºÅÄµÄÎïÆ·¡¾<$AuctionItemName>£»µ×¼Û£º<$AuctionItemStartPrice><$AuctionItemMoneyType>£»Ò»¿Ú¼Û£º<$AuctionItemSellPrice>¡¿¾ºÅÄ³É¹¦¡£³É½»¼Û£º<$AuctionItemFinaPrice> 
+sendmsg 7 æ­å–œã€‚ä½ å‚ä¸ç«æ‹çš„ç‰©å“ã€<$AuctionItemName>ï¼›åº•ä»·ï¼š<$AuctionItemStartPrice><$AuctionItemMoneyType>ï¼›ä¸€å£ä»·ï¼š<$AuctionItemSellPrice>ã€‘ç«æ‹æˆåŠŸã€‚æˆäº¤ä»·ï¼š<$AuctionItemFinaPrice> 
 

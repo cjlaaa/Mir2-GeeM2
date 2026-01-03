@@ -1,45 +1,45 @@
-;Զ����
+;远古猪
 [@main]
 #if
 #act
 CLOSEMERCHANTBIGDLG
 #say
-�����Ǹ���ʱ�յ������ۺϵ�,�����ҿ�����ħ������ص�Զ��ʱ��,\ 
-��Ϊά�����ͨ����Ҫ�����ľ����Ͳ���,������Ҫ����һЩǮ����; \
-����,��Ϊ�ҵ���������,�����������µ����ʱ���,��ô�Ҿ���\ 
-��ά��ǰ��ԭ��ʱ����ͨ����,����һ��ҪС��! \  \
-�ҵ�ħ��������ά�ִ���ͨ��<����Сʱ/SCOLOR=249>,ǧ��ע�ⰲȫ! \ \
-<����50Wǰ��Զ��ʱ���/@ǰ���¸���>  <���Է����ϴ�Զ��ʱ���/@�����ϴθ���>  <�˳�/@exit>
+这里是附近时空的能量聚合点,所以我可以用魔法帮你回到远古时期,\ 
+因为维持这个通道需要大量的精力和材料,所以你要付我一些钱才行; \
+对了,因为我的能力有限,如果你进入了新的随机时间点,那么我就无\ 
+法维持前往原先时间点的通道了,所以一定要小心! \  \
+我的魔法最多可以维持传送通道<两个小时/SCOLOR=249>,千万注意安全! \ \
+<花费50W前往远古时间点/@前往新副本>  <尝试返回上次远古时间点/@返回上次副本>  <退出/@exit>
 
-[@�����ϴθ���]
+[@返回上次副本]
 #act
 mapmove <$USERNAME>D717 28 74
 
-[@ǰ���¸���]
+[@前往新副本]
 #say
-���ڽ���ǰ��Զ�����ʱ����ͨ��...���Ժ�...���Ϻ�...
+正在建立前往远古随机时间点的通道...请稍后...马上好...
 #ACT
 DelMirrorMap <$USERNAME>D717
-DELAYGOTO 3000 @Զ��ʯĹ
+DELAYGOTO 3000 @远古石墓
 
-[@Զ��ʯĹ]
+[@远古石墓]
 #if
 checkgold 500000
 #act
 close
-take ��� 500000
-AddMirrorMap D717 <$USERNAME>D717 Զ��ʯĹ 7200 D715 57 N1 1 0,0
+take 金币 500000
+AddMirrorMap D717 <$USERNAME>D717 远古石墓 7200 D715 57 N1 1 0,0
 
 ; (3800+3900+3900+4000)*28+4400*5=458800
-MONGENEX <$USERNAME>D717 50 50 �Ŵ���ɫ���� 50 25
-MONGENEX <$USERNAME>D717 50 50 �Ŵ���Ұ�� 50 25
-MONGENEX <$USERNAME>D717 50 50 �Ŵ���Ұ�� 50 25
-MONGENEX <$USERNAME>D717 50 50 �Ŵ�Ы�� 50 25
-MONGENEX <$USERNAME>D717 50 50 �Ŵ���Ұ�� 50 5
-MONGENEX <$USERNAME>D717 80 28 �Ŵ�Ұ���� 2 1
+MONGENEX <$USERNAME>D717 50 50 古代黑色恶蛆 50 25
+MONGENEX <$USERNAME>D717 50 50 古代红野猪 50 25
+MONGENEX <$USERNAME>D717 50 50 古代黑野猪 50 25
+MONGENEX <$USERNAME>D717 50 50 古代蝎蛇 50 25
+MONGENEX <$USERNAME>D717 50 50 古代白野猪 50 5
+MONGENEX <$USERNAME>D717 80 28 古代野猪王 2 1
 
 mapmove <$USERNAME>D717 28 74
-sendmsg 7 �������ѽ���[Զ��ʯĹ]��ͼ...
+sendmsg 7 副本：已进入[远古石墓]地图...
 #elsesay
-��Ľ�Ҳ��㣬�޷����룡 \
-<�˳�/@exit>
+你的金币不足，无法进入！ \
+<退出/@exit>

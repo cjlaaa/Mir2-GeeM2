@@ -5,31 +5,31 @@
 
 ;dialogue, '*' : dialogue tag
 [@main]
-»¶Ó­£¡ÕâÀïÓÐÄãÏëÒªµÄÊÖÌ×¡£\ \
- <´ò¿ª/@trading> ½»Ò×ÊÐ³¡\
- <Âò/@buy> ÊÖÌ×\
- <Âô/@sell> ÊÖÌ×\
- <ÐÞ²¹/@repair> ÊÖÌ×\
- <ÌØÊâÐÞÀí/@s_repair>\
- <È¡Ïû/@exit> 
+æ¬¢è¿Žï¼è¿™é‡Œæœ‰ä½ æƒ³è¦çš„æ‰‹å¥—ã€‚\ \
+ <æ‰“å¼€/@trading> äº¤æ˜“å¸‚åœº\
+ <ä¹°/@buy> æ‰‹å¥—\
+ <å–/@sell> æ‰‹å¥—\
+ <ä¿®è¡¥/@repair> æ‰‹å¥—\
+ <ç‰¹æ®Šä¿®ç†/@s_repair>\
+ <å–æ¶ˆ/@exit> 
 <>
 
 [@buy]
-ÄãÏëÂòµãÊ²Ã´£¿\ \ \
- <·µ»Ø/@main>
+ä½ æƒ³ä¹°ç‚¹ä»€ä¹ˆï¼Ÿ\ \ \
+ <è¿”å›ž/@main>
 
 [@sell]
-°ÑÄãÒªÂôµÄ¶«Î÷¸øÎÒ¿´¿´£¬ÎÒ»á¸øÄãÒ»¸ö¹À¼Û...\
- <·µ»Ø/@main>
+æŠŠä½ è¦å–çš„ä¸œè¥¿ç»™æˆ‘çœ‹çœ‹ï¼Œæˆ‘ä¼šç»™ä½ ä¸€ä¸ªä¼°ä»·...\
+ <è¿”å›ž/@main>
 
 [@repair]
-ÕâÀïÄã¿ÉÒÔÐÞ²¹ÊÖÌ×.\ \ \
- <·µ»Ø/@main>
+è¿™é‡Œä½ å¯ä»¥ä¿®è¡¥æ‰‹å¥—.\ \ \
+ <è¿”å›ž/@main>
 
 [~@repair]
-Õâ¸ö¿´ÉÏÈ¥ÒÑ¾­²¹ºÃÁË¡£\ \ \
- <·µ»Ø/@main>
+è¿™ä¸ªçœ‹ä¸ŠåŽ»å·²ç»è¡¥å¥½äº†ã€‚\ \ \
+ <è¿”å›ž/@main>
 
 [goods]
 ;items(can be Zen)  pieces      minute
-Æ¤ÖÆÊÖÌ×              5         1
+çš®åˆ¶æ‰‹å¥—              5         1

@@ -1,683 +1,683 @@
 [@main]
-дЦ©иртя║тЯж╖╦╤оЮс╕╫П╠рё╛упд╪ртоб╤ссяё╛очупд╪1цШё╛й╠Ё╓2п║й╠║ё\
-  <║Н/SCOLOR=253><нбэ╟лАй╬/@нбэ╟лАй╬>   </SCOLOR=253><лъЁЩ╤сся/@лъЁЩ╤сся> \
-пт╠Пж╟р╣║║16╪╤║║21╪╤║║26╪╤║║31╪╤║║36╪╤║║41╪╤  46╪╤  51╪╤ \
-║Бдп╥╗й╕║║<нЕг╖/@16дп╥╗>║║<╤ЧмР/@21дп╥╗>║║<нЕмР/@26дп╥╗>║║<10мР/@31дп╥╗>║║<20мР/@36дп╥╗>║║<40мР/@41дп╥╗>║║<60мР/@46дп╥╗>  <80мР/@51дп╥╗> \
-║Бе╝╥╗й╕║║<нЕг╖/@16е╝╥╗>║║<╤ЧмР/@21е╝╥╗>║║<нЕмР/@26е╝╥╗>║║<10мР/@31е╝╥╗>║║<20мР/@36е╝╥╗>║║<40мР/@41е╝╥╗>║║<60мР/@46е╝╥╗>  <80мР/@51е╝╥╗> \
-║Лдп╣юй©║║<хЩг╖/@16дп╣ю>║║<р╩мР/@21дп╣ю>║║<кдмР/@26дп╣ю>║║<╟кмР/@31дп╣ю>║║<15мР/@36дп╣ю>║║<30мР/@41дп╣ю>║║<50мР/@46дп╣ю>  <70мР/@51дп╣ю> \
-║Ле╝╣юй©║║<хЩг╖/@16е╝╣ю>║║<р╩мР/@21е╝╣ю>║║<кдмР/@26е╝╣ю>║║<╟кмР/@31е╝╣ю>║║<15мР/@36е╝╣ю>║║<30мР/@41е╝╣ю>║║<50мР/@46е╝╣ю>  <70мР/@51е╝╣ю> \
-╔Адпу╫й©║║<р╩г╖/@16дпу╫>║║<нЕг╖/@21дпу╫>║║<хЩмР/@26дпу╫>║║<нЕмР/@31дпу╫>║║<10мР/@36дпу╫>║║<20мР/@41дпу╫>║║<40мР/@46дпу╫>  <60мР/@51дпу╫> \
-╔Ае╝у╫й©║║<р╩г╖/@16е╝у╫>║║<нЕг╖/@21е╝у╫>║║<хЩмР/@26е╝у╫>║║<нЕмР/@31е╝у╫>║║<10мР/@36е╝у╫>║║<20мР/@41е╝у╫>║║<40мР/@46е╝у╫>  <60мР/@51е╝у╫> \
+Д╫═Е▐╞Д╩╔И─┴Ф▀╘Ф■╞Д╩≤Г⌡╦Е╨■И┤▒Е╦│О╪▄Ф▀⌡Е▀÷Д╩╔Д╦▀И≤÷Е▐▀О╪▄И≥░Ф▀⌡Е▀÷1Е░█О╪▄Ф≈╤И∙©2Е╟▐Ф≈╤Ц─┌\
+  <Б≤├/SCOLOR=253><Ф╦╘И╕╗Ф▐░Г╓╨/@Ф╦╘И╕╗Ф▐░Г╓╨>   </SCOLOR=253><Х╦╒И≥╓И≤÷Е▐▀/@Х╦╒И≥╓И≤÷Е▐▀> \
+Ф─╖Е┬╚Х│▄Д╦ Ц──16Г╨╖Ц──21Г╨╖Ц──26Г╨╖Ц──31Г╨╖Ц──36Г╨╖Ц──41Г╨╖  46Г╨╖  51Г╨╖ \
+Б≥─Г■╥ФЁ∙Е╦┬Ц──<Д╨■Е█┐/@16Г■╥ФЁ∙>Ц──<Д╨▄Д╦┤/@21Г■╥ФЁ∙>Ц──<Д╨■Д╦┤/@26Г■╥ФЁ∙>Ц──<10Д╦┤/@31Г■╥ФЁ∙>Ц──<20Д╦┤/@36Г■╥ФЁ∙>Ц──<40Д╦┤/@41Г■╥ФЁ∙>Ц──<60Д╦┤/@46Г■╥ФЁ∙>  <80Д╦┤/@51Г■╥ФЁ∙> \
+Б≥─Е╔ЁФЁ∙Е╦┬Ц──<Д╨■Е█┐/@16Е╔ЁФЁ∙>Ц──<Д╨▄Д╦┤/@21Е╔ЁФЁ∙>Ц──<Д╨■Д╦┤/@26Е╔ЁФЁ∙>Ц──<10Д╦┤/@31Е╔ЁФЁ∙>Ц──<20Д╦┤/@36Е╔ЁФЁ∙>Ц──<40Д╦┤/@41Е╔ЁФЁ∙>Ц──<60Д╦┤/@46Е╔ЁФЁ∙>  <80Д╦┤/@51Е╔ЁФЁ∙> \
+б╖Г■╥И│⌠Её╚Ц──<Д╦┴Е█┐/@16Г■╥И│⌠>Ц──<Д╦─Д╦┤/@21Г■╥И│⌠>Ц──<Е⌡⌡Д╦┤/@26Г■╥И│⌠>Ц──<Е┘╚Д╦┤/@31Г■╥И│⌠>Ц──<15Д╦┤/@36Г■╥И│⌠>Ц──<30Д╦┤/@41Г■╥И│⌠>Ц──<50Д╦┤/@46Г■╥И│⌠>  <70Д╦┤/@51Г■╥И│⌠> \
+б╖Е╔ЁИ│⌠Её╚Ц──<Д╦┴Е█┐/@16Е╔ЁИ│⌠>Ц──<Д╦─Д╦┤/@21Е╔ЁИ│⌠>Ц──<Е⌡⌡Д╦┤/@26Е╔ЁИ│⌠>Ц──<Е┘╚Д╦┤/@31Е╔ЁИ│⌠>Ц──<15Д╦┤/@36Е╔ЁИ│⌠>Ц──<30Д╦┤/@41Е╔ЁИ│⌠>Ц──<50Д╦┤/@46Е╔ЁИ│⌠>  <70Д╦┤/@51Е╔ЁИ│⌠> \
+Ц┐║Г■╥Ф┬≤Её╚Ц──<Д╦─Е█┐/@16Г■╥Ф┬≤>Ц──<Д╨■Е█┐/@21Г■╥Ф┬≤>Ц──<Д╦┴Д╦┤/@26Г■╥Ф┬≤>Ц──<Д╨■Д╦┤/@31Г■╥Ф┬≤>Ц──<10Д╦┤/@36Г■╥Ф┬≤>Ц──<20Д╦┤/@41Г■╥Ф┬≤>Ц──<40Д╦┤/@46Г■╥Ф┬≤>  <60Д╦┤/@51Г■╥Ф┬≤> \
+Ц┐║Е╔ЁФ┬≤Её╚Ц──<Д╦─Е█┐/@16Е╔ЁФ┬≤>Ц──<Д╨■Е█┐/@21Е╔ЁФ┬≤>Ц──<Д╦┴Д╦┤/@26Е╔ЁФ┬≤>Ц──<Д╨■Д╦┤/@31Е╔ЁФ┬≤>Ц──<10Д╦┤/@36Е╔ЁФ┬≤>Ц──<20Д╦┤/@41Е╔ЁФ┬≤>Ц──<40Д╦┤/@46Е╔ЁФ┬≤>  <60Д╦┤/@51Е╔ЁФ┬≤> \
 
-[@╦ЗкФеЦа╥]
+[@Х╥÷И ▐И≥╙Г╩┐]
 #IF
-EQUAL A66 ©╙фТ
+EQUAL A66 Е╪─Е░╞
 #ACT
 MOV A65 *
-MOV A66 ╧ь╠у
-messagebox ╪ыхк╦ЗкФг╟мЫмФ╪ркЫтз╣ьм╪еЦа╥ря[╧ь╠у]ё║ё║
+MOV A66 Е┘ЁИ≈╜
+messagebox Е│┤Д╨╨Х╥÷И ▐Е┴█Е╬─Г▌╘Е╝╤Ф┴─Е°╗Е°╟Е⌡╬И≥╙Г╩┐Е╥╡[Е┘ЁИ≈╜]О╪│О╪│
 Break
 
 #IF
-EQUAL A66 ╧ь╠у
+EQUAL A66 Е┘ЁИ≈╜
 #ACT
 MOV A65 *
-MOV A66 ©╙фТ
-messagebox ╪ыхк╦ЗкФг╟мЫмФ╪ркЫтз╣ьм╪еЦа╥ря[©╙фТ]ё║ё║
+MOV A66 Е╪─Е░╞
+messagebox Е│┤Д╨╨Х╥÷И ▐Е┴█Е╬─Г▌╘Е╝╤Ф┴─Е°╗Е°╟Е⌡╬И≥╙Г╩┐Е╥╡[Е╪─Е░╞]О╪│О╪│
 Break
 
-[@нбэ╟лАй╬]
+[@Ф╦╘И╕╗Ф▐░Г╓╨]
 #SAY
-╠╬упд╪╫е╠╬яо╦Я╟╢уу╢╚фФ╠╬иМхкнОйТпт╫ЬппиХ╪ф║ёупд╪╣д╤ссянчбш\
-╣х╪╤║╒HP║╒MP║╒╥юсЫ║╒д╖сЫ║╒╧╔╩Ва╕║╒д╖╥╗а╕║╒╬╚иЯа╕рт╪╟я╖о╟╪╪\
-дэ╨м╪╪дэ╣х╪╤╬ЫсКуФй╣мФ╪рр╩жб║ёCtrl+A©и©ьжф╤сся╧╔╩В╩Рпщо╒║ё\ \
-ж╟р╣н╙д╖╥╗й╕╨м╣юй©пХв╒рБё╛тзупд╪╤ссяг╟ё╛гК╡╩р╙уы╩╫╠╕╠╕║ё╠╬\
-╫е╠╬иХ╤╗упд╪иоочн╙1ё╛хГ╧ШмФ╪рвтиМ╢ЬакиЯйч╩РфДкШ╠╕╠╕ё╛╩А╣╪жб\
-упд╪оч╤Н╫╣╣м║ёль╢кк╣цВё╛╬╢гКаТрБё║\
-<╥╣╩ь/@main>
+Ф°╛Ф▀⌡Е▀÷Х└ Ф°╛Д╦╔Ф═╪Ф▄┴Г┘╖Д╪═Е╔┤Ф°╛Х╨╚Д╨╨Г┴╘Е╠·Ф─╖Х©⌡Х║▄Х╝╬Х╝║Ц─┌Ф▀⌡Е▀÷Г └И≤÷Е▐▀Ф≈═Х╝╨\
+Г╜┴Г╨╖Ц─│HPЦ─│MPЦ─│И≤╡Е╬║Ц─│И╜■Е╬║Ц─│Ф■╩Е┤╩Е┼⌡Ц─│И╜■ФЁ∙Е┼⌡Ц─│Г╡╬Г╔·Е┼⌡Д╩╔Е▐┼Е╜╕Д╧═Ф┼─\
+Х┐╫Е▓▄Ф┼─Х┐╫Г╜┴Г╨╖Е²┤Д╦▌Г°÷Е╝·Г▌╘Е╝╤Д╦─Х┤╢Ц─┌Ctrl+AЕ▐╞Ф▌╖Е┬╤И≤÷Е▐▀Ф■╩Е┤╩Ф┬√Д╪▒Ф│╞Ц─┌\ \
+Х│▄Д╦ Д╦╨И╜■ФЁ∙Е╦┬Е▓▄И│⌠Её╚И°─ФЁ╗Ф└▐О╪▄Е°╗Ф▀⌡Е▀÷И≤÷Е▐▀Е┴█О╪▄Х╞╥Д╦█Х╕│Е▐╛Е■╓Е╝²Е╝²Ц─┌Ф°╛\
+Х└ Ф°╛Х╝╬Е╝ Ф▀⌡Е▀÷Д╦┼И≥░Д╦╨1О╪▄Е╕┌Ф·°Г▌╘Е╝╤Х┤╙Х╨╚Е╦╕Д╨├Г╔·Е┘╫Ф┬√Е┘╤Д╩√Е╝²Е╝²О╪▄Д╪ Е╞╪Х┤╢\
+Ф▀⌡Е▀÷И≥░И╒²И≥█Д╫▌Ц─┌Г┴╧Ф╜╓Х╞╢Ф≤▌О╪▄Ф∙╛Х╞╥Г∙≥Ф└▐О╪│\
+<Х©■Е⌡·/@main>
 
-[@г©жфвИ╤с]
+[@Е╪╨Е┬╤Г╩└И≤÷]
 #if
 #act
 mov S300
 #say
 \
-<гКж╠╫сйДхК╤т╥╫╣дсно╥╫ги╚цШЁф╪╢©иг©жфкШ╦ЗдЦвИ╤сё║/SCOLOR=150>\
+<Х╞╥Г⌡╢Ф▌╔Х╬⌠Е┘╔Е╞╧Ф√╧Г └Ф╦╦Ф┬▐Х╖▓Х┴╡Е░█Г╖╟Е█ЁЕ▐╞Е╪╨Е┬╤Д╩√Х╥÷Д╫═Г╩└И≤÷О╪│/SCOLOR=150>\
 \ \
-<гКйДхК╫ги╚цШвжё╨/SCOLOR=253><╣Ц╩В╢к╢╕йДхКцШвж/@@inputstring110>\
+<Х╞╥Х╬⌠Е┘╔Х╖▓Х┴╡Е░█Е╜≈О╪ /SCOLOR=253><Г┌╧Е┤╩Ф╜╓Е╓└Х╬⌠Е┘╔Е░█Е╜≈/@@inputstring110>\
 \
 
 [@inputstring110]
 #if
 #act
-goto @©╙й╪вИ╤с
+goto @Е╪─Е╖▀Г╩└И≤÷
 break
 
 [@MsgFilter]
 #ACT
-MESSAGEBOX йДхКйЩ╬щжп╟Э╨╛ак╥г╥╗вж╥Ш,гКжьпб╠Ю╪╜!
+MESSAGEBOX Х╬⌠Е┘╔Ф∙╟Ф█╝Д╦╜Е▄┘Е░╚Д╨├И²·ФЁ∙Е╜≈Г╛╕,Х╞╥И┤█Ф√╟Г╪√Х╬▒!
 
-[@©╙й╪вИ╤с]
+[@Е╪─Е╖▀Г╩└И≤÷]
 #if
 CheckOnline <$STR(S110)>
 #act
 CreatGroup <$STR(S110)>
 break
 #elsesay
-\║║\
-╢МнСё╨<мФ╪р║╨<$STR(S110)>║╩ря╬╜обоъё╛ж╩дэуК╤ттзоъхкнОй╧сц║ё/SCOLOR=254>\
-║║\
-<╥╣╩ь/@г©жфвИ╤с>\
-<╧ь╠у/@exit>\║║\
+\Ц──\
+И■≥Х╞╞О╪ <Г▌╘Е╝╤Ц─▌<$STR(S110)>Ц─▐Е╥╡Г╩▐Д╦▀Г╨©О╪▄Е▐╙Х┐╫И▓┬Е╞╧Е°╗Г╨©Д╨╨Г┴╘Д╫©Г■╗Ц─┌/SCOLOR=254>\
+Ц──\
+<Х©■Е⌡·/@Е╪╨Е┬╤Г╩└И≤÷>\
+<Е┘ЁИ≈╜/@exit>\Ц──\
 
 
 [@CreatGroupOK]
 #say
-\ ╡ывВЁи╧╕ё╛мФ╪р<$STR(S110)>ря╠╩дЦ©╙й╪вИ╤сё║
+\ Ф⌠█Д╫°Ф┬░Е┼÷О╪▄Г▌╘Е╝╤<$STR(S110)>Е╥╡Х╒╚Д╫═Е╪─Е╖▀Г╩└И≤÷О╪│
 \
 \
-<╥╣╩ь/@г©жфвИ╤с>\
-<╧ь╠у/@exit>\║║\
+<Х©■Е⌡·/@Е╪╨Е┬╤Г╩└И≤÷>\
+<Е┘ЁИ≈╜/@exit>\Ц──\
 
-[@лъЁЩ╤сся]
+[@Х╦╒И≥╓И≤÷Е▐▀]
 #IF
 #ACT
 KILLSLAVE
-DELAYGOTO 1 @лъЁЩ╤сся1
+DELAYGOTO 1 @Х╦╒И≥╓И≤÷Е▐▀1
 break
 
-[@лъЁЩ╤сся1]
+[@Х╦╒И≥╓И≤÷Е▐▀1]
 #IF
 #ACT
 KILLSLAVE
 break
 
-[@16дпу╫]
+[@16Г■╥Ф┬≤]
 #IF
 checkgold 1000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 1000
-RECALLMOB р╩аЫдпу╫ 0 120 5
-ChangeSlaveNameColor р╩аЫдпу╫ 255
+take И┤▒Е╦│ 1000
+RECALLMOB Д╦─Е┘╜Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Д╦─Е┘╜Г■╥Ф┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@16е╝у╫]
+[@16Е╔ЁФ┬≤]
 #IF
 checkgold 1000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 1000
-RECALLMOB р╩аЫе╝у╫ 0 120 5
-ChangeSlaveNameColor р╩аЫе╝у╫ 255
+take И┤▒Е╦│ 1000
+RECALLMOB Д╦─Е┘╜Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Д╦─Е┘╜Е╔ЁФ┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@16дп╥╗]
+[@16Г■╥ФЁ∙]
 #IF
 checkgold 5000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 5000
-RECALLMOB р╩аЫдп╥╗ 0 120 5
-ChangeSlaveNameColor р╩аЫдп╥╗ 255
+take И┤▒Е╦│ 5000
+RECALLMOB Д╦─Е┘╜Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╦─Е┘╜Г■╥ФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@16е╝╥╗]
+[@16Е╔ЁФЁ∙]
 #IF
 checkgold 5000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 5000
-RECALLMOB р╩аЫе╝╥╗ 0 120 5
-ChangeSlaveNameColor р╩аЫе╝╥╗ 255
+take И┤▒Е╦│ 5000
+RECALLMOB Д╦─Е┘╜Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╦─Е┘╜Е╔ЁФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@16дп╣ю]
+[@16Г■╥И│⌠]
 #IF
 checkgold 3000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 3000
-RECALLMOB р╩аЫдп╣ю 0 120 5
-ChangeSlaveNameColor р╩аЫдп╣ю 255
+take И┤▒Е╦│ 3000
+RECALLMOB Д╦─Е┘╜Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Д╦─Е┘╜Г■╥И│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@16е╝╣ю]
+[@16Е╔ЁИ│⌠]
 #IF
 checkgold 3000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 3000
-RECALLMOB р╩аЫе╝╣ю 0 120 5
-ChangeSlaveNameColor р╩аЫе╝╣ю 255
+take И┤▒Е╦│ 3000
+RECALLMOB Д╦─Е┘╜Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Д╦─Е┘╜Е╔ЁИ│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@21дпу╫]
+[@21Г■╥Ф┬≤]
 #IF
 checkgold 5000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 5000
-RECALLMOB ╤Чр╩дпу╫ 0 120 5
-ChangeSlaveNameColor ╤Чр╩дпу╫ 255
+take И┤▒Е╦│ 5000
+RECALLMOB Д╨▄Д╦─Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Д╨▄Д╦─Г■╥Ф┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@21е╝у╫]
+[@21Е╔ЁФ┬≤]
 #IF
 checkgold 5000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 5000
-RECALLMOB ╤Чр╩е╝у╫ 0 120 5
-ChangeSlaveNameColor ╤Чр╩е╝у╫ 255
+take И┤▒Е╦│ 5000
+RECALLMOB Д╨▄Д╦─Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Д╨▄Д╦─Е╔ЁФ┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@21дп╥╗]
+[@21Г■╥ФЁ∙]
 #IF
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤Чр╩дп╥╗ 0 120 5
-ChangeSlaveNameColor ╤Чр╩дп╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Д╦─Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╨▄Д╦─Г■╥ФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@21е╝╥╗]
+[@21Е╔ЁФЁ∙]
 #IF
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤Чр╩е╝╥╗ 0 120 5
-ChangeSlaveNameColor ╤Чр╩е╝╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Д╦─Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╨▄Д╦─Е╔ЁФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@21дп╣ю]
+[@21Г■╥И│⌠]
 #IF
 checkgold 10000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 10000
-RECALLMOB ╤Чр╩дп╣ю 0 120 5
-ChangeSlaveNameColor ╤Чр╩дп╣ю 255
+take И┤▒Е╦│ 10000
+RECALLMOB Д╨▄Д╦─Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Д╨▄Д╦─Г■╥И│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@21е╝╣ю]
+[@21Е╔ЁИ│⌠]
 #IF
 checkgold 10000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 10000
-RECALLMOB ╤Чр╩е╝╣ю 0 120 5
-ChangeSlaveNameColor ╤Чр╩е╝╣ю 255
+take И┤▒Е╦│ 10000
+RECALLMOB Д╨▄Д╦─Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Д╨▄Д╦─Е╔ЁИ│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@26дпу╫]
+[@26Г■╥Ф┬≤]
 #IF
 checkgold 30000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 30000
-RECALLMOB ╤ЧаЫдпу╫ 0 120 5
-ChangeSlaveNameColor ╤ЧаЫдпу╫ 255
+take И┤▒Е╦│ 30000
+RECALLMOB Д╨▄Е┘╜Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Д╨▄Е┘╜Г■╥Ф┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@26е╝у╫]
+[@26Е╔ЁФ┬≤]
 #IF
 checkgold 30000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 30000
-RECALLMOB ╤ЧаЫе╝у╫ 0 120 5
-ChangeSlaveNameColor ╤ЧаЫе╝у╫ 255
+take И┤▒Е╦│ 30000
+RECALLMOB Д╨▄Е┘╜Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Д╨▄Е┘╜Е╔ЁФ┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@26дп╥╗]
+[@26Г■╥ФЁ∙]
 #IF
 checkgold 50000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 50000
-RECALLMOB ╤ЧаЫдп╥╗ 0 120 5
-ChangeSlaveNameColor ╤ЧаЫдп╥╗ 255
+take И┤▒Е╦│ 50000
+RECALLMOB Д╨▄Е┘╜Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╨▄Е┘╜Г■╥ФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@26е╝╥╗]
+[@26Е╔ЁФЁ∙]
 #IF
 checkgold 50000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 50000
-RECALLMOB ╤ЧаЫе╝╥╗ 0 120 5
-ChangeSlaveNameColor ╤ЧаЫе╝╥╗ 255
+take И┤▒Е╦│ 50000
+RECALLMOB Д╨▄Е┘╜Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╨▄Е┘╜Е╔ЁФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@26дп╣ю]
+[@26Г■╥И│⌠]
 #IF
 checkgold 40000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 40000
-RECALLMOB ╤ЧаЫдп╣ю 0 120 5
-ChangeSlaveNameColor ╤ЧаЫдп╣ю 255
+take И┤▒Е╦│ 40000
+RECALLMOB Д╨▄Е┘╜Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Д╨▄Е┘╜Г■╥И│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@26е╝╣ю]
+[@26Е╔ЁИ│⌠]
 #IF
 checkgold 40000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 40000
-RECALLMOB ╤ЧаЫе╝╣ю 0 120 5
-ChangeSlaveNameColor ╤ЧаЫе╝╣ю 255
+take И┤▒Е╦│ 40000
+RECALLMOB Д╨▄Е┘╜Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Д╨▄Е┘╜Е╔ЁИ│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@31дпу╫]
+[@31Г■╥Ф┬≤]
 #IF
 checkgold 50000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 50000
-RECALLMOB хЩр╩дпу╫ 0 120 5
-ChangeSlaveNameColor хЩр╩дпу╫ 255
+take И┤▒Е╦│ 50000
+RECALLMOB Д╦┴Д╦─Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Д╦┴Д╦─Г■╥Ф┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@31е╝у╫]
+[@31Е╔ЁФ┬≤]
 #IF
 checkgold 50000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 50000
-RECALLMOB хЩр╩е╝у╫ 0 120 5
-ChangeSlaveNameColor хЩр╩е╝у╫ 255
+take И┤▒Е╦│ 50000
+RECALLMOB Д╦┴Д╦─Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Д╦┴Д╦─Е╔ЁФ┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@31дп╥╗]
+[@31Г■╥ФЁ∙]
 #IF
 checkgold 100000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 100000
-RECALLMOB хЩр╩дп╥╗ 0 120 5
-ChangeSlaveNameColor хЩр╩дп╥╗ 255
+take И┤▒Е╦│ 100000
+RECALLMOB Д╦┴Д╦─Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╦┴Д╦─Г■╥ФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@31е╝╥╗]
+[@31Е╔ЁФЁ∙]
 #IF
 checkgold 100000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 100000
-RECALLMOB хЩр╩е╝╥╗ 0 120 5
-ChangeSlaveNameColor хЩр╩е╝╥╗ 255
+take И┤▒Е╦│ 100000
+RECALLMOB Д╦┴Д╦─Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╦┴Д╦─Е╔ЁФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@31дп╣ю]
+[@31Г■╥И│⌠]
 #IF
 checkgold 80000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 80000
-RECALLMOB хЩр╩дп╣ю 0 120 5
-ChangeSlaveNameColor хЩр╩дп╣ю 255
+take И┤▒Е╦│ 80000
+RECALLMOB Д╦┴Д╦─Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Д╦┴Д╦─Г■╥И│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@31е╝╣ю]
+[@31Е╔ЁИ│⌠]
 #IF
 checkgold 80000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 80000
-RECALLMOB хЩр╩е╝╣ю 0 120 5
-ChangeSlaveNameColor хЩр╩е╝╣ю 255
+take И┤▒Е╦│ 80000
+RECALLMOB Д╦┴Д╦─Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Д╦┴Д╦─Е╔ЁИ│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@36дпу╫]
+[@36Г■╥Ф┬≤]
 #IF
 checkgold 100000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 100000
-RECALLMOB хЩаЫдпу╫ 0 120 5
-ChangeSlaveNameColor хЩаЫдпу╫ 255
+take И┤▒Е╦│ 100000
+RECALLMOB Д╦┴Е┘╜Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Д╦┴Е┘╜Г■╥Ф┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@36е╝у╫]
+[@36Е╔ЁФ┬≤]
 #IF
 checkgold 100000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 100000
-RECALLMOB хЩаЫе╝у╫ 0 120 5
-ChangeSlaveNameColor хЩаЫе╝у╫ 255
+take И┤▒Е╦│ 100000
+RECALLMOB Д╦┴Е┘╜Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Д╦┴Е┘╜Е╔ЁФ┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@36дп╥╗]
+[@36Г■╥ФЁ∙]
 #IF
 checkgold 200000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 200000
-RECALLMOB хЩаЫдп╥╗ 0 120 5
-ChangeSlaveNameColor хЩаЫдп╥╗ 255
+take И┤▒Е╦│ 200000
+RECALLMOB Д╦┴Е┘╜Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╦┴Е┘╜Г■╥ФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@36е╝╥╗]
+[@36Е╔ЁФЁ∙]
 #IF
 checkgold 200000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 200000
-RECALLMOB хЩаЫе╝╥╗ 0 120 5
-ChangeSlaveNameColor хЩаЫе╝╥╗ 255
+take И┤▒Е╦│ 200000
+RECALLMOB Д╦┴Е┘╜Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╦┴Е┘╜Е╔ЁФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@36дп╣ю]
+[@36Г■╥И│⌠]
 #IF
 checkgold 150000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 150000
-RECALLMOB хЩаЫдп╣ю 0 120 5
-ChangeSlaveNameColor хЩаЫдп╣ю 255
+take И┤▒Е╦│ 150000
+RECALLMOB Д╦┴Е┘╜Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Д╦┴Е┘╜Г■╥И│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@36е╝╣ю]
+[@36Е╔ЁИ│⌠]
 #IF
 checkgold 150000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 150000
-RECALLMOB хЩаЫе╝╣ю 0 120 5
-ChangeSlaveNameColor хЩаЫе╝╣ю 255
+take И┤▒Е╦│ 150000
+RECALLMOB Д╦┴Е┘╜Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Д╦┴Е┘╜Е╔ЁИ│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@41дпу╫]
+[@41Г■╥Ф┬≤]
 #IF
 checkgold 200000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 200000
-RECALLMOB кдр╩дпу╫ 0 120 5
-ChangeSlaveNameColor кдр╩дпу╫ 255
+take И┤▒Е╦│ 200000
+RECALLMOB Е⌡⌡Д╦─Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Д╦─Г■╥Ф┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@41е╝у╫]
+[@41Е╔ЁФ┬≤]
 #IF
 checkgold 200000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 200000
-RECALLMOB кдр╩е╝у╫ 0 120 5
-ChangeSlaveNameColor кдр╩е╝у╫ 255
+take И┤▒Е╦│ 200000
+RECALLMOB Е⌡⌡Д╦─Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Д╦─Е╔ЁФ┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@41дп╥╗]
+[@41Г■╥ФЁ∙]
 #IF
 checkgold 400000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 400000
-RECALLMOB кдр╩дп╥╗ 0 120 5
-ChangeSlaveNameColor кдр╩дп╥╗ 255
+take И┤▒Е╦│ 400000
+RECALLMOB Е⌡⌡Д╦─Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Д╦─Г■╥ФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@41е╝╥╗]
+[@41Е╔ЁФЁ∙]
 #IF
 checkgold 400000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 400000
-RECALLMOB кдр╩е╝╥╗ 0 120 5
-ChangeSlaveNameColor кдр╩е╝╥╗ 255
+take И┤▒Е╦│ 400000
+RECALLMOB Е⌡⌡Д╦─Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Д╦─Е╔ЁФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@41дп╣ю]
+[@41Г■╥И│⌠]
 #IF
 checkgold 300000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 300000
-RECALLMOB кдр╩дп╣ю 0 120 5
-ChangeSlaveNameColor кдр╩дп╣ю 255
+take И┤▒Е╦│ 300000
+RECALLMOB Е⌡⌡Д╦─Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Д╦─Г■╥И│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@41е╝╣ю]
+[@41Е╔ЁИ│⌠]
 #IF
 checkgold 300000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 300000
-RECALLMOB кдр╩е╝╣ю 0 120 5
-ChangeSlaveNameColor кдр╩е╝╣ю 255
+take И┤▒Е╦│ 300000
+RECALLMOB Е⌡⌡Д╦─Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Д╦─Е╔ЁИ│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@46дпу╫]
+[@46Г■╥Ф┬≤]
 #IF
 checkgold 400000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 400000
-RECALLMOB кдаЫдпу╫ 0 120 5
-ChangeSlaveNameColor кдаЫдпу╫ 255
+take И┤▒Е╦│ 400000
+RECALLMOB Е⌡⌡Е┘╜Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Е┘╜Г■╥Ф┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@46е╝у╫]
+[@46Е╔ЁФ┬≤]
 #IF
 checkgold 400000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 400000
-RECALLMOB кдаЫе╝у╫ 0 120 5
-ChangeSlaveNameColor кдаЫе╝у╫ 255
+take И┤▒Е╦│ 400000
+RECALLMOB Е⌡⌡Е┘╜Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Е┘╜Е╔ЁФ┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@46дп╥╗]
+[@46Г■╥ФЁ∙]
 #IF
 checkgold 600000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 600000
-RECALLMOB кдаЫдп╥╗ 0 120 5
-ChangeSlaveNameColor кдаЫдп╥╗ 255
+take И┤▒Е╦│ 600000
+RECALLMOB Е⌡⌡Е┘╜Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Е┘╜Г■╥ФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@46е╝╥╗]
+[@46Е╔ЁФЁ∙]
 #IF
 checkgold 600000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 600000
-RECALLMOB кдаЫе╝╥╗ 0 120 5
-ChangeSlaveNameColor кдаЫе╝╥╗ 255
+take И┤▒Е╦│ 600000
+RECALLMOB Е⌡⌡Е┘╜Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Е┘╜Е╔ЁФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@46дп╣ю]
+[@46Г■╥И│⌠]
 #IF
 checkgold 500000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 500000
-RECALLMOB кдаЫдп╣ю 0 120 5
-ChangeSlaveNameColor кдаЫдп╣ю 255
+take И┤▒Е╦│ 500000
+RECALLMOB Е⌡⌡Е┘╜Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Е┘╜Г■╥И│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@46е╝╣ю]
+[@46Е╔ЁИ│⌠]
 #IF
 checkgold 500000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 500000
-RECALLMOB кдаЫе╝╣ю 0 120 5
-ChangeSlaveNameColor кдаЫе╝╣ю 255
+take И┤▒Е╦│ 500000
+RECALLMOB Е⌡⌡Е┘╜Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Е┘╜Е╔ЁИ│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
 
-[@51дпу╫]
+[@51Г■╥Ф┬≤]
 #IF
 checkgold 600000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 600000
-RECALLMOB нЕр╩дпу╫ 0 120 5
-ChangeSlaveNameColor нЕр╩дпу╫ 255
+take И┤▒Е╦│ 600000
+RECALLMOB Д╨■Д╦─Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Д╨■Д╦─Г■╥Ф┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@51е╝у╫]
+[@51Е╔ЁФ┬≤]
 #IF
 checkgold 600000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 600000
-RECALLMOB нЕр╩е╝у╫ 0 120 5
-ChangeSlaveNameColor нЕр╩е╝у╫ 255
+take И┤▒Е╦│ 600000
+RECALLMOB Д╨■Д╦─Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Д╨■Д╦─Е╔ЁФ┬≤ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@51дп╥╗]
+[@51Г■╥ФЁ∙]
 #IF
 checkgold 800000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 800000
-RECALLMOB нЕр╩дп╥╗ 0 120 5
-ChangeSlaveNameColor нЕр╩дп╥╗ 255
+take И┤▒Е╦│ 800000
+RECALLMOB Д╨■Д╦─Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╨■Д╦─Г■╥ФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@51е╝╥╗]
+[@51Е╔ЁФЁ∙]
 #IF
 checkgold 800000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 800000
-RECALLMOB нЕр╩е╝╥╗ 0 120 5
-ChangeSlaveNameColor нЕр╩е╝╥╗ 255
+take И┤▒Е╦│ 800000
+RECALLMOB Д╨■Д╦─Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╨■Д╦─Е╔ЁФЁ∙ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@51дп╣ю]
+[@51Г■╥И│⌠]
 #IF
 checkgold 700000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 700000
-RECALLMOB нЕр╩дп╣ю 0 120 5
-ChangeSlaveNameColor нЕр╩дп╣ю 255
+take И┤▒Е╦│ 700000
+RECALLMOB Д╨■Д╦─Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Д╨■Д╦─Г■╥И│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@51е╝╣ю]
+[@51Е╔ЁИ│⌠]
 #IF
 checkgold 700000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 700000
-RECALLMOB нЕр╩е╝╣ю 0 120 5
-ChangeSlaveNameColor нЕр╩е╝╣ю 255
+take И┤▒Е╦│ 700000
+RECALLMOB Д╨■Д╦─Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Д╨■Д╦─Е╔ЁИ│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break
 
-[@кФ╩Зупд╪]
+[@И ▐Ф°╨Ф▀⌡Е▀÷]
 #IF
 RANDOM 48
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB р╩аЫдпу╫ 0 120 5
-ChangeSlaveNameColor р╩аЫдпу╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦─Е┘╜Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Д╦─Е┘╜Г■╥Ф┬≤ 255
 break
 
 #IF
@@ -685,9 +685,9 @@ RANDOM 47
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB р╩аЫе╝у╫ 0 120 5
-ChangeSlaveNameColor р╩аЫе╝у╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦─Е┘╜Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Д╦─Е┘╜Е╔ЁФ┬≤ 255
 break
 
 #IF
@@ -695,9 +695,9 @@ RANDOM 46
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB р╩аЫдп╥╗ 0 120 5
-ChangeSlaveNameColor р╩аЫдп╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦─Е┘╜Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╦─Е┘╜Г■╥ФЁ∙ 255
 break
 
 #IF
@@ -705,9 +705,9 @@ RANDOM 45
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB р╩аЫе╝╥╗ 0 120 5
-ChangeSlaveNameColor р╩аЫе╝╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦─Е┘╜Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╦─Е┘╜Е╔ЁФЁ∙ 255
 break
 
 #IF
@@ -715,9 +715,9 @@ RANDOM 44
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB р╩аЫдп╣ю 0 120 5
-ChangeSlaveNameColor р╩аЫдп╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦─Е┘╜Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Д╦─Е┘╜Г■╥И│⌠ 255
 break
 
 #IF
@@ -725,9 +725,9 @@ RANDOM 43
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB р╩аЫе╝╣ю 0 120 5
-ChangeSlaveNameColor р╩аЫе╝╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦─Е┘╜Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Д╦─Е┘╜Е╔ЁИ│⌠ 255
 break
 
 #IF
@@ -735,9 +735,9 @@ RANDOM 42
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤Чр╩дпу╫ 0 120 5
-ChangeSlaveNameColor ╤Чр╩дпу╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Д╦─Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Д╨▄Д╦─Г■╥Ф┬≤ 255
 break
 
 #IF
@@ -745,9 +745,9 @@ RANDOM 41
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤Чр╩е╝у╫ 0 120 5
-ChangeSlaveNameColor ╤Чр╩е╝у╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Д╦─Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Д╨▄Д╦─Е╔ЁФ┬≤ 255
 break
 
 #IF
@@ -755,9 +755,9 @@ RANDOM 40
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤Чр╩дп╥╗ 0 120 5
-ChangeSlaveNameColor ╤Чр╩дп╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Д╦─Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╨▄Д╦─Г■╥ФЁ∙ 255
 break
 
 #IF
@@ -765,9 +765,9 @@ RANDOM 39
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤Чр╩е╝╥╗ 0 120 5
-ChangeSlaveNameColor ╤Чр╩е╝╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Д╦─Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╨▄Д╦─Е╔ЁФЁ∙ 255
 break
 
 #IF
@@ -775,9 +775,9 @@ RANDOM 38
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤Чр╩дп╣ю 0 120 5
-ChangeSlaveNameColor ╤Чр╩дп╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Д╦─Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Д╨▄Д╦─Г■╥И│⌠ 255
 break
 
 #IF
@@ -785,9 +785,9 @@ RANDOM 37
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤Чр╩е╝╣ю 0 120 5
-ChangeSlaveNameColor ╤Чр╩е╝╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Д╦─Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Д╨▄Д╦─Е╔ЁИ│⌠ 255
 break
 
 #IF
@@ -795,9 +795,9 @@ RANDOM 36
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤ЧаЫдпу╫ 0 120 5
-ChangeSlaveNameColor ╤ЧаЫдпу╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Е┘╜Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Д╨▄Е┘╜Г■╥Ф┬≤ 255
 break
 
 #IF
@@ -805,9 +805,9 @@ RANDOM 35
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤ЧаЫе╝у╫ 0 120 5
-ChangeSlaveNameColor ╤ЧаЫе╝у╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Е┘╜Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Д╨▄Е┘╜Е╔ЁФ┬≤ 255
 break
 
 #IF
@@ -815,9 +815,9 @@ RANDOM 34
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤ЧаЫдп╥╗ 0 120 5
-ChangeSlaveNameColor ╤ЧаЫдп╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Е┘╜Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╨▄Е┘╜Г■╥ФЁ∙ 255
 break
 
 #IF
@@ -825,9 +825,9 @@ RANDOM 33
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤ЧаЫе╝╥╗ 0 120 5
-ChangeSlaveNameColor ╤ЧаЫе╝╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Е┘╜Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╨▄Е┘╜Е╔ЁФЁ∙ 255
 break
 
 #IF
@@ -835,9 +835,9 @@ RANDOM 32
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤ЧаЫдп╣ю 0 120 5
-ChangeSlaveNameColor ╤ЧаЫдп╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Е┘╜Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Д╨▄Е┘╜Г■╥И│⌠ 255
 break
 
 #IF
@@ -845,9 +845,9 @@ RANDOM 31
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB ╤ЧаЫе╝╣ю 0 120 5
-ChangeSlaveNameColor ╤ЧаЫе╝╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨▄Е┘╜Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Д╨▄Е┘╜Е╔ЁИ│⌠ 255
 break
 
 #IF
@@ -855,9 +855,9 @@ RANDOM 30
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB хЩр╩дпу╫ 0 120 5
-ChangeSlaveNameColor хЩр╩дпу╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦┴Д╦─Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Д╦┴Д╦─Г■╥Ф┬≤ 255
 break
 
 #IF
@@ -865,9 +865,9 @@ RANDOM 29
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB хЩр╩е╝у╫ 0 120 5
-ChangeSlaveNameColor хЩр╩е╝у╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦┴Д╦─Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Д╦┴Д╦─Е╔ЁФ┬≤ 255
 break
 
 #IF
@@ -875,9 +875,9 @@ RANDOM 28
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB хЩр╩дп╥╗ 0 120 5
-ChangeSlaveNameColor хЩр╩дп╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦┴Д╦─Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╦┴Д╦─Г■╥ФЁ∙ 255
 break
 
 #IF
@@ -885,9 +885,9 @@ RANDOM 27
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB хЩр╩е╝╥╗ 0 120 5
-ChangeSlaveNameColor хЩр╩е╝╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦┴Д╦─Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╦┴Д╦─Е╔ЁФЁ∙ 255
 break
 
 #IF
@@ -895,9 +895,9 @@ RANDOM 26
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB хЩр╩дп╣ю 0 120 5
-ChangeSlaveNameColor хЩр╩дп╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦┴Д╦─Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Д╦┴Д╦─Г■╥И│⌠ 255
 break
 
 #IF
@@ -905,9 +905,9 @@ RANDOM 25
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB хЩр╩е╝╣ю 0 120 5
-ChangeSlaveNameColor хЩр╩е╝╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦┴Д╦─Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Д╦┴Д╦─Е╔ЁИ│⌠ 255
 break
 
 #IF
@@ -915,9 +915,9 @@ RANDOM 24
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB хЩаЫдпу╫ 0 120 5
-ChangeSlaveNameColor хЩаЫдпу╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦┴Е┘╜Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Д╦┴Е┘╜Г■╥Ф┬≤ 255
 break
 
 #IF
@@ -925,9 +925,9 @@ RANDOM 23
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB хЩаЫе╝у╫ 0 120 5
-ChangeSlaveNameColor хЩаЫе╝у╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦┴Е┘╜Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Д╦┴Е┘╜Е╔ЁФ┬≤ 255
 break
 
 #IF
@@ -935,9 +935,9 @@ RANDOM 22
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB хЩаЫдп╥╗ 0 120 5
-ChangeSlaveNameColor хЩаЫдп╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦┴Е┘╜Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╦┴Е┘╜Г■╥ФЁ∙ 255
 break
 
 #IF
@@ -945,9 +945,9 @@ RANDOM 21
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB хЩаЫе╝╥╗ 0 120 5
-ChangeSlaveNameColor хЩаЫе╝╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦┴Е┘╜Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╦┴Е┘╜Е╔ЁФЁ∙ 255
 break
 
 #IF
@@ -955,9 +955,9 @@ RANDOM 20
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB хЩаЫдп╣ю 0 120 5
-ChangeSlaveNameColor хЩаЫдп╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦┴Е┘╜Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Д╦┴Е┘╜Г■╥И│⌠ 255
 break
 
 #IF
@@ -965,9 +965,9 @@ RANDOM 19
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB хЩаЫе╝╣ю 0 120 5
-ChangeSlaveNameColor хЩаЫе╝╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╦┴Е┘╜Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Д╦┴Е┘╜Е╔ЁИ│⌠ 255
 break
 
 #IF
@@ -975,9 +975,9 @@ RANDOM 18
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB кдр╩дпу╫ 0 120 5
-ChangeSlaveNameColor кдр╩дпу╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Е⌡⌡Д╦─Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Д╦─Г■╥Ф┬≤ 255
 break
 
 #IF
@@ -985,9 +985,9 @@ RANDOM 17
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB кдр╩е╝у╫ 0 120 5
-ChangeSlaveNameColor кдр╩е╝у╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Е⌡⌡Д╦─Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Д╦─Е╔ЁФ┬≤ 255
 break
 
 #IF
@@ -995,9 +995,9 @@ RANDOM 16
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB кдр╩дп╥╗ 0 120 5
-ChangeSlaveNameColor кдр╩дп╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Е⌡⌡Д╦─Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Д╦─Г■╥ФЁ∙ 255
 break
 
 #IF
@@ -1005,9 +1005,9 @@ RANDOM 15
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB кдр╩е╝╥╗ 0 120 5
-ChangeSlaveNameColor кдр╩е╝╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Е⌡⌡Д╦─Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Д╦─Е╔ЁФЁ∙ 255
 break
 
 #IF
@@ -1015,9 +1015,9 @@ RANDOM 14
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB кдр╩дп╣ю 0 120 5
-ChangeSlaveNameColor кдр╩дп╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Е⌡⌡Д╦─Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Д╦─Г■╥И│⌠ 255
 break
 
 #IF
@@ -1025,9 +1025,9 @@ RANDOM 13
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB кдр╩е╝╣ю 0 120 5
-ChangeSlaveNameColor кдр╩е╝╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Е⌡⌡Д╦─Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Д╦─Е╔ЁИ│⌠ 255
 break
 
 #IF
@@ -1035,9 +1035,9 @@ RANDOM 12
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB кдаЫдпу╫ 0 120 5
-ChangeSlaveNameColor кдаЫдпу╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Е⌡⌡Е┘╜Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Е┘╜Г■╥Ф┬≤ 255
 break
 
 #IF
@@ -1045,9 +1045,9 @@ RANDOM 11
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB кдаЫе╝у╫ 0 120 5
-ChangeSlaveNameColor кдаЫе╝у╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Е⌡⌡Е┘╜Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Е┘╜Е╔ЁФ┬≤ 255
 break
 
 #IF
@@ -1055,9 +1055,9 @@ RANDOM 10
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB кдаЫдп╥╗ 0 120 5
-ChangeSlaveNameColor кдаЫдп╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Е⌡⌡Е┘╜Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Е┘╜Г■╥ФЁ∙ 255
 break
 
 #IF
@@ -1065,9 +1065,9 @@ RANDOM 9
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB кдаЫе╝╥╗ 0 120 5
-ChangeSlaveNameColor кдаЫе╝╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Е⌡⌡Е┘╜Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Е┘╜Е╔ЁФЁ∙ 255
 break
 
 #IF
@@ -1075,9 +1075,9 @@ RANDOM 8
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB кдаЫдп╣ю 0 120 5
-ChangeSlaveNameColor кдаЫдп╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Е⌡⌡Е┘╜Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Е┘╜Г■╥И│⌠ 255
 break
 
 #IF
@@ -1085,9 +1085,9 @@ RANDOM 7
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB кдаЫе╝╣ю 0 120 5
-ChangeSlaveNameColor кдаЫе╝╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Е⌡⌡Е┘╜Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Е⌡⌡Е┘╜Е╔ЁИ│⌠ 255
 break
 
 #IF
@@ -1095,9 +1095,9 @@ RANDOM 6
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB нЕр╩дпу╫ 0 120 5
-ChangeSlaveNameColor нЕр╩дпу╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨■Д╦─Г■╥Ф┬≤ 0 120 5
+ChangeSlaveNameColor Д╨■Д╦─Г■╥Ф┬≤ 255
 break
 
 #IF
@@ -1105,9 +1105,9 @@ RANDOM 5
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB нЕр╩е╝у╫ 0 120 5
-ChangeSlaveNameColor нЕр╩е╝у╫ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨■Д╦─Е╔ЁФ┬≤ 0 120 5
+ChangeSlaveNameColor Д╨■Д╦─Е╔ЁФ┬≤ 255
 break
 
 #IF
@@ -1115,9 +1115,9 @@ RANDOM 4
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB нЕр╩дп╥╗ 0 120 5
-ChangeSlaveNameColor нЕр╩дп╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨■Д╦─Г■╥ФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╨■Д╦─Г■╥ФЁ∙ 255
 break
 
 #IF
@@ -1125,9 +1125,9 @@ RANDOM 3
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB нЕр╩е╝╥╗ 0 120 5
-ChangeSlaveNameColor нЕр╩е╝╥╗ 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨■Д╦─Е╔ЁФЁ∙ 0 120 5
+ChangeSlaveNameColor Д╨■Д╦─Е╔ЁФЁ∙ 255
 break
 
 #IF
@@ -1135,18 +1135,18 @@ RANDOM 2
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB нЕр╩дп╣ю 0 120 5
-ChangeSlaveNameColor нЕр╩дп╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨■Д╦─Г■╥И│⌠ 0 120 5
+ChangeSlaveNameColor Д╨■Д╦─Г■╥И│⌠ 255
 break
 
 #IF
 checkgold 20000
 CHECKSLAVECOUNT < 1
 #ACT
-take ╫П╠р 20000
-RECALLMOB нЕр╩е╝╣ю 0 120 5
-ChangeSlaveNameColor нЕр╩е╝╣ю 255
+take И┤▒Е╦│ 20000
+RECALLMOB Д╨■Д╦─Е╔ЁИ│⌠ 0 120 5
+ChangeSlaveNameColor Д╨■Д╦─Е╔ЁИ│⌠ 255
 #ELSEACT
-MESSAGEBOX дЦ╣д╫П╠р╡╩вЦ╩Р╤ссяря╢О╣╫акиоочё╛нч╥╗упд╪╦ц╤ссяё║ё║
+MESSAGEBOX Д╫═Г └И┤▒Е╦│Д╦█Х╤ЁФ┬√И≤÷Е▐▀Е╥╡Х╬╬Е┬╟Д╨├Д╦┼И≥░О╪▄Ф≈═ФЁ∙Ф▀⌡Е▀÷Х╞╔И≤÷Е▐▀О╪│О╪│
 break

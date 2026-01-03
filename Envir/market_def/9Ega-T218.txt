@@ -5,21 +5,21 @@ equal p2 0
 mov p2 1
 goto @main-1
 #ELSESAY
-ÄãÊÇ·ñ²»ÏëºÍÎÒ¶Ô»°? \
-ÎÒ²»Ïë¸øÄãÍ¶÷»×ÓµÄ»ú»á. \
-Èç¹ûÖØÐÂ×öµÄ»°, Çë´ÓÍ·ÔÙÀ´. \ \
-<¹Ø±Õ/@Quit>
+ä½ æ˜¯å¦ä¸æƒ³å’Œæˆ‘å¯¹è¯? \
+æˆ‘ä¸æƒ³ç»™ä½ æŠ•éª°å­çš„æœºä¼š. \
+å¦‚æžœé‡æ–°åšçš„è¯, è¯·ä»Žå¤´å†æ¥. \ \
+<å…³é—­/@Quit>
 
 [@main-1]
 #IF
-checkitem ³ïÂë 1
+checkitem ç­¹ç  1
 #ACT
 goto @race
 #ELSESAY
-<$USERNAME>Ã»ÓÐ³ïÂëÁË. \
-ÄãÎÞ·¨¼ÌÐø¶Ä²©. \ 
-Ïë¼ÌÐø½øÐÐ,ÄÇ×¼±¸ºÃ³ïÂëºóÔÙÀ´\ \
-<ÍË³ö/@Quit>
+<$USERNAME>æ²¡æœ‰ç­¹ç äº†. \
+ä½ æ— æ³•ç»§ç»­èµŒåš. \ 
+æƒ³ç»§ç»­è¿›è¡Œ,é‚£å‡†å¤‡å¥½ç­¹ç åŽå†æ¥\ \
+<é€€å‡º/@Quit>
 
 [@Quit]
 #IF
@@ -30,8 +30,8 @@ map B011
 #IF
 check [799] 1
 #SAY
-¸øÄãÏÂ´ÎÍ¶÷»×ÓµÄ»ú»á. \
-×£ÄãºÃÔË/@pre_Cube>
+ç»™ä½ ä¸‹æ¬¡æŠ•éª°å­çš„æœºä¼š. \
+ç¥ä½ å¥½è¿/@pre_Cube>
 #ELSEACT
 goto @Penalty
 
@@ -39,22 +39,22 @@ goto @Penalty
 #IF
 checkmonmap T218 1
 #SAY
-·¿¼äÀïµÄ¹ÖÎïÈ«²¿´òËÀ \ \
-<ÏÂÒ»²½/@exit>
+æˆ¿é—´é‡Œçš„æ€ªç‰©å…¨éƒ¨æ‰“æ­» \ \
+<ä¸‹ä¸€æ­¥/@exit>
 #ACT
 mov p2 0
 #ELSEACT
 mov p2 0
 SET [799] 1
 #ELSESAY
-ÄãÒÑ¾­°ÑËùÒÔ¹ÖÎï´òËÀÁË. \ \
-<ÏÂÒ»²½/@main-1>
+ä½ å·²ç»æŠŠæ‰€ä»¥æ€ªç‰©æ‰“æ­»äº†. \ \
+<ä¸‹ä¸€æ­¥/@main-1>
 
 [@pre_cube]
 #IF
-checkitem ³ïÂë 1
+checkitem ç­¹ç  1
 #ACT
-take ³ïÂë 1
+take ç­¹ç  1
 SET [799] 0
 SET [798] 0
 movr d0 6
@@ -65,9 +65,9 @@ goto @quit
 
 [@cube]
 #SAY
-÷»×ÓµÄµãÊý <$STR(D0)>  \
-Äã¿ÉÒÔÇ°½ø <$STR(D0)>  \ \
-<ÒÆ¶¯/@next_cube>
+éª°å­çš„ç‚¹æ•° <$STR(D0)>  \
+ä½ å¯ä»¥å‰è¿› <$STR(D0)>  \ \
+<ç§»åŠ¨/@next_cube>
 
 [@next_cube]
 #IF

@@ -1,1066 +1,1066 @@
 [@main]
-ÄãÓÐ¶àÓàµÄ×°±¸Âð£¿\
-ÄÇ¾Í²»Èç¸øÎÒ°É£¬ÎÒÕýºÃÐèÒªÕâÐ©¶«Î÷À´Á¶ÖÆÒ»Ð©ÎïÆ·£¬\
-ºÃµÄ×°±¸ºÍÎïÆ·ÎÒ¿ÉÒÔÓÃ½ð±ÒÀ´»ØÊÕ£¬\
-ÓÐ¶àÓàµÄ¾Í¸øÎÒ°É...\ \
-<½ð±Ò»ØÊÕ/@½ð±Ò»ØÊÕ1> \
-<ÍË³ö/@exit>
+ä½ æœ‰å¤šä½™çš„è£…å¤‡å—ï¼Ÿ\
+é‚£å°±ä¸å¦‚ç»™æˆ‘å§ï¼Œæˆ‘æ­£å¥½éœ€è¦è¿™äº›ä¸œè¥¿æ¥ç‚¼åˆ¶ä¸€äº›ç‰©å“ï¼Œ\
+å¥½çš„è£…å¤‡å’Œç‰©å“æˆ‘å¯ä»¥ç”¨é‡‘å¸æ¥å›žæ”¶ï¼Œ\
+æœ‰å¤šä½™çš„å°±ç»™æˆ‘å§...\ \
+<é‡‘å¸å›žæ”¶/@é‡‘å¸å›žæ”¶1> \
+<é€€å‡º/@exit>
 
-[@½ð±Ò»ØÊÕ1]
-ÎÒ¿ÉÒÔÓÃ½ð±ÒÀ´ÂòÄãµÄÕâÐ©ÎïÆ·£¬¸ù¾ÝÊµ¼ÊÐèÇó£¬\
-²»Í¬ÎïÆ·µÄ¼Û¸ñ²»Í¬£¬ÄãÏëÒªÂôÎÒÄÄ¸öÄØ£¿\
-<ÓÄÁéÏîÁ´£¨5Íò£©/@ÓÄÁéÏîÁ´1>    <ÓÄÁéÊÖÌ×£¨5Íò£©/@ÓÄÁéÊÖÌ×1>    <ÁúÖ®½äÖ¸£¨5Íò£©/@ÁúÖ®½äÖ¸1> \
-<ÉúÃüÏîÁ´£¨15Íò£©/@ÉúÃüÏîÁ´1>   <Ë¼±´¶ùÊÖïí£¨5Íò£©/@Ë¼±´¶ùÊÖïí1>  <ºì±¦Ê¯½äÖ¸£¨10Íò£©/@ºì±¦Ê¯½äÖ¸1>\
-<ÌìÖéÏîÁ´£¨10Íò£©/@ÌìÖéÏîÁ´1>   <ÈýÑÛÊÖïí£¨5Íò£©/@ÈýÑÛÊÖïí1>    <²¬½ð½äÖ¸£¨10Íò£©/@²¬½ð½äÖ¸1>\
-<Á¶Óü£¨15Íò£©/@Á¶Óü1>       <Ä§ÕÈ£¨20Íò£©/@Ä§ÕÈ1>       <ÒøÉß£¨15Íò£©/@ÒøÉß1>\
-<¾®ÖÐÔÂ£¨35Íò£©/@¾®ÖÐÔÂ1>            \ \
-¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡<Ê×  Ò³/@main>  <ÏÂÒ»Ò³/@½ð±Ò»ØÊÕ2>
+[@é‡‘å¸å›žæ”¶1]
+æˆ‘å¯ä»¥ç”¨é‡‘å¸æ¥ä¹°ä½ çš„è¿™äº›ç‰©å“ï¼Œæ ¹æ®å®žé™…éœ€æ±‚ï¼Œ\
+ä¸åŒç‰©å“çš„ä»·æ ¼ä¸åŒï¼Œä½ æƒ³è¦å–æˆ‘å“ªä¸ªå‘¢ï¼Ÿ\
+<å¹½çµé¡¹é“¾ï¼ˆ5ä¸‡ï¼‰/@å¹½çµé¡¹é“¾1>    <å¹½çµæ‰‹å¥—ï¼ˆ5ä¸‡ï¼‰/@å¹½çµæ‰‹å¥—1>    <é¾™ä¹‹æˆ’æŒ‡ï¼ˆ5ä¸‡ï¼‰/@é¾™ä¹‹æˆ’æŒ‡1> \
+<ç”Ÿå‘½é¡¹é“¾ï¼ˆ15ä¸‡ï¼‰/@ç”Ÿå‘½é¡¹é“¾1>   <æ€è´å„¿æ‰‹é•¯ï¼ˆ5ä¸‡ï¼‰/@æ€è´å„¿æ‰‹é•¯1>  <çº¢å®çŸ³æˆ’æŒ‡ï¼ˆ10ä¸‡ï¼‰/@çº¢å®çŸ³æˆ’æŒ‡1>\
+<å¤©ç é¡¹é“¾ï¼ˆ10ä¸‡ï¼‰/@å¤©ç é¡¹é“¾1>   <ä¸‰çœ¼æ‰‹é•¯ï¼ˆ5ä¸‡ï¼‰/@ä¸‰çœ¼æ‰‹é•¯1>    <é“‚é‡‘æˆ’æŒ‡ï¼ˆ10ä¸‡ï¼‰/@é“‚é‡‘æˆ’æŒ‡1>\
+<ç‚¼ç‹±ï¼ˆ15ä¸‡ï¼‰/@ç‚¼ç‹±1>       <é­”æ–ï¼ˆ20ä¸‡ï¼‰/@é­”æ–1>       <é“¶è›‡ï¼ˆ15ä¸‡ï¼‰/@é“¶è›‡1>\
+<äº•ä¸­æœˆï¼ˆ35ä¸‡ï¼‰/@äº•ä¸­æœˆ1>            \ \
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€<é¦–  é¡µ/@main>  <ä¸‹ä¸€é¡µ/@é‡‘å¸å›žæ”¶2>
 
-[@½ð±Ò»ØÊÕ2]
-ÎÒ¿ÉÒÔÓÃ½ð±ÒÀ´ÂòÄãµÄÕâÐ©ÎïÆ·£¬¸ù¾ÝÊµ¼ÊÐèÇó£¬\
-²»Í¬ÎïÆ·µÄ¼Û¸ñ²»Í¬£¬ÄãÏëÒªÂôÎÒÄÄ¸öÄØ£¿\
-<ÂÌÉ«ÏîÁ´£¨40Íò£©/@ÂÌÉ«ÏîÁ´1>   <ÆïÊ¿ÊÖïí£¨15Íò£©/@ÆïÊ¿ÊÖïí1>   <Á¦Á¿½äÖ¸£¨50Íò£©/@Á¦Á¿½äÖ¸1> \
-<¶ñÄ§Áåîõ£¨50Íò£©/@¶ñÄ§Áåîõ1>   <ÁúÖ®ÊÖïí£¨15Íò£©/@ÁúÖ®ÊÖïí1>   <×Ï±ÌÂÝ£¨40Íò£©/@×Ï±ÌÂÝ1>\
-<Áé»êÏîÁ´£¨40Íò£©/@Áé»êÏîÁ´1>   <ÐÄÁéÊÖïí£¨30Íò£©/@ÐÄÁéÊÖïí1>   <Ì©Ì¹½äÖ¸£¨40Íò£©/@Ì©Ì¹½äÖ¸1>\
-<ºÚÌúÍ·¿ø£¨50Íò£©/@ºÚÌúÍ·¿ø1>   <ÑÖÂÞÊÖÌ×£¨15Íò£©/@ÑÖÂÞÊÖÌ×1>   <ÑªÒû£¨70Íò£©/@ÑªÒû1>\
-<²Ã¾öÖ®ÕÈ£¨80Íò£©/@²Ã¾öÖ®ÕÈ1>   <¹ÇÓñÈ¨ÕÈ£¨60Íò£©/@¹ÇÓñÈ¨ÕÈ1>   <ÎÞ¼«¹÷£¨80Íò£©/@ÎÞ¼«¹÷1> \ \
-¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡<ÉÏÒ»Ò³/@½ð±Ò»ØÊÕ1>  <Ê×  Ò³/@main>
+[@é‡‘å¸å›žæ”¶2]
+æˆ‘å¯ä»¥ç”¨é‡‘å¸æ¥ä¹°ä½ çš„è¿™äº›ç‰©å“ï¼Œæ ¹æ®å®žé™…éœ€æ±‚ï¼Œ\
+ä¸åŒç‰©å“çš„ä»·æ ¼ä¸åŒï¼Œä½ æƒ³è¦å–æˆ‘å“ªä¸ªå‘¢ï¼Ÿ\
+<ç»¿è‰²é¡¹é“¾ï¼ˆ40ä¸‡ï¼‰/@ç»¿è‰²é¡¹é“¾1>   <éª‘å£«æ‰‹é•¯ï¼ˆ15ä¸‡ï¼‰/@éª‘å£«æ‰‹é•¯1>   <åŠ›é‡æˆ’æŒ‡ï¼ˆ50ä¸‡ï¼‰/@åŠ›é‡æˆ’æŒ‡1> \
+<æ¶é­”é“ƒé“›ï¼ˆ50ä¸‡ï¼‰/@æ¶é­”é“ƒé“›1>   <é¾™ä¹‹æ‰‹é•¯ï¼ˆ15ä¸‡ï¼‰/@é¾™ä¹‹æ‰‹é•¯1>   <ç´«ç¢§èžºï¼ˆ40ä¸‡ï¼‰/@ç´«ç¢§èžº1>\
+<çµé­‚é¡¹é“¾ï¼ˆ40ä¸‡ï¼‰/@çµé­‚é¡¹é“¾1>   <å¿ƒçµæ‰‹é•¯ï¼ˆ30ä¸‡ï¼‰/@å¿ƒçµæ‰‹é•¯1>   <æ³°å¦æˆ’æŒ‡ï¼ˆ40ä¸‡ï¼‰/@æ³°å¦æˆ’æŒ‡1>\
+<é»‘é“å¤´ç›”ï¼ˆ50ä¸‡ï¼‰/@é»‘é“å¤´ç›”1>   <é˜Žç½—æ‰‹å¥—ï¼ˆ15ä¸‡ï¼‰/@é˜Žç½—æ‰‹å¥—1>   <è¡€é¥®ï¼ˆ70ä¸‡ï¼‰/@è¡€é¥®1>\
+<è£å†³ä¹‹æ–ï¼ˆ80ä¸‡ï¼‰/@è£å†³ä¹‹æ–1>   <éª¨çŽ‰æƒæ–ï¼ˆ60ä¸‡ï¼‰/@éª¨çŽ‰æƒæ–1>   <æ— æžæ£ï¼ˆ80ä¸‡ï¼‰/@æ— æžæ£1> \ \
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€<ä¸Šä¸€é¡µ/@é‡‘å¸å›žæ”¶1>  <é¦–  é¡µ/@main>
 
-[@½ð±Ò»ØÊÕ3]
-ÎÒ¿ÉÒÔÓÃ100Íò½ð±ÒÀ´ÂòÄãµÄÕâÐ©ÎïÆ·£¬ÄãÏëÒªÂôÎÒÄÄ¸öÄØ£¿\
-<À×öªÏîÁ´£¨60Íò£©/@À×öªÏîÁ´1>    <À×öª»¤Íó£¨80Íò£©/@À×öª»¤Íó1>    <À×öªÕ½½ä£¨80Íò£©/@À×öªÕ½½ä1> \
-<ÁÒÑæÏîÁ´£¨60Íò£©/@ÁÒÑæÏîÁ´1>    <ÁÒÑæ»¤Íó£¨80Íò£©/@ÁÒÑæ»¤Íó1>    <ÁÒÑæÄ§½ä£¨80Íò£©/@ÁÒÑæÄ§½ä1>\
-<¹âÃ¢ÏîÁ´£¨60Íò£©/@¹âÃ¢ÏîÁ´1>    <¹âÃ¢»¤Íó£¨80Íò£©/@¹âÃ¢»¤Íó1>    <¹âÃ¢µÀ½ä£¨80Íò£©/@¹âÃ¢µÀ½ä1>\
-<Ê¥Áú¿ø£¨80Íò£©/@Ê¥Áú¿ø1>        <Ä§Áú¿ø£¨80Íò£©/@Ä§Áú¿ø1>        <ÌìÁú¿ø£¨80Íò£©/@ÌìÁú¿ø1>\
-<Å­Õ¶£¨150Íò£©/@Å­Õ¶1>            <ÁúÑÀ£¨150Íò£©/@ÁúÑÀ1>            <åÐÒ£ÉÈ£¨250Íò£©/@åÐÒ£ÉÈ1>\ \
-<ÁúÎÆ½££¨100Íò£©/@ÁúÎÆ½£1> \
-¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡<ÉÏÒ»Ò³/@½ð±Ò»ØÊÕ2>    <Ê×  Ò³/@main>
+[@é‡‘å¸å›žæ”¶3]
+æˆ‘å¯ä»¥ç”¨100ä¸‡é‡‘å¸æ¥ä¹°ä½ çš„è¿™äº›ç‰©å“ï¼Œä½ æƒ³è¦å–æˆ‘å“ªä¸ªå‘¢ï¼Ÿ\
+<é›·éœ†é¡¹é“¾ï¼ˆ60ä¸‡ï¼‰/@é›·éœ†é¡¹é“¾1>    <é›·éœ†æŠ¤è…•ï¼ˆ80ä¸‡ï¼‰/@é›·éœ†æŠ¤è…•1>    <é›·éœ†æˆ˜æˆ’ï¼ˆ80ä¸‡ï¼‰/@é›·éœ†æˆ˜æˆ’1> \
+<çƒˆç„°é¡¹é“¾ï¼ˆ60ä¸‡ï¼‰/@çƒˆç„°é¡¹é“¾1>    <çƒˆç„°æŠ¤è…•ï¼ˆ80ä¸‡ï¼‰/@çƒˆç„°æŠ¤è…•1>    <çƒˆç„°é­”æˆ’ï¼ˆ80ä¸‡ï¼‰/@çƒˆç„°é­”æˆ’1>\
+<å…‰èŠ’é¡¹é“¾ï¼ˆ60ä¸‡ï¼‰/@å…‰èŠ’é¡¹é“¾1>    <å…‰èŠ’æŠ¤è…•ï¼ˆ80ä¸‡ï¼‰/@å…‰èŠ’æŠ¤è…•1>    <å…‰èŠ’é“æˆ’ï¼ˆ80ä¸‡ï¼‰/@å…‰èŠ’é“æˆ’1>\
+<åœ£é¾™ç›”ï¼ˆ80ä¸‡ï¼‰/@åœ£é¾™ç›”1>        <é­”é¾™ç›”ï¼ˆ80ä¸‡ï¼‰/@é­”é¾™ç›”1>        <å¤©é¾™ç›”ï¼ˆ80ä¸‡ï¼‰/@å¤©é¾™ç›”1>\
+<æ€’æ–©ï¼ˆ150ä¸‡ï¼‰/@æ€’æ–©1>            <é¾™ç‰™ï¼ˆ150ä¸‡ï¼‰/@é¾™ç‰™1>            <é€é¥æ‰‡ï¼ˆ250ä¸‡ï¼‰/@é€é¥æ‰‡1>\ \
+<é¾™çº¹å‰‘ï¼ˆ100ä¸‡ï¼‰/@é¾™çº¹å‰‘1> \
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€<ä¸Šä¸€é¡µ/@é‡‘å¸å›žæ”¶2>    <é¦–  é¡µ/@main>
 
 
 
-[@ÓÄÁéÏîÁ´1]
+[@å¹½çµé¡¹é“¾1]
 #IF
-checkitem ÓÄÁéÏîÁ´ 1
+checkitem å¹½çµé¡¹é“¾ 1
 #ACT
-take ÓÄÁéÏîÁ´ 1
-give ½ð±Ò 50000
+take å¹½çµé¡¹é“¾ 1
+give é‡‘å¸ 50000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÓÄÁéÊÖÌ×1]
+[@å¹½çµæ‰‹å¥—1]
 #IF
-checkitem ÓÄÁéÊÖÌ× 1
+checkitem å¹½çµæ‰‹å¥— 1
 #ACT
-take ÓÄÁéÊÖÌ× 1
-give ½ð±Ò 50000
+take å¹½çµæ‰‹å¥— 1
+give é‡‘å¸ 50000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁúÖ®½äÖ¸1]
+[@é¾™ä¹‹æˆ’æŒ‡1]
 #IF
-checkitem ÁúÖ®½äÖ¸ 1
+checkitem é¾™ä¹‹æˆ’æŒ‡ 1
 #ACT
-take ÁúÖ®½äÖ¸ 1
-give ½ð±Ò 50000
+take é¾™ä¹‹æˆ’æŒ‡ 1
+give é‡‘å¸ 50000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÉúÃüÏîÁ´1]
+[@ç”Ÿå‘½é¡¹é“¾1]
 #IF
-checkitem ÉúÃüÏîÁ´ 1
+checkitem ç”Ÿå‘½é¡¹é“¾ 1
 #ACT
-take ÉúÃüÏîÁ´ 1
-give ½ð±Ò 150000
+take ç”Ÿå‘½é¡¹é“¾ 1
+give é‡‘å¸ 150000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Ë¼±´¶ùÊÖïí1]
+[@æ€è´å„¿æ‰‹é•¯1]
 #IF
-checkitem Ë¼±´¶ùÊÖïí 1
+checkitem æ€è´å„¿æ‰‹é•¯ 1
 #ACT
-take Ë¼±´¶ùÊÖïí 1
-give ½ð±Ò 50000
+take æ€è´å„¿æ‰‹é•¯ 1
+give é‡‘å¸ 50000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ºì±¦Ê¯½äÖ¸1]
+[@çº¢å®çŸ³æˆ’æŒ‡1]
 #IF
-checkitem ºì±¦Ê¯½äÖ¸ 1
+checkitem çº¢å®çŸ³æˆ’æŒ‡ 1
 #ACT
-take ºì±¦Ê¯½äÖ¸ 1
-give ½ð±Ò 100000
+take çº¢å®çŸ³æˆ’æŒ‡ 1
+give é‡‘å¸ 100000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÌìÖéÏîÁ´1]
+[@å¤©ç é¡¹é“¾1]
 #IF
-checkitem ÌìÖéÏîÁ´ 1
+checkitem å¤©ç é¡¹é“¾ 1
 #ACT
-take ÌìÖéÏîÁ´ 1
-give ½ð±Ò 100000
+take å¤©ç é¡¹é“¾ 1
+give é‡‘å¸ 100000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÐÄÁéÊÖïí1]
+[@å¿ƒçµæ‰‹é•¯1]
 #IF
-checkitem ÐÄÁéÊÖïí 1
+checkitem å¿ƒçµæ‰‹é•¯ 1
 #ACT
-take ÐÄÁéÊÖïí 1
-give ½ð±Ò 300000
+take å¿ƒçµæ‰‹é•¯ 1
+give é‡‘å¸ 300000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@²¬½ð½äÖ¸1]
+[@é“‚é‡‘æˆ’æŒ‡1]
 #IF
-checkitem ²¬½ð½äÖ¸ 1
+checkitem é“‚é‡‘æˆ’æŒ‡ 1
 #ACT
-take ²¬½ð½äÖ¸ 1
-give ½ð±Ò 100000
+take é“‚é‡‘æˆ’æŒ‡ 1
+give é‡‘å¸ 100000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Á¶Óü1]
+[@ç‚¼ç‹±1]
 #IF
-checkitem Á¶Óü 1
+checkitem ç‚¼ç‹± 1
 #ACT
-take Á¶Óü 1
-give ½ð±Ò 150000
+take ç‚¼ç‹± 1
+give é‡‘å¸ 150000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Ä§ÕÈ1]
+[@é­”æ–1]
 #IF
-checkitem Ä§ÕÈ 1
+checkitem é­”æ– 1
 #ACT
-take Ä§ÕÈ 1
-give ½ð±Ò 200000
+take é­”æ– 1
+give é‡‘å¸ 200000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÒøÉß1]
+[@é“¶è›‡1]
 #IF
-checkitem ÒøÉß 1
+checkitem é“¶è›‡ 1
 #ACT
-take ÒøÉß 1
-give ½ð±Ò 150000
+take é“¶è›‡ 1
+give é‡‘å¸ 150000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¾®ÖÐÔÂ1]
+[@äº•ä¸­æœˆ1]
 #IF
-checkitem ¾®ÖÐÔÂ 1
+checkitem äº•ä¸­æœˆ 1
 #ACT
-take ¾®ÖÐÔÂ 1
-give ½ð±Ò 350000
+take äº•ä¸­æœˆ 1
+give é‡‘å¸ 350000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÎÞ¼«¹÷1]
+[@æ— æžæ£1]
 #IF
-checkitem ÎÞ¼«¹÷ 1
+checkitem æ— æžæ£ 1
 #ACT
-take ÎÞ¼«¹÷ 1
-give ½ð±Ò 800000
+take æ— æžæ£ 1
+give é‡‘å¸ 800000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
 
-[@ÂÌÉ«ÏîÁ´1]
+[@ç»¿è‰²é¡¹é“¾1]
 #IF
-checkitem ÂÌÉ«ÏîÁ´ 1
+checkitem ç»¿è‰²é¡¹é“¾ 1
 #ACT
-take ÂÌÉ«ÏîÁ´ 1
-give ½ð±Ò 400000
+take ç»¿è‰²é¡¹é“¾ 1
+give é‡‘å¸ 400000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÆïÊ¿ÊÖïí1]
+[@éª‘å£«æ‰‹é•¯1]
 #IF
-checkitem ÆïÊ¿ÊÖïí 1
+checkitem éª‘å£«æ‰‹é•¯ 1
 #ACT
-take ÆïÊ¿ÊÖïí 1
-give ½ð±Ò 150000
+take éª‘å£«æ‰‹é•¯ 1
+give é‡‘å¸ 150000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Á¦Á¿½äÖ¸1]
+[@åŠ›é‡æˆ’æŒ‡1]
 #IF
-checkitem Á¦Á¿½äÖ¸ 1
+checkitem åŠ›é‡æˆ’æŒ‡ 1
 #ACT
-take Á¦Á¿½äÖ¸ 1
-give ½ð±Ò 500000
+take åŠ›é‡æˆ’æŒ‡ 1
+give é‡‘å¸ 500000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¶ñÄ§Áåîõ1]
+[@æ¶é­”é“ƒé“›1]
 #IF
-checkitem ¶ñÄ§Áåîõ 1
+checkitem æ¶é­”é“ƒé“› 1
 #ACT
-take ¶ñÄ§Áåîõ 1
-give ½ð±Ò 500000
+take æ¶é­”é“ƒé“› 1
+give é‡‘å¸ 500000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁúÖ®ÊÖïí1]
+[@é¾™ä¹‹æ‰‹é•¯1]
 #IF
-checkitem ÁúÖ®ÊÖïí 1
+checkitem é¾™ä¹‹æ‰‹é•¯ 1
 #ACT
-take ÁúÖ®ÊÖïí 1
-give ½ð±Ò 150000
+take é¾™ä¹‹æ‰‹é•¯ 1
+give é‡‘å¸ 150000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@×Ï±ÌÂÝ1]
+[@ç´«ç¢§èžº1]
 #IF
-checkitem ×Ï±ÌÂÝ 1
+checkitem ç´«ç¢§èžº 1
 #ACT
-take ×Ï±ÌÂÝ 1
-give ½ð±Ò 400000
+take ç´«ç¢§èžº 1
+give é‡‘å¸ 400000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Áé»êÏîÁ´1]
+[@çµé­‚é¡¹é“¾1]
 #IF
-checkitem Áé»êÏîÁ´ 1
+checkitem çµé­‚é¡¹é“¾ 1
 #ACT
-take Áé»êÏîÁ´ 1
-give ½ð±Ò 400000
+take çµé­‚é¡¹é“¾ 1
+give é‡‘å¸ 400000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÈýÑÛÊÖïí1]
+[@ä¸‰çœ¼æ‰‹é•¯1]
 #IF
-checkitem ÈýÑÛÊÖïí 1
+checkitem ä¸‰çœ¼æ‰‹é•¯ 1
 #ACT
-take ÈýÑÛÊÖïí 1
-give ½ð±Ò 50000
+take ä¸‰çœ¼æ‰‹é•¯ 1
+give é‡‘å¸ 50000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Ì©Ì¹½äÖ¸1]
+[@æ³°å¦æˆ’æŒ‡1]
 #IF
-checkitem Ì©Ì¹½äÖ¸ 1
+checkitem æ³°å¦æˆ’æŒ‡ 1
 #ACT
-take Ì©Ì¹½äÖ¸ 1
-give ½ð±Ò 400000
+take æ³°å¦æˆ’æŒ‡ 1
+give é‡‘å¸ 400000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ºÚÌúÍ·¿ø1]
+[@é»‘é“å¤´ç›”1]
 #IF
-checkitem ºÚÌúÍ·¿ø 1
+checkitem é»‘é“å¤´ç›” 1
 #ACT
-take ºÚÌúÍ·¿ø 1
-give ½ð±Ò 500000
+take é»‘é“å¤´ç›” 1
+give é‡‘å¸ 500000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÑÖÂÞÊÖÌ×1]
+[@é˜Žç½—æ‰‹å¥—1]
 #IF
-checkitem ÑÖÂÞÊÖÌ× 1
+checkitem é˜Žç½—æ‰‹å¥— 1
 #ACT
-take ÑÖÂÞÊÖÌ× 1
-give ½ð±Ò 150000
+take é˜Žç½—æ‰‹å¥— 1
+give é‡‘å¸ 150000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÑªÒû1]
+[@è¡€é¥®1]
 #IF
-checkitem ÑªÒû 1
+checkitem è¡€é¥® 1
 #ACT
-take ÑªÒû 1
-give ½ð±Ò 700000
+take è¡€é¥® 1
+give é‡‘å¸ 700000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@²Ã¾öÖ®ÕÈ1]
+[@è£å†³ä¹‹æ–1]
 #IF
-checkitem ²Ã¾öÖ®ÕÈ 1
+checkitem è£å†³ä¹‹æ– 1
 #ACT
-take ²Ã¾öÖ®ÕÈ 1
-give ½ð±Ò 800000
+take è£å†³ä¹‹æ– 1
+give é‡‘å¸ 800000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¹ÇÓñÈ¨ÕÈ1]
+[@éª¨çŽ‰æƒæ–1]
 #IF
-checkitem ¹ÇÓñÈ¨ÕÈ 1
+checkitem éª¨çŽ‰æƒæ– 1
 #ACT
-take ¹ÇÓñÈ¨ÕÈ 1
-give ½ð±Ò 600000
+take éª¨çŽ‰æƒæ– 1
+give é‡‘å¸ 600000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁúÎÆ½£1]
+[@é¾™çº¹å‰‘1]
 #IF
-checkitem ÁúÎÆ½£ 1
+checkitem é¾™çº¹å‰‘ 1
 #ACT
-take ÁúÎÆ½£ 1
-give ½ð±Ò 1000000
+take é¾™çº¹å‰‘ 1
+give é‡‘å¸ 1000000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@À×öªÏîÁ´1]
+[@é›·éœ†é¡¹é“¾1]
 #IF
-checkitem À×öªÏîÁ´ 1
+checkitem é›·éœ†é¡¹é“¾ 1
 #ACT
-take À×öªÏîÁ´ 1
-give ½ð±Ò 600000
+take é›·éœ†é¡¹é“¾ 1
+give é‡‘å¸ 600000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@À×öª»¤Íó1]
+[@é›·éœ†æŠ¤è…•1]
 #IF
-checkitem À×öª»¤Íó 1
+checkitem é›·éœ†æŠ¤è…• 1
 #ACT
-take À×öª»¤Íó 1
-give ½ð±Ò 800000
+take é›·éœ†æŠ¤è…• 1
+give é‡‘å¸ 800000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@À×öªÕ½½ä1]
+[@é›·éœ†æˆ˜æˆ’1]
 #IF
-checkitem À×öªÕ½½ä 1
+checkitem é›·éœ†æˆ˜æˆ’ 1
 #ACT
-take À×öªÕ½½ä 1
-give ½ð±Ò 800000
+take é›·éœ†æˆ˜æˆ’ 1
+give é‡‘å¸ 800000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁÒÑæÏîÁ´1]
+[@çƒˆç„°é¡¹é“¾1]
 #IF
-checkitem ÁÒÑæÏîÁ´ 1
+checkitem çƒˆç„°é¡¹é“¾ 1
 #ACT
-take ÁÒÑæÏîÁ´ 1
-give ½ð±Ò 600000
+take çƒˆç„°é¡¹é“¾ 1
+give é‡‘å¸ 600000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁÒÑæ»¤Íó1]
+[@çƒˆç„°æŠ¤è…•1]
 #IF
-checkitem ÁÒÑæ»¤Íó 1
+checkitem çƒˆç„°æŠ¤è…• 1
 #ACT
-take ÁÒÑæ»¤Íó 1
-give ½ð±Ò 800000
+take çƒˆç„°æŠ¤è…• 1
+give é‡‘å¸ 800000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁÒÑæÄ§½ä1]
+[@çƒˆç„°é­”æˆ’1]
 #IF
-checkitem ÁÒÑæÄ§½ä 1
+checkitem çƒˆç„°é­”æˆ’ 1
 #ACT
-take ÁÒÑæÄ§½ä 1
-give ½ð±Ò 800000
+take çƒˆç„°é­”æˆ’ 1
+give é‡‘å¸ 800000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¹âÃ¢ÏîÁ´1]
+[@å…‰èŠ’é¡¹é“¾1]
 #IF
-checkitem ¹âÃ¢ÏîÁ´ 1
+checkitem å…‰èŠ’é¡¹é“¾ 1
 #ACT
-take ¹âÃ¢ÏîÁ´ 1
-give ½ð±Ò 600000
+take å…‰èŠ’é¡¹é“¾ 1
+give é‡‘å¸ 600000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¹âÃ¢»¤Íó1]
+[@å…‰èŠ’æŠ¤è…•1]
 #IF
-checkitem ¹âÃ¢»¤Íó 1
+checkitem å…‰èŠ’æŠ¤è…• 1
 #ACT
-take ¹âÃ¢»¤Íó 1
-give ½ð±Ò 800000
+take å…‰èŠ’æŠ¤è…• 1
+give é‡‘å¸ 800000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¹âÃ¢µÀ½ä1]
+[@å…‰èŠ’é“æˆ’1]
 #IF
-checkitem ¹âÃ¢µÀ½ä 1
+checkitem å…‰èŠ’é“æˆ’ 1
 #ACT
-take ¹âÃ¢µÀ½ä 1
-give ½ð±Ò 800000
+take å…‰èŠ’é“æˆ’ 1
+give é‡‘å¸ 800000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Ê¥Áú¿ø1]
+[@åœ£é¾™ç›”1]
 #IF
-checkitem Ê¥Áú¿ø 1
+checkitem åœ£é¾™ç›” 1
 #ACT
-take Ê¥Áú¿ø 1
-give ½ð±Ò 800000
+take åœ£é¾™ç›” 1
+give é‡‘å¸ 800000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Ä§Áú¿ø1]
+[@é­”é¾™ç›”1]
 #IF
-checkitem Ä§Áú¿ø 1
+checkitem é­”é¾™ç›” 1
 #ACT
-take Ä§Áú¿ø 1
-give ½ð±Ò 800000
+take é­”é¾™ç›” 1
+give é‡‘å¸ 800000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÌìÁú¿ø1]
+[@å¤©é¾™ç›”1]
 #IF
-checkitem ÌìÁú¿ø 1
+checkitem å¤©é¾™ç›” 1
 #ACT
-take ÌìÁú¿ø 1
-give ½ð±Ò 800000
+take å¤©é¾™ç›” 1
+give é‡‘å¸ 800000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Å­Õ¶1]
+[@æ€’æ–©1]
 #IF
-checkitem Å­Õ¶ 1
+checkitem æ€’æ–© 1
 #ACT
-take Å­Õ¶ 1
-give ½ð±Ò 1500000
+take æ€’æ–© 1
+give é‡‘å¸ 1500000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁúÑÀ1]
+[@é¾™ç‰™1]
 #IF
-checkitem ÁúÑÀ 1
+checkitem é¾™ç‰™ 1
 #ACT
-take ÁúÑÀ 1
-give ½ð±Ò 1500000
+take é¾™ç‰™ 1
+give é‡‘å¸ 1500000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@åÐÒ£ÉÈ1]
+[@é€é¥æ‰‡1]
 #IF
-checkitem åÐÒ£ÉÈ 1
+checkitem é€é¥æ‰‡ 1
 #ACT
-take åÐÒ£ÉÈ 1
-give ½ð±Ò 2500000
+take é€é¥æ‰‡ 1
+give é‡‘å¸ 2500000
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
 
-[@ÉùÍû»ØÊÕ1]
-ÎÒ¿ÉÒÔÓÃ1µãÉùÍûÀ´»»ÄãµÄÕâÐ©ÎïÆ·£¬ÄãÏë½»»»ÄÄ¸öÄØ£¿\ \
-<ÓÄÁéÏîÁ´/@ÓÄÁéÏîÁ´2>        <ÓÄÁéÊÖÌ×/@ÓÄÁéÊÖÌ×2>        <ÁúÖ®½äÖ¸/@ÁúÖ®½äÖ¸2> \
-<ÉúÃüÏîÁ´/@ÉúÃüÏîÁ´2>        <Ë¼±´¶ùÊÖïí/@Ë¼±´¶ùÊÖïí2>      <ºì±¦Ê¯½äÖ¸/@ºì±¦Ê¯½äÖ¸2>\
-<ÌìÖéÏîÁ´/@ÌìÖéÏîÁ´2>        <ÐÄÁéÊÖïí/@ÐÄÁéÊÖïí2>        <²¬½ð½äÖ¸/@²¬½ð½äÖ¸2>\
-<Á¶Óü/@Á¶Óü2>            <Ä§ÕÈ/@Ä§ÕÈ2>            <ÒøÉß/@ÒøÉß2>\
-<¾®ÖÐÔÂ/@¾®ÖÐÔÂ2>          <ÎÞ¼«¹÷/@ÎÞ¼«¹÷2>          <×£¸£ÓÍ/@×£¸£ÓÍ2>\ \
-¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡<Ê×  Ò³/@main>  <ÏÂÒ»Ò³/@ÉùÍû»ØÊÕ2>
+[@å£°æœ›å›žæ”¶1]
+æˆ‘å¯ä»¥ç”¨1ç‚¹å£°æœ›æ¥æ¢ä½ çš„è¿™äº›ç‰©å“ï¼Œä½ æƒ³äº¤æ¢å“ªä¸ªå‘¢ï¼Ÿ\ \
+<å¹½çµé¡¹é“¾/@å¹½çµé¡¹é“¾2>        <å¹½çµæ‰‹å¥—/@å¹½çµæ‰‹å¥—2>        <é¾™ä¹‹æˆ’æŒ‡/@é¾™ä¹‹æˆ’æŒ‡2> \
+<ç”Ÿå‘½é¡¹é“¾/@ç”Ÿå‘½é¡¹é“¾2>        <æ€è´å„¿æ‰‹é•¯/@æ€è´å„¿æ‰‹é•¯2>      <çº¢å®çŸ³æˆ’æŒ‡/@çº¢å®çŸ³æˆ’æŒ‡2>\
+<å¤©ç é¡¹é“¾/@å¤©ç é¡¹é“¾2>        <å¿ƒçµæ‰‹é•¯/@å¿ƒçµæ‰‹é•¯2>        <é“‚é‡‘æˆ’æŒ‡/@é“‚é‡‘æˆ’æŒ‡2>\
+<ç‚¼ç‹±/@ç‚¼ç‹±2>            <é­”æ–/@é­”æ–2>            <é“¶è›‡/@é“¶è›‡2>\
+<äº•ä¸­æœˆ/@äº•ä¸­æœˆ2>          <æ— æžæ£/@æ— æžæ£2>          <ç¥ç¦æ²¹/@ç¥ç¦æ²¹2>\ \
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€<é¦–  é¡µ/@main>  <ä¸‹ä¸€é¡µ/@å£°æœ›å›žæ”¶2>
 
-[@ÉùÍû»ØÊÕ2]
-ÎÒ¿ÉÒÔÓÃ3µãÉùÍûÀ´»»ÄãµÄÕâÐ©ÎïÆ·£¬ÄãÏë½»»»ÄÄ¸öÄØ£¿\ \
-<ÂÌÉ«ÏîÁ´/@ÂÌÉ«ÏîÁ´2>        <ÆïÊ¿ÊÖïí/@ÆïÊ¿ÊÖïí2>        <Á¦Á¿½äÖ¸/@Á¦Á¿½äÖ¸2> \
-<¶ñÄ§Áåîõ/@¶ñÄ§Áåîõ2>        <ÁúÖ®ÊÖïí/@ÁúÖ®ÊÖïí2>        <×Ï±ÌÂÝ/@×Ï±ÌÂÝ2>\
-<Áé»êÏîÁ´/@Áé»êÏîÁ´2>        <ÈýÑÛÊÖïí/@ÈýÑÛÊÖïí2>        <Ì©Ì¹½äÖ¸/@Ì©Ì¹½äÖ¸2>\
-<ºÚÌúÍ·¿ø/@ºÚÌúÍ·¿ø2>        <ÑÖÂÞÊÖÌ×/@ÑÖÂÞÊÖÌ×2>        <ÑªÒû/@ÑªÒû2>\
-<²Ã¾öÖ®ÕÈ/@²Ã¾öÖ®ÕÈ2>        <¹ÇÓñÈ¨ÕÈ/@¹ÇÓñÈ¨ÕÈ2>        <ÁúÎÆ½£/@ÁúÎÆ½£2>\ \
-¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡<ÉÏÒ»Ò³/@ÉùÍû»ØÊÕ1>  <ÏÂÒ»Ò³/@ÉùÍû»ØÊÕ3>
-
-
-[@ÉùÍû»ØÊÕ4]
-ÎÒ¿ÉÒÔÓÃ10µãÉùÍûÀ´»»ÄãµÄÕâÐ©ÎïÆ·£¬ÄãÏë½»»»ÄÄ¸öÄØ£¿\ \
-<À×öªÏîÁ´/@À×öªÏîÁ´2>        <À×öª»¤Íó/@À×öª»¤Íó2>        <À×öªÕ½½ä/@À×öªÕ½½ä2> \
-<ÁÒÑæÏîÁ´/@ÁÒÑæÏîÁ´2>        <ÁÒÑæ»¤Íó/@ÁÒÑæ»¤Íó2>        <ÁÒÑæÄ§½ä/@ÁÒÑæÄ§½ä2>\
-<¹âÃ¢ÏîÁ´/@¹âÃ¢ÏîÁ´2>        <¹âÃ¢»¤Íó/@¹âÃ¢»¤Íó2>        <¹âÃ¢µÀ½ä/@¹âÃ¢µÀ½ä2>\
-<Ê¥ Áú ¿ø/@Ê¥Áú¿ø2>        <Ä§ Áú ¿ø/@Ä§Áú¿ø2>        <Ìì Áú ¿ø/@ÌìÁú¿ø2>\
-<¿ªÌì/@¿ªÌì2>            <ÕòÌì/@ÕòÌì2>            <ÐþÌì/@ÐþÌì2>\ \
-¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡<ÉÏÒ»Ò³/@ÉùÍû»ØÊÕ3>  <Ê×  Ò³/@main>
+[@å£°æœ›å›žæ”¶2]
+æˆ‘å¯ä»¥ç”¨3ç‚¹å£°æœ›æ¥æ¢ä½ çš„è¿™äº›ç‰©å“ï¼Œä½ æƒ³äº¤æ¢å“ªä¸ªå‘¢ï¼Ÿ\ \
+<ç»¿è‰²é¡¹é“¾/@ç»¿è‰²é¡¹é“¾2>        <éª‘å£«æ‰‹é•¯/@éª‘å£«æ‰‹é•¯2>        <åŠ›é‡æˆ’æŒ‡/@åŠ›é‡æˆ’æŒ‡2> \
+<æ¶é­”é“ƒé“›/@æ¶é­”é“ƒé“›2>        <é¾™ä¹‹æ‰‹é•¯/@é¾™ä¹‹æ‰‹é•¯2>        <ç´«ç¢§èžº/@ç´«ç¢§èžº2>\
+<çµé­‚é¡¹é“¾/@çµé­‚é¡¹é“¾2>        <ä¸‰çœ¼æ‰‹é•¯/@ä¸‰çœ¼æ‰‹é•¯2>        <æ³°å¦æˆ’æŒ‡/@æ³°å¦æˆ’æŒ‡2>\
+<é»‘é“å¤´ç›”/@é»‘é“å¤´ç›”2>        <é˜Žç½—æ‰‹å¥—/@é˜Žç½—æ‰‹å¥—2>        <è¡€é¥®/@è¡€é¥®2>\
+<è£å†³ä¹‹æ–/@è£å†³ä¹‹æ–2>        <éª¨çŽ‰æƒæ–/@éª¨çŽ‰æƒæ–2>        <é¾™çº¹å‰‘/@é¾™çº¹å‰‘2>\ \
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€<ä¸Šä¸€é¡µ/@å£°æœ›å›žæ”¶1>  <ä¸‹ä¸€é¡µ/@å£°æœ›å›žæ”¶3>
 
 
-[@ÓÄÁéÏîÁ´2]
+[@å£°æœ›å›žæ”¶4]
+æˆ‘å¯ä»¥ç”¨10ç‚¹å£°æœ›æ¥æ¢ä½ çš„è¿™äº›ç‰©å“ï¼Œä½ æƒ³äº¤æ¢å“ªä¸ªå‘¢ï¼Ÿ\ \
+<é›·éœ†é¡¹é“¾/@é›·éœ†é¡¹é“¾2>        <é›·éœ†æŠ¤è…•/@é›·éœ†æŠ¤è…•2>        <é›·éœ†æˆ˜æˆ’/@é›·éœ†æˆ˜æˆ’2> \
+<çƒˆç„°é¡¹é“¾/@çƒˆç„°é¡¹é“¾2>        <çƒˆç„°æŠ¤è…•/@çƒˆç„°æŠ¤è…•2>        <çƒˆç„°é­”æˆ’/@çƒˆç„°é­”æˆ’2>\
+<å…‰èŠ’é¡¹é“¾/@å…‰èŠ’é¡¹é“¾2>        <å…‰èŠ’æŠ¤è…•/@å…‰èŠ’æŠ¤è…•2>        <å…‰èŠ’é“æˆ’/@å…‰èŠ’é“æˆ’2>\
+<åœ£ é¾™ ç›”/@åœ£é¾™ç›”2>        <é­” é¾™ ç›”/@é­”é¾™ç›”2>        <å¤© é¾™ ç›”/@å¤©é¾™ç›”2>\
+<å¼€å¤©/@å¼€å¤©2>            <é•‡å¤©/@é•‡å¤©2>            <çŽ„å¤©/@çŽ„å¤©2>\ \
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€<ä¸Šä¸€é¡µ/@å£°æœ›å›žæ”¶3>  <é¦–  é¡µ/@main>
+
+
+[@å¹½çµé¡¹é“¾2]
 #IF
-checkitem ÓÄÁéÏîÁ´ 1
+checkitem å¹½çµé¡¹é“¾ 1
 #ACT
-take ÓÄÁéÏîÁ´ 1
+take å¹½çµé¡¹é“¾ 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÓÄÁéÊÖÌ×2]
+[@å¹½çµæ‰‹å¥—2]
 #IF
-checkitem ÓÄÁéÊÖÌ× 1
+checkitem å¹½çµæ‰‹å¥— 1
 #ACT
-take ÓÄÁéÊÖÌ× 1
+take å¹½çµæ‰‹å¥— 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁúÖ®½äÖ¸2]
+[@é¾™ä¹‹æˆ’æŒ‡2]
 #IF
-checkitem ÁúÖ®½äÖ¸ 1
+checkitem é¾™ä¹‹æˆ’æŒ‡ 1
 #ACT
-take ÁúÖ®½äÖ¸ 1
+take é¾™ä¹‹æˆ’æŒ‡ 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÉúÃüÏîÁ´2]
+[@ç”Ÿå‘½é¡¹é“¾2]
 #IF
-checkitem ÉúÃüÏîÁ´ 1
+checkitem ç”Ÿå‘½é¡¹é“¾ 1
 #ACT
-take ÉúÃüÏîÁ´ 1
+take ç”Ÿå‘½é¡¹é“¾ 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Ë¼±´¶ùÊÖïí2]
+[@æ€è´å„¿æ‰‹é•¯2]
 #IF
-checkitem Ë¼±´¶ùÊÖïí 1
+checkitem æ€è´å„¿æ‰‹é•¯ 1
 #ACT
-take Ë¼±´¶ùÊÖïí 1
+take æ€è´å„¿æ‰‹é•¯ 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ºì±¦Ê¯½äÖ¸2]
+[@çº¢å®çŸ³æˆ’æŒ‡2]
 #IF
-checkitem ºì±¦Ê¯½äÖ¸ 1
+checkitem çº¢å®çŸ³æˆ’æŒ‡ 1
 #ACT
-take ºì±¦Ê¯½äÖ¸ 1
+take çº¢å®çŸ³æˆ’æŒ‡ 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÌìÖéÏîÁ´2]
+[@å¤©ç é¡¹é“¾2]
 #IF
-checkitem ÌìÖéÏîÁ´ 1
+checkitem å¤©ç é¡¹é“¾ 1
 #ACT
-take ÌìÖéÏîÁ´ 1
+take å¤©ç é¡¹é“¾ 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÐÄÁéÊÖïí2]
+[@å¿ƒçµæ‰‹é•¯2]
 #IF
-checkitem ÐÄÁéÊÖïí 1
+checkitem å¿ƒçµæ‰‹é•¯ 1
 #ACT
-take ÐÄÁéÊÖïí 1
+take å¿ƒçµæ‰‹é•¯ 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@²¬½ð½äÖ¸2]
+[@é“‚é‡‘æˆ’æŒ‡2]
 #IF
-checkitem ²¬½ð½äÖ¸ 1
+checkitem é“‚é‡‘æˆ’æŒ‡ 1
 #ACT
-take ²¬½ð½äÖ¸ 1
+take é“‚é‡‘æˆ’æŒ‡ 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Á¶Óü2]
+[@ç‚¼ç‹±2]
 #IF
-checkitem Á¶Óü 1
+checkitem ç‚¼ç‹± 1
 #ACT
-take Á¶Óü 1
+take ç‚¼ç‹± 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Ä§ÕÈ2]
+[@é­”æ–2]
 #IF
-checkitem Ä§ÕÈ 1
+checkitem é­”æ– 1
 #ACT
-take Ä§ÕÈ 1
+take é­”æ– 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÒøÉß2]
+[@é“¶è›‡2]
 #IF
-checkitem ÒøÉß 1
+checkitem é“¶è›‡ 1
 #ACT
-take ÒøÉß 1
+take é“¶è›‡ 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¾®ÖÐÔÂ2]
+[@äº•ä¸­æœˆ2]
 #IF
-checkitem ¾®ÖÐÔÂ 1
+checkitem äº•ä¸­æœˆ 1
 #ACT
-take ¾®ÖÐÔÂ 1
+take äº•ä¸­æœˆ 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÎÞ¼«¹÷2]
+[@æ— æžæ£2]
 #IF
-checkitem ÎÞ¼«¹÷ 1
+checkitem æ— æžæ£ 1
 #ACT
-take ÎÞ¼«¹÷ 1
+take æ— æžæ£ 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@×£¸£ÓÍ2]
+[@ç¥ç¦æ²¹2]
 #IF
-checkitem ×£¸£ÓÍ 1
+checkitem ç¥ç¦æ²¹ 1
 #ACT
-take ×£¸£ÓÍ 1
+take ç¥ç¦æ²¹ 1
 CREDITPOINT + 1
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË1µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†1ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÂÌÉ«ÏîÁ´2]
+[@ç»¿è‰²é¡¹é“¾2]
 #IF
-checkitem ÂÌÉ«ÏîÁ´ 1
+checkitem ç»¿è‰²é¡¹é“¾ 1
 #ACT
-take ÂÌÉ«ÏîÁ´ 1
+take ç»¿è‰²é¡¹é“¾ 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÆïÊ¿ÊÖïí2]
+[@éª‘å£«æ‰‹é•¯2]
 #IF
-checkitem ÆïÊ¿ÊÖïí 1
+checkitem éª‘å£«æ‰‹é•¯ 1
 #ACT
-take ÆïÊ¿ÊÖïí 1
+take éª‘å£«æ‰‹é•¯ 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Á¦Á¿½äÖ¸2]
+[@åŠ›é‡æˆ’æŒ‡2]
 #IF
-checkitem Á¦Á¿½äÖ¸ 1
+checkitem åŠ›é‡æˆ’æŒ‡ 1
 #ACT
-take Á¦Á¿½äÖ¸ 1
+take åŠ›é‡æˆ’æŒ‡ 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¶ñÄ§Áåîõ2]
+[@æ¶é­”é“ƒé“›2]
 #IF
-checkitem ¶ñÄ§Áåîõ 1
+checkitem æ¶é­”é“ƒé“› 1
 #ACT
-take ¶ñÄ§Áåîõ 1
+take æ¶é­”é“ƒé“› 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁúÖ®ÊÖïí2]
+[@é¾™ä¹‹æ‰‹é•¯2]
 #IF
-checkitem ÁúÖ®ÊÖïí 1
+checkitem é¾™ä¹‹æ‰‹é•¯ 1
 #ACT
-take ÁúÖ®ÊÖïí 1
+take é¾™ä¹‹æ‰‹é•¯ 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@×Ï±ÌÂÝ2]
+[@ç´«ç¢§èžº2]
 #IF
-checkitem ×Ï±ÌÂÝ 1
+checkitem ç´«ç¢§èžº 1
 #ACT
-take ×Ï±ÌÂÝ 1
+take ç´«ç¢§èžº 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Áé»êÏîÁ´2]
+[@çµé­‚é¡¹é“¾2]
 #IF
-checkitem Áé»êÏîÁ´ 1
+checkitem çµé­‚é¡¹é“¾ 1
 #ACT
-take Áé»êÏîÁ´ 1
+take çµé­‚é¡¹é“¾ 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÈýÑÛÊÖïí2]
+[@ä¸‰çœ¼æ‰‹é•¯2]
 #IF
-checkitem ÈýÑÛÊÖïí 1
+checkitem ä¸‰çœ¼æ‰‹é•¯ 1
 #ACT
-take ÈýÑÛÊÖïí 1
+take ä¸‰çœ¼æ‰‹é•¯ 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Ì©Ì¹½äÖ¸2]
+[@æ³°å¦æˆ’æŒ‡2]
 #IF
-checkitem Ì©Ì¹½äÖ¸ 1
+checkitem æ³°å¦æˆ’æŒ‡ 1
 #ACT
-take Ì©Ì¹½äÖ¸ 1
+take æ³°å¦æˆ’æŒ‡ 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ºÚÌúÍ·¿ø2]
+[@é»‘é“å¤´ç›”2]
 #IF
-checkitem ºÚÌúÍ·¿ø 1
+checkitem é»‘é“å¤´ç›” 1
 #ACT
-take ºÚÌúÍ·¿ø 1
+take é»‘é“å¤´ç›” 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÑÖÂÞÊÖÌ×2]
+[@é˜Žç½—æ‰‹å¥—2]
 #IF
-checkitem ÑÖÂÞÊÖÌ× 1
+checkitem é˜Žç½—æ‰‹å¥— 1
 #ACT
-take ÑÖÂÞÊÖÌ× 1
+take é˜Žç½—æ‰‹å¥— 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÑªÒû2]
+[@è¡€é¥®2]
 #IF
-checkitem ÑªÒû 1
+checkitem è¡€é¥® 1
 #ACT
-take ÑªÒû 1
+take è¡€é¥® 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@²Ã¾öÖ®ÕÈ2]
+[@è£å†³ä¹‹æ–2]
 #IF
-checkitem ²Ã¾öÖ®ÕÈ 1
+checkitem è£å†³ä¹‹æ– 1
 #ACT
-take ²Ã¾öÖ®ÕÈ 1
+take è£å†³ä¹‹æ– 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¹ÇÓñÈ¨ÕÈ2]
+[@éª¨çŽ‰æƒæ–2]
 #IF
-checkitem ¹ÇÓñÈ¨ÕÈ 1
+checkitem éª¨çŽ‰æƒæ– 1
 #ACT
-take ¹ÇÓñÈ¨ÕÈ 1
+take éª¨çŽ‰æƒæ– 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁúÎÆ½£2]
+[@é¾™çº¹å‰‘2]
 #IF
-checkitem ÁúÎÆ½£ 1
+checkitem é¾™çº¹å‰‘ 1
 #ACT
-take ÁúÎÆ½£ 1
+take é¾™çº¹å‰‘ 1
 CREDITPOINT + 3
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË3µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†3ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@À×öªÏîÁ´2]
+[@é›·éœ†é¡¹é“¾2]
 #IF
-checkitem À×öªÏîÁ´ 1
+checkitem é›·éœ†é¡¹é“¾ 1
 #ACT
-take À×öªÏîÁ´ 1
+take é›·éœ†é¡¹é“¾ 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@À×öª»¤Íó2]
+[@é›·éœ†æŠ¤è…•2]
 #IF
-checkitem À×öª»¤Íó 1
+checkitem é›·éœ†æŠ¤è…• 1
 #ACT
-take À×öª»¤Íó 1
+take é›·éœ†æŠ¤è…• 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@À×öªÕ½½ä2]
+[@é›·éœ†æˆ˜æˆ’2]
 #IF
-checkitem À×öªÕ½½ä 1
+checkitem é›·éœ†æˆ˜æˆ’ 1
 #ACT
-take À×öªÕ½½ä 1
+take é›·éœ†æˆ˜æˆ’ 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁÒÑæÏîÁ´2]
+[@çƒˆç„°é¡¹é“¾2]
 #IF
-checkitem ÁÒÑæÏîÁ´ 1
+checkitem çƒˆç„°é¡¹é“¾ 1
 #ACT
-take ÁÒÑæÏîÁ´ 1
+take çƒˆç„°é¡¹é“¾ 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁÒÑæ»¤Íó2]
+[@çƒˆç„°æŠ¤è…•2]
 #IF
-checkitem ÁÒÑæ»¤Íó 1
+checkitem çƒˆç„°æŠ¤è…• 1
 #ACT
-take ÁÒÑæ»¤Íó 1
+take çƒˆç„°æŠ¤è…• 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁÒÑæÄ§½ä2]
+[@çƒˆç„°é­”æˆ’2]
 #IF
-checkitem ÁÒÑæÄ§½ä 1
+checkitem çƒˆç„°é­”æˆ’ 1
 #ACT
-take ÁÒÑæÄ§½ä 1
+take çƒˆç„°é­”æˆ’ 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¹âÃ¢ÏîÁ´2]
+[@å…‰èŠ’é¡¹é“¾2]
 #IF
-checkitem ¹âÃ¢ÏîÁ´ 1
+checkitem å…‰èŠ’é¡¹é“¾ 1
 #ACT
-take ¹âÃ¢ÏîÁ´ 1
+take å…‰èŠ’é¡¹é“¾ 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¹âÃ¢»¤Íó2]
+[@å…‰èŠ’æŠ¤è…•2]
 #IF
-checkitem ¹âÃ¢»¤Íó 1
+checkitem å…‰èŠ’æŠ¤è…• 1
 #ACT
-take ¹âÃ¢»¤Íó 1
+take å…‰èŠ’æŠ¤è…• 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¹âÃ¢µÀ½ä2]
+[@å…‰èŠ’é“æˆ’2]
 #IF
-checkitem ¹âÃ¢µÀ½ä 1
+checkitem å…‰èŠ’é“æˆ’ 1
 #ACT
-take ¹âÃ¢µÀ½ä 1
+take å…‰èŠ’é“æˆ’ 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Ê¥Áú¿ø2]
+[@åœ£é¾™ç›”2]
 #IF
-checkitem Ê¥Áú¿ø 1
+checkitem åœ£é¾™ç›” 1
 #ACT
-take Ê¥Áú¿ø 1
+take åœ£é¾™ç›” 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Ä§Áú¿ø2]
+[@é­”é¾™ç›”2]
 #IF
-checkitem Ä§Áú¿ø 1
+checkitem é­”é¾™ç›” 1
 #ACT
-take Ä§Áú¿ø 1
+take é­”é¾™ç›” 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÌìÁú¿ø2]
+[@å¤©é¾™ç›”2]
 #IF
-checkitem ÌìÁú¿ø 1
+checkitem å¤©é¾™ç›” 1
 #ACT
-take ÌìÁú¿ø 1
+take å¤©é¾™ç›” 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Å­Õ¶2]
+[@æ€’æ–©2]
 #IF
-checkitem Å­Õ¶ 1
+checkitem æ€’æ–© 1
 #ACT
-take Å­Õ¶ 1
+take æ€’æ–© 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁúÑÀ2]
+[@é¾™ç‰™2]
 #IF
-checkitem ÁúÑÀ 1
+checkitem é¾™ç‰™ 1
 #ACT
-take ÁúÑÀ 1
+take é¾™ç‰™ 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@åÐÒ£ÉÈ2]
+[@é€é¥æ‰‡2]
 #IF
-checkitem åÐÒ£ÉÈ 1
+checkitem é€é¥æ‰‡ 1
 #ACT
-take åÐÒ£ÉÈ 1
+take é€é¥æ‰‡ 1
 CREDITPOINT + 5
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË5µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†5ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@À×öªÏîÁ´2]
+[@é›·éœ†é¡¹é“¾2]
 #IF
-checkitem À×öªÏîÁ´ 1
+checkitem é›·éœ†é¡¹é“¾ 1
 #ACT
-take À×öªÏîÁ´ 1
+take é›·éœ†é¡¹é“¾ 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@À×öª»¤Íó2]
+[@é›·éœ†æŠ¤è…•2]
 #IF
-checkitem À×öª»¤Íó 1
+checkitem é›·éœ†æŠ¤è…• 1
 #ACT
-take À×öª»¤Íó 1
+take é›·éœ†æŠ¤è…• 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@À×öªÕ½½ä2]
+[@é›·éœ†æˆ˜æˆ’2]
 #IF
-checkitem À×öªÕ½½ä 1
+checkitem é›·éœ†æˆ˜æˆ’ 1
 #ACT
-take À×öªÕ½½ä 1
+take é›·éœ†æˆ˜æˆ’ 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁÒÑæÏîÁ´2]
+[@çƒˆç„°é¡¹é“¾2]
 #IF
-checkitem ÁÒÑæÏîÁ´ 1
+checkitem çƒˆç„°é¡¹é“¾ 1
 #ACT
-take ÁÒÑæÏîÁ´ 1
+take çƒˆç„°é¡¹é“¾ 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁÒÑæ»¤Íó2]
+[@çƒˆç„°æŠ¤è…•2]
 #IF
-checkitem ÁÒÑæ»¤Íó 1
+checkitem çƒˆç„°æŠ¤è…• 1
 #ACT
-take ÁÒÑæ»¤Íó 1
+take çƒˆç„°æŠ¤è…• 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÁÒÑæÄ§½ä2]
+[@çƒˆç„°é­”æˆ’2]
 #IF
-checkitem ÁÒÑæÄ§½ä 1
+checkitem çƒˆç„°é­”æˆ’ 1
 #ACT
-take ÁÒÑæÄ§½ä 1
+take çƒˆç„°é­”æˆ’ 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¹âÃ¢ÏîÁ´2]
+[@å…‰èŠ’é¡¹é“¾2]
 #IF
-checkitem ¹âÃ¢ÏîÁ´ 1
+checkitem å…‰èŠ’é¡¹é“¾ 1
 #ACT
-take ¹âÃ¢ÏîÁ´ 1
+take å…‰èŠ’é¡¹é“¾ 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¹âÃ¢»¤Íó2]
+[@å…‰èŠ’æŠ¤è…•2]
 #IF
-checkitem ¹âÃ¢»¤Íó 1
+checkitem å…‰èŠ’æŠ¤è…• 1
 #ACT
-take ¹âÃ¢»¤Íó 1
+take å…‰èŠ’æŠ¤è…• 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¹âÃ¢µÀ½ä2]
+[@å…‰èŠ’é“æˆ’2]
 #IF
-checkitem ¹âÃ¢µÀ½ä 1
+checkitem å…‰èŠ’é“æˆ’ 1
 #ACT
-take ¹âÃ¢µÀ½ä 1
+take å…‰èŠ’é“æˆ’ 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Ê¥Áú¿ø2]
+[@åœ£é¾™ç›”2]
 #IF
-checkitem Ê¥Áú¿ø 1
+checkitem åœ£é¾™ç›” 1
 #ACT
-take Ê¥Áú¿ø 1
+take åœ£é¾™ç›” 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@Ä§Áú¿ø2]
+[@é­”é¾™ç›”2]
 #IF
-checkitem Ä§Áú¿ø 1
+checkitem é­”é¾™ç›” 1
 #ACT
-take Ä§Áú¿ø 1
+take é­”é¾™ç›” 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÌìÁú¿ø2]
+[@å¤©é¾™ç›”2]
 #IF
-checkitem ÌìÁú¿ø 1
+checkitem å¤©é¾™ç›” 1
 #ACT
-take ÌìÁú¿ø 1
+take å¤©é¾™ç›” 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@¿ªÌì2]
+[@å¼€å¤©2]
 #IF
-checkitem ¶À¹Â¾Å½£ 1
+checkitem ç‹¬å­¤ä¹å‰‘ 1
 #ACT
-take ¶À¹Â¾Å½£ 1
+take ç‹¬å­¤ä¹å‰‘ 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÕòÌì2]
+[@é•‡å¤©2]
 #IF
-checkitem Ó³Ð°ÌìÉñ 1
+checkitem æ˜ é‚ªå¤©ç¥ž 1
 #ACT
-take Ó³Ð°ÌìÉñ 1
+take æ˜ é‚ªå¤©ç¥ž 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼
 
-[@ÐþÌì2]
+[@çŽ„å¤©2]
 #IF
-checkitem Ì«¼«»Û½£ 1
+checkitem å¤ªæžæ…§å‰‘ 1
 #ACT
-take Ì«¼«»Û½£ 1
+take å¤ªæžæ…§å‰‘ 1
 CREDITPOINT + 10
-SENDMSG 5 ÌáÊ¾£ºÎïÆ·ÒÑ±»»ØÊÕ£¬Äã»ñµÃÁË10µãÉùÍû£¬µ±Ç°ÉùÍû£º<$CREDITPOINT>µã...
+SENDMSG 5 æç¤ºï¼šç‰©å“å·²è¢«å›žæ”¶ï¼Œä½ èŽ·å¾—äº†10ç‚¹å£°æœ›ï¼Œå½“å‰å£°æœ›ï¼š<$CREDITPOINT>ç‚¹...
 #ELSEACT 
-MESSAGEBOX ÄãÃ»ÓÐ¸ÃÎïÆ·£¬ÎÞ·¨»ØÊÕ£¡£¡
+MESSAGEBOX ä½ æ²¡æœ‰è¯¥ç‰©å“ï¼Œæ— æ³•å›žæ”¶ï¼ï¼

@@ -1,7 +1,7 @@
 [@main]
 #IF
-checkitem Ë®¾§ 1 
+checkitem æ°´æ™¶ 1 
 #ACT
-take Ë®¾§ 1
+take æ°´æ™¶ 1
 #ELSESAY
 (Why can't i get in this room???)

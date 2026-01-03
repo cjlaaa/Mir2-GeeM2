@@ -1,1 +1,1 @@
-;��ֹ��MoveMapMonToPos����͵Ĺ������һ��һ�������Ӻ�����������Ч
+;禁止被MoveMapMonToPos命令传送的怪物，名称一行一个，增加后重启引擎生效
