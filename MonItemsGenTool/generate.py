@@ -3,7 +3,8 @@ from items_data import equipment_data
 from items_data import potions_data
 
 if __name__ == '__main__':
-    output_directory = 'D:\MirServer\Mir200\Envir\MonItems'
+    # output_directory = 'D:\MirServer\Mir200\Envir\MonItems'
+    output_directory = '/Volumes/Macintosh HD 1/MirServer/Mir200/Envir/MonItems'
     # output_directory = 'MonItems'
 
     if not os.path.exists(output_directory):
@@ -44,5 +45,5 @@ if __name__ == '__main__':
                 print("\n".join(output_lines))
 
                 output_file_path = os.path.join(output_directory, f"{monster_name}.txt")
-                with open(output_file_path, 'w', encoding='gbk') as output_file:
+                with open(output_file_path, 'w', encoding='utf-8') as output_file:
                     output_file.write("\n".join(output_lines))

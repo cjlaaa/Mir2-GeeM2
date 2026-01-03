@@ -16,7 +16,8 @@ if __name__ == '__main__':
 
     drops_data_auto = []
 
-    directory_path = 'D:\MirServer\Mir200\Envir\MonItems'
+    # directory_path = 'D:\MirServer\Mir200\Envir\MonItems'
+    directory_path = '/Volumes/Macintosh HD 1/MirServer/Mir200/Envir/MonItems'
     # directory_path = 'src'
     for monster_group_name in monster_group_order:
         drops_data_auto.append(f";{monster_group_name}")
@@ -34,7 +35,7 @@ if __name__ == '__main__':
             # Others: [[name, rate], [name, rate]]
             # }
             drops = {}
-            with open(file_path, 'r', encoding='gbk') as file:
+            with open(file_path, 'r', encoding='utf-8') as file:
                 for line in file:
                     line = line.strip()
                     if not line or line.startswith(';'):
@@ -152,7 +153,7 @@ if __name__ == '__main__':
                     print("\n".join(output_lines))
 
                     output_file_path = os.path.join(output_directory, f"{file_name}")
-                    with open(output_file_path, 'w', encoding='gbk') as output_file:
+                    with open(output_file_path, 'w', encoding='utf-8') as output_file:
                         output_file.write("\n".join(output_lines))
 
         drops_data_auto.append("")
