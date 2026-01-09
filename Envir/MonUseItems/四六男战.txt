@@ -1,41 +1,41 @@
 [Info]
 
-;职业
+;ְҵ
 Job=0
-;性别
+;�Ա�
 Gender=0
-;头发
+;ͷ��
 Hair=2
-;使用魔法
-UseSkill=基本剑术,攻杀剑术,刺杀剑术,半月弯刀,烈火剑法,狮子吼,开天斩,
+;ʹ��ħ��
+UseSkill=��������,��ɱ����,��ɱ����,�����䵶,�һ𽣷�,ʨ�Ӻ�,����ն,
 
-;是不是掉背包装备，1=掉，0=不掉
+;�ǲ��ǵ�����װ����1=����0=����
 DropItem=0
-;掉背包装备几率
+;������װ������
 DieDropItemRate=10
 
-;是不是掉身上装备，1=掉，0=不掉
+;�ǲ��ǵ�����װ����1=����0=����
 DropUseItem=0
-;掉身上装备几率
+;������װ������
 DieDropUseItemRate=10
 
 
-;是否允许挖取身上装备 1=是，0=否
+;�Ƿ�������ȡ����װ�� 1=�ǣ�0=��
 ButchUseItem=0
 
-;挖取身上装备机率，0为百分百，数字越大，机率越小 
+;��ȡ����װ�����ʣ�0Ϊ�ٷְ٣�����Խ�󣬻���ԽС 
 ButchItemRate=10
 
-;允许挖取几件装备
+;������ȡ����װ��
 ButchItemCount=0
 
-;身体坚韧度，数字越小，挖的时间越长
+;������Ͷȣ�����ԽС���ڵ�ʱ��Խ��
 ButchUseItemBodyLeathery=150
 
-;挖取身上装备收费模式(0不收费，1金币，2元宝，3金刚石，4灵符)不管有没有挖到装备都会收费
+;��ȡ����װ���շ�ģʽ(0���շѣ�1��ң�2Ԫ����3���ʯ��4���)������û���ڵ�װ�������շ�
 ButchChargeClass=0
 
-;挖取身上装备每次收费点数
+;��ȡ����װ��ÿ���շѵ���
 ButchChargeCount=0
 GetRestrictRange=0
 RestrictRange=10
@@ -49,62 +49,62 @@ ButchChargeMode=0
 OnlyButchItemDelGold=1
 RunWithAttack=0
 
-[基本剑术]
+[��������]
 Level=3
 NewLevel=0
 
-[攻杀剑术]
+[��ɱ����]
 Level=3
 NewLevel=0
 
-[刺杀剑术]
+[��ɱ����]
 Level=3
 NewLevel=0
 
-[半月弯刀]
+[�����䵶]
 Level=3
 NewLevel=0
 
-[野蛮冲撞]
+[Ұ����ײ]
 Level=3
 NewLevel=0
 
-[烈火剑法]
+[�һ𽣷�]
 Level=3
 NewLevel=0
 
-[狮子吼]
+[ʨ�Ӻ�]
 Level=3
 NewLevel=0
 
 [UseItems]
-;衣服
-UseItems0=破凰天魔衣(男)
-;武器
-UseItems1=独孤九剑
-;照明物
-UseItems2=火炬
-;项链
-UseItems3=黑狐项链
-;头盔
-UseItems4=黑铁头盔
-;左手镯
-UseItems5=黑狐护腕
-;右手镯
-UseItems6=黑狐护腕
-;左戒指
-UseItems7=黑狐戒指
-;右戒指
-UseItems8=黑狐戒指
-;物品
+;�·�
+UseItems0=�ƻ���ħ��(��)
+;����
+UseItems1=���¾Ž�
+;������
+UseItems2=���
+;����
+UseItems3=�ں�����
+;ͷ��
+UseItems4=����ͷ��
+;������
+UseItems5=�ں�����
+;������
+UseItems6=�ں�����
+;���ָ
+UseItems7=�ں���ָ
+;�ҽ�ָ
+UseItems8=�ں���ָ
+;��Ʒ
 UseItems9=
-;腰带
-UseItems10=钢铁腰带
-;鞋子
-UseItems11=避魂靴
-;宝石
-UseItems12=魔血石(大)
-;斗笠
+;����
+UseItems10=��������
+;Ь��
+UseItems11=�ܻ�ѥ
+;��ʯ
+UseItems12=ħѪʯ(��)
+;����
 UseItems13=
 UseItems14=
 UseItems15=

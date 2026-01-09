@@ -1,41 +1,41 @@
 [Info]
 
-;èŒä¸š
+;Ö°Òµ
 Job=2
-;æ€§åˆ«
+;ÐÔ±ð
 Gender=0
-;å¤´å‘
+;Í··¢
 Hair=2
-;ä½¿ç”¨é­”æ³•
-UseSkill=æ²»æ„ˆæœ¯,ç²¾ç¥žåŠ›æˆ˜æ³•,æ–½æ¯’æœ¯,çµé­‚ç«ç¬¦,å¬å”¤éª·é«…,éšèº«æœ¯,é›†ä½“éšèº«æœ¯,å¹½çµç›¾,ç¥žåœ£æˆ˜ç”²æœ¯,å¿ƒçµå¯ç¤º,
+;Ê¹ÓÃÄ§·¨
+UseSkill=ÖÎÓúÊõ,¾«ÉñÁ¦Õ½·¨,Ê©¶¾Êõ,Áé»ê»ð·û,ÕÙ»½÷¼÷Ã,ÒþÉíÊõ,¼¯ÌåÒþÉíÊõ,ÓÄÁé¶Ü,ÉñÊ¥Õ½¼×Êõ,ÐÄÁéÆôÊ¾,
 
-;æ˜¯ä¸æ˜¯æŽ‰èƒŒåŒ…è£…å¤‡ï¼Œ1=æŽ‰ï¼Œ0=ä¸æŽ‰
+;ÊÇ²»ÊÇµô±³°ü×°±¸£¬1=µô£¬0=²»µô
 DropItem=0
-;æŽ‰èƒŒåŒ…è£…å¤‡å‡ çŽ‡
+;µô±³°ü×°±¸¼¸ÂÊ
 DieDropItemRate=10
 
-;æ˜¯ä¸æ˜¯æŽ‰èº«ä¸Šè£…å¤‡ï¼Œ1=æŽ‰ï¼Œ0=ä¸æŽ‰
+;ÊÇ²»ÊÇµôÉíÉÏ×°±¸£¬1=µô£¬0=²»µô
 DropUseItem=0
-;æŽ‰èº«ä¸Šè£…å¤‡å‡ çŽ‡
+;µôÉíÉÏ×°±¸¼¸ÂÊ
 DieDropUseItemRate=10
 
 
-;æ˜¯å¦å…è®¸æŒ–å–èº«ä¸Šè£…å¤‡ 1=æ˜¯ï¼Œ0=å¦
+;ÊÇ·ñÔÊÐíÍÚÈ¡ÉíÉÏ×°±¸ 1=ÊÇ£¬0=·ñ
 ButchUseItem=0
 
-;æŒ–å–èº«ä¸Šè£…å¤‡æœºçŽ‡ï¼Œ0ä¸ºç™¾åˆ†ç™¾ï¼Œæ•°å­—è¶Šå¤§ï¼ŒæœºçŽ‡è¶Šå° 
+;ÍÚÈ¡ÉíÉÏ×°±¸»úÂÊ£¬0Îª°Ù·Ö°Ù£¬Êý×ÖÔ½´ó£¬»úÂÊÔ½Ð¡ 
 ButchItemRate=10
 
-;å…è®¸æŒ–å–å‡ ä»¶è£…å¤‡
+;ÔÊÐíÍÚÈ¡¼¸¼þ×°±¸
 ButchItemCount=0
 
-;èº«ä½“åšéŸ§åº¦ï¼Œæ•°å­—è¶Šå°ï¼ŒæŒ–çš„æ—¶é—´è¶Šé•¿
+;ÉíÌå¼áÈÍ¶È£¬Êý×ÖÔ½Ð¡£¬ÍÚµÄÊ±¼äÔ½³¤
 ButchUseItemBodyLeathery=150
 
-;æŒ–å–èº«ä¸Šè£…å¤‡æ”¶è´¹æ¨¡å¼(0ä¸æ”¶è´¹ï¼Œ1é‡‘å¸ï¼Œ2å…ƒå®ï¼Œ3é‡‘åˆšçŸ³ï¼Œ4çµç¬¦)ä¸ç®¡æœ‰æ²¡æœ‰æŒ–åˆ°è£…å¤‡éƒ½ä¼šæ”¶è´¹
+;ÍÚÈ¡ÉíÉÏ×°±¸ÊÕ·ÑÄ£Ê½(0²»ÊÕ·Ñ£¬1½ð±Ò£¬2Ôª±¦£¬3½ð¸ÕÊ¯£¬4Áé·û)²»¹ÜÓÐÃ»ÓÐÍÚµ½×°±¸¶¼»áÊÕ·Ñ
 ButchChargeClass=0
 
-;æŒ–å–èº«ä¸Šè£…å¤‡æ¯æ¬¡æ”¶è´¹ç‚¹æ•°
+;ÍÚÈ¡ÉíÉÏ×°±¸Ã¿´ÎÊÕ·ÑµãÊý
 ButchChargeCount=0
 GetRestrictRange=0
 RestrictRange=10
@@ -49,74 +49,74 @@ ButchChargeMode=0
 OnlyButchItemDelGold=1
 RunWithAttack=0
 
-[æ²»æ„ˆæœ¯]
+[ÖÎÓúÊõ]
 Level=3
 NewLevel=0
 
-[ç²¾ç¥žåŠ›æˆ˜æ³•]
+[¾«ÉñÁ¦Õ½·¨]
 Level=3
 NewLevel=0
 
-[æ–½æ¯’æœ¯]
+[Ê©¶¾Êõ]
 Level=3
 NewLevel=0
 
-[çµé­‚ç«ç¬¦]
+[Áé»ê»ð·û]
 Level=3
 NewLevel=0
 
-[å¬å”¤éª·é«…]
+[ÕÙ»½÷¼÷Ã]
 Level=3
 NewLevel=0
 
-[éšèº«æœ¯]
+[ÒþÉíÊõ]
 Level=3
 NewLevel=0
 
-[é›†ä½“éšèº«æœ¯]
+[¼¯ÌåÒþÉíÊõ]
 Level=3
 NewLevel=0
 
-[å¹½çµç›¾]
+[ÓÄÁé¶Ü]
 Level=3
 NewLevel=0
 
-[ç¥žåœ£æˆ˜ç”²æœ¯]
+[ÉñÊ¥Õ½¼×Êõ]
 Level=1
 NewLevel=0
 
-[å¿ƒçµå¯ç¤º]
+[ÐÄÁéÆôÊ¾]
 Level=1
 NewLevel=0
 
 [UseItems]
-;è¡£æœ
-UseItems0=çµé­‚æˆ˜è¡£(ç”·)
-;æ­¦å™¨
-UseItems1=é“¶è›‡
-;ç…§æ˜Žç‰©
-UseItems2=ç«ç‚¬
-;é¡¹é“¾
-UseItems3=ç«¹ç¬›
-;å¤´ç›”
-UseItems4=é“å£«å¤´ç›”
-;å·¦æ‰‹é•¯
-UseItems5=æŠ¤èº«ç¬¦
-;å³æ‰‹é•¯
-UseItems6=é“å£«æ‰‹é•¯
-;å·¦æˆ’æŒ‡
-UseItems7=é™å¦–é™¤é­”æˆ’æŒ‡
-;å³æˆ’æŒ‡
-UseItems8=é™å¦–é™¤é­”æˆ’æŒ‡
-;ç‰©å“
-UseItems9=æŠ¤èº«ç¬¦,ç°è‰²è¯ç²‰(å°‘é‡),é»„è‰²è¯ç²‰(å°‘é‡)
-;è…°å¸¦
-UseItems10=é“è…°å¸¦
-;éž‹å­
-UseItems11=é¹¿çš®é´
-;å®çŸ³
-UseItems12=é­”è¡€çŸ³(å¤§)
-;æ–—ç¬ 
+;ÒÂ·þ
+UseItems0=Áé»êÕ½ÒÂ(ÄÐ)
+;ÎäÆ÷
+UseItems1=ÒøÉß
+;ÕÕÃ÷Îï
+UseItems2=»ð¾æ
+;ÏîÁ´
+UseItems3=ÖñµÑ
+;Í·¿ø
+UseItems4=µÀÊ¿Í·¿ø
+;×óÊÖïí
+UseItems5=»¤Éí·û
+;ÓÒÊÖïí
+UseItems6=µÀÊ¿ÊÖïí
+;×ó½äÖ¸
+UseItems7=½µÑý³ýÄ§½äÖ¸
+;ÓÒ½äÖ¸
+UseItems8=½µÑý³ýÄ§½äÖ¸
+;ÎïÆ·
+UseItems9=»¤Éí·û,»ÒÉ«Ò©·Û(ÉÙÁ¿),»ÆÉ«Ò©·Û(ÉÙÁ¿)
+;Ñü´ø
+UseItems10=ÌúÑü´ø
+;Ð¬×Ó
+UseItems11=Â¹Æ¤Ñ¥
+;±¦Ê¯
+UseItems12=Ä§ÑªÊ¯(´ó)
+;¶·óÒ
 UseItems13=
 UseItems14=
 UseItems15=
